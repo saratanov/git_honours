@@ -20,9 +20,6 @@ import torch
 import deepchem as dc
 import copy
 
-def test():
-    return print("Hello world")
-
 #FEATURISERS
 not_used_desc = ['MaxPartialCharge', 'MinPartialCharge', 'MaxAbsPartialCharge', 'MinAbsPartialCharge']
 desc_calc = MolecularDescriptorCalculator([x for x in [x[0] for x in Descriptors.descList] if x not in not_used_desc])
@@ -57,17 +54,18 @@ class CV_torch:
     ----------
     est : Any
         torch (-like) regressor model
-    params : Dict[str, Any]
+    params : 
         Regressor parameters
     n_folds : int
         Number of folds for k-fold
     shuffle : bool
         Shuffling of data for CV
     """
-    __slots__ = ('est', 'models', 'n_folds', 'shuffle', 'cv_scores','num_epochs')
+    __slots__ = ('est', 'models', 'n_folds', 'params', 'shuffle', 'cv_scores','num_epochs')
 
-    def __init__(self, est: Any, n_folds: int = 5, shuffle: bool = True, num_epochs: int = 10):
+    def __init__(self, est: Any, n_folds: int = 5, params: Any = None, shuffle: bool = True, num_epochs: int = 100):
         self.est = est
+        self.params = params
         self.models = []
         self.n_folds = n_folds
         self.shuffle = shuffle
@@ -91,13 +89,13 @@ class CV_torch:
         """
         
         dataset = Dataset(indices, x_data, y_data)
-        trainloader = torch.utils.data.DataLoader(dataset, batch_size=5)
+        trainloader = torch.utils.data.DataLoader(dataset, batch_size=64)
         optimizer = torch.optim.Adam(model.parameters(), lr=1e-4)
         loss_function = torch.nn.MSELoss()
         for epoch in range(0, self.num_epochs):
             for x_batch, y_batch in trainloader:
                 inputs = x_batch
-                targets = y_batch
+                targets = y_batch.view(-1,1)
                 optimizer.zero_grad()
                 outputs = model(inputs)
                 loss = loss_function(outputs, targets)
@@ -126,7 +124,7 @@ class CV_torch:
 
         # Fit k models and store them
         for train_index, test_index in kf:
-            model = copy.deepcopy(self.est) #create a fresh copy of the initial model
+            model = self.est(self.params) #create a fresh copy of the initial model
             est_trained = self.train_func(model, train_index, x_data, y_data)
             if scoring_funcs:
                 test_set = Dataset(test_index, x_data, y_data)
@@ -247,7 +245,7 @@ def train_cv_model(est_cls, x_data, y_data, params, random_state,
                    cv=5, shuffle=True, torch_model=True, scoring_funcs=(mean_absolute_error, rmse, r2_score)):
     """Trains a cross-validated model"""
     if torch_model == True:
-        cvr = CV_torch(est=est_cls, n_folds=cv, shuffle=shuffle)
+        cvr = CV_torch(est=est_cls, n_folds=cv, shuffle=shuffle, params=params)
         cvr.fit(x_data, y_data, scoring_funcs=scoring_funcs, random_state=random_state)
     else:
         cvr = CV_scikit(est=est_cls, params=params, n_folds=cv, shuffle=shuffle)

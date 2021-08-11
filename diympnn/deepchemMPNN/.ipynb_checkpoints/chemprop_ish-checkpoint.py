@@ -439,6 +439,10 @@ class double_MPNN(nn.Module):
         sol = batch[0]
         solv = batch[1]
         
+        #num_pairs = len(batch)
+        #sol = [x[0] for x in batch]
+        #solv = [x[1] for x in batch]
+        
         # message passing (returns either a tensor of molecular or atomic feature vectors depending on interaction)
         sol = self.encoder_sol(sol)
         solv = self.encoder_solv(solv)
@@ -470,7 +474,7 @@ class double_MPNN(nn.Module):
         
         # NN
         output = F.relu(self.NN1(encodings))
-        output = F.relu(self.NN2(output))
+        output = self.NN2(output)
         return output
     
 class MP(nn.Module):
