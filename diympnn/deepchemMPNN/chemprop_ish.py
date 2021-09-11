@@ -388,47 +388,140 @@ def index_select_ND(source: torch.Tensor, index: torch.Tensor) -> torch.Tensor:
     return target
 
 
+def get_activation_function(activation: str) -> nn.Module:
+    """
+    Gets an activation function module given the name of the activation.
+
+    Supports:
+
+    * :code:`ReLU`
+    * :code:`LeakyReLU`
+    * :code:`PReLU`
+    * :code:`tanh`
+    * :code:`SELU`
+    * :code:`ELU`
+
+    :param activation: The name of the activation function.
+    :return: The activation function module.
+    """
+    if activation == 'ReLU':
+        return nn.ReLU()
+    elif activation == 'LeakyReLU':
+        return nn.LeakyReLU(0.1)
+    elif activation == 'PReLU':
+        return nn.PReLU()
+    elif activation == 'tanh':
+        return nn.Tanh()
+    elif activation == 'SELU':
+        return nn.SELU()
+    elif activation == 'ELU':
+        return nn.ELU()
+    else:
+        raise ValueError(f'Activation "{activation}" not supported.')
+
+        
 class MPNN(nn.Module):
     """
     Model wrapper for message passing with a single molecule. Contains message passing featuriser + linear NN layer.
     """
-    def __init__(self, args):
-        super(MPNN, self).__init__()
+    def __init__(self, atom_messages=True, hidden_size=128, depth=3, readout='mean', dropout=0.2):
+        super(MPNN, self).__init__()    
         self.atom_fdim = get_atom_fdim()
-        self.atom_messages = args.atom_messages
-        self.bond_fdim = get_bond_fdim(atom_messages=args.atom_messages)
-        self.hidden_size = args.hidden_size
+        self.atom_messages = atom_messages
+        self.bond_fdim = get_bond_fdim(atom_messages=atom_messages)
+        self.MP_depth = MP_depth
+        self.MP_hidden = MP_hidden
+        self.readout = readout
+        self.dropout = dropout
+        self.NN_depth = NN_depth
+        self.NN_hidden = NN_hidden
+        self.activation = activation
         
-        self.encoder = MP(args)
-        self.NN = torch.nn.Linear(self.hidden_size, 1)
+        self.encoder = MP(self.atom_messages, self.MP_hidden, self.MP_depth, self.readout, self.dropout, self.interaction)
+        
+        #activation
+        activation = get_activation_function(self.activation)
+        
+        # create NN layers
+        if self.NN_depth == 1:
+            ffn = [
+                nn.Dropout(self.dropout),
+                nn.Linear(self.MP_hidden, 1)
+            ]
+        else:
+            ffn = [
+                nn.Dropout(self.dropout),
+                nn.Linear(self.MP_hidden, self.NN_hidden)
+            ]
+            for _ in range(self.NN_depth - 2):
+                ffn.extend([
+                    activation,
+                    nn.Dropout(self.dropout),
+                    nn.Linear(self.NN_hidden, self.NN_hidden),
+                ])
+            ffn.extend([
+                activation,
+                nn.Dropout(self.dropout),
+                nn.Linear(self.NN_hidden, 1),
+            ])
+        self.ffn = nn.Sequential(*ffn)
 
     def forward(self, batch):
         """
         :param batch: list of SMILES strings
         """
         encodings = self.encoder(batch)
-        output = self.NN(encodings)
+        output = self.ffn(encodings)
         return output
     
 class double_MPNN(nn.Module):
     """
     Model wrapper for message passing with two input molecules. Contains message passing featuriser + 2 linear NN layers.
     """
-    def __init__(self, args):
+    def __init__(self, atom_messages=True, MP_hidden=128, MP_depth=3, readout='mean', dropout=0.2, interaction=False, NN_depth=1, activation='ReLU', NN_hidden=64):
         super(double_MPNN, self).__init__()
         self.atom_fdim = get_atom_fdim()
-        self.atom_messages = args.atom_messages
-        self.bond_fdim = get_bond_fdim(atom_messages=args.atom_messages)
-        self.hidden_size = args.hidden_size
-        self.interaction = args.interaction
-        self.readout = args.readout
+        self.atom_messages = atom_messages
+        self.bond_fdim = get_bond_fdim(atom_messages=atom_messages)
+        self.MP_depth = MP_depth
+        self.MP_hidden = MP_hidden
+        self.interaction = interaction
+        self.readout = readout
+        self.dropout = dropout
+        self.NN_depth = NN_depth
+        self.NN_hidden = NN_hidden
+        self.activation = activation
         
         # separate encoders for solute and solvent
-        self.encoder_sol = MP(args)
-        self.encoder_solv = MP(args)
+        self.encoder_sol = MP(self.atom_messages, self.MP_hidden, self.MP_depth, self.readout, self.dropout, self.interaction)
+        self.encoder_solv = MP(self.atom_messages, self.MP_hidden, self.MP_depth, self.readout, self.dropout, self.interaction)
         
-        self.NN1 = torch.nn.Linear(2*self.hidden_size, self.hidden_size)
-        self.NN2 = torch.nn.Linear(self.hidden_size, 1)
+        #activation
+        activation = get_activation_function(self.activation)
+        
+        # create NN layers
+        if self.NN_depth == 1:
+            ffn = [
+                nn.Dropout(self.dropout),
+                nn.Linear(self.MP_hidden*2, 1)
+            ]
+        else:
+            ffn = [
+                nn.Dropout(self.dropout),
+                nn.Linear(self.MP_hidden*2, self.NN_hidden)
+            ]
+            for _ in range(self.NN_depth - 2):
+                ffn.extend([
+                    activation,
+                    nn.Dropout(self.dropout),
+                    nn.Linear(self.NN_hidden, self.NN_hidden),
+                ])
+            ffn.extend([
+                activation,
+                nn.Dropout(self.dropout),
+                nn.Linear(self.NN_hidden, 1),
+            ])
+        self.ffn = nn.Sequential(*ffn)
 
     def forward(self, batch):
         """
@@ -469,44 +562,43 @@ class double_MPNN(nn.Module):
                 sol = torch.stack([torch.sum(mol, dim=0) for mol in sol])
                 solv = torch.stack([torch.sum(mol, dim=0) for mol in solv])  # num_pairs x hidden_size
         
-        # concatenate solute / solvent feature vectos
+        # concatenate solute / solvent feature vectors
         encodings = torch.cat([sol,solv], dim=1) # num_pairs x 2*hidden_size
         
         # NN
-        output = F.relu(self.NN1(encodings))
-        output = self.NN2(output)
+        output = self.ffn(encodings)
         return output
     
 class MP(nn.Module):
     """
     Message passing module based on chemprop. Can pass messages between atoms (MPNN) or directed bonds (D-MPNN).
     """
-    def __init__(self, args):
+    def __init__(self, atom_messages=True, MP_hidden=128, MP_depth=3, readout='mean', dropout=0.2, interaction=False):
         super(MP, self).__init__()
         self.atom_fdim = get_atom_fdim()
-        self.atom_messages = args.atom_messages
-        self.bond_fdim = get_bond_fdim(atom_messages=args.atom_messages)
-        self.hidden_size = args.hidden_size
-        self.depth = args.depth
-        self.readout = args.readout
-        self.dropout = args.dropout
-        self.interaction = args.interaction
+        self.atom_messages = atom_messages
+        self.bond_fdim = get_bond_fdim(atom_messages=self.atom_messages)
+        self.hidden = MP_hidden
+        self.depth = MP_depth
+        self.readout = readout
+        self.dropout = dropout
+        self.interaction = interaction
         
         self.dropout_layer = nn.Dropout(p=self.dropout)
-        self.cached_zero_vector = nn.Parameter(torch.zeros(self.hidden_size), requires_grad=False)
+        self.cached_zero_vector = nn.Parameter(torch.zeros(self.hidden), requires_grad=False)
 
         input_dim = self.atom_fdim if self.atom_messages else self.bond_fdim
-        self.W_i = nn.Linear(input_dim, self.hidden_size)
+        self.W_i = nn.Linear(input_dim, self.hidden)
 
         if self.atom_messages:
-            w_h_input_size = self.hidden_size + self.bond_fdim
+            w_h_input_size = self.hidden + self.bond_fdim
         else:
-            w_h_input_size = self.hidden_size
+            w_h_input_size = self.hidden
 
         # Shared weight matrix across depths (default)
-        self.W_h = nn.Linear(w_h_input_size, self.hidden_size)
+        self.W_h = nn.Linear(w_h_input_size, self.hidden)
 
-        self.W_o = nn.Linear(self.atom_fdim + self.hidden_size, self.hidden_size)
+        self.W_o = nn.Linear(self.atom_fdim + self.hidden, self.hidden)
 
     def forward(self, smiles):
         """
@@ -585,21 +677,3 @@ class MP(nn.Module):
                     mol_vecs.append(mol_vec)
             mol_vecs = torch.stack(mol_vecs, dim=0)  # (num_molecules, hidden_size)
             return mol_vecs  # num_molecules x hidden
-
-        
-class TrainArgs:
-    """
-    Object containing arguments used for training a model.
-    """
-    depth = 3
-    """Number of message passing steps"""
-    hidden_size = 128
-    """Size of final hidden feature vector"""
-    dropout = 0.2
-    """Dropout probability"""
-    atom_messages = True
-    """Centers messages of atoms (True) or bonds (False)"""
-    readout = 'mean'
-    """Readout function ('mean' or 'sum')"""
-    interaction = False
-    """Interaction layer between solute and solvent before creating final molecular feature vector (CIGIN model)"""

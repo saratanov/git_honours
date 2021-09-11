@@ -1,0 +1,466 @@
+,solute,solute SMILES,solvent,solvent SMILES,pka,ref
+0,2340-87-6,CCOC(=O)C(C#N)C1=C(C(=C(C(=C1F)F)F)F)F,acetonitrile,,17.75,MeCN_Acids_COSMO-RS_2008_Table.pdf
+1,32251-53-9,CCOC(=O)C(C#N)C1=C(C(=C(C(=C1F)F)C(F)(F)F)F)F,acetonitrile,,16.08,MeCN_Acids_COSMO-RS_2008_Table.pdf
+2,33534-88-2,CC1=CC=C(C=C1)C(C#N)C#N,acetonitrile,,17.59,MeCN_Acids_COSMO-RS_2008_Table.pdf
+3,42238-33-5,skip,acetonitrile,,26.14,MeCN_Acids_COSMO-RS_2008_Table.pdf
+4,42238-34-6,skip,acetonitrile,,21.1,MeCN_Acids_COSMO-RS_2008_Table.pdf
+5,42238-35-7,skip,acetonitrile,,18.14,MeCN_Acids_COSMO-RS_2008_Table.pdf
+6,42238-36-8,skip,acetonitrile,,20.36,MeCN_Acids_COSMO-RS_2008_Table.pdf
+7,42254-09-1,skip,acetonitrile,,21.11,MeCN_Acids_COSMO-RS_2008_Table.pdf
+8,52345-34-3,skip,acetonitrile,,21.94,MeCN_Acids_COSMO-RS_2008_Table.pdf
+9,55810-56-5,skip,acetonitrile,,17.39,MeCN_Acids_COSMO-RS_2008_Table.pdf
+10,55810-61-2,skip,acetonitrile,,14.9,MeCN_Acids_COSMO-RS_2008_Table.pdf
+11,55810-63-4,skip,acetonitrile,,12.98,MeCN_Acids_COSMO-RS_2008_Table.pdf
+12,55852-22-7,skip,acetonitrile,,18.08,MeCN_Acids_COSMO-RS_2008_Table.pdf
+13,55852-24-9,C(#N)C(C#N)C1=C(C(=C(C(=C1F)F)C(F)(F)F)F)F,acetonitrile,,10.19,MeCN_Acids_COSMO-RS_2008_Table.pdf
+14,58432-44-3,skip,acetonitrile,,22.8,MeCN_Acids_COSMO-RS_2008_Table.pdf
+15,58432-55-6,skip,acetonitrile,,16.13,MeCN_Acids_COSMO-RS_2008_Table.pdf
+16,58432-62-5,skip,acetonitrile,,26.96,MeCN_Acids_COSMO-RS_2008_Table.pdf
+17,62325-34-2,skip,acetonitrile,,17.5,MeCN_Acids_COSMO-RS_2008_Table.pdf
+18,62325-35-3,C(#N)C(C#N)C1=C(C2=C(C(=C1F)F)C(=C(C(=C2F)F)F)F)F,acetonitrile,,12.23,MeCN_Acids_COSMO-RS_2008_Table.pdf
+19,62325-37-5,skip,acetonitrile,,16.02,MeCN_Acids_COSMO-RS_2008_Table.pdf
+20,62325-38-6,skip,acetonitrile,,19.32,MeCN_Acids_COSMO-RS_2008_Table.pdf
+21,62325-51-3,skip,acetonitrile,,16.4,MeCN_Acids_COSMO-RS_2008_Table.pdf
+22,64934-68-5,skip,acetonitrile,,20.08,MeCN_Acids_COSMO-RS_2008_Table.pdf
+23,64934-69-6,skip,acetonitrile,,20.13,MeCN_Acids_COSMO-RS_2008_Table.pdf
+24,64934-71-0,skip,acetonitrile,,13.87,MeCN_Acids_COSMO-RS_2008_Table.pdf
+25,64934-72-1,skip,acetonitrile,,13.46,MeCN_Acids_COSMO-RS_2008_Table.pdf
+26,719-38-0,C(#N)C(C#N)C1=C(C(=C(C(=C1F)F)F)F)F,acetonitrile,,13.01,MeCN_Acids_COSMO-RS_2008_Table.pdf
+27,99726-60-0,C1=CC(=CC(=C1)C(F)(F)F)C(C#N)C#N,acetonitrile,,14.72,MeCN_Acids_COSMO-RS_2008_Table.pdf
+28,7077-65-8,C1=CC(=CC=C1C(C#N)C#N)[N+](=O)[O-],acetonitrile,,11.61,MeCN_Acids_COSMO-RS_2008_Table.pdf
+29,40906-82-9,C1=CC=C(C=C1)C(S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F,acetonitrile,,7.85,MeCN_Acids_COSMO-RS_2008_Table.pdf
+30,1582-05-4,CCOC(=O)C(C1=C(C(=C(C(=C1F)F)F)F)F)C(=O)OCC,acetonitrile,,22.85,MeCN_Acids_COSMO-RS_2008_Table.pdf
+31,215395-09-8,skip,acetonitrile,,4.16,MeCN_Acids_COSMO-RS_2008_Table.pdf
+32,73482-93-6,skip,acetonitrile,,28.11,MeCN_Acids_COSMO-RS_2008_Table.pdf
+33,205-94-7,C1=CC=C2C3=C4C(C2=C1)C5=CC=CC=C5C4=CC=C3,acetonitrile,,23.9,MeCN_Acids_COSMO-RS_2008_Table.pdf
+34,3002-30-0,COC(=O)C1C2=CC=CC=C2C3=CC=CC=C13,acetonitrile,,23.53,MeCN_Acids_COSMO-RS_2008_Table.pdf
+35,1529-40-4,C1=CC=C2C(=C1)C(C3=CC=CC=C32)C#N,acetonitrile,,21.36,MeCN_Acids_COSMO-RS_2008_Table.pdf
+36,63264-80-2,C1(C2=C(C3=C1C(=C(C(=C3F)F)F)F)C(=C(C(=C2F)F)F)F)C4=C(C(=C(C(=C4F)F)F)F)F,acetonitrile,,18.88,MeCN_Acids_COSMO-RS_2008_Table.pdf
+37,27053-34-5,C1C2=C(C3=C1C(=C(C(=C3F)F)F)F)C(=C(C(=C2F)F)F)F,acetonitrile,,24.49,MeCN_Acids_COSMO-RS_2008_Table.pdf
+38,118-79-6,C1=C(C=C(C(=C1Br)O)Br)Br,acetonitrile,,20.35,MeCN_Acids_COSMO-RS_2008_Table.pdf
+39,2693-66-5,C1(=C(NC(=C(C1=O)F)F)F)F,acetonitrile,,15.4,MeCN_Acids_COSMO-RS_2008_Table.pdf
+40,2787-79-3,C1(=C(C(=C(C(=C1F)F)O)F)F)C(F)(F)F,acetonitrile,,16.62,MeCN_Acids_COSMO-RS_2008_Table.pdf
+41,2894-87-3,C1(=C(C(=C(C(=C1F)F)O)F)F)C2=C(C(=C(C(=C2F)F)F)F)F,acetonitrile,,18.11,MeCN_Acids_COSMO-RS_2008_Table.pdf
+42,5386-30-1,C12=C(C(=C(C(=C1O)F)F)F)C(=C(C(=C2F)F)F)F,acetonitrile,,19.72,MeCN_Acids_COSMO-RS_2008_Table.pdf
+43,608-71-9,C1(=C(C(=C(C(=C1Br)Br)Br)Br)Br)O,acetonitrile,,17.83,MeCN_Acids_COSMO-RS_2008_Table.pdf
+44,727-49-1,C12=C(C(=C(C(=C1F)O)F)F)C(=C(C(=C2F)F)F)F,acetonitrile,,18.5,MeCN_Acids_COSMO-RS_2008_Table.pdf
+45,769-39-1,C1=C(C(=C(C(=C1F)F)O)F)F,acetonitrile,,20.12,MeCN_Acids_COSMO-RS_2008_Table.pdf
+46,771-61-9,C1(=C(C(=C(C(=C1F)F)F)F)F)O,acetonitrile,,20.11,MeCN_Acids_COSMO-RS_2008_Table.pdf
+47,87-86-5,skip,acetonitrile,,18.02,MeCN_Acids_COSMO-RS_2008_Table.pdf
+48,882492-01-5,skip,acetonitrile,,5.53,MeCN_Acids_COSMO-RS_2008_Table.pdf
+49,88-75-5,C1=CC=C(C(=C1)[N+](=O)[O-])O,acetonitrile,,22.85,MeCN_Acids_COSMO-RS_2008_Table.pdf
+50,51-28-5,skip,acetonitrile,,16.66,MeCN_Acids_COSMO-RS_2008_Table.pdf
+51,88-89-1,C1=C(C=C(C(=C1[N+](=O)[O-])O)[N+](=O)[O-])[N+](=O)[O-],acetonitrile,,11.0,MeCN_Acids_COSMO-RS_2008_Table.pdf
+52,71571-37-4,skip,acetonitrile,,4.8,MeCN_Acids_COSMO-RS_2008_Table.pdf
+53,174619,skip,acetonitrile,,20.55,MeCN_Acids_COSMO-RS_2008_Table.pdf
+54,64-19-7,skip,acetonitrile,,23.51,MeCN_Acids_COSMO-RS_2008_Table.pdf
+55,65-85-0,skip,acetonitrile,,21.51,MeCN_Acids_COSMO-RS_2008_Table.pdf
+56,104-15-4,CC1=CC=C(C=C1)S(=O)(=O)O,acetonitrile,,8.45,MeCN_Acids_COSMO-RS_2008_Table.pdf
+57,138-42-1,C1=CC(=CC=C1[N+](=O)[O-])S(=O)(=O)O,acetonitrile,,6.6,MeCN_Acids_COSMO-RS_2008_Table.pdf
+58,85-47-2,C1=CC=C2C(=C1)C=CC=C2S(=O)(=O)O,acetonitrile,,7.89,MeCN_Acids_COSMO-RS_2008_Table.pdf
+59,98-47-5,C1=CC(=CC(=C1)S(=O)(=O)O)[N+](=O)[O-],acetonitrile,,6.65,MeCN_Acids_COSMO-RS_2008_Table.pdf
+60,98-66-8,C1=CC(=CC=C1S(=O)(=O)O)Cl,acetonitrile,,7.16,MeCN_Acids_COSMO-RS_2008_Table.pdf
+61,343337-70-2,CC1=CC=C(C=C1)C(=O)NS(=O)(=O)C(F)(F)F,acetonitrile,,11.46,MeCN_Acids_COSMO-RS_2008_Table.pdf
+62,39062-91-4,skip,acetonitrile,,11.06,MeCN_Acids_COSMO-RS_2008_Table.pdf
+63,39062-98-1,C1=CC(=CC=C1C(=O)NS(=O)(=O)C(F)(F)F)[N+](=O)[O-],acetonitrile,,9.49,MeCN_Acids_COSMO-RS_2008_Table.pdf
+64,39062-99-2,skip,acetonitrile,,10.36,MeCN_Acids_COSMO-RS_2008_Table.pdf
+65,39063-00-8,skip,acetonitrile,,10.65,MeCN_Acids_COSMO-RS_2008_Table.pdf
+66,39063-05-3,skip,acetonitrile,,11.6,MeCN_Acids_COSMO-RS_2008_Table.pdf
+67,81-07-2,C1=CC=C2C(=C1)C(=O)NS2(=O)=O,acetonitrile,,14.57,MeCN_Acids_COSMO-RS_2008_Table.pdf
+68,100724-78-5,skip,acetonitrile,,10.04,MeCN_Acids_COSMO-RS_2008_Table.pdf
+69,174788-87-5,skip,acetonitrile,,5.89,MeCN_Acids_COSMO-RS_2008_Table.pdf
+70,174788-89-7,skip,acetonitrile,,5.34,MeCN_Acids_COSMO-RS_2008_Table.pdf
+71,174788-91-1,skip,acetonitrile,,4.39,MeCN_Acids_COSMO-RS_2008_Table.pdf
+72,174788-93-3,skip,acetonitrile,,5.14,MeCN_Acids_COSMO-RS_2008_Table.pdf
+73,174788-95-5,skip,acetonitrile,,4.34,MeCN_Acids_COSMO-RS_2008_Table.pdf
+74,174788-97-7,skip,acetonitrile,,3.62,MeCN_Acids_COSMO-RS_2008_Table.pdf
+75,215395-06-5,skip,acetonitrile,,9.71,MeCN_Acids_COSMO-RS_2008_Table.pdf
+76,215395-07-6,skip,acetonitrile,,6.17,MeCN_Acids_COSMO-RS_2008_Table.pdf
+77,2618-96-4,C1=CC=C(C=C1)S(=O)(=O)NS(=O)(=O)C2=CC=CC=C2,acetonitrile,,11.34,MeCN_Acids_COSMO-RS_2008_Table.pdf
+78,2725-55-5,C1=CC(=CC=C1S(=O)(=O)NS(=O)(=O)C2=CC=C(C=C2)Cl)Cl,acetonitrile,,10.2,MeCN_Acids_COSMO-RS_2008_Table.pdf
+79,3695-00-9,CC1=CC=C(C=C1)S(=O)(=O)NS(=O)(=O)C2=CC=C(C=C2)C,acetonitrile,,11.97,MeCN_Acids_COSMO-RS_2008_Table.pdf
+80,770456,skip,acetonitrile,,8.19,MeCN_Acids_COSMO-RS_2008_Table.pdf
+81,500721-87-9,skip,acetonitrile,,6.41,MeCN_Acids_COSMO-RS_2008_Table.pdf
+82,500721-89-1,skip,acetonitrile,,6.19,MeCN_Acids_COSMO-RS_2008_Table.pdf
+83,500721-91-5,skip,acetonitrile,,6.04,MeCN_Acids_COSMO-RS_2008_Table.pdf
+84,500721-93-7,skip,acetonitrile,,5.66,MeCN_Acids_COSMO-RS_2008_Table.pdf
+85,500721-95-9,skip,acetonitrile,,5.56,MeCN_Acids_COSMO-RS_2008_Table.pdf
+86,500721-97-1,skip,acetonitrile,,5.13,MeCN_Acids_COSMO-RS_2008_Table.pdf
+87,69173-28-0,skip,acetonitrile,,11.1,MeCN_Acids_COSMO-RS_2008_Table.pdf
+88,95468-16-9,C1=CC(=CC(=C1)S(=O)(=O)NS(=O)(=O)C2=CC=C(C=C2)Cl)[N+](=O)[O-],acetonitrile,,9.17,MeCN_Acids_COSMO-RS_2008_Table.pdf
+89,39077-43-5,C1=CC=C(C=C1)NC2=C(C(=NC(=C2F)F)F)F,acetonitrile,,26.34,MeCN_Acids_COSMO-RS_2008_Table.pdf
+90,80588-34-7,skip,acetonitrile,,25.12,MeCN_Acids_COSMO-RS_2008_Table.pdf
+91,80588-36-9,skip,acetonitrile,,24.94,MeCN_Acids_COSMO-RS_2008_Table.pdf
+92,133213-11-3,skip,acetonitrile,,19.66,MeCN_Acids_COSMO-RS_2008_Table.pdf
+93,Trinitromethane,C([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-],acetonitrile,,7.3,MeCN_Acids_COSMO-RS_2008_Table.pdf
+94,1-(4-Nitrophenyl)-1-nitropropane,skip,acetonitrile,,23.9,MeCN_Acids_COSMO-RS_2008_Table.pdf
+95,1-(4-Nitrophenyl)-2-methyl-1-nitropropane,skip,acetonitrile,,25.9,MeCN_Acids_COSMO-RS_2008_Table.pdf
+96,"1,2-Dicyanocyclopentadiene",skip,acetonitrile,,10.17,MeCN_Acids_COSMO-RS_2008_Table.pdf
+97,"1,2,3-Tricyanocyclopentadiene",skip,acetonitrile,,1.44,MeCN_Acids_COSMO-RS_2008_Table.pdf
+98,"1,2,4-Tricyano-3-methylcyclopentadiene",skip,acetonitrile,,3.4,MeCN_Acids_COSMO-RS_2008_Table.pdf
+99,9-Cyanofluorene,C1=CC=C2C(=C1)C(C3=CC=CC=C32)C#N,acetonitrile,,20.8,MeCN_Acids_COSMO-RS_2008_Table.pdf
+100,Pentakis(trifluoromethyl)-phenylmalonitrile,skip,acetonitrile,,8.86,MeCN_Acids_COSMO-RS_2008_Table.pdf
+101,"2,3,4,6-Tetrakis(trifluoromethyl)-phenylmalonitrile",skip,acetonitrile,,10.45,MeCN_Acids_COSMO-RS_2008_Table.pdf
+102,Pentakis(trifluoromethyl)-toluene,skip,acetonitrile,,28.7,MeCN_Acids_COSMO-RS_2008_Table.pdf
+103,Pentacyanotoluene,CC1=C(C(=C(C(=C1C#N)C#N)C#N)C#N)C#N,acetonitrile,,20.14,MeCN_Acids_COSMO-RS_2008_Table.pdf
+104,"2,4,6-Trinitrotoluene",CC1=C(C=C(C=C1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-],acetonitrile,,23.2,MeCN_Acids_COSMO-RS_2008_Table.pdf
+105,4-Nitrophenylacetonitrile,C1=CC(=CC=C1CC#N)[N+](=O)[O-],acetonitrile,,25.4,MeCN_Acids_COSMO-RS_2008_Table.pdf
+106,4-Nitrophenylphenylacetonitrile,skip,acetonitrile,,22.7,MeCN_Acids_COSMO-RS_2008_Table.pdf
+107,4-Bromophenyl-4-nitrophenylacetonitrile,skip,acetonitrile,,21.3,MeCN_Acids_COSMO-RS_2008_Table.pdf
+108,4-Nitrophenyl-4-methoxyphenylacetonitrile,skip,acetonitrile,,23.1,MeCN_Acids_COSMO-RS_2008_Table.pdf
+109,Bis(4-nitrophenyl)acetonitrile,C1=CC(=CC=C1C(C#N)C2=CC=C(C=C2)[N+](=O)[O-])[N+](=O)[O-],acetonitrile,,19.0,MeCN_Acids_COSMO-RS_2008_Table.pdf
+110,Bis(4-nitrophenyl)ethylacetate,skip,acetonitrile,,25.1,MeCN_Acids_COSMO-RS_2008_Table.pdf
+111,4-Nitrophenylnitromethane,C1=CC(=CC=C1C[N+](=O)[O-])[N+](=O)[O-],acetonitrile,,20.7,MeCN_Acids_COSMO-RS_2008_Table.pdf
+112,Phthalicacid,C1=CC=C(C(=C1)C(=O)O)C(=O)O,acetonitrile,,14.3,MeCN_Acids_COSMO-RS_2008_Table.pdf
+113,"2,2-Diphenicacid",skip,acetonitrile,,15.7,MeCN_Acids_COSMO-RS_2008_Table.pdf
+114,3-Methylphthalicacid,skip,acetonitrile,,17.0,MeCN_Acids_COSMO-RS_2008_Table.pdf
+115,Propanedioicacid,C(C(=O)O)C(=O)O,acetonitrile,,15.3,MeCN_Acids_COSMO-RS_2008_Table.pdf
+116,Succinicacid,C1=CC=C(C=C1)C(C2=CC=CC=C2F)O,acetonitrile,,17.6,MeCN_Acids_COSMO-RS_2008_Table.pdf
+117,Tetrahydroxysuccinicacid,skip,acetonitrile,,13.7,MeCN_Acids_COSMO-RS_2008_Table.pdf
+118,Tartronicacid,C(C(=O)O)(C(=O)O)O,acetonitrile,,13.8,MeCN_Acids_COSMO-RS_2008_Table.pdf
+119,"2,6-Dihydroxybenzoicacid",C1=CC(=C(C(=C1)O)C(=O)O)O,acetonitrile,,12.6,MeCN_Acids_COSMO-RS_2008_Table.pdf
+120,Perchloricacid,skip,acetonitrile,,1.57,MeCN_Acids_COSMO-RS_2008_Table.pdf
+121,Fluorosulfuricacid,skip,acetonitrile,,3.38,MeCN_Acids_COSMO-RS_2008_Table.pdf
+122,"2,4,6-Trinitrothiophenol",C1(=C(C(=C2C(=C1S2)[N+](=O)[O-])[N+](=O)[O-])O)[N+](=O)[O-],acetonitrile,,11.0,MeCN_Acids_COSMO-RS_2008_Table.pdf
+123,o-Mercaptophenol,C1=CC=C(C(=C1)O)S,acetonitrile,,19.34,MeCN_Acids_COSMO-RS_2008_Table.pdf
+124,"1,1,3,3-Tetranitrobutane",CC(CC([N+](=O)[O-])[N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-],acetonitrile,,8.0,MeCN_Acids_COSMO-RS_2008_Table.pdf
+125,Pentakis(trifluoromethyl)-aniline,skip,acetonitrile,,24.59,MeCN_Acids_COSMO-RS_2008_Table.pdf
+126,"1,3,7,9-Tetranitrophenoxazine",C1=C(C=C2C(=C1[N+](=O)[O-])NC3=C(C=C(C=C3O2)[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-],acetonitrile,,18.8,MeCN_Acids_COSMO-RS_2008_Table.pdf
+127,"1,3,7-Trinitrophenoxazine",C1=CC2=C(C=C1[N+](=O)[O-])OC3=CC(=CC(=C3N2)[N+](=O)[O-])[N+](=O)[O-],acetonitrile,,20.3,MeCN_Acids_COSMO-RS_2008_Table.pdf
+128,"1,3,9-Trinitrophenoxazine",skip,acetonitrile,,21.9,MeCN_Acids_COSMO-RS_2008_Table.pdf
+129,"1,3-Dinitrophenoxazine",C1=CC=C2C(=C1)NC3=C(C=C(C=C3O2)[N+](=O)[O-])[N+](=O)[O-],acetonitrile,,22.4,MeCN_Acids_COSMO-RS_2008_Table.pdf
+130,"1,7-Dimethyl-3-nitrophenoxazine",skip,acetonitrile,,25.9,MeCN_Acids_COSMO-RS_2008_Table.pdf
+131,1-Methyl-3-nitrophenoxazine,skip,acetonitrile,,25.8,MeCN_Acids_COSMO-RS_2008_Table.pdf
+132,1-Nitrophenoxazine,skip,acetonitrile,,28.4,MeCN_Acids_COSMO-RS_2008_Table.pdf
+133,"3,7-Dinitrophenoxazine",skip,acetonitrile,,22.8,MeCN_Acids_COSMO-RS_2008_Table.pdf
+134,3-Nitrophenoxazine,C1=CC=C2C(=C1)NC3=C(O2)C=C(C=C3)[N+](=O)[O-],acetonitrile,,25.7,MeCN_Acids_COSMO-RS_2008_Table.pdf
+135,"3,4-Dichlorobenzenesulfonamide",C1=CC(=C(C=C1S(=O)(=O)N)Cl)Cl,acetonitrile,,23.29,MeCN_Acids_COSMO-RS_2008_Table.pdf
+136,4-Methylbenzenesulfonamide,CC1=CC=C(C=C1)S(=O)(=O)N,acetonitrile,,24.82,MeCN_Acids_COSMO-RS_2008_Table.pdf
+137,Benzenesulfonamide,C1=CC=C(C=C1)S(=O)(=O)N,acetonitrile,,24.61,MeCN_Acids_COSMO-RS_2008_Table.pdf
+138,m-Chlorobenzenesulfonamide,skip,acetonitrile,,23.8,MeCN_Acids_COSMO-RS_2008_Table.pdf
+139,m-Cyanobenzenesulfonamide,skip,acetonitrile,,23.23,MeCN_Acids_COSMO-RS_2008_Table.pdf
+140,m-Methoxybenzenesulfonamide,skip,acetonitrile,,24.48,MeCN_Acids_COSMO-RS_2008_Table.pdf
+141,m-Nitrobenzenesulfonamide,C1=CC(=CC(=C1)S(=O)(=O)N)[N+](=O)[O-],acetonitrile,,22.95,MeCN_Acids_COSMO-RS_2008_Table.pdf
+142,m-Toluenesulfonamide,CC1=CC(=CC=C1)S(=O)(=O)N,acetonitrile,,24.67,MeCN_Acids_COSMO-RS_2008_Table.pdf
+143,m-Trifluoromethylbenzenesulfonamide,C1=CC(=CC(=C1)S(=O)(=O)N)C(F)(F)F,acetonitrile,,23.53,MeCN_Acids_COSMO-RS_2008_Table.pdf
+144,o-Xylene-4-sulfonamide,skip,acetonitrile,,25.01,MeCN_Acids_COSMO-RS_2008_Table.pdf
+145,p-Brombenzenesulfonamide,skip,acetonitrile,,24.04,MeCN_Acids_COSMO-RS_2008_Table.pdf
+146,p-Fluorobenzenesulfonamide,C1=CC(=CC=C1F)S(=O)(=O)N,acetonitrile,,24.19,MeCN_Acids_COSMO-RS_2008_Table.pdf
+147,p-Methoxybenzenesulfonamide,COC1=CC=C(C=C1)S(=O)(=O)N,acetonitrile,,25.09,MeCN_Acids_COSMO-RS_2008_Table.pdf
+148,p-Nitrobenzenesulfonamide,C1=CC(=CC=C1[N+](=O)[O-])S(=O)(=O)N,acetonitrile,,22.91,MeCN_Acids_COSMO-RS_2008_Table.pdf
+149,4-Bromobenzoicacid,C1=CC(=CC=C1C(=O)O)Br,acetonitrile,,20.3,MeCN_Acids_COSMO-RS_2008_Table.pdf
+150,4-Hydroxybenzoicacid,C1=CC(=CC=C1C(=O)O)O,acetonitrile,,20.8,MeCN_Acids_COSMO-RS_2008_Table.pdf
+151,Chloroaceticacid,skip,acetonitrile,,18.8,MeCN_Acids_COSMO-RS_2008_Table.pdf
+152,Cyanoaceticacid,C(C#N)C(=O)O,acetonitrile,,18.0,MeCN_Acids_COSMO-RS_2008_Table.pdf
+153,Dichloroaceticacid,B1(OC(C(O1)(C)C)(C)C)C2=C(C=CC(=C2)C(=O)OC)C,acetonitrile,,13.2,MeCN_Acids_COSMO-RS_2008_Table.pdf
+154,Fumaricacid,C1=NNC(=C1Br)C(=O)O,acetonitrile,,19.2,MeCN_Acids_COSMO-RS_2008_Table.pdf
+155,Oxalicacid,C(=O)(C(=O)O)O,acetonitrile,,14.5,MeCN_Acids_COSMO-RS_2008_Table.pdf
+156,Salicylicacid,CCCC1=CC=C(C=C1)Cl,acetonitrile,,16.7,MeCN_Acids_COSMO-RS_2008_Table.pdf
+157,Trichloroaceticacid,C(OCF)F,acetonitrile,,10.75,MeCN_Acids_COSMO-RS_2008_Table.pdf
+158,Trifluoroaceticacid,C(=O)(C(F)(F)F)O,acetonitrile,,12.65,MeCN_Acids_COSMO-RS_2008_Table.pdf
+159,"1,3-Benzenedicarboxylicacid",skip,acetonitrile,,19.3,MeCN_Acids_COSMO-RS_2008_Table.pdf
+160,"1,4-Benzenedicarboxylicacid",skip,acetonitrile,,19.7,MeCN_Acids_COSMO-RS_2008_Table.pdf
+161,"1,8-Naphthalicacid",C1=CC2=C(C(=C1)C(=O)O)C(=CC=C2)C(=O)O,acetonitrile,,21.8,MeCN_Acids_COSMO-RS_2008_Table.pdf
+162,"2,3-Dibromopropionicacid",skip,acetonitrile,,17.1,MeCN_Acids_COSMO-RS_2008_Table.pdf
+163,"2,4,6-Trimethylbenzoicacid",CC1=CC(=C(C(=C1)C)C(=O)O)C,acetonitrile,,20.5,MeCN_Acids_COSMO-RS_2008_Table.pdf
+164,"2,4-Dichlorobenzoicacid",skip,acetonitrile,,18.4,MeCN_Acids_COSMO-RS_2008_Table.pdf
+165,"2,4-Dinitrobenzoicacid",skip,acetonitrile,,16.1,MeCN_Acids_COSMO-RS_2008_Table.pdf
+166,"2,5-Dichlorobenzenesulfonicacid",skip,acetonitrile,,6.2,MeCN_Acids_COSMO-RS_2008_Table.pdf
+167,"2,6-Dichlorobenzoicacid",C1=CC(=C(C(=C1)Cl)C(=O)O)Cl,acetonitrile,,17.6,MeCN_Acids_COSMO-RS_2008_Table.pdf
+168,"2,6-Dinitrobenzoicacid",C1=CC(=C(C(=C1)[N+](=O)[O-])C(=O)O)[N+](=O)[O-],acetonitrile,,15.8,MeCN_Acids_COSMO-RS_2008_Table.pdf
+169,2-Chloro-benzoicacid,skip,acetonitrile,,19.0,MeCN_Acids_COSMO-RS_2008_Table.pdf
+170,"3,4-Dichlorobenzoicacid",skip,acetonitrile,,19.0,MeCN_Acids_COSMO-RS_2008_Table.pdf
+171,"3,4-Dimethylbenzoicacid",skip,acetonitrile,,19.0,MeCN_Acids_COSMO-RS_2008_Table.pdf
+172,"3,5-Dichlorobenzoicacid",skip,acetonitrile,,18.7,MeCN_Acids_COSMO-RS_2008_Table.pdf
+173,"3,5-Dinitrobenzoicacid",skip,acetonitrile,,17.0,MeCN_Acids_COSMO-RS_2008_Table.pdf
+174,3-Bromobenzoicacid,C1=CC(=CC(=C1)Br)C(=O)O,acetonitrile,,19.5,MeCN_Acids_COSMO-RS_2008_Table.pdf
+175,3-Nitrobenzoicacid,skip,acetonitrile,,19.2,MeCN_Acids_COSMO-RS_2008_Table.pdf
+176,4-Chloro-3-nitrobenzoicacid,skip,acetonitrile,,18.5,MeCN_Acids_COSMO-RS_2008_Table.pdf
+177,4-Dimethylaminobenzoicacid,skip,acetonitrile,,23.0,MeCN_Acids_COSMO-RS_2008_Table.pdf
+178,4-Nitrobenzoicacid,C1=CC(=CC=C1C(=O)O)[N+](=O)[O-],acetonitrile,,18.7,MeCN_Acids_COSMO-RS_2008_Table.pdf
+179,Butyricacid,skip,acetonitrile,,22.7,MeCN_Acids_COSMO-RS_2008_Table.pdf
+180,Hexanedioicacid,skip,acetonitrile,,20.3,MeCN_Acids_COSMO-RS_2008_Table.pdf
+181,Hydracrylicacid,skip,acetonitrile,,21.0,MeCN_Acids_COSMO-RS_2008_Table.pdf
+182,Hydroxy-aceticacid,skip,acetonitrile,,19.3,MeCN_Acids_COSMO-RS_2008_Table.pdf
+183,Nonanedioicacid,skip,acetonitrile,,20.9,MeCN_Acids_COSMO-RS_2008_Table.pdf
+184,o-Nitrobenzoicacid,skip,acetonitrile,,18.2,MeCN_Acids_COSMO-RS_2008_Table.pdf
+185,Pentanedioicacid,skip,acetonitrile,,19.2,MeCN_Acids_COSMO-RS_2008_Table.pdf
+186,Tartaricacid,skip,acetonitrile,,15.1,MeCN_Acids_COSMO-RS_2008_Table.pdf
+187,Nitricacid,skip,acetonitrile,,8.8,MeCN_Acids_COSMO-RS_2008_Table.pdf
+188,2-Bromophenol,C1=CC=C(C(=C1)O)Br,acetonitrile,,23.92,MeCN_Acids_COSMO-RS_2008_Table.pdf
+189,"3,4,5-Trichlorophenol",C1=C(C=C(C(=C1Cl)Cl)Cl)O,acetonitrile,,22.5,MeCN_Acids_COSMO-RS_2008_Table.pdf
+190,"3,4-Dichlorophenol",skip,acetonitrile,,24.0,MeCN_Acids_COSMO-RS_2008_Table.pdf
+191,"3,5-Dichlorophenol",C1=C(C=C(C=C1Cl)Cl)O,acetonitrile,,23.3,MeCN_Acids_COSMO-RS_2008_Table.pdf
+192,3-Chlorophenol,C1=CC(=CC(=C1)Cl)O,acetonitrile,,25.0,MeCN_Acids_COSMO-RS_2008_Table.pdf
+193,4-Bromophenol,C1=CC(=CC=C1O)Br,acetonitrile,,25.53,MeCN_Acids_COSMO-RS_2008_Table.pdf
+194,4-Chlorophenol,C1=CC(=CC=C1O)Cl,acetonitrile,,25.44,MeCN_Acids_COSMO-RS_2008_Table.pdf
+195,4-Nitrophenol,C1=CC(=CC=C1[N+](=O)[O-])O,acetonitrile,,20.7,MeCN_Acids_COSMO-RS_2008_Table.pdf
+196,p-Cresole,skip,acetonitrile,,27.45,MeCN_Acids_COSMO-RS_2008_Table.pdf
+197,Phenol,skip,acetonitrile,,29.14,MeCN_Acids_COSMO-RS_2008_Table.pdf
+198,2-Methylphenol,skip,acetonitrile,,27.5,MeCN_Acids_COSMO-RS_2008_Table.pdf
+199,"3,4-Dinitrophenol",C1=CC(=C(C=C1O)[N+](=O)[O-])[N+](=O)[O-],acetonitrile,,17.9,MeCN_Acids_COSMO-RS_2008_Table.pdf
+200,3-Chloro-4-nitrophenol,C1=CC(=C(C=C1O)Cl)[N+](=O)[O-],acetonitrile,,19.9,MeCN_Acids_COSMO-RS_2008_Table.pdf
+201,3-Nitrophenol,C1=CC(=CC(=C1)O)[N+](=O)[O-],acetonitrile,,23.8,MeCN_Acids_COSMO-RS_2008_Table.pdf
+202,3-Trifluoromethyl-4-nitrophenol,C1=CC(=C(C=C1O)C(F)(F)F)[N+](=O)[O-],acetonitrile,,19.3,MeCN_Acids_COSMO-RS_2008_Table.pdf
+203,"4-Chloro-2,6-dinitrophenol",C1=C(C=C(C(=C1[N+](=O)[O-])O)[N+](=O)[O-])Cl,acetonitrile,,15.3,MeCN_Acids_COSMO-RS_2008_Table.pdf
+204,4-Cyanophenol,C1=CC(=CC=C1C#N)O,acetonitrile,,22.7,MeCN_Acids_COSMO-RS_2008_Table.pdf
+205,m-Trifluoromethylphenol,C1=CC(=CC(=C1)O)C(F)(F)F,acetonitrile,,24.9,MeCN_Acids_COSMO-RS_2008_Table.pdf
+206,"4-(1,1-Dimethylethyl)-phenol",CC(C)(C)C1=CC=C(C=C1)O,acetonitrile,,27.48,MeCN_Acids_COSMO-RS_2008_Table.pdf
+207,"3,5-Dinitrophenol",C1=C(C=C(C=C1[N+](=O)[O-])O)[N+](=O)[O-],acetonitrile,,20.5,MeCN_Acids_COSMO-RS_2008_Table.pdf
+208,"2,3,5,6-Tetrafluoro-4-methylphenol",CC1=C(C(=C(C(=C1F)F)O)F)F,acetonitrile,,20.3,MeCN_Acids_COSMO-RS_2008_Table.pdf
+209,"2,4,6-Trichlorophenol",C1=C(C=C(C(=C1Cl)O)Cl)Cl,acetonitrile,,22.5,MeCN_Acids_COSMO-RS_2008_Table.pdf
+210,2-Trifluoromethylphenol,C1=CC=C(C(=C1)C(F)(F)F)O,acetonitrile,,24.88,MeCN_Acids_COSMO-RS_2008_Table.pdf
+211,3-Trifluoromethylphenol,C1=CC(=CC(=C1)O)C(F)(F)F,acetonitrile,,26.5,MeCN_Acids_COSMO-RS_2008_Table.pdf
+212,4-Trifluoromethylphenol,C1=CC(=CC=C1C(F)(F)F)O,acetonitrile,,25.54,MeCN_Acids_COSMO-RS_2008_Table.pdf
+213,"3,5-Bis(trifluoromethyl)-phenol",C1=C(C=C(C=C1C(F)(F)F)O)C(F)(F)F,acetonitrile,,23.78,MeCN_Acids_COSMO-RS_2008_Table.pdf
+214,"2,6-Bis(1,1-dimethylethyl)-4-nitrophenol",CC(C)(C)C1=CC(=CC(=C1O)C(C)(C)C)[N+](=O)[O-],acetonitrile,,19.0,MeCN_Acids_COSMO-RS_2008_Table.pdf
+215,Pentakis(trifluoromethyl)-phenol,skip,acetonitrile,,10.46,MeCN_Acids_COSMO-RS_2008_Table.pdf
+216,4-Methylbenzenesulfonic acid,CC1=CC=C(C=C1)S(=O)(=O)O,acetonitrile,,8.01,MeCN_Acids_COSMO-RS_2008_Table.pdf
+217,Methanesulfonic acid,CS(=O)(=O)O,acetonitrile,,9.97,MeCN_Acids_COSMO-RS_2008_Table.pdf
+218,Trifluoromethanesulfonic acid,C(F)(F)(F)S(=O)(=O)O,acetonitrile,,2.6,MeCN_Acids_COSMO-RS_2008_Table.pdf
+219,H2SO4,skip,acetonitrile,,7.2,MeCN_Acids_COSMO-RS_2008_Table.pdf
+220,HBr,Br,acetonitrile,,5.5,MeCN_Acids_COSMO-RS_2008_Table.pdf
+221,HCl,skip,acetonitrile,,8.9,MeCN_Acids_COSMO-RS_2008_Table.pdf
+222,Picric acid,skip,MeCN,,11.0,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+223,C(CN)2=C(CN)OH,skip,MeCN,,4.69,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+224,(2-C10F7)2CHCN,skip,MeCN,,19.32,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+225,(C6F5)2CHCN,skip,MeCN,,21.1,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+226,9-C6F5-Octafluorofluorene,skip,MeCN,,18.88,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+227,(4-CF3-C6F4)(C6F5)CHCN,skip,MeCN,,18.14,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+228,(C6H5)(C6F5)CHCN,skip,MeCN,,26.14,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+229,Saccharin,skip,MeCN,,14.57,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+230,"2,4-(NO2)2-Phenol",skip,MeCN,,16.66,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+231,HCl,skip,MeCN,,10.3,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+232,HBr,skip,MeCN,,5.5,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+233,HI,skip,MeCN,,2.8,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+234,HClO4,skip,MeCN,,1.83,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+235,TfOH,skip,MeCN,,2.6,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+236,Acetic acid,skip,MeCN,,23.51,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+237,Benzoic acid,skip,MeCN,,21.51,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+238,Aniline-H+,skip,MeCN,,10.62,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+239,Pyridine-H+,skip,MeCN,,12.53,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+240,DBU-H+,skip,MeCN,,24.34,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+241,TBD-H+,skip,MeCN,,26.03,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+242,t-BuP1(dma)3-H+,skip,MeCN,,26.98,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+243,t-BuP1(pyrr)3-H+,skip,MeCN,,28.42,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+244,Et3N-H+,skip,MeCN,,18.63,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+245,TMG-H+,skip,MeCN,,23.3,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+246,Picric acid,skip,DCE,,44.6,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+247,C(CN)2=C(CN)OH,skip,DCE,,35.9,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+248,(2-C10F7)2CHCN,skip,DCE,,53.0,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+249,(C6F5)2CHCN,skip,DCE,,55.7,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+250,9-C6F5-Octafluorofluorene,skip,DCE,,53.8,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+251,(4-CF3-C6F4)(C6F5)CHCN,skip,DCE,,52.3,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+252,HCl,skip,DCE,,45.2,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+253,HBr,skip,DCE,,40.6,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+254,HI,skip,DCE,,37.7,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+255,HClO4,skip,DCE,,32.2,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+256,TfOH,skip,DCE,,33.7,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+257,Picric acid,skip,DMSO,,-1.0,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+258,(C6F5)2CHCN,skip,DMSO,,8.0,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+259,(4-CF3-C6F4)(C6F5)CHCN,skip,DMSO,,4.9,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+260,(C6H5)(C6F5)CHCN,skip,DMSO,,12.8,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+261,Saccharin,skip,DMSO,,4.0,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+262,"2,4-(NO2)2-Phenol",skip,DMSO,,5.4,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+263,HCl,skip,DMSO,,-2.0,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+264,HBr,skip,DMSO,,-6.8,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+265,HI,skip,DMSO,,-10.9,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+266,HClO4,skip,DMSO,,-14.9,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+267,TfOH,skip,DMSO,,-14.3,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+268,Acetic acid,skip,DMSO,,12.6,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+269,Benzoic acid,skip,DMSO,,11.1,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+270,Aniline-H+,skip,DMSO,,3.59,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+271,Pyridine-H+,skip,DMSO,,3.45,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+272,DBU-H+,skip,DMSO,,13.9,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+273,t-BuP1(dma)3-H+,skip,DMSO,,15.7,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+274,Et3N-H+,skip,DMSO,,9.0,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+275,TMG-H+,skip,DMSO,,13.2,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+276,Picric acid,skip,H2O,,0.3,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+277,Saccharin,skip,H2O,,1.8,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+278,"2,4-(NO2)2-Phenol",skip,H2O,,4.1,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+279,HCl,skip,H2O,,-5.9,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+280,HBr,skip,H2O,,-8.8,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+281,HI,skip,H2O,,-9.5,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+282,HClO4,skip,H2O,,-15.2,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+283,TfOH,skip,H2O,,-14.7,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+284,Acetic acid,skip,H2O,,4.75,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+285,Benzoic acid,skip,H2O,,4.25,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+286,Aniline-H+,skip,H2O,,4.6,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+287,Pyridine-H+,skip,H2O,,5.25,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+288,Et3N-H+,skip,H2O,,10.7,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+289,TMG-H+,skip,H2O,,13.6,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+290,Picric acid,skip,THF,,11.84,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+291,"2,4-(NO2)2-Phenol",skip,THF,,16.94,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+292,HClO4,skip,THF,,7.57,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+293,TfOH,skip,THF,,7.83,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+294,Acetic acid,skip,THF,,22.48,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+295,Benzoic acid,skip,THF,,25.11,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+296,Aniline-H+,skip,THF,,5.2,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+297,Pyridine-H+,skip,THF,,5.5,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+298,DBU-H+,skip,THF,,16.6,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+299,TBD-H+,skip,THF,,19.4,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+300,t-BuP1(dma)3-H+,skip,THF,,18.8,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+301,t-BuP1(pyrr)3-H+,skip,THF,,20.2,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+302,Et3N-H+,skip,THF,,12.5,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+303,TMG-H+,skip,THF,,15.5,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+304,(2-C10F7)2CHCN,skip,Heptane,,-0.68,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+305,(C6F5)2CHCN,skip,Heptane,,1.8,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+306,9-C6F5-Octafluorofluorene,skip,Heptane,,0.0,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+307,(4-CF3-C6F4)(C6F5)CHCN,skip,Heptane,,-1.39,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+308,(C6F5)2CHCN,skip,DME,,6.4,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+309,9-C6F5-Octafluorofluorene,skip,DME,,5.3,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+310,(4-CF3-C6F4)(C6F5)CHCN,skip,DME,,3.9,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+311,(C6H5)(C6F5)CHCN,skip,DME,,11.8,pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf
+312,2-Cl-C7H4P1(pyrr),skip,MeCN,,20.17,pKa_values_of_nitrogen_heterocycles.pdf
+313,"Quino[7,8-h ]quinoline",skip,MeCN,,19.61,pKa_values_of_nitrogen_heterocycles.pdf
+314,"2,5-Cl2-C6H3P1(pyrr)",skip,MeCN,,18.52,pKa_values_of_nitrogen_heterocycles.pdf
+315,4-NO2-C6H4P1(pyrr),skip,MeCN,,18.51,pKa_values_of_nitrogen_heterocycles.pdf
+316,"2,3-(NH2)2-Pyridine",skip,MeCN,,15.24,pKa_values_of_nitrogen_heterocycles.pdf
+317,Imidazole,skip,MeCN,,15.05,pKa_values_of_nitrogen_heterocycles.pdf
+318,"2,4-(NO2)2-C6H3P1(pyrr) ",skip,MeCN,,14.88,pKa_values_of_nitrogen_heterocycles.pdf
+319,"2,6-(NH2)2-Pyridine ",skip,MeCN,,14.77,pKa_values_of_nitrogen_heterocycles.pdf
+320,"2,6-Cl2-4-NO2-C6H2P1(pyrr) ",skip,MeCN,,14.43,pKa_values_of_nitrogen_heterocycles.pdf
+321,"2,6-Cl2-4-NO2-C6H2P1(pyrr) ",skip,MeCN,,14.13,pKa_values_of_nitrogen_heterocycles.pdf
+322,"2,6-NO2-C6H3P1(pyrr)",skip,MeCN,,14.12,pKa_values_of_nitrogen_heterocycles.pdf
+323,Phenanthroline,C1=CC2=C(C3=C(C=CC=N3)C=C2)N=C1,MeCN,,13.68,pKa_values_of_nitrogen_heterocycles.pdf
+324,Benzimidazole,C1=CC=C2C(=C1)NC=N2,MeCN,,13.52,pKa_values_of_nitrogen_heterocycles.pdf
+325,2-CH3-Pyridine,skip,MeCN,,13.32,pKa_values_of_nitrogen_heterocycles.pdf
+326,Isoquinoline,C1=CC=C2C=NC=CC2=C1,MeCN,,12.69,pKa_values_of_nitrogen_heterocycles.pdf
+327,Acridine,C1=CC=C2C(=C1)C=C3C=CC=CC3=N2,MeCN,,12.67,pKa_values_of_nitrogen_heterocycles.pdf
+328,Pyridine,skip,MeCN,,12.53,pKa_values_of_nitrogen_heterocycles.pdf
+329,Thiabendazole,C1=CC=C2C(=C1)NC(=N2)C3=CSC=N3,MeCN,,12.42,pKa_values_of_nitrogen_heterocycles.pdf
+330,"2,2 ÃÅ-Bipyridine",skip,MeCN,,12.26,pKa_values_of_nitrogen_heterocycles.pdf
+331,Carbendazim,COC(=O)NC1=NC2=CC=CC=C2N1,MeCN,,12.24,pKa_values_of_nitrogen_heterocycles.pdf
+332,Quinoline,C1=CC=C2C(=C1)C=CC=N2,MeCN,,11.96,pKa_values_of_nitrogen_heterocycles.pdf
+333,"5,6-Benzoquinoline",C1=CC=C2C(=C1)C=CC3=C2C=CC=N3,MeCN,,11.96,pKa_values_of_nitrogen_heterocycles.pdf
+334,4-CH3O-Aniline,skip,MeCN,,11.86,pKa_values_of_nitrogen_heterocycles.pdf
+335, 2-CH3-Quinoline-8-amine ,skip,MeCN,,11.54,pKa_values_of_nitrogen_heterocycles.pdf
+336,Phthalazine,C1=CC=C2C=NN=CC2=C1,MeCN,,11.55,pKa_values_of_nitrogen_heterocycles.pdf
+337,"N,N-Me2-Aniline",skip,MeCN,,11.43,pKa_values_of_nitrogen_heterocycles.pdf
+338,"2,2 ÃÅ-Biquinoline",skip,MeCN,,11.28,pKa_values_of_nitrogen_heterocycles.pdf
+339,"7,8-Benzoquinoline",C1=CC=C2C(=C1)C=CC3=C2N=CC=C3,MeCN,,10.84,pKa_values_of_nitrogen_heterocycles.pdf
+340,Aniline,skip,MeCN,,10.62,pKa_values_of_nitrogen_heterocycles.pdf
+341,Cinnoline,C1=CC=C2C(=C1)C=CN=N2,MeCN,,10.5,pKa_values_of_nitrogen_heterocycles.pdf
+342,2-CH3-Aniline ,skip,MeCN,,10.5,pKa_values_of_nitrogen_heterocycles.pdf
+343,Pyridazine ,C1=CC=NN=C1,MeCN,,10.07,pKa_values_of_nitrogen_heterocycles.pdf
+344,2-CH3O-Pyridine ,skip,MeCN,,9.93,pKa_values_of_nitrogen_heterocycles.pdf
+345,1-Naphtylamine ,skip,MeCN,,9.77,pKa_values_of_nitrogen_heterocycles.pdf
+346,3-Cl-Pyridine ,skip,MeCN,,9.55,pKa_values_of_nitrogen_heterocycles.pdf
+347,4-Br-Aniline,skip,MeCN,,9.43,pKa_values_of_nitrogen_heterocycles.pdf
+348,Quinazoline,C1=CC=C2C(=C1)C=NC=N2,MeCN,,9.19,pKa_values_of_nitrogen_heterocycles.pdf
+349,Pyrazole,C1=CNN=C1,MeCN,,9.1,pKa_values_of_nitrogen_heterocycles.pdf
+350,Pyrimidine,C1=CN=CN=C1,MeCN,,8.72,pKa_values_of_nitrogen_heterocycles.pdf
+351,"2,4-F2-Aniline",skip,MeCN,,8.39,pKa_values_of_nitrogen_heterocycles.pdf
+352,4-CF3-Aniline,skip,MeCN,,8.03,pKa_values_of_nitrogen_heterocycles.pdf
+353,"1,2,3-Triazole",C1=NNN=C1,MeCN,,7.9,pKa_values_of_nitrogen_heterocycles.pdf
+354,2-Cl-Aniline,skip,MeCN,,7.86,pKa_values_of_nitrogen_heterocycles.pdf
+355,Pyrazine,C1=CN=CC=N1,MeCN,,7.74,pKa_values_of_nitrogen_heterocycles.pdf
+356,4-F-3-NO2-Aniline,skip,MeCN,,7.67,pKa_values_of_nitrogen_heterocycles.pdf
+357,"2,6-(CH3O)2-Pyridine",skip,MeCN,,7.64,pKa_values_of_nitrogen_heterocycles.pdf
+358,Indazole,C1=CC=C2C(=C1)C=NN2,MeCN,,7.61,pKa_values_of_nitrogen_heterocycles.pdf
+359,Caffeine,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,MeCN,,7.51,pKa_values_of_nitrogen_heterocycles.pdf
+360,Quinoxaline,C1=CC=C2C(=C1)N=CC=N2,MeCN,,7.4,pKa_values_of_nitrogen_heterocycles.pdf
+361,Benzotriazole,C1=CC2=NNN=C2C=C1,MeCN,,6.88,pKa_values_of_nitrogen_heterocycles.pdf
+362,2-Cl-Pyridine,skip,MeCN,,6.79,pKa_values_of_nitrogen_heterocycles.pdf
+363,"N,N-Ph2-N-CH3-Amine",skip,MeCN,,6.52,pKa_values_of_nitrogen_heterocycles.pdf
+364,4-NO2-Imidazole,skip,MeCN,,6.34,pKa_values_of_nitrogen_heterocycles.pdf
+365,4-NO2-Aniline,skip,MeCN,,6.22,pKa_values_of_nitrogen_heterocycles.pdf
+366," 2,5-Cl2-Aniline ",skip,MeCN,,6.21,pKa_values_of_nitrogen_heterocycles.pdf
+367,2-NO2-Imidazole,skip,MeCN,,5.54,pKa_values_of_nitrogen_heterocycles.pdf
+368," 2,6-Cl2-Aniline ",skip,MeCN,,5.06,pKa_values_of_nitrogen_heterocycles.pdf
+369,5-NO -Indazole  -0.962,skip,MeCN,,4.91,pKa_values_of_nitrogen_heterocycles.pdf
+370,6-NO2-Indazole,skip,MeCN,,4.88,pKa_values_of_nitrogen_heterocycles.pdf
+371,2-NO2-Aniline ,skip,MeCN,,4.8,pKa_values_of_nitrogen_heterocycles.pdf
+372,4-Cl-2-NO2-Aniline ,skip,MeCN,,3.8,pKa_values_of_nitrogen_heterocycles.pdf
+373,2-Cl-4-NO2-Aniline ,skip,MeCN,,3.66,pKa_values_of_nitrogen_heterocycles.pdf
+374,Uracil ,C1=CNC(=O)NC1=O,MeCN,,3.38,pKa_values_of_nitrogen_heterocycles.pdf
+375,Thymine ,CC1=CNC(=O)NC1=O,MeCN,,2.7,pKa_values_of_nitrogen_heterocycles.pdf
+376,"2,3,4,5,6-Cl5-Aniline",skip,MeCN,,2.35,pKa_values_of_nitrogen_heterocycles.pdf
+377,"Quino[7,8-h ]quinoline",skip,H2O,,12.0,pKa_values_of_nitrogen_heterocycles.pdf
+378,Imidazole,C1=CN=CN1,H2O,,6.95,pKa_values_of_nitrogen_heterocycles.pdf
+379,Phenanthroline,C1=CC2=C(C3=C(C=CC=N3)C=C2)N=C1,H2O,,5.12,pKa_values_of_nitrogen_heterocycles.pdf
+380,Benzimidazole,C1=CC=C2C(=C1)NC=N2,H2O,,5.56,pKa_values_of_nitrogen_heterocycles.pdf
+381,Isoquinoline,C1=CC=C2C=NC=CC2=C1,H2O,,5.46,pKa_values_of_nitrogen_heterocycles.pdf
+382,Acridine,C1=CC=C2C(=C1)C=C3C=CC=CC3=N2,H2O,,5.62,pKa_values_of_nitrogen_heterocycles.pdf
+383,Pyridine,C1=CC=NC=C1,H2O,,5.23,pKa_values_of_nitrogen_heterocycles.pdf
+384,Thiabendazole,C1=CC=C2C(=C1)NC(=N2)C3=CSC=N3,H2O,,4.64,pKa_values_of_nitrogen_heterocycles.pdf
+385,"2,2 ÃÅ-Bipyridine",skip,H2O,,4.54,pKa_values_of_nitrogen_heterocycles.pdf
+386,Carbendazim,COC(=O)NC1=NC2=CC=CC=C2N1,H2O,,4.53,pKa_values_of_nitrogen_heterocycles.pdf
+387,Quinoline,C1=CC=C2C(=C1)C=CC=N2,H2O,,4.93,pKa_values_of_nitrogen_heterocycles.pdf
+388,"5,6-Benzoquinoline",C1=CC=C2C(=C1)C=CC3=C2C=CC=N3,H2O,,5.15,pKa_values_of_nitrogen_heterocycles.pdf
+389,Phthalazine,C1=CC=C2C=NN=CC2=C1,H2O,,3.47,pKa_values_of_nitrogen_heterocycles.pdf
+390,"2,2 ÃÅ-Biquinoline",skip,H2O,,3.66,pKa_values_of_nitrogen_heterocycles.pdf
+391,"7,8-Benzoquinoline",C1=CC=C2C(=C1)C=CC3=C2N=CC=C3,H2O,,4.25,pKa_values_of_nitrogen_heterocycles.pdf
+392,Cinnoline,C1=CC=C2C(=C1)C=CN=N2,H2O,,2.29,pKa_values_of_nitrogen_heterocycles.pdf
+393,Pyridazine ,C1=CC=NN=C1,H2O,,2.33,pKa_values_of_nitrogen_heterocycles.pdf
+394,Quinazoline,C1=CC=C2C(=C1)C=NC=N2,H2O,,1.95,pKa_values_of_nitrogen_heterocycles.pdf
+395,Pyrazole,C1=CNN=C1,H2O,,2.48,pKa_values_of_nitrogen_heterocycles.pdf
+396,Pyrimidine,C1=CN=CN=C1,H2O,,1.3,pKa_values_of_nitrogen_heterocycles.pdf
+397,"1,2,3-Triazole",C1=NNN=C1,H2O,,1.17,pKa_values_of_nitrogen_heterocycles.pdf
+398,Pyrazine,C1=CN=CC=N1,H2O,,0.6,pKa_values_of_nitrogen_heterocycles.pdf
+399,Indazole,C1=CC=C2C(=C1)C=NN2,H2O,,1.25,pKa_values_of_nitrogen_heterocycles.pdf
+400,Caffeine,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,H2O,,0.6,pKa_values_of_nitrogen_heterocycles.pdf
+401,Quinoxaline,C1=CC=C2C(=C1)N=CC=N2,H2O,,0.56,pKa_values_of_nitrogen_heterocycles.pdf
+402,Benzotriazole,C1=CC2=NNN=C2C=C1,H2O,,0.42,pKa_values_of_nitrogen_heterocycles.pdf
+403,4-NO2-Imidazole,skip,H2O,,-0.16,pKa_values_of_nitrogen_heterocycles.pdf
+404,2-NO2-Imidazole,skip,H2O,,-0.81,pKa_values_of_nitrogen_heterocycles.pdf
+405,5-NO -Indazole  -0.962,skip,H2O,,-0.96,pKa_values_of_nitrogen_heterocycles.pdf
+406,6-NO2-Indazole,skip,H2O,,-0.97,pKa_values_of_nitrogen_heterocycles.pdf
+407,Uracil ,C1=CNC(=O)NC1=O,H2O,,0.5,pKa_values_of_nitrogen_heterocycles.pdf
+408,Thymine ,CC1=CNC(=O)NC1=O,H2O,,0.0,pKa_values_of_nitrogen_heterocycles.pdf
+409,"2,4,6-Trinitrophenol
+acid)",skip,MeCN,,11.0017,DCE_2011_pKa_Table_MeCN.pdf
+410,4-F-C6H4C(=O)NHTf,skip,MeCN,,10.651,
+411,"2,3,4,5,6-(CF3)5-Phenol",skip,MeCN,,10.4611,
+412,"2,3,4,6-(CF3)4-C6HCH(CN)2",skip,MeCN,,10.4511,
+413,4-Cl-C6H4C(=O)NHTf,skip,MeCN,,10.360999999999999,
+414,HCl,Cl,MeCN,,10.3,
+415,(4-Cl-C6H4SO2)2NH,skip,MeCN,,10.201,
+416,4-CF3-C6F4CH(CN)2,skip,MeCN,,10.191,
+417,"2,3,4,5,6-(CF3)5C6SH",skip,MeCN,,10.105,
+418,4-NO2-C6H4SO2NHTos,skip,MeCN,,10.041,
+419,4-Cl-3-NO2C6H3SO2NHTos,skip,MeCN,,9.711,
+420,4-NO2-C6H4C(=O)NHTf,skip,MeCN,,9.491,
+421,4-NO2-C6H4SO2NH--SO2C6H4-4-Cl,skip,MeCN,,9.171,
+422,C6(CF3)5CH(CN)2,skip,MeCN,,8.865,
+423,4-Cl-3-NO2-C6H3SO2NH--SO2C6H4-4-Cl,skip,MeCN,,8.805,
+424,"p-Toluenesulfonicacid(TosOH, TsOH)",skip,MeCN,,8.515,
+425,(4-NO2-C6H4SO2)2NH,skip,MeCN,,8.1915,
+426,"2,4,6-(SO2OCH2CF2CF2H)3-Phenol",skip,MeCN,,8.175,
+427,"2,4,6-(SO2OCH2CF3)3-Phenol",skip,MeCN,,7.975,
+428,1-Naphtalenesulfonic acid(1-C10H7SO3H),skip,MeCN,,7.8915,
+429,4-Cl-3-NO2-C6H3SO2NH--SO2-C6H4-3-NO2,skip,MeCN,,7.885,
+430,C6H5CH(Tf)2,skip,MeCN,,7.8515,
+431,4-Cl-3-NO2-C6H3SO2NH--SO2C6H4-4-NO2,skip,MeCN,,7.845,
+432,C6F5SO2NHSO2C6H4-4-Cl,skip,MeCN,,7.575,
+433,(4-Cl-3-NO2-C6H3SO2)2NH,skip,MeCN,,7.475,
+434,"4-chloro-benzenesulfonicacid 
+(4-Cl-C6H4-SO3H)",skip,MeCN,,7.215,
+435,C6F5SO2NHSO2C6H4-3-NO2,skip,MeCN,,6.735,
+436,3-nitro-benzenesulfonic acid(3-NO2-C6H4SO3H),skip,MeCN,,6.715,
+437,C6F5SO2NHSO2C6H4-4-NO2,skip,MeCN,,6.605,
+438,4-nitro-benzenesulfonic acid(4-NO2-C6H4SO3H),skip,MeCN,,6.415,
+439,3-NO2-C6H4SO2CH(CN)2,skip,MeCN,,6.225,
+440,C6F5SO2NH--SO2C6H3-3-NO2-4-Cl,skip,MeCN,,6.185,
+441,4-MeO-C6H4C(=NTf)NHTf,skip,MeCN,,6.0915,
+442,4-NO2-C6H4SO2CH(CN)2,skip,MeCN,,6.065,
+443,4-Me-C6H4SO2NHTf,skip,MeCN,,5.8615,
+444,4-Me-C6H4C(=NTf)NHTf,skip,MeCN,,5.8615,
+445,C6H5C(=NTf)NHTf,skip,MeCN,,5.7115,
+446,C6H5SO2NHTf,skip,MeCN,,5.5515,
+447,4-F-C6H4C(=NTf)NHTf,skip,MeCN,,5.3315,
+448,4-Cl-C6H4-C(=NTf)NHTf,skip,MeCN,,5.2415,
+449,HBr,Br,MeCN,,5.5,
+450,"2,4,6-(SO2F)3-Phenol",skip,MeCN,,5.2515,
+451,(C6F5SO2)2NH,skip,MeCN,,5.115,
+452,4-Cl-C6H4SO2NHTf,skip,MeCN,,5.0215,
+453,4-Cl-C6H4SO(=NTf)NHTos,skip,MeCN,,4.8115,
+454,4-NO2-C6H4C(=NTf)NHTf,skip,MeCN,,4.6715,
+455,"2,4,6-Tf3-Phenol",skip,MeCN,,4.4815,
+456,(CN2)2C=C(CN)OH,skip,MeCN,,4.39,
+457,4-NO2-C6H4SO2NHTf,skip,MeCN,,4.0815,
+458,4-Cl-C6H4SO(=NTf)NHSO2-C6H4-4-Cl,skip,MeCN,,4.0315,
+459,"2,4-(NO2)2-C6H3SO3H",skip,MeCN,,3.99,
+460,"2,3,5-tricyano-cyclopentadiene",skip,MeCN,,3.6815,
+461,4-Cl-C6H4-SO(=NTf)NH--SO2C6H4-4-NO2,skip,MeCN,,3.3315,
+462,HI,I,MeCN,,2.8,
