@@ -1,0 +1,232 @@
+,name,smiles,cas,iupac,new smiles
+0,Phenol,OC1=CC=CC=C1,108-95-2,phenol,C1=CC=C(C=C1)O
+1,"2,3,4,5,6-(CF3)5-toluene",CC1=C(C(=C(C(=C1C(F)(F)F)C(F)(F)F)C(F)(F)F)C(F)(F)F)C(F)(F)F,1018330-43-2,"1-methyl-2,3,4,5,6-pentakis(trifluoromethyl)benzene",CC1=C(C(=C(C(=C1C(F)(F)F)C(F)(F)F)C(F)(F)F)C(F)(F)F)C(F)(F)F
+2,9-C6F5-fluorene,FC1=C(F)C(=C(C2C3=C(C=CC=C3)C4=C2C=CC=C4)C(=C1F)F)F,73482-93-6 ,"9-(2,3,4,5,6-pentafluorophenyl)-9H-fluorene",C1=CC=C2C(=C1)C(C3=CC=CC=C32)C4=C(C(=C(C(=C4F)F)F)F)F
+3,(4-Me-C6F4)(C6H5)CHCN,CC1=C(F)C(=C(C(C#N)C2=CC=CC=C2)C(=C1F)F)F,58432-62-5,"2-phenyl-2-(2,3,5,6-tetrafluoro-4-methylphenyl)acetonitrile",CC1=C(C(=C(C(=C1F)F)C(C#N)C2=CC=CC=C2)F)F
+4,3-CF3-phenol,OC1=CC(=CC=C1)C(F)(F)F,98-17-9,3-(trifluoromethyl)phenol,C1=CC(=CC(=C1)O)C(F)(F)F
+5,(4-NC5F4)(C6H5)NH,NC1=C(F)C(=C(NC2=C(F)C(=C(F)C(=C2F)F)F)C(=C1F)F)F,39077-43-5,-,no matches
+6,(C6H5)(C6F5)CHCN,FC1=C(F)C(=C(C(C#N)C2=CC=CC=C2)C(=C1F)F)F,42238-33-5,"2-(2,3,4,5,6-pentafluorophenyl)-2-phenylacetonitrile",C1=CC=C(C=C1)C(C#N)C2=C(C(=C(C(=C2F)F)F)F)F
+7,4-CF3-phenol,OC1=CC=C(C=C1)C(F)(F)F,402-45-9,4-(trifluoromethyl)phenol,C1=CC(=CC=C1C(F)(F)F)O
+8,(4-Me2N-C6F4)(C6F5)NH,CN(C)C1=C(F)C(=C(NC2=C(F)C(=C(F)C(=C2F)F)F)C(=C1F)F)F,80588-34-7,-,no matches
+9,(4-Me-C6F4)(C6F5)NH,CC1=C(F)C(=C(NC2=C(F)C(=C(F)C(=C2F)F)F)C(=C1F)F)F,80588-36-9,"2,3,5,6-tetrafluoro-4-methyl-N-(2,3,4,5,6-pentafluorophenyl)aniline",CC1=C(C(=C(C(=C1F)F)NC2=C(C(=C(C(=C2F)F)F)F)F)F)F
+10,2-CF3-phenol,OC1=C(C=CC=C1)C(F)(F)F,444-30-4,2-(trifluoromethyl)phenol,C1=CC=C(C(=C1)C(F)(F)F)O
+11,"2,3,4,5,6-(CF3)5-aniline",FC(F)(F)N(C1=C(C(=C(C=C1)C(F)(F)F)C(F)(F)F)C(F)(F)F)C(F)(F)F,58956-76-6,"N,N,2,3,4-pentakis(trifluoromethyl)aniline",C1=CC(=C(C(=C1C(F)(F)F)C(F)(F)F)C(F)(F)F)N(C(F)(F)F)C(F)(F)F
+12,Oktafluorofluorene,FC1=C(F)C2=C(C(=C1F)F)C3=C(F)C(=C(F)C(=C3C2)F)F,27053-34-5,"1,2,3,4,5,6,7,8-octafluoro-9H-fluorene",C1C2=C(C3=C1C(=C(C(=C3F)F)F)F)C(=C(C(=C2F)F)F)F
+13,Fluoradene,C1=CC=C2C(=C1)C3C4=CC=CC=C4C5=CC=CC2=C35,205-94-7,"pentacyclo[10.6.1.02,7.08,19.013,18]nonadeca-2,4,6,8(19),9,11,13,15,17-nonaene",C1=CC=C2C3=C4C(C2=C1)C5=CC=CC=C5C4=CC=C3
+14,"3,5-(CF3)2-phenol",OC1=CC(=CC(=C1)C(F)(F)F)C(F)(F)F,349-58-6,"3,5-bis(trifluoromethyl)phenol",C1=C(C=C(C=C1C(F)(F)F)O)C(F)(F)F
+15,9-COOMe-fluorene,COC(=O)C1C2=C(C=CC=C2)C3=C1C=CC=C3,3002-30-0,methyl 9H-fluorene-9-carboxylate,COC(=O)C1C2=CC=CC=C2C3=CC=CC=C13
+16,Acetic acid,CC(O)=O,64-19-7,acetic acid,CC(=O)O
+17,(C6F5)CH(COOEt)2,CCOC(=O)C(C(=O)OCC)C1=C(F)C(=C(F)C(=C1F)F)F,1582-05-4,"diethyl 2-(2,3,4,5,6-pentafluorophenyl)propanedioate",CCOC(=O)C(C1=C(C(=C(C(=C1F)F)F)F)F)C(=O)OCC
+18,2-NO2-phenol,OC1=C(C=CC=C1)[N+]([O-])=O,88-75-5,2-nitrophenol,C1=CC=C(C(=C1)[N+](=O)[O-])O
+19,(4-Me-C6F4)2CHCN,CC1=C(F)C(=C(C(C#N)C2=C(F)C(=C(C)C(=C2F)F)F)C(=C1F)F)F,58432-44-3,-,no matches
+20,all-trans retinoic acid,CC1=C(\C=C\C(C)=C\C=C\C(C)=C\C(O)=O)C(C)(C)CCC1,302-79-4 ,"(2E,4E,6E,8E)-3,7-dimethyl-9-(2,6,6-trimethylcyclohexen-1-yl)nona-2,4,6,8-tetraenoic acid",CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC(=O)O)C)C
+21,(F3C)2(F5C6)COH,OC(C1=C(F)C(=C(F)C(=C1F)F)F)(C(F)(F)F)C(F)(F)F,13732-52-0,"1,1,1,3,3,3-hexafluoro-2-(2,3,4,5,6-pentafluorophenyl)propan-2-ol",C1(=C(C(=C(C(=C1F)F)F)F)F)C(C(F)(F)F)(C(F)(F)F)O
+22,C12F15COH,OC1(C2=C(F)C(=C(F)C(=C2F)F)F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C1(F)F,217825-01-9,"2,2,3,3,4,4,5,5,6,6-decafluoro-1-(2,3,4,5,6-pentafluorophenyl)cyclohexan-1-ol",C1(=C(C(=C(C(=C1F)F)F)F)F)C2(C(C(C(C(C2(F)F)(F)F)(F)F)(F)F)(F)F)O
+23,(4-Me-C6F4)(C6F5)CHCN,CC1=C(F)C(=C([C@@H](C#N)C2=C(F)C(=C(F)C(=C2F)F)F)C(=C1F)F)F,52345-34-3,-,no matches
+24,Benzoic acid,OC(=O)C1=CC=CC=C1,65-85-0,benzoic acid,C1=CC=C(C=C1)C(=O)O
+25,9-CN-fluorene,N#CC1C2=C(C=CC=C2)C3=C1C=CC=C3,1529-40-4,9H-fluorene-9-carbonitrile,C1=CC=C2C(=C1)C(C3=CC=CC=C32)C#N
+26,(4-H-C6F4)(C6F5)CHCN,FC1=C(F)C(=C(F)C(=C1)F)C(C#N)C2=C(F)C(=C(F)C(=C2F)F)F,42254-09-1,"2-(2,3,4,5,6-pentafluorophenyl)-2-(2,3,5,6-tetrafluorophenyl)acetonitrile",C1=C(C(=C(C(=C1F)F)C(C#N)C2=C(C(=C(C(=C2F)F)F)F)F)F)F
+27,(C6F5)2CHCN,FC1=C(F)C(=C(C(C#N)C2=C(F)C(=C(F)C(=C2F)F)F)C(=C1F)F)F,42238-34-6,"2,2-bis(2,3,4,5,6-pentafluorophenyl)acetonitrile",C(#N)C(C1=C(C(=C(C(=C1F)F)F)F)F)C2=C(C(=C(C(=C2F)F)F)F)F
+28,(CF3)3COH,OC(C(F)(F)F)(C(F)(F)F)C(F)(F)F,1/2/78,"1,1,1,3,3,3-hexafluoro-2-(trifluoromethyl)propan-2-ol",C(C(F)(F)F)(C(F)(F)F)(C(F)(F)F)O
+29,(4-Cl-C6F4)(C6F5)CHCN,FC1=C(F)C(=C(C(C#N)C2=C(F)C(=C(Cl)C(=C2F)F)F)C(=C1F)F)F,42238-36-8,"2-(4-chloro-2,3,5,6-tetrafluorophenyl)-2-(2,3,4,5,6-pentafluorophenyl)acetonitrile",C(#N)C(C1=C(C(=C(C(=C1F)F)F)F)F)C2=C(C(=C(C(=C2F)F)Cl)F)F
+30,"2,4,6-Br3-phenol",OC1=C(Br)C=C(Br)C=C1Br,118-79-6,"2,4,6-tribromophenol",C1=C(C=C(C(=C1Br)O)Br)Br
+31,"(2,4,6-Cl3-C6F2)(C6F5)CHCN",FC1=C(F)C(=C(C(C#N)C2=C(Cl)C(=C(Cl)C(=C2Cl)F)F)C(=C1F)F)F,64934-69-6,"2-(2,3,4,5,6-pentafluorophenyl)-2-(2,4,6-trichloro-3,5-difluorophenyl)acetonitrile",C(#N)C(C1=C(C(=C(C(=C1F)F)F)F)F)C2=C(C(=C(C(=C2Cl)F)Cl)F)Cl
+32,"2,3,5,6-F4-phenol",OC1=C(F)C(=CC(=C1F)F)F,769-39-1,"2,3,5,6-tetrafluorophenol",C1=C(C(=C(C(=C1F)F)O)F)F
+33,"2,3,4,5,6-F5-phenol",OC1=C(F)C(=C(F)C(=C1F)F)F,771-61-9,"2,3,4,5,6-pentafluorophenol",C1(=C(C(=C(C(=C1F)F)F)F)F)O
+34,(2-C10F7)(C6F5)CHCN,FC1=C(F)C(=C(C(C#N)C2=C(F)C3=C(F)C(=C(F)C(=C3C(=C2F)F)F)F)C(=C1F)F)F,64934-68-5,"2-(1,3,4,5,6,7,8-heptafluoronaphthalen-2-yl)-2-(2,3,4,5,6-pentafluorophenyl)acetonitrile",C(#N)C(C1=C(C2=C(C(=C1F)F)C(=C(C(=C2F)F)F)F)F)C3=C(C(=C(C(=C3F)F)F)F)F
+35,1-perfluoronaphtol,OC1=C2C(=C(F)C(=C(F)C2=C(F)C(=C1F)F)F)F,5386-30-1,"2,3,4,5,6,7,8-heptafluoronaphthalen-1-ol",C12=C(C(=C(C(=C1O)F)F)F)C(=C(C(=C2F)F)F)F
+36,"2,4,6-(SO2F)3-aniline",NC1=C(C=C(C=C1[S](F)(=O)=O)[S](F)(=O)=O)[S](F)(=O)=O,133213-11-3,-,no matches
+37,(2-C10F7)2CHCN,FC1=C(F)C2=C(F)C(=C(C(C#N)C3=C(F)C4=C(F)C(=C(F)C(=C4C(=C3F)F)F)F)C(=C2C(=C1F)F)F)F,62325-38-6,-,no matches
+38,9-C6F5-octafluorofluorene,FC1=C(F)C(=C(C2C3=C(C(=C(F)C(=C3F)F)F)C4=C2C(=C(F)C(=C4F)F)F)C(=C1F)F)F,63264-80-2,"1,2,3,4,5,6,7,8-octafluoro-9-(2,3,4,5,6-pentafluorophenyl)-9H-fluorene",C1(C2=C(C3=C1C(=C(C(=C3F)F)F)F)C(=C(C(=C2F)F)F)F)C4=C(C(=C(C(=C4F)F)F)F)F
+39,2-Perfluoronaphthol,OC1=C(F)C2=C(F)C(=C(F)C(=C2C(=C1F)F)F)F,727-49-1,"1,3,4,5,6,7,8-heptafluoronaphthalen-2-ol",C12=C(C(=C(C(=C1F)O)F)F)C(=C(C(=C2F)F)F)F
+40,C10F15COH,OC12C(F)(F)C3(F)C(F)(F)C(F)(C1(F)F)C(F)(F)C(F)(C2(F)F)C3(F)F,160823-57-4,"2,2,3,4,4,5,6,6,7,8,8,9,9,10,10-pentadecafluoroadamantan-1-ol",C12(C(C3(C(C(C1(F)F)(C(C(C2(F)F)(C3(F)F)F)(F)F)F)(F)F)F)(F)F)O
+41,(4-CF3-C6F4)(C6F5)CHCN,FC1=C(F)C(=C(C(C#N)C2=CC=C(C=C2)C(F)(F)F)C(=C1F)F)F,42238-35-7,-,no matches
+42,"4-C6F5-2,3,5,6-F4-phenol",OC1=C(F)C(=C(C(=C1F)F)C2=C(F)C(=C(F)C(=C2F)F)F)F,2894-87-3,"2,3,5,6-tetrafluoro-4-(2,3,4,5,6-pentafluorophenyl)phenol",C1(=C(C(=C(C(=C1F)F)O)F)F)C2=C(C(=C(C(=C2F)F)F)F)F
+43,(4-H-C6F4)CH(CN)COOEt,CCOC(=O)C(C#N)C1=C(F)C(=CC(=C1F)F)F,55852-22-7,"ethyl 2-cyano-2-(2,3,5,6-tetrafluorophenyl)acetate",CCOC(=O)C(C#N)C1=C(C(=CC(=C1F)F)F)F
+44,"2,3,4,5,6-Cl5-phenol",OC1=C(Cl)C(=C(Cl)C(=C1Cl)Cl)Cl,87-86-5,"2,3,4,5,6-pentachlorophenol",C1(=C(C(=C(C(=C1Cl)Cl)Cl)Cl)Cl)O
+45,"2,3,4,5,6-Br5-phenol",OC1=C(Br)C(=C(Br)C(=C1Br)Br)Br,608-71-9,"2,3,4,5,6-pentabromophenol",C1(=C(C(=C(C(=C1Br)Br)Br)Br)Br)O
+46,(C6F5)CH(CN)COOEt,CCOC(=O)C(C#N)C1=C(F)C(=C(F)C(=C1F)F)F,2340-87-6,"ethyl 2-cyano-2-(2,3,4,5,6-pentafluorophenyl)acetate",CCOC(=O)C(C#N)C1=C(C(=C(C(=C1F)F)F)F)F
+47,4-Me-C6H4CH(CN)2,CC1=CC=C(C=C1)C(C#N)C#N,33534-88-2,2-(4-methylphenyl)propanedinitrile,CC1=CC=C(C=C1)C(C#N)C#N
+48,(2-C10F7)CH(CN)COOEt,CCOC(=O)C(C#N)C1=C(F)C2=C(F)C(=C(F)C(=C2C(=C1F)F)F)F,62325-34-2,"ethyl 2-cyano-2-(1,3,4,5,6,7,8-heptafluoronaphthalen-2-yl)acetate",CCOC(=O)C(C#N)C1=C(C2=C(C(=C1F)F)C(=C(C(=C2F)F)F)F)F
+49,(4-Cl-C6F4)CH(CN)COOEt,CCOC(=O)C(C#N)C1=C(F)C(=C(Cl)C(=C1F)F)F,55810-56-5,"ethyl 2-(4-chloro-2,3,5,6-tetrafluorophenyl)-2-cyanoacetate",CCOC(=O)C(C#N)C1=C(C(=C(C(=C1F)F)Cl)F)F
+50,"2,4-(NO2)2-phenol",OC1=C(C=C(C=C1)[N+]([O-])=O)[N+]([O-])=O,51-28-5,"2,4-dinitrophenol",C1=CC(=C(C=C1[N+](=O)[O-])[N+](=O)[O-])O
+51,"4-CF3-2,3,5,6-F4-phenol",OC1=C(F)C(=C(C(=C1F)F)C(F)(F)F)F,2787-79-3,"2,3,5,6-tetrafluoro-4-(trifluoromethyl)phenol",C1(=C(C(=C(C(=C1F)F)O)F)F)C(F)(F)F
+52,(4-NC5F4)(C6F5)CHCN,FC1=NC(=C(F)C(=C1F)C(C#N)C2=C(F)C(=C(F)C(=C2F)F)F)F,62325-51-3,"2-(2,3,4,5,6-pentafluorophenyl)-2-(2,3,5,6-tetrafluoropyridin-4-yl)acetonitrile",C(#N)C(C1=C(C(=C(C(=C1F)F)F)F)F)C2=C(C(=NC(=C2F)F)F)F
+53,(4-CF3-C6F4)2CHCN,FC1=C(F)C(=C(F)C(=C1C(C#N)C2=C(F)C(=C(C(=C2F)F)C(F)(F)F)F)F)C(F)(F)F,58432-55-6,"2,2-bis[2,3,5,6-tetrafluoro-4-(trifluoromethyl)phenyl]acetonitrile",C(#N)C(C1=C(C(=C(C(=C1F)F)C(F)(F)F)F)F)C2=C(C(=C(C(=C2F)F)C(F)(F)F)F)F
+54,(4-CF3-C6F4)CH(CN)COOEt,CCOC(=O)C(C#N)C1=C(F)C(=C(C(=C1F)F)C(F)(F)F)F,32251-53-9,"ethyl 2-cyano-2-[2,3,5,6-tetrafluoro-4-(trifluoromethyl)phenyl]acetate",CCOC(=O)C(C#N)C1=C(C(=C(C(=C1F)F)C(F)(F)F)F)F
+55,(4-NC5F4)(2-C10F7)CHCN,FC1=C(F)C(=C(F)C(=N1)F)C(C#N)C2=C(F)C3=C(F)C(=C(F)C(=C3C(=C2F)F)F)F,62325-37-5,"2-(1,3,4,5,6,7,8-heptafluoronaphthalen-2-yl)-2-(2,3,5,6-tetrafluoropyridin-4-yl)acetonitrile",C(#N)C(C1=C(C2=C(C(=C1F)F)C(=C(C(=C2F)F)F)F)F)C3=C(C(=NC(=C3F)F)F)F
+56,4-NC5F4-OH,OC1=C(F)C(=NC(=C1F)F)F,2693-66-5,"2,3,5,6-tetrafluoro-1H-pyridin-4-one",C1(=C(NC(=C(C1=O)F)F)F)F
+57,(4-NC5F4)CH(CN)COOEt,CCOC(=O)C(C#N)C1=C(F)C(=NC(=C1F)F)F,55810-61-2,"ethyl 2-cyano-2-(2,3,5,6-tetrafluoropyridin-4-yl)acetate",CCOC(=O)C(C#N)C1=C(C(=NC(=C1F)F)F)F
+58,3-CF3-C6H4CH(CN)2,FC(F)(F)C1=CC(=CC=C1)C(C#N)C#N,99726-60-0,2-[3-(trifluoromethyl)phenyl]propanedinitrile,C1=CC(=CC(=C1)C(F)(F)F)C(C#N)C#N
+59,Saccharin,O=C1N[S](=O)(=O)C2=C1C=CC=C2,81-07-2,"1,1-dioxo-1,2-benzothiazol-3-one",C1=CC=C2C(=C1)C(=O)NS2(=O)=O
+60,Substance1,O[P]1(=O)OC2=C(C3=C(CCCC3)C=C2C4C=C5C=CC=CC5=C6C=CC=CC46)C7=C(O1)C(=CC8=C7CCCC8)C9=C%10C=CC=CC%10=C%11C=CC=CC%11=C9,934201-93-1,-,no matches
+61,Substance2,O[P]1(=O)OC2=C3C=C(C=C2C4=CC(=CC(=C4)C5=CC=CC=C5)C6CC=CC=C6)[C]78=C9C%10=C%11[C-]7[Fe++]89%10%11%12%13%14%15[C-]%16C%12=C%13C%14=[C]%15%16C%17=CC3=C(O1)C(=C%17)C%18=CC(=CC(=C%18)C%19=CC=CC=C%19)C%20=CC=CC=C%20,1609325-04-3,-,no matches
+62,4-Me-C6F4CH(CN)2,CC1=C(F)C(=C(C(C#N)C#N)C(=C1F)F)F,64934-71-0,"2-(2,3,5,6-tetrafluoro-4-methylphenyl)propanedinitrile",CC1=C(C(=C(C(=C1F)F)C(C#N)C#N)F)F
+63,Substance3,CC(C)C1=CC(=C(C(=C1)C(C)C)C2=CC3=CC=CC=C3C4=C2O[P](O)(=O)OC5=C4C6=CC=CC=C6C=C5C7=C(C=C(C=C7C(C)C)C(C)C)C(C)C)C(C)C,791616-63-2,"13-hydroxy-10,16-bis[2,4,6-tri(propan-2-yl)phenyl]-12,14-dioxa-13λ5-phosphapentacyclo[13.8.0.02,11.03,8.018,23]tricosa-1(15),2(11),3,5,7,9,16,18,20,22-decaene 13-oxide",CC(C)C1=CC(=C(C(=C1)C(C)C)C2=CC3=CC=CC=C3C4=C2OP(=O)(OC5=C4C6=CC=CC=C6C=C5C7=C(C=C(C=C7C(C)C)C(C)C)C(C)C)O)C(C)C
+64,(4-NC5F4)2CHCN,FC1=C(F)C(=C(F)C(=N1)F)C(C#N)C#N,64934-72-1,-,no matches
+65,Substance4,O[P]1(=O)OC2=C3C=C(C=C2C4=CC(=CC(=C4)C5=CC=CC=C5)C6CC=CC=C6)C7=CC=CC8=C9C=CC=C(C%10=CC3=C(O1)C(=C%10)C%11=CC(=CC(=C%11)C%12=CC=CC=C%12)C%13=CC=CC=C%13)C9=C78,1630950-45-6,-,no matches
+66,Substance5,O[P]1(=O)OC2=C(C3=CC=CC=C3C=C2C4=CC5=CC=CC=C5C6=CC=CC=C46)C7=C(O1)C(=CC8=CC=CC=C78)C9=CC%10=CC=CC=C%10C%11=CC=CC=C9%11,864943-22-6,-,no matches
+67,C6F5CH(CN)2,FC1=C(F)C(=C(C(C#N)C#N)C(=C1F)F)F,719-38-0,"2-(2,3,4,5,6-pentafluorophenyl)propanedinitrile",C(#N)C(C#N)C1=C(C(=C(C(=C1F)F)F)F)F
+68,4-H-C6F4CH(CN)2,FC1=C(F)C(=C(F)C(=C1)F)C(C#N)C#N,55810-63-4,"2-(2,3,5,6-tetrafluorophenyl)propanedinitrile",C1=C(C(=C(C(=C1F)F)C(C#N)C#N)F)F
+69,Substance6,O[P]1(=O)OC2=C(C3=CC=CC=C3C=C2C4=CC=CC=C4)C5=C(O1)C(=CC6=CC=CC=C56)C7=CC=CC=C7,695162-86-8,"13-hydroxy-10,16-diphenyl-12,14-dioxa-13λ5-phosphapentacyclo[13.8.0.02,11.03,8.018,23]tricosa-1(15),2(11),3,5,7,9,16,18,20,22-decaene 13-oxide",C1=CC=C(C=C1)C2=CC3=CC=CC=C3C4=C2OP(=O)(OC5=C4C6=CC=CC=C6C=C5C7=CC=CC=C7)O
+70,Substance7,O[P]1(=O)OC2=C(C=C3C=CC=CC3=C2C4=C(O1)C(=CC5=CC=CC=C45)C6=CC=C(F)C=C6)C7CC=C(F)C=C7,915038-14-1,-,no matches
+71,Tos2NH,CC1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=O)C2=CC=C(C)C=C2,3695-00-9,4-methyl-N-(4-methylphenyl)sulfonylbenzenesulfonamide,CC1=CC=C(C=C1)S(=O)(=O)NS(=O)(=O)C2=CC=C(C=C2)C
+72,4-NO2-C6H4CH(CN)2,[O-][N+](=O)C1=CC=C(C=C1)C(C#N)C#N,7077-65-8,2-(4-nitrophenyl)propanedinitrile,C1=CC(=CC=C1C(C#N)C#N)[N+](=O)[O-]
+73,4-MeO-C6H4C(=O)NHTf,COC1=CC=C(C=C1)C(=O)N[S](=O)(=O)C(F)(F)F,39063-05-3,4-methoxy-N-(trifluoromethylsulfonyl)benzamide,COC1=CC=C(C=C1)C(=O)NS(=O)(=O)C(F)(F)F
+74,4-Me-C6H4C(=O)NHTf,CC1=CC=C(C=C1)C(=O)N[S](=O)(=O)C(F)(F)F,343337-70-2,4-methyl-N-(trifluoromethylsulfonyl)benzamide,CC1=CC=C(C=C1)C(=O)NS(=O)(=O)C(F)(F)F
+75,(C6H5SO2)2NH,O=[S](=O)(N[S](=O)(=O)C1=CC=CC=C1)C2=CC=CC=C2,2618-96-4,N-(benzenesulfonyl)benzenesulfonamide,C1=CC=C(C=C1)S(=O)(=O)NS(=O)(=O)C2=CC=CC=C2
+76,4-Cl-C6H4SO2NHTos,CC1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=O)C2=CC=C(Cl)C=C2,69173-28-0,N-(4-chlorophenyl)sulfonyl-4-methylbenzenesulfonamide,CC1=CC=C(C=C1)S(=O)(=O)NS(=O)(=O)C2=CC=C(C=C2)Cl
+77,C6H5C(=O)NHTf,FC(F)(F)[S](=O)(=O)NC(=O)C1=CC=CC=C1,39062-91-4,N-(trifluoromethylsulfonyl)benzamide,C1=CC=C(C=C1)C(=O)NS(=O)(=O)C(F)(F)F
+78,Picric acid,OC1=C(C=C(C=C1[N+]([O-])=O)[N+]([O-])=O)[N+]([O-])=O,88-89-1,"2,4,6-trinitrophenol",C1=C(C=C(C(=C1[N+](=O)[O-])O)[N+](=O)[O-])[N+](=O)[O-]
+79,4-F-C6H4C(=O)NHTf,FC1=CC=C(C=C1)C(=O)N[S](=O)(=O)C(F)(F)F,39063-00-8,4-fluoro-N-(trifluoromethylsulfonyl)benzamide,C1=CC(=CC=C1C(=O)NS(=O)(=O)C(F)(F)F)F
+80,"2,3,4,5,6-(CF3)5-phenol",OC1=C(C(=C(C(=C1C(F)(F)F)C(F)(F)F)C(F)(F)F)C(F)(F)F)C(F)(F)F,723294-91-5,"2,3,4,5,6-pentakis(trifluoromethyl)phenol",C1(=C(C(=C(C(=C1C(F)(F)F)C(F)(F)F)O)C(F)(F)F)C(F)(F)F)C(F)(F)F
+81,"2,3,4,6-(CF3)4-C6HCH(CN)2",FC(F)(F)C1=C(C(C#N)C#N)C(=C(C(=C1)C(F)(F)F)C(F)(F)F)C(F)(F)F,1018330-49-8,-,no matches
+82,4-Cl-C6H4C(=O)NHTf,FC(F)(F)[S](=O)(=O)NC(=O)C1=CC=C(Cl)C=C1,39062-99-2,4-chloro-N-(trifluoromethylsulfonyl)benzamide,C1=CC(=CC=C1C(=O)NS(=O)(=O)C(F)(F)F)Cl
+83,HCl,Cl,7647-01-0,chloride,[Cl-]
+84,(4-Cl-C6H4SO2)2NH,ClC1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=O)C2=CC=C(Cl)C=C2,2725-55-5,4-chloro-N-(4-chlorophenyl)sulfonylbenzenesulfonamide,C1=CC(=CC=C1S(=O)(=O)NS(=O)(=O)C2=CC=C(C=C2)Cl)Cl
+85,4-CF3-C6F4CH(CN)2,FC1=C(C(C#N)C#N)C(=C(F)C(=C1F)C(F)(F)F)F,55852-24-9,"2-[2,3,5,6-tetrafluoro-4-(trifluoromethyl)phenyl]propanedinitrile",C(#N)C(C#N)C1=C(C(=C(C(=C1F)F)C(F)(F)F)F)F
+86,"2,3,4,5,6-(CF3)5-thiophenol",FC(F)(F)C1=C(C(=C(C(=C1S)C(F)(F)F)C(F)(F)F)C(F)(F)F)C(F)(F)F,741243-29-8,"2,3,4,5,6-pentakis(trifluoromethyl)benzenethiol",C1(=C(C(=C(C(=C1C(F)(F)F)C(F)(F)F)S)C(F)(F)F)C(F)(F)F)C(F)(F)F
+87,4-NO2-C6H4SO2NHTos,CC1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=O)C2=CC=C(C=C2)[N+]([O-])=O,100724-78-5,4-methyl-N-(4-nitrophenyl)sulfonylbenzenesulfonamide,CC1=CC=C(C=C1)S(=O)(=O)NS(=O)(=O)C2=CC=C(C=C2)[N+](=O)[O-]
+88,4-Cl-3-NO2-C6H3SO2NHTos,CC1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=O)C2=CC(=C(Cl)C=C2)[N+]([O-])=O,215395-06-5,4-chloro-N-(4-methylphenyl)sulfonyl-3-nitrobenzenesulfonamide,CC1=CC=C(C=C1)S(=O)(=O)NS(=O)(=O)C2=CC(=C(C=C2)Cl)[N+](=O)[O-]
+89,4-NO2-C6H4C(=O)NHTf,[O-][N+](=O)C1=CC=C(C=C1)C(=O)N[S](=O)(=O)C(F)(F)F,39062-98-1,4-nitro-N-(trifluoromethylsulfonyl)benzamide,C1=CC(=CC=C1C(=O)NS(=O)(=O)C(F)(F)F)[N+](=O)[O-]
+90,4-NO2-C6H4SO2NHSO2C6H4-4-Cl,[O-][N+](=O)C1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=O)C2=CC=C(Cl)C=C2,95468-16-9,N-(4-chlorophenyl)sulfonyl-4-nitrobenzenesulfonamide,C1=CC(=CC=C1[N+](=O)[O-])S(=O)(=O)NS(=O)(=O)C2=CC=C(C=C2)Cl
+91,C6(CF3)5CH(CN)2,FC(F)(F)C1=C(C(=C(C(=C1C(C#N)C#N)C(F)(F)F)C(F)(F)F)C(F)(F)F)C(F)(F)F,1018330-44-3,"2-[2,3,4,5,6-pentakis(trifluoromethyl)phenyl]propanedinitrile",C(#N)C(C#N)C1=C(C(=C(C(=C1C(F)(F)F)C(F)(F)F)C(F)(F)F)C(F)(F)F)C(F)(F)F
+92,4-Cl-3-NO2-C6H3SO2NHSO2C6H4-4-Cl,[O-][N+](=O)C1=C(Cl)C=CC(=C1)[S](=O)(=O)N[S](=O)(=O)C2=CC=C(Cl)C=C2,1171188-83-2,-,no matches
+93,TosOH,CC1=CC=C(C=C1)[S](O)(=O)=O,104-15-4,4-methylbenzenesulfonic acid,CC1=CC=C(C=C1)S(=O)(=O)O
+94,(4-NO2-C6H4SO2)2NH,[O-][N+](=O)C1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=O)C2=CC=C(C=C2)[N+]([O-])=O,7/6/09,4-nitro-N-(4-nitrophenyl)sulfonylbenzenesulfonamide,C1=CC(=CC=C1[N+](=O)[O-])S(=O)(=O)NS(=O)(=O)C2=CC=C(C=C2)[N+](=O)[O-]
+95,"2,4,6-(SO2OCH2CF2CF2H)3-phenol",OC1=C(C=C(C=C1[S](=O)(=O)OCC(F)(F)CF)[S](=O)(=O)OCC(F)(F)CF)[S](=O)(=O)OCC(F)(F)CF,1263293-54-4,-,no matches
+96,(3-NO2-C6H4SO2)2NH,[O-][N+](=O)C1=CC(=CC=C1)[S](=O)(=O)N[S](=O)(=O)C2=CC(=CC=C2)[N+]([O-])=O,116082-80-5,3-nitro-N-(3-nitrophenyl)sulfonylbenzenesulfonamide,C1=CC(=CC(=C1)S(=O)(=O)NS(=O)(=O)C2=CC=CC(=C2)[N+](=O)[O-])[N+](=O)[O-]
+97,"2,4,6-(SO2OCH2CF3)3-Phenol",OC1=C(C=C(C=C1[S](=O)(=O)OCC(F)(F)F)[S](=O)(=O)OCC(F)(F)F)[S](=O)(=O)OCC(F)(F)F,1263293-53-3,-,no matches
+98,1-C10H7SO3H,O[S](=O)(=O)C1=C2C=CC=CC2=CC=C1,85-47-2,naphthalene-1-sulfonic acid,C1=CC=C2C(=C1)C=CC=C2S(=O)(=O)O
+99,4-Cl-3-NO2-C6H3SO2NHSO2C6H4-3-NO2,[O-][N+](=O)C1=CC(=CC=C1)[S](=O)(=O)N[S](=O)(=O)C2=CC(=C(Cl)C=C2)[N+]([O-])=O,34350-21-5,-,no matches
+100,C6H5CHTf2,FC(F)(F)[S](=O)(=O)C(C1=CC=CC=C1)[S](=O)(=O)C(F)(F)F,40906-82-9,bis(trifluoromethylsulfonyl)methylbenzene,C1=CC=C(C=C1)C(S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F
+101,4-Cl-3-NO2-C6H3SO2NHSO2C6H4-4-NO2,[O-][N+](=O)C1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=O)C2=CC(=C(Cl)C=C2)[N+]([O-])=O,2226486-82-2,-,no matches
+102,C6F5SO2NHSO2C6H4-4-Cl,FC1=C(F)C(=C(C(=C1F)F)[S](=O)(=O)N[S](=O)(=O)C2=CC=C(Cl)C=C2)F,1171188-85-4,-,no matches
+103,4-Cl-C6H4SO3H,O[S](=O)(=O)C1=CC=C(Cl)C=C1,98-66-8,4-chlorobenzenesulfonic acid,C1=CC(=CC=C1S(=O)(=O)O)Cl
+104,Substance8,FC(F)(F)[S](=O)(=O)N[P]1(=O)OC2=C3C=C(C=C2C4=CC(=CC(=C4)C5=CC=CC=C5)C6CC=CC=C6)[C]78=C9C%10=C%11[C-]7[Fe++]89%10%11%12%13%14%15[C-]%16C%12=C%13C%14=[C]%15%16C%17=CC3=C(O1)C(=C%17)C%18=CC(=CC(=C%18)C%19=CC=CC=C%19)C%20=CC=CC=C%20,1630924-73-0,-,no matches
+105,Substance9,COC1=CC=C(C=C1)C2=CC3CCCCC3C4=C2O[P](=O)(N[S](=O)(=O)C(F)(F)F)OC5=C(C=C6CCCCC6=C45)C7=CC=C(OC)C=C7,1071853-99-0,"N-[10,16-bis(4-methoxyphenyl)-13-oxo-12,14-dioxa-13λ5-phosphapentacyclo[13.8.0.02,11.03,8.018,23]tricosa-1(15),2,8,10,16-pentaen-13-yl]-1,1,1-trifluoromethanesulfonamide",COC1=CC=C(C=C1)C2=CC3CCCCC3C4=C2OP(=O)(OC5=C(C=C6CCCCC6=C45)C7=CC=C(C=C7)OC)NS(=O)(=O)C(F)(F)F
+106,Substance10,FC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)[S](=O)(=O)N[P]1(=O)OC2=C(C3=C(CCCC3)C=C2C4CC=CC=C4)C5=C(O1)C(=CC6=C5CCCC6)C7=CC=CC=C7,1261302-68-4,-,no matches
+107,C6F5SO2NHSO2C6H4-3-NO2,[O-][N+](=O)C1=CC(=CC=C1)[S](=O)(=O)N[S](=O)(=O)C2=C(F)C(=C(F)C(=C2F)F)F,1171188-92-3,-,no matches
+108,Substance11,FC(F)(F)[S](=O)(=O)N[P]1(=O)OC2=C(C3=C(CCCC3)C=C2C4CC=CC=C4)C5=C(O1)C(=CC6=C5CCCC6)C7=CC=CC=C7,1261302-62-8,-,no matches
+109,Substance12,FC(F)(F)C(F)(F)C(F)(F)C(F)(F)[S](=O)(=O)N[P]1(=O)OC2=C(C3=C(CCCC3)C=C2C4CC=CC=C4)C5=C(O1)C(=CC6=C5CCCC6)C7=CC=CC=C7,1261302-67-3,-,no matches
+110,3-NO2-C6H4SO3H,O[S](=O)(=O)C1=CC(=CC=C1)[N+]([O-])=O,98-47-5,3-nitrobenzenesulfonic acid,C1=CC(=CC(=C1)S(=O)(=O)O)[N+](=O)[O-]
+111,C6F5SO2NHSO2C6H4-4-NO2,[O-][N+](=O)C1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=O)C2=C(F)C(=C(F)C(=C2F)F)F,1171188-93-4,-,no matches
+112,Substance13,FC(F)(F)[S](=O)(=O)N[P]1(=O)OC2=C3C=C(C=C2C4=CC(=CC(=C4)C5=CC=CC=C5)C6CC=CC=C6)C7=CC=CC8=C9C=CC=C(C%10=CC3=C(O1)C(=C%10)C%11=CC(=CC(=C%11)C%12=CC=CC=C%12)C%13=CC=CC=C%13)C9=C78,1630950-49-0,-,no matches
+113,Substance14,FC(F)(F)[S](=O)(=O)N[P]1(=O)OC2=C(C=C3C=CC=CC3=C2C4=C(O1)C(=CC5=CC=CC=C45)C6=CC=CC=C6)C7CC=CC=C7,1010799-98-0,-,no matches
+114,Substance15,COC1=CC=C(C=C1)C2=CC3=C(C=CC=C3)C4=C2O[P](=O)(N[S](=O)(=O)C(F)(F)F)OC5=C4C6=CC=CC=C6C=C5C7=CC=C(OC)C=C7,1486486-92-3,-,no matches
+115,4-NO2-C6H4SO3H,O[S](=O)(=O)C1=CC=C(C=C1)[N+]([O-])=O,138-42-1,4-nitrobenzenesulfonic acid,C1=CC(=CC=C1[N+](=O)[O-])S(=O)(=O)O
+116,Substance16,FC1=CC=C(C=C1)C2=CC3CCCCC3C4=C2O[P](=O)(N[S](=O)(=O)C(F)(F)F)OC5=C(C=C6CCCCC6=C45)C7=CC=C(F)C=C7,1431711-91-9,-,no matches
+117,3-NO2-C6H4SO2CH(CN)2,[O-][N+](=O)C1=CC(=CC=C1)[S](=O)(=O)C(C#N)C#N,46764-49-2,-,no matches
+118,C6F5SO2NHSO2C6H3-4-Cl-3-NO2,[O-][N+](=O)C1=C(Cl)C=CC(=C1)[S](=O)(=O)N[S](=O)(=O)C2=C(F)C(=C(F)C(=C2F)F)F,1171188-96-7,-,no matches
+119,4-MeO-C6H4C(=NTf)NHTf,COC1=CC=C(C=C1)C(N[S](=O)(=O)C(F)(F)F)=N[S](=O)(=O)C(F)(F)F,500721-87-9,-,no matches
+120,4-NO2-C6H4SO2CH(CN)2,[O-][N+](=O)C1=CC=C(C=C1)[S](=O)(=O)C(C#N)C#N,1207878-53-2,-,no matches
+121,4-Me-C6H4C(=NTf)NHTf,CC1=CC=C(C=C1)C(N[S](=O)(=O)C(F)(F)F)=N[S](=O)(=O)C(F)(F)F,500721-89-1,-,no matches
+122,TosNHTf,CC1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=O)C(F)(F)F,215395-07-6,4-methyl-N-(trifluoromethylsulfonyl)benzenesulfonamide,CC1=CC=C(C=C1)S(=O)(=O)NS(=O)(=O)C(F)(F)F
+123,C6H5C(=NTf)NHTf,FC(F)(F)[S](=O)(=O)NC(=N[S](=O)(=O)C(F)(F)F)C1=CC=CC=C1,500721-91-5,-,no matches
+124,C6H5SO2NHTf,FC(F)(F)[S](=O)(=O)N[S](=O)(=O)C1=CC=CC=C1,174788-87-5,N-(trifluoromethylsulfonyl)benzenesulfonamide,C1=CC=C(C=C1)S(=O)(=O)NS(=O)(=O)C(F)(F)F
+125,HBr,Br,10035-10-6,bromide,[Br-]
+126,4-F-C6H4C(=NTf)NHTf,FC1=CC=C(C=C1)C(N[S](=O)(=O)C(F)(F)F)=N[S](=O)(=O)C(F)(F)F,500721-93-7,-,no matches
+127,"2,4,6-SO2F-phenol",OC1=C(C=C(C=C1[S](F)(=O)=O)[S](F)(=O)=O)[S](F)(=O)=O,882492-01-5,"2-hydroxybenzene-1,3,5-trisulfonyl fluoride",C1=C(C=C(C(=C1S(=O)(=O)F)O)S(=O)(=O)F)S(=O)(=O)F
+128,4-Cl-C6H4C(=NTf)NHTf,FC(F)(F)[S](=O)(=O)NC(=N[S](=O)(=O)C(F)(F)F)C1=CC=C(Cl)C=C1,500721-95-9,-,no matches
+129,Substance17,FC(F)(F)C1=CC(=CC(=C1)C2=C3O[S](=O)(=O)N[S](=O)(=O)OC4=C(C=C5C=CC=CC5=C4C3=C6C=CC=CC6=C2)C7=CC(=CC(=C7)C(F)(F)F)C(F)(F)F)C(F)(F)F,1486486-93-4,"10,18-bis[3,5-bis(trifluoromethyl)phenyl]-12,16-dioxa-13λ6,15λ6-dithia-14-azapentacyclo[15.8.0.02,11.03,8.020,25]pentacosa-1(17),2(11),3,5,7,9,18,20,22,24-decaene 13,13,15,15-tetraoxide",C1=CC=C2C(=C1)C=C(C3=C2C4=C(C(=CC5=CC=CC=C54)C6=CC(=CC(=C6)C(F)(F)F)C(F)(F)F)OS(=O)(=O)NS(=O)(=O)O3)C7=CC(=CC(=C7)C(F)(F)F)C(F)(F)F
+130,(C6F5SO2)2NH,FC1=C(F)C(=C(C(=C1F)F)[S](=O)(=O)N[S](=O)(=O)C2=C(F)C(=C(F)C(=C2F)F)F)F,1535-93-9,"2,3,4,5,6-pentafluoro-N-(2,3,4,5,6-pentafluorophenyl)sulfonylbenzenesulfonamide",C1(=C(C(=C(C(=C1F)F)S(=O)(=O)NS(=O)(=O)C2=C(C(=C(C(=C2F)F)F)F)F)F)F)F
+131,4-Cl-C6H4SO2NHTf,FC(F)(F)[S](=O)(=O)N[S](=O)(=O)C1=CC=C(Cl)C=C1,174788-89-7,4-chloro-N-(trifluoromethylsulfonyl)benzenesulfonamide,C1=CC(=CC=C1S(=O)(=O)NS(=O)(=O)C(F)(F)F)Cl
+132,4-Cl-C6H4SO(=NTf)NHTos,CC1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=N[S](=O)(=O)C(F)(F)F)C2=CC=C(Cl)C=C2,174788-93-3,-,no matches
+133,4-NO2-C6H4C(=NTf)NHTf,[O-][N+](=O)C1=CC=C(C=C1)C(N[S](=O)(=O)C(F)(F)F)=N[S](=O)(=O)C(F)(F)F,500721-97-1 ,"4-nitro-N,N'-bis(trifluoromethylsulfonyl)benzenecarboximidamide",C1=CC(=CC=C1C(=NS(=O)(=O)C(F)(F)F)NS(=O)(=O)C(F)(F)F)[N+](=O)[O-]
+134,"2,4,6-SO2CF3-phenol",OC1=C(C=C(C=C1[S](=O)(=O)C(F)(F)F)[S](=O)(=O)C(F)(F)F)[S](=O)(=O)C(F)(F)F,71571-37-4,"2,4,6-tris(trifluoromethylsulfonyl)phenol",C1=C(C=C(C(=C1S(=O)(=O)C(F)(F)F)O)S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F
+135,(CN2)2C=C(CN)OH,OC(C#N)=C(C#N)C#N,27062-39-1,"2-hydroxyethene-1,1,2-tricarbonitrile",C(#N)C(=C(C#N)O)C#N
+136,4-NO2-C6H4SO2NHTf,[O-][N+](=O)C1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=O)C(F)(F)F,174788-91-1,4-nitro-N-(trifluoromethylsulfonyl)benzenesulfonamide,C1=CC(=CC=C1[N+](=O)[O-])S(=O)(=O)NS(=O)(=O)C(F)(F)F
+137,4-Cl-C6H4SO(=NTf)NHSO2C6H4-4-Cl,FC(F)(F)[S](=O)(=O)N=[S](=O)(N[S](=O)(=O)C1=CC=C(Cl)C=C1)C2=CC=C(Cl)C=C2,174788-95-5,-,no matches
+138,"2,4-(NO2)2-C6H3SO3H",O[S](=O)(=O)C1=C(C=C(C=C1)[N+]([O-])=O)[N+]([O-])=O,89-02-1,"2,4-dinitrobenzenesulfonic acid",C1=CC(=C(C=C1[N+](=O)[O-])[N+](=O)[O-])S(=O)(=O)O
+139,"2,3,5-Tricyano-1,3-cyclopentadiene",N#CC1C=C(C#N)C(=C1)C#N,215395-09-8,"cyclopenta-2,5-diene-1,2,4-tricarbonitrile",C1=C(C(=CC1C#N)C#N)C#N
+140,4-Cl-C6H4SO(=NTf)NHSO2C6H4-4-NO2,[O-][N+](=O)C1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=N[S](=O)(=O)C(F)(F)F)C2=CC=C(Cl)C=C2,174788-97-7,-,no matches
+141,HI,I,10034-85-2,iodide,[I-]
+142,2-C10F7CH(CN)2,FC1=C(F)C2=C(C(=C1F)F)C(=C(C(C#N)C#N)C(=C2F)F)F,62325-35-3,"2-(1,3,4,5,6,7,8-heptafluoronaphthalen-2-yl)propanedinitrile",C(#N)C(C#N)C1=C(C2=C(C(=C1F)F)C(=C(C(=C2F)F)F)F)F
+143,DSI C-1,FC(F)(F)C1=CC(=CC(=C1)C2=C3C(=C4C=CC=CC4C2)C5=C6C=CC=CC6=CC(=C5[S](=O)(=O)N[S]3(=O)=O)C7=CC(=CC(=C7)C(F)(F)F)C(F)(F)F)C(F)(F)F,1242421-77-7,-,no matches
+144,IDPi C-3,FC(F)(F)[S](=O)(=O)N=[P]1(N[P]2(OC3=C(C4=CC=CC=C4C=C3C5=CC=CC=C5)C6=C7C=CC=CC7=CC(=C6O2)C8=CC=CC=C8)=N[S](=O)(=O)C(F)(F)F)OC9=C(CC%10C=CC=CC%10=C9C%11=C(O1)C(=CC%12=CC=CC=C%11%12)C%13=CC=CC=C%13)C%14=CC=CC=C%14,2016814-95-0,-,no matches
+145,9-COOMe-fluorene,COC(=O)C1C2=C(C=CC=C2)C3=C1C=CC=C3,3002-30-0,methyl 9H-fluorene-9-carboxylate,COC(=O)C1C2=CC=CC=C2C3=CC=CC=C13
+146,(4-Me-C6F4)2CHCN,CC1=C(F)C(=C(C(C#N)C2=C(F)C(=C(C)C(=C2F)F)F)C(=C1F)F)F,58432-44-3,-,no matches
+147,(4-Me-C6F4)(C6F5)CHCN,CC1=C(F)C(=C([C@@H](C#N)C2=C(F)C(=C(F)C(=C2F)F)F)C(=C1F)F)F,52345-34-3,-,no matches
+148,9-CN-fluorene,N#CC1C2=C(C=CC=C2)C3=C1C=CC=C3,1529-40-4,9H-fluorene-9-carbonitrile,C1=CC=C2C(=C1)C(C3=CC=CC=C32)C#N
+149,(4-H-C6F4)(C6F5)CHCN,FC1=C(F)C(=C(F)C(=C1)F)C(C#N)C2=C(F)C(=C(F)C(=C2F)F)F,42254-09-1,"2-(2,3,4,5,6-pentafluorophenyl)-2-(2,3,5,6-tetrafluorophenyl)acetonitrile",C1=C(C(=C(C(=C1F)F)C(C#N)C2=C(C(=C(C(=C2F)F)F)F)F)F)F
+150,(2-C10F7)(C6F5)CHCN,FC1=C(F)C(=C(C(C#N)C2=C(F)C3=C(F)C(=C(F)C(=C3C(=C2F)F)F)F)C(=C1F)F)F,64934-68-5,"2-(1,3,4,5,6,7,8-heptafluoronaphthalen-2-yl)-2-(2,3,4,5,6-pentafluorophenyl)acetonitrile",C(#N)C(C1=C(C2=C(C(=C1F)F)C(=C(C(=C2F)F)F)F)F)C3=C(C(=C(C(=C3F)F)F)F)F
+151,(2-C10F7)2CHCN,FC1=C(F)C2=C(F)C(=C(C(C#N)C3=C(F)C4=C(F)C(=C(F)C(=C4C(=C3F)F)F)F)C(=C2C(=C1F)F)F)F,62325-38-6,"2,2-bis(1,3,4,5,6,7,8-heptafluoronaphthalen-2-yl)acetonitrile",C(#N)C(C1=C(C2=C(C(=C1F)F)C(=C(C(=C2F)F)F)F)F)C3=C(C4=C(C(=C3F)F)C(=C(C(=C4F)F)F)F)F
+152,9-C6F5-octafluorofluorene,FC1=C(F)C(=C(C2C3=C(C(=C(F)C(=C3F)F)F)C4=C2C(=C(F)C(=C4F)F)F)C(=C1F)F)F,63264-80-2,"1,2,3,4,5,6,7,8-octafluoro-9-(2,3,4,5,6-pentafluorophenyl)-9H-fluorene",C1(C2=C(C3=C1C(=C(C(=C3F)F)F)F)C(=C(C(=C2F)F)F)F)C4=C(C(=C(C(=C4F)F)F)F)F
+153,(4-CF3-C6F4)(C6F5)CHCN,FC1=C(F)C(=C(C(C#N)C2=CC=C(C=C2)C(F)(F)F)C(=C1F)F)F,42238-35-7,-,no matches
+154,(C6F5)CH(CN)COOEt,CCOC(=O)C(C#N)C1=C(F)C(=C(F)C(=C1F)F)F,2340-87-6,"ethyl 2-cyano-2-(2,3,4,5,6-pentafluorophenyl)acetate",CCOC(=O)C(C#N)C1=C(C(=C(C(=C1F)F)F)F)F
+155,(2-C10F7)CH(CN)COOEt,CCOC(=O)C(C#N)C1=C(F)C2=C(F)C(=C(F)C(=C2C(=C1F)F)F)F,62325-34-2,"ethyl 2-cyano-2-(1,3,4,5,6,7,8-heptafluoronaphthalen-2-yl)acetate",CCOC(=O)C(C#N)C1=C(C2=C(C(=C1F)F)C(=C(C(=C2F)F)F)F)F
+156,(4-Cl-C6F4)CH(CN)COOEt,CCOC(=O)C(C#N)C1=C(F)C(=C(Cl)C(=C1F)F)F,55810-56-5,"ethyl 2-(4-chloro-2,3,5,6-tetrafluorophenyl)-2-cyanoacetate",CCOC(=O)C(C#N)C1=C(C(=C(C(=C1F)F)Cl)F)F
+157,(4-NC5F4)(C6F5)CHCN,FC1=NC(=C(F)C(=C1F)C(C#N)C2=C(F)C(=C(F)C(=C2F)F)F)F,62325-51-3,"2-(2,3,4,5,6-pentafluorophenyl)-2-(2,3,5,6-tetrafluoropyridin-4-yl)acetonitrile",C(#N)C(C1=C(C(=C(C(=C1F)F)F)F)F)C2=C(C(=NC(=C2F)F)F)F
+158,(4-CF3-C6F4)CH(CN)COOEt,CCOC(=O)C(C#N)C1=C(F)C(=C(C(=C1F)F)C(F)(F)F)F,32251-53-9,"ethyl 2-cyano-2-[2,3,5,6-tetrafluoro-4-(trifluoromethyl)phenyl]acetate",CCOC(=O)C(C#N)C1=C(C(=C(C(=C1F)F)C(F)(F)F)F)F
+159,(4-NC5F4)CH(CN)COOEt,CCOC(=O)C(C#N)C1=C(F)C(=NC(=C1F)F)F,55810-61-2,"ethyl 2-cyano-2-(2,3,5,6-tetrafluoropyridin-4-yl)acetate",CCOC(=O)C(C#N)C1=C(C(=NC(=C1F)F)F)F
+160,3-CF3-C6H4CH(CN)2,FC(F)(F)C1=CC(=CC=C1)C(C#N)C#N,99726-60-0,2-[3-(trifluoromethyl)phenyl]propanedinitrile,C1=CC(=CC(=C1)C(F)(F)F)C(C#N)C#N
+161,(4-NC5F4)2CHCN,FC1=C(F)C(=C(F)C(=N1)F)C(C#N)C#N,64934-72-1,-,no matches
+162,4-H-C6F4CH(CN)2,FC1=C(F)C(=C(F)C(=C1)F)C(C#N)C#N,55810-63-4,"2-(2,3,5,6-tetrafluorophenyl)propanedinitrile",C1=C(C(=C(C(=C1F)F)C(C#N)C#N)F)F
+163,Picric acid,OC1=C(C=C(C=C1[N+]([O-])=O)[N+]([O-])=O)[N+]([O-])=O,88-89-1,"2,4,6-trinitrophenol",C1=C(C=C(C(=C1[N+](=O)[O-])O)[N+](=O)[O-])[N+](=O)[O-]
+164,"2,3,4,6-(CF3)4-C6HCH(CN)2",FC(F)(F)C1=C(C(C#N)C#N)C(=C(C(=C1)C(F)(F)F)C(F)(F)F)C(F)(F)F,1018330-49-8,-,no matches
+165,HCl,Cl,7647-01-0,chloride,[Cl-]
+166,4-CF3-C6F4CH(CN)2,FC1=C(C(C#N)C#N)C(=C(F)C(=C1F)C(F)(F)F)F,55852-24-9,"2-[2,3,5,6-tetrafluoro-4-(trifluoromethyl)phenyl]propanedinitrile",C(#N)C(C#N)C1=C(C(=C(C(=C1F)F)C(F)(F)F)F)F
+167,4-NO2-C6H4SO2NHTos,CC1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=O)C2=CC=C(C=C2)[N+]([O-])=O,100724-78-5,4-methyl-N-(4-nitrophenyl)sulfonylbenzenesulfonamide,CC1=CC=C(C=C1)S(=O)(=O)NS(=O)(=O)C2=CC=C(C=C2)[N+](=O)[O-]
+168,4-NO2-C6H4SO2NHSO2C6H4-4-Cl,[O-][N+](=O)C1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=O)C2=CC=C(Cl)C=C2,95468-16-9,N-(4-chlorophenyl)sulfonyl-4-nitrobenzenesulfonamide,C1=CC(=CC=C1[N+](=O)[O-])S(=O)(=O)NS(=O)(=O)C2=CC=C(C=C2)Cl
+169,C6(CF3)5CH(CN)2,FC(F)(F)C1=C(C(=C(C(=C1C(C#N)C#N)C(F)(F)F)C(F)(F)F)C(F)(F)F)C(F)(F)F,1018330-44-3,"2-[2,3,4,5,6-pentakis(trifluoromethyl)phenyl]propanedinitrile",C(#N)C(C#N)C1=C(C(=C(C(=C1C(F)(F)F)C(F)(F)F)C(F)(F)F)C(F)(F)F)C(F)(F)F
+170,(4-NO2-C6H4SO2)2NH,[O-][N+](=O)C1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=O)C2=CC=C(C=C2)[N+]([O-])=O,7/6/09,4-nitro-N-(4-nitrophenyl)sulfonylbenzenesulfonamide,C1=CC(=CC=C1[N+](=O)[O-])S(=O)(=O)NS(=O)(=O)C2=CC=C(C=C2)[N+](=O)[O-]
+171,4-Cl-3-NO2-C6H3SO2NHSO2C6H4-4-NO2,[O-][N+](=O)C1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=O)C2=CC(=C(Cl)C=C2)[N+]([O-])=O,2226486-82-2,-,no matches
+172,4-NO2-C6H4SO2CH(CN)2,[O-][N+](=O)C1=CC=C(C=C1)[S](=O)(=O)C(C#N)C#N,1207878-53-2,-,no matches
+173,C6H5C(=NTf)NHTf,FC(F)(F)[S](=O)(=O)NC(=N[S](=O)(=O)C(F)(F)F)C1=CC=CC=C1,500721-91-5,-,no matches
+174,HBr,Br,10035-10-6,bromide,[Br-]
+175,"2,4,6-SO2F-phenol",OC1=C(C=C(C=C1[S](F)(=O)=O)[S](F)(=O)=O)[S](F)(=O)=O,882492-01-5,"2-hydroxybenzene-1,3,5-trisulfonyl fluoride",C1=C(C=C(C(=C1S(=O)(=O)F)O)S(=O)(=O)F)S(=O)(=O)F
+176,4-Cl-C6H4C(=NTf)NHTf,FC(F)(F)[S](=O)(=O)NC(=N[S](=O)(=O)C(F)(F)F)C1=CC=C(Cl)C=C1,500721-95-9,-,no matches
+177,4-Cl-C6H4SO(=NTf)NHTos,CC1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=N[S](=O)(=O)C(F)(F)F)C2=CC=C(Cl)C=C2,174788-93-3,-,no matches
+178,4-NO2-C6H4C(=NTf)NHTf,[O-][N+](=O)C1=CC=C(C=C1)C(N[S](=O)(=O)C(F)(F)F)=N[S](=O)(=O)C(F)(F)F,500721-97-1 ,"4-nitro-N,N'-bis(trifluoromethylsulfonyl)benzenecarboximidamide",C1=CC(=CC=C1C(=NS(=O)(=O)C(F)(F)F)NS(=O)(=O)C(F)(F)F)[N+](=O)[O-]
+179,"2,4,6-SO2CF3-phenol",OC1=C(C=C(C=C1[S](=O)(=O)C(F)(F)F)[S](=O)(=O)C(F)(F)F)[S](=O)(=O)C(F)(F)F,71571-37-4,"2,4,6-tris(trifluoromethylsulfonyl)phenol",C1=C(C=C(C(=C1S(=O)(=O)C(F)(F)F)O)S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F
+180,(CN2)2C=C(CN)OH,OC(C#N)=C(C#N)C#N,27062-39-1,"2-hydroxyethene-1,1,2-tricarbonitrile",C(#N)C(=C(C#N)O)C#N
+181,4-NO2-C6H4SO2NHTf,[O-][N+](=O)C1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=O)C(F)(F)F,174788-91-1,4-nitro-N-(trifluoromethylsulfonyl)benzenesulfonamide,C1=CC(=CC=C1[N+](=O)[O-])S(=O)(=O)NS(=O)(=O)C(F)(F)F
+182,4-Cl-C6H4SO(=NTf)NHSO2C6H4-4-Cl,FC(F)(F)[S](=O)(=O)N=[S](=O)(N[S](=O)(=O)C1=CC=C(Cl)C=C1)C2=CC=C(Cl)C=C2,174788-95-5,-,no matches
+183,"2,4-(NO2)2-C6H3SO3H",O[S](=O)(=O)C1=C(C=C(C=C1)[N+]([O-])=O)[N+]([O-])=O,89-02-1,"2,4-dinitrobenzenesulfonic acid",C1=CC(=C(C=C1[N+](=O)[O-])[N+](=O)[O-])S(=O)(=O)O
+184,"2,3,5-Tricyano-1,3-cyclopentadiene",N#CC1C=C(C#N)C(=C1)C#N,215395-09-8,"cyclopenta-2,5-diene-1,2,4-tricarbonitrile",C1=C(C(=CC1C#N)C#N)C#N
+185,4-Cl-C6H4SO(=NTf)NHSO2C6H4-4-NO2,[O-][N+](=O)C1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=N[S](=O)(=O)C(F)(F)F)C2=CC=C(Cl)C=C2,174788-97-7,-,no matches
+186,HI,I,10034-85-2,iodide,[I-]
+187,(CF3)5C6CH(CN)COOEt,CCOC(=O)C(C#N)C1=C(C(=C(C(=C1C(F)(F)F)C(F)(F)F)C(F)(F)F)C(F)(F)F)C(F)(F)F,2226486-80-0 ,-,no matches
+188,2-C10F7CH(CN)2,FC1=C(F)C2=C(C(=C1F)F)C(=C(C(C#N)C#N)C(=C2F)F)F,62325-35-3,"2-(1,3,4,5,6,7,8-heptafluoronaphthalen-2-yl)propanedinitrile",C(#N)C(C#N)C1=C(C2=C(C(=C1F)F)C(=C(C(=C2F)F)F)F)F
+189,Bromothymol blue,CC(C)C1=C(O)C(=C(C)C(=C1)C2(O[S](=O)(=O)C3=C2C=CC=C3)C4=C(C)C(=C(O)C(=C4)C(C)C)Br)Br,76-59-5,"2-bromo-4-[3-(3-bromo-4-hydroxy-2-methyl-5-propan-2-ylphenyl)-1,1-dioxo-2,1λ6-benzoxathiol-3-yl]-3-methyl-6-propan-2-ylphenol",CC1=C(C=C(C(=C1Br)O)C(C)C)C2(C3=CC=CC=C3S(=O)(=O)O2)C4=C(C(=C(C(=C4)C(C)C)O)Br)C
+190,Bromocresol green,CC1=C(Br)C(=C(Br)C=C1C2(O[S](=O)(=O)C3=C2C=CC=C3)C4=C(C)C(=C(O)C(=C4)Br)Br)O,76-60-8,"2,6-dibromo-4-[3-(3,5-dibromo-4-hydroxy-2-methylphenyl)-1,1-dioxo-2,1λ6-benzoxathiol-3-yl]-3-methylphenol",CC1=C(C(=C(C=C1C2(C3=CC=CC=C3S(=O)(=O)O2)C4=CC(=C(C(=C4C)Br)O)Br)Br)O)Br
+191,Styphnic acid,OC1=C(C(=C(C=C1[N+]([O-])=O)[N+]([O-])=O)O)[N+]([O-])=O,82-71-3,"2,4,6-trinitrobenzene-1,3-diol",C1=C(C(=C(C(=C1[N+](=O)[O-])O)[N+](=O)[O-])O)[N+](=O)[O-]
+192,HNO3,O[N+]([O-])=O,7697-37-2,nitric acid,[N+](=O)(O)[O-]
+193,H2SO4,O[S](O)(=O)=O,7664-93-9,sulfuric acid,OS(=O)(=O)O
+194,(3-NO2-4-Cl-C6H3SO2)2NH,[O-][N+](=O)C1=C(Cl)C=CC(=C1)[S](=O)(=O)N[S](=O)(=O)C2=CC(=C(Cl)C=C2)[N+]([O-])=O,64646-01-1,-,no matches
+195,CH(CN)3,N#CC(C#N)C#N,454-50-2,methanetricarbonitrile,C(#N)C(C#N)C#N
+196,NH2-TCNP,NC(C(C#N)C#N)=C(C#N)C#N,98555-43-2,"2-aminoprop-1-ene-1,1,3,3-tetracarbonitrile",C(#N)C(C#N)C(=C(C#N)C#N)N
+197,Pentacyanophenol,OC1=C(C#N)C(=C(C#N)C(=C1C#N)C#N)C#N,42448-55-5,"6-hydroxybenzene-1,2,3,4,5-pentacarbonitrile",C(#N)C1=C(C(=C(C(=C1C#N)C#N)O)C#N)C#N
+198,Me-TCNP,CC(C(C#N)C#N)=C(C#N)C#N,24943-63-3,"2-methylprop-1-ene-1,1,3,3-tetracarbonitrile",CC(=C(C#N)C#N)C(C#N)C#N
+199,"3,4-(MeO)2-C6H3-TCNP",COC1=C(OC)C=C(C=C1)C(C(C#N)C#N)=C(C#N)C#N,1261286-75-2,-,no matches
+200,4-MeO-C6H4-TCNP,COC1=CC=C(C=C1)C(C(C#N)C#N)=C(C#N)C#N,1261286-76-3,-,no matches
+201,C6F5CH(Tf)2,FC1=C(F)C(=C(C([S](=O)(=O)C(F)(F)F)[S](=O)(=O)C(F)(F)F)C(=C1F)F)F,405074-81-9,"1-[bis(trifluoromethylsulfonyl)methyl]-2,3,4,5,6-pentafluorobenzene",C1(=C(C(=C(C(=C1F)F)F)F)F)C(S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F
+202,HB(CN)(CF3)3,[H+].FC(F)(F)[B-](C#N)(C(F)(F)F)C(F)(F)F,863678-02-8,-,no matches
+203,Ph-TCNP,N#CC(C#N)C(C1=CC=CC=C1)=C(C#N)C#N,96463-47-7,"2-phenylprop-1-ene-1,1,3,3-tetracarbonitrile",C1=CC=C(C=C1)C(=C(C#N)C#N)C(C#N)C#N
+204,HBF4,[H+].F[B-](F)(F)F,16872-11-0,hydron;tetrafluoroborate,[H+].[B-](F)(F)(F)F
+205,FSO2OH,O[S](F)(=O)=O,7789-21-1,sulfurofluoridic acid,OS(=O)(=O)F
+206,3-CF3-C6H4-TCNP,FC(F)(F)C1=CC(=CC=C1)C(C(C#N)C#N)=C(C#N)C#N,2226486-85-5 ,-,no matches
+207,H-TCNP,N#CC(C=C(C#N)C#N)C#N,32019-26-4,"prop-1-ene-1,1,3,3-tetracarbonitrile",C(=C(C#N)C#N)C(C#N)C#N
+208,[C6H5SO(=NTf)]2NH,FC(F)(F)[S](=O)(=O)N=[S](=O)(N[S](=O)(=N[S](=O)(=O)C(F)(F)F)C1=CC=CC=C1)C2=CC=CC=C2,771460-54-9,"1,1,1-trifluoro-N-[oxo-phenyl-[[S-phenyl-N-(trifluoromethylsulfonyl)sulfonimidoyl]amino]-λ6-sulfanylidene]methanesulfonamide",C1=CC=C(C=C1)S(=NS(=O)(=O)C(F)(F)F)(=O)NS(=NS(=O)(=O)C(F)(F)F)(=O)C2=CC=CC=C2
+209,[(C2F5)2PO]2NH,FC(F)(F)C(F)(F)[P](=O)(N[P](=O)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F,916079-45-3,"1-[[bis(1,1,2,2,2-pentafluoroethyl)phosphorylamino]-(1,1,2,2,2-pentafluoroethyl)phosphoryl]-1,1,2,2,2-pentafluoroethane",C(C(F)(F)P(=O)(C(C(F)(F)F)(F)F)NP(=O)(C(C(F)(F)F)(F)F)C(C(F)(F)F)(F)F)(F)(F)F
+210,"2,4,6-(NO2)3-C6H2SO2OH",O[S](=O)(=O)C1=C(C=C(C=C1[N+]([O-])=O)[N+]([O-])=O)[N+]([O-])=O,2508-19-2,"2,4,6-trinitrobenzenesulfonic acid",C1=C(C=C(C(=C1[N+](=O)[O-])S(=O)(=O)O)[N+](=O)[O-])[N+](=O)[O-]
+211,[C(CN)2=C(CN)]2CH2,N#CC(CC(C#N)=C(C#N)C#N)=C(C#N)C#N,1261286-78-5,-,no matches
+212,triflic acid,O[S](=O)(=O)C(F)(F)F,1493-13-6,trifluoromethanesulfonic acid,C(F)(F)(F)S(=O)(=O)O
+213,TfCH(CN)2,FC(F)(F)[S](=O)(=O)C(C#N)C#N,278796-64-8,2-(trifluoromethylsulfonyl)propanedinitrile,C(#N)C(C#N)S(=O)(=O)C(F)(F)F
+214,Br-TCNP,BrC(C(C#N)C#N)=C(C#N)C#N,100125-09-5,"2-bromoprop-1-ene-1,1,3,3-tetracarbonitrile",C(#N)C(C#N)C(=C(C#N)C#N)Br
+215,[C(CN)2=C(CN)]2NH,N#CC(NC(C#N)=C(C#N)C#N)=C(C#N)C#N,2284-24-4,"2-(1,2,2-tricyanoethenylamino)ethene-1,1,2-tricarbonitrile",C(#N)C(=C(C#N)NC(=C(C#N)C#N)C#N)C#N
+216,"3,5-(CF3)5-C6H3-TCNP",FC(F)(F)C1=CC(=CC(=C1)C(C(C#N)C#N)=C(C#N)C#N)C(F)(F)F,1261286-79-6,-,no matches
+217,Tf2NH f,FC(F)(F)[S](=O)(=O)N[S](=O)(=O)C(F)(F)F,82113-65-3,"1,1,1-trifluoro-N-(trifluoromethylsulfonyl)methanesulfonamide",C(F)(F)(F)S(=O)(=O)NS(=O)(=O)C(F)(F)F
+218,Cl-TCNP,ClC(C(C#N)C#N)=C(C#N)C#N,1261286-80-9,"2-chloroprop-1-ene-1,1,3,3-tetracarbonitrile",C(#N)C(C#N)C(=C(C#N)C#N)Cl
+219,(C3F7SO2)2NH,FC(F)(F)C(F)(F)C(F)(F)[S](=O)(=O)N[S](=O)(=O)C(F)(F)C(F)(F)C(F)(F)F,152894-12-7,"1,1,2,2,3,3,3-heptafluoro-N-(1,1,2,2,3,3,3-heptafluoropropylsulfonyl)propane-1-sulfonamide",C(C(F)(F)F)(C(F)(F)S(=O)(=O)NS(=O)(=O)C(C(C(F)(F)F)(F)F)(F)F)(F)F
+220,(C4F9SO2)2NH,FC(F)(F)C(F)(F)C(F)(F)C(F)(F)[S](=O)(=O)N[S](=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F,39847-39-7,"1,1,2,2,3,3,4,4,4-nonafluoro-N-(1,1,2,2,3,3,4,4,4-nonafluorobutylsulfonyl)butane-1-sulfonamide",C(C(C(F)(F)S(=O)(=O)NS(=O)(=O)C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(C(F)(F)F)(F)F
+221,CN-CH2-TCNP,N#CCC(C(C#N)C#N)=C(C#N)C#N,2638-14-4,"2-(cyanomethyl)prop-1-ene-1,1,3,3-tetracarbonitrile",C(C#N)C(=C(C#N)C#N)C(C#N)C#N
+222,(C2F5SO2)2NH,FC(F)(F)C(F)(F)[S](=O)(=O)N[S](=O)(=O)C(F)(F)C(F)(F)F,152894-10-5,"1,1,2,2,2-pentafluoro-N-(1,1,2,2,2-pentafluoroethylsulfonyl)ethanesulfonamide",C(C(F)(F)S(=O)(=O)NS(=O)(=O)C(C(F)(F)F)(F)F)(F)(F)F
+223,CF3-TCNP,FC(F)(F)C(C(C#N)C#N)=C(C#N)C#N,1261286-81-0,-,no matches
+224,HClO4,O[Cl](=O)(=O)=O,7601-90-3,perchloric acid,OCl(=O)(=O)=O
+225,CF2(CF2SO2)2NH,FC1(F)C(F)(F)[S](=O)(=O)N[S](=O)(=O)C1(F)F,84246-29-7,"4,4,5,5,6,6-hexafluoro-1,3,2-dithiazinane 1,1,3,3-tetraoxide",C1(C(S(=O)(=O)NS(=O)(=O)C1(F)F)(F)F)(F)F
+226,HB(CN)4,[H+].N#C[B-](C#N)(C#N)C#N,623575-99-5,-,no matches
+227,(FSO2)3CH,F[S](=O)(=O)C([S](F)(=O)=O)[S](F)(=O)=O,75533-68-5,methanetrisulfonyl fluoride,C(S(=O)(=O)F)(S(=O)(=O)F)S(=O)(=O)F
+228,Tf2CH(CN),FC(F)(F)[S](=O)(=O)C(C#N)[S](=O)(=O)C(F)(F)F,174191-48-1,-,no matches
+229,"2,3,4,5-tetracyanocyclopentadiene",N#CC1C=C(C#N)C(=C1C#N)C#N,77569-14-3,"cyclopenta-2,4-diene-1,2,3,4-tetracarbonitrile",C1=C(C(=C(C1C#N)C#N)C#N)C#N
+230,CN-TCNP,N#CC(C#N)C(C#N)=C(C#N)C#N,45078-17-9,"prop-1-ene-1,1,2,3,3-pentacarbonitrile",C(#N)C(C#N)C(=C(C#N)C#N)C#N

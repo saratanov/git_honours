@@ -523,18 +523,14 @@ class double_MPNN(nn.Module):
             ])
         self.ffn = nn.Sequential(*ffn)
 
-    def forward(self, batch):
+    def forward(self,sol,solv):
         """
         :param batch: List[Tuple[str],Tuple[str]]
                       list of 2 tuples containing solute / solvent SMILES strings
         """
-        num_pairs = len(batch[0])
-        sol = batch[0]
-        solv = batch[1]
-        
-        #num_pairs = len(batch)
-        #sol = [x[0] for x in batch]
-        #solv = [x[1] for x in batch]
+        num_pairs = len(sol)
+#        sol = batch[0]
+#        solv = batch[1]
         
         # message passing (returns either a tensor of molecular or atomic feature vectors depending on interaction)
         sol = self.encoder_sol(sol)

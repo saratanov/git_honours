@@ -115,7 +115,7 @@ class CV_torch:
                 optimizer.step()
         return model
             
-    def fit(self, x_data: torch.Tensor, y_data: torch.Tensor, random_state: int=None) -> None:
+    def CV_fit(self, x_data: torch.Tensor, y_data: torch.Tensor, random_state: int=None) -> None:
         """
         Build a regressor consisting of k-models.
         
@@ -133,7 +133,6 @@ class CV_torch:
         kf = kf.split(X=x_data, y=y_data)
 
         # Fit k models and store them
-#        pbar = tqdm(total=self.n_folds, position=0, leave=True, desc="Cross val")
         for train_index, test_index in kf:
             model = self.est(**self.params) #create a fresh copy of the initial model
             est_trained = self.train_func(model, train_index, x_data, y_data)
@@ -146,9 +145,9 @@ class CV_torch:
                 for sf in (mae, rmse, r2_score):
                     self.cv_scores[str(sf).split(' ')[1]].append(sf(test_y, test_pred))
             self.models.append(est_trained)
-#            pbar.update(1)
-#        pbar.close()
-        
+
+#TODO: edit this code so that you just need to give the function the indice split and return results and the model itself
+            
     def special_fit(self, x_data: torch.Tensor, y_data: torch.Tensor, special: str) -> None:
         """
         Creates a leave-one-x-out cross validation model.
@@ -243,7 +242,7 @@ class CV_scikit:
         self.shuffle = shuffle
         self.cv_scores = ddict(list)
 
-    def fit(self, x_data: np.ndarray, y_data: np.ndarray, random_state: int=None) -> None:
+    def CV_fit(self, x_data: np.ndarray, y_data: np.ndarray, random_state: int=None) -> None:
         """
         Build a regressor consisting of k-models.
         
@@ -294,22 +293,15 @@ def mae(y_true, y_pred):
     """Helper function"""
     return mean_absolute_error(y_true, y_pred)
 
-def calc_stats_str(pka1, pka2):
-    """Calculates R², MAE and RMSE for two iterables of floats or integers"""
-    assert len(pka1) == len(pka2), "Both iterables must have the same length"
-    return f'R²: {r2_score(pka1, pka2):.3f}\n' \
-           f'MAE: {mae(pka1, pka2):.3f}\n' \
-           f'RMSE: {rmse(pka1, pka2):.3f}'
-
 def train_cv_model(est_cls, x_data, y_data, params, random_state,
                    cv=2, shuffle=True, torch_model=True):
     """Trains a cross-validated model"""
     if torch_model == True:
         cvr = CV_torch(est=est_cls, params=params, n_folds=cv, shuffle=shuffle)
-        cvr.fit(x_data, y_data, random_state=random_state)
+        cvr.CV_fit(x_data, y_data, random_state=random_state)
     else:
         cvr = CV_scikit(est=est_cls, params=params, n_folds=cv, shuffle=shuffle)
-        cvr.fit(x_data, y_data, random_state=random_state)
+        cvr.CV_fit(x_data, y_data, random_state=random_state)
     return cvr
 
 def generate_score_board(name):
