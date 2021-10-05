@@ -7,6 +7,7 @@ from mol2vec.features import mol2alt_sentence, mol2sentence, MolSentence, DfVec,
 from gensim.models import word2vec
 from rdkit import Chem
 import numpy as np
+import chemprop_ish as c
 
 #################
 #DATA PROCESSING#
@@ -85,6 +86,11 @@ def delfos_data(sol_smiles, solv_smiles):
     pairs = [(data[0][i],data[1][i]) for i in range(size)]
     return pairs
 
+def delfos_data_1(smiles):
+    sentences = [sentence_generator(x) for x in smiles]
+    vecs = sentences2vecs(sentences, mol2vec_model, unseen='UNK')
+    return vecs    
+
 def collate_double(batch):
     '''
     Padds batch of variable length
@@ -96,27 +102,6 @@ def collate_double(batch):
     targets = torch.Tensor([t[1].item() for t in batch])
     
     return [sol_batch, solv_batch, targets]
-
-#loader = DataLoader(dataset, batch_size=6, shuffle=True, collate_fn=collate_double)
-"""    
-epochs = 10
-n_features = 300
-n_hidden = 100
-losslist = []
-for x in range(epochs):
-    for (sol,solv,t) in loader:
-        output = dmodel(sol,solv) 
-        loss = criterion(output, t)  
-        losslist.append(loss.item())
-        
-        loss.backward()
-        optimizer.step()
-        optimizer.zero_grad()
-    print('step : ' , x , 'loss : ' , loss.item())
-    
-import matplotlib.pyplot as plt
-plt.plot(losslist)
-"""
 
 ##############
 ### MODELS ###
@@ -134,39 +119,50 @@ def alpha(G,H):
 #inH = H;P, where P is the emphasised hidden state H / solvent context
 def att(G,H):
     P = alpha(G,H)@G
-    inH = torch.stack((H,P),2)
+    inH = torch.cat((H,P),0)
     return inH
-
-#module for variable maxpooling with interaction vectors
-class maxpool_int(nn.Module):
-    def __init__(self, L):
-        super(maxpool_int, self).__init__()
-        self.maxpool = nn.MaxPool3d((L,1,2))
-    def forward(self, X):
-        return self.maxpool(X)
-
-#module for variable maxpooling without interaction vectors
-class maxpool(nn.Module):
-    def __init__(self, L):
-        super(maxpool, self).__init__()
-        self.maxpool = nn.MaxPool2d((L,1))
-    def forward(self, X):
-        return self.maxpool(X)
 
 #delfos model
 class dnet(nn.Module):
-    def __init__(self, n_features=300, D=150, FF=2000, interaction=True):
+    def __init__(self, features=300, RNN_hidden=256, NN_hidden=1024, NN_depth=1, interaction=None, readout='max', dropout=0.1, activation='ReLU'):
         super(dnet, self).__init__()
-        self.features = n_features
-        self.dim = D
-        self.hidden = FF
+        self.features = features
+        self.dim = RNN_hidden
+        self.NN_hidden = NN_hidden
+        self.NN_depth = NN_depth
         self.interaction = interaction
+        self.dropout = dropout
+        self.activation = activation
+        self.readout = readout
     
         self.biLSTM_X = nn.LSTM(self.features, self.dim, bidirectional=True)
         self.biLSTM_Y = nn.LSTM(self.features, self.dim, bidirectional=True)
         
-        self.FF = nn.Linear(4*self.dim, self.hidden)
-        self.out = nn.Linear(self.hidden, 1)
+        activation = c.get_activation_function(self.activation)
+        
+        # create NN layers
+        if self.NN_depth == 1:
+            ffn = [
+                nn.Dropout(self.dropout),
+                nn.Linear(4*self.dim, 1)
+            ]
+        else:
+            ffn = [
+                nn.Dropout(self.dropout),
+                nn.Linear(4*self.dim, self.NN_hidden)
+            ]
+            for _ in range(self.NN_depth - 2):
+                ffn.extend([
+                    activation,
+                    nn.Dropout(self.dropout),
+                    nn.Linear(self.NN_hidden, self.NN_hidden),
+                ])
+            ffn.extend([
+                activation,
+                nn.Dropout(self.dropout),
+                nn.Linear(self.NN_hidden, 1),
+            ])
+        self.ffn = nn.Sequential(*ffn)
     
     def forward(self,Y,X):
         #max sequence lengths
@@ -179,30 +175,120 @@ class dnet(nn.Module):
         H, hcX = self.biLSTM_X(X, None) #NxBx2D tensor - solvent hidden state
         G, hcY = self.biLSTM_Y(Y, None) #MxBx2D tensor - solute hidden state
         
-        if self.interaction:
+        if self.interaction in ['exp','tanh']:
             #calculate attention, then concatenate with hidden states H and G
-            inH = torch.stack([att(G[:,b,:],H[:,b,:]) for b in range(B)],0) #BxNx2Dx2
-            inG = torch.stack([att(H[:,b,:],G[:,b,:]) for b in range(B)],0) #BxMx2Dx2
-        
-            #maxpool concatenated tensors
-            maxpool_X = maxpool_int(N)
-            maxpool_Y = maxpool_int(M)
-            u = maxpool_X(inH).view(B,2*self.dim)  #Bx2D - solvent vector
-            v = maxpool_Y(inG).view(B,2*self.dim)  #Bx2D - solute vector
+            cats = [int_func(H[:,b,:],G[:,b,:],self.interaction) for b in range(B)]
+            inH = torch.stack([cats[b][0] for b in range(B)],0) #Bx2Nx2D
+            inG = torch.stack([cats[b][1] for b in range(B)],0) #Bx2Nx2D
+         #   inH = torch.stack([att(G[:,b,:],H[:,b,:]) for b in range(B)],0) #Bx2Nx2D
+         #   inG = torch.stack([att(H[:,b,:],G[:,b,:]) for b in range(B)],0) #Bx2Mx2D
         
         else:
-            #maxpool tensors
-            maxpool_X = maxpool(N)
-            maxpool_Y = maxpool(M)
-            u = maxpool_X(torch.transpose(H,0,1)).view(B,2*self.dim)  #Bx2D - solvent vector
-            v = maxpool_Y(torch.transpose(G,0,1)).view(B,2*self.dim)  #Bx2D - solute vector
+            inH = torch.transpose(H,0,1) #BxNx2D
+            inG = torch.transpose(G,0,1) #BxMx2D
+        
+        if self.readout == 'max':
+            #maxpool concatenated tensors
+            u = torch.max(inH,1)[0]
+            v = torch.max(inG,1)[0]
+        if self.readout == 'mean':
+            u = torch.mean(inH,1)
+            v = torch.mean(inG,1)
+        if self.readout == 'sum':
+            u = torch.sum(inH,1)
+            v = torch.sum(inG,1)
         
         #feed forward neural network
-        NN = torch.cat((u,v),1) #Bx4D - concatenated solvent/solute vector
-        NN = self.FF(NN) #Bxhidden
-        NN = nn.functional.relu(NN)
-        output = self.out(NN)
+        encodings = torch.cat((u,v),1) #Bx4D - concatenated solvent/solute vector
+        output = self.ffn(encodings) #Bx1
         return output
 
 #criterion = nn.MSELoss()
 #optimizer = torch.optim.SGD(dmodel.parameters(), lr=0.0002, momentum=0.9, nesterov=True)
+
+def int_func(X,Y,func):
+    if func == 'exp':
+        #interaction map
+        I = torch.exp(torch.mm(X,Y.t()))
+        #inverse of sum of columns for I and transpose I
+        x_norm = torch.pow(torch.sum(I, dim=1),-1)
+        y_norm = torch.pow(torch.sum(I.t(), dim=1),-1)
+        #interaction maps with normalised columns
+        I_x = I * x_norm[:,None] 
+        I_y = I.t() * y_norm[:,None]
+        #contexts
+        X_context = torch.mm(I_x,Y)
+        Y_context = torch.mm(I_y,X)
+    if func == 'tanh':
+        #interaction map
+        I = torch.tanh(torch.mm(X,Y.t()))
+        #contexts
+        X_context = torch.mm(I,Y)
+        Y_context = torch.mm(I.t(),X)
+    #concatenate
+    catX = torch.cat((X,X_context))
+    catY = torch.cat((Y,Y_context))
+    return [catX, catY]
+
+#delfos with one input
+class snet(nn.Module):
+    def __init__(self, features=300, RNN_hidden=256, NN_hidden=1024, NN_depth=1, readout='max', dropout=0.1, activation='ReLU'):
+        super(snet, self).__init__()
+        self.features = features
+        self.dim = RNN_hidden
+        self.NN_hidden = NN_hidden
+        self.NN_depth = NN_depth
+        self.dropout = dropout
+        self.activation = activation
+        self.readout = readout
+    
+        self.biLSTM = nn.LSTM(self.features, self.dim, bidirectional=True)
+        
+        activation = c.get_activation_function(self.activation)
+        
+        # create NN layers
+        if self.NN_depth == 1:
+            ffn = [
+                nn.Dropout(self.dropout),
+                nn.Linear(2*self.dim, 1)
+            ]
+        else:
+            ffn = [
+                nn.Dropout(self.dropout),
+                nn.Linear(2*self.dim, self.NN_hidden)
+            ]
+            for _ in range(self.NN_depth - 2):
+                ffn.extend([
+                    activation,
+                    nn.Dropout(self.dropout),
+                    nn.Linear(self.NN_hidden, self.NN_hidden),
+                ])
+            ffn.extend([
+                activation,
+                nn.Dropout(self.dropout),
+                nn.Linear(self.NN_hidden, 1),
+            ])
+        self.ffn = nn.Sequential(*ffn)
+    
+    def forward(self,X):
+        #max sequence length
+        N = X.shape[0]
+        #batch size
+        B = X.shape[1] 
+        
+        #biLSTM to get hidden states
+        H, hcX = self.biLSTM(X, None) #NxBx2D
+        
+        H = torch.transpose(H,0,1) #BxNx2D
+        
+        #pool over atomic dimension (1)
+        if self.readout == 'max':
+            x = torch.max(H,1)[0]
+        if self.readout == 'mean':
+            x = torch.mean(H,1)
+        if self.readout == 'sum':
+            x = torch.sum(H,1)
+        
+        #feed forward neural network
+        output = self.ffn(x) #Bx1
+        return output

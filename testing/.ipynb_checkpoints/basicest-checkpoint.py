@@ -29,7 +29,7 @@ class Model:
     Object containing a model and all its associated parameters.
     """
     def __init__(self, name, model, model_type, data_type,
-                 lr=1e-2, optimiser=torch.optim.Adam, num_epochs=50, batch_size=32):
+                 lr=1e-3, optimiser=torch.optim.Adam, num_epochs=100, batch_size=32):
         self.name = name #e.g. "MPNN with attention"
         self.model = model #torch/sklearn regressor object
         self.model_type = model_type
@@ -40,7 +40,7 @@ class Model:
         #torch specific variables
         if self.model_type == 'torch':
             self.lr = lr
-            self.optimiser = optimiser(self.model.parameters(), lr=self.lr)
+            self.optimiser = optimiser
             self.batch_size = batch_size
             self.num_epochs = num_epochs
         
@@ -181,47 +181,7 @@ def double_loader(data, indices, batch_size=64):
     loader = torch.utils.data.DataLoader(dataset, batch_size=batch_size, shuffle=False, collate_fn=collate_double)
     return loader
 
-def train(model, ids, data, scaler):
-    """
-    Train a model.
-
-    Parameters
-    ----------
-    model : Model
-        Regressor model
-    ids : list, np.array
-        Indices for training samples
-    data : List = [(sol,solv),pka]
-        Data of (solute,solvent) pairs and target values
-
-    Returns
-    -------
-    model : Any
-        Trained regressor model
-    """
-    if model.model_type == 'torch':
-        #TODO: early stopping
-        regressor = copy.deepcopy(model.model)
-        loader = double_loader(data, ids, batch_size=model.batch_size)
-        optimiser = model.optimiser
-        loss_function = torch.nn.MSELoss()
-        
-        for epoch in range(model.num_epochs):
-            for (sol,solv,targets) in loader:
-                targets = targets.view(-1,1)
-                targets = scaler.transform(targets)
-                optimiser.zero_grad()
-                outputs = regressor(sol,solv)
-                loss = loss_function(outputs, targets)
-                loss.backward()
-                optimiser.step()
-    else:
-        regressor = sklearn.base.clone(model.model)
-        targets = scaler.transform(data[1][ids])
-        regressor.fit(data[0][ids], targets)
-    return regressor
-
-def train_early(model, ids, data, scaler, datasets):
+def train(model, ids, data, scaler, datasets):
     """
     Train a model.
 
@@ -241,12 +201,12 @@ def train_early(model, ids, data, scaler, datasets):
     """
     if model.model_type == 'torch':
         solvent = [datasets['SMILES'][0][x][1] for x in ids]
-        train_ids, val_ids, _, _ = train_test_split(ids, solvent, test_size=0.2, random_state=1, stratify=solvent)
+        train_ids, val_ids, _, _ = train_test_split(ids, solvent, test_size=0.2, random_state=1)
         train_loader = double_loader(data, train_ids, batch_size=model.batch_size)
         val_loader = double_loader(data, val_ids, batch_size=len(val_ids))
         
         regressor = copy.deepcopy(model.model)      
-        optimiser = model.optimiser
+        optimiser = model.optimiser(regressor.parameters(), lr=model.lr)
         loss_function = torch.nn.MSELoss()
         early_stopping = EarlyStopping(patience=10)
         
@@ -270,7 +230,7 @@ def train_early(model, ids, data, scaler, datasets):
             #early stopping
             early_stopping.store(val_loss, regressor)
             if early_stopping.stop:
-                print("Early stopping")
+                #print("Stopping at epoch "+str(epoch))
                 break
         regressor.load_state_dict(torch.load('checkpoint.pt'))
     else:
@@ -349,7 +309,7 @@ def predict(model, experiment, data):
         
     return targets, outputs
 
-def CV_fit(model, data, folds=5, random_state: int=None):
+def CV_fit(model, data, datasets, folds=5, random_state: int=None):
     """
     Build a cross-validated regressor consisting of k-models.
 
@@ -378,7 +338,11 @@ def CV_fit(model, data, folds=5, random_state: int=None):
     results = []
     for train_ids, test_ids in kf:
         scaler = pka_scaler(data[1][train_ids])
-        fold_model = train(model, train_ids, data, scaler)
+        if model.data_type == 'descriptors':
+            desc_scaler = StandardScaler()
+            desc_scaler.fit(data[0][train_ids])
+        data[0] = desc_scaler.transform(data[0])
+        fold_model = train(model, train_ids, data, scaler, datasets)
         fold_result = test(model, fold_model, test_ids, data, scaler)
 
         results.append(fold_result)
@@ -412,7 +376,12 @@ def fit(model, data, test_ids, exp_name, datasets):
         
     train_ids = [i for i in range(size) if i not in test_ids]
     scaler = pka_scaler(data[1][train_ids])
-    trained_model = train_early(model, train_ids, data, scaler, datasets)
+    if model.data_type == 'descriptors':
+        desc_scaler = StandardScaler()
+        desc_scaler.fit(data[0][train_ids])
+        data[0] = desc_scaler.transform(data[0])
+        
+    trained_model = train(model, train_ids, data, scaler, datasets)
     results = test(model, trained_model, test_ids, data, scaler)
     model.experiments.append({'name':exp_name,'model':trained_model, 'results':results, 'scaler':scaler})
     return results
@@ -475,11 +444,11 @@ class fitness:
         self.m['model'] = self.m['model'](**model_params)
         self.m.update(training_params)
         
-        model = b.Model(**self.m)
+        model = Model(**self.m)
         data = self.datasets[model.data_type]
 
         start = timer()
-        res, full_res = b.CV_fit(model, data)
+        res, full_res = CV_fit(model, data, self.datasets)
         run_time = timer()-start
 
         loss = res[0]
@@ -487,7 +456,7 @@ class fitness:
         
         return {'loss': loss, 'params': params, 'run_time': run_time, 'status': STATUS_OK}
     
-def hyperopt_func(model_dict, model_param_names, training_param_names, param_space, datasets, max_evals=10):
+def hyperopt_func(model_dict, model_param_names, training_param_names, param_space, datasets, max_evals=30):
     """
     Bayesian hyperparameter optimisation function.
     

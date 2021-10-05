@@ -16,6 +16,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
+from delfos import int_func
 
 # Atom feature sizes
 MAX_ATOMIC_NUM = 100
@@ -424,7 +425,7 @@ class MPNN(nn.Module):
     """
     Model wrapper for message passing with a single molecule. Contains message passing featuriser + linear NN layer.
     """
-    def __init__(self, atom_messages=True, hidden_size=128, depth=3, readout='mean', dropout=0.2):
+    def __init__(self, atom_messages=True, MP_hidden=128, MP_depth=3, readout='max', dropout=0.2, NN_depth=1, activation='ReLU', NN_hidden=64):
         super(MPNN, self).__init__()    
         self.atom_fdim = get_atom_fdim()
         self.atom_messages = atom_messages
@@ -437,7 +438,7 @@ class MPNN(nn.Module):
         self.NN_hidden = NN_hidden
         self.activation = activation
         
-        self.encoder = MP(self.atom_messages, self.MP_hidden, self.MP_depth, self.readout, self.dropout, self.interaction)
+        self.encoder = MP(self.atom_messages, self.MP_hidden, self.MP_depth, self.readout, self.dropout, interaction=None)
         
         #activation
         activation = get_activation_function(self.activation)
@@ -478,7 +479,7 @@ class double_MPNN(nn.Module):
     """
     Model wrapper for message passing with two input molecules. Contains message passing featuriser + 2 linear NN layers.
     """
-    def __init__(self, atom_messages=True, MP_hidden=128, MP_depth=3, readout='mean', dropout=0.2, interaction=False, NN_depth=1, activation='ReLU', NN_hidden=64):
+    def __init__(self, atom_messages=True, MP_hidden=128, MP_depth=3, readout='mean', dropout=0.2, interaction=None, NN_depth=1, activation='ReLU', NN_hidden=64):
         super(double_MPNN, self).__init__()
         self.atom_fdim = get_atom_fdim()
         self.atom_messages = atom_messages
@@ -537,20 +538,16 @@ class double_MPNN(nn.Module):
         solv = self.encoder_solv(solv)
         
         # interaction step
-        if self.interaction:
-            # create interaction map between solute and solvent atomic feature vectors
-            int_map = [torch.mm(sol[x],solv[x].t()) for x in range(num_pairs)]
-            int_map = [torch.tanh(int_map[x]) for x in range(num_pairs)]
-            
-            # create molecular context
-            sol_context = [torch.mm(int_map[x], solv[x]) for x in range(num_pairs)]
-            solv_context = [torch.mm(int_map[x].t(), sol[x]) for x in range(num_pairs)] # num_pairs x (num_atoms x hidden_size)
-            
-            # concatenate molecule + context
-            sol = [torch.cat((sol[x],sol_context[x])) for x in range(num_pairs)]
-            solv = [torch.cat((solv[x],solv_context[x])) for x in range(num_pairs)] # num_pairs x (2*num_atoms x hidden_size)
-            
+        if self.interaction in ['exp','tanh']:
+            cats = [int_func(sol[x],solv[x],self.interaction) for x in range(num_pairs)]
+            sol = [cats[x][0] for x in range(num_pairs)]
+            solv = [cats[x][1] for x in range(num_pairs)] # num_pairs x (2*num_atoms x hidden_size)
+
+
             # pooling along the atomic dimension -> molecular feature vector
+            if self.readout == 'max':
+                sol = torch.stack([torch.max(mol, dim=0)[0] for mol in sol])
+                solv = torch.stack([torch.max(mol, dim=0)[0] for mol in solv])
             if self.readout == 'mean':
                 sol = torch.stack([torch.mean(mol, dim=0) for mol in sol])
                 solv = torch.stack([torch.mean(mol, dim=0) for mol in solv])
@@ -569,7 +566,7 @@ class MP(nn.Module):
     """
     Message passing module based on chemprop. Can pass messages between atoms (MPNN) or directed bonds (D-MPNN).
     """
-    def __init__(self, atom_messages=True, MP_hidden=128, MP_depth=3, readout='mean', dropout=0.2, interaction=False):
+    def __init__(self, atom_messages=True, MP_hidden=128, MP_depth=3, readout='mean', dropout=0.2, interaction=None):
         super(MP, self).__init__()
         self.atom_fdim = get_atom_fdim()
         self.atom_messages = atom_messages
@@ -646,7 +643,7 @@ class MP(nn.Module):
         atom_hiddens = F.relu(self.W_o(a_input))  # num_atoms x hidden
         atom_hiddens = self.dropout_layer(atom_hiddens)  # num_atoms x hidden
         
-        if self.interaction:
+        if self.interaction in ['exp','tanh']:
             # collate atomic feature vectors in a tensor for each molecule
             mol_tensors = []
             for i, (a_start, a_size) in enumerate(a_scope):
@@ -670,6 +667,23 @@ class MP(nn.Module):
                         mol_vec = mol_vec.sum(dim=0) / a_size
                     elif self.readout == 'sum':
                         mol_vec = mol_vec.sum(dim=0)
+                    elif self.readout == 'max':
+                        mol_vec = torch.max(mol_vec,dim=0)[0]
                     mol_vecs.append(mol_vec)
             mol_vecs = torch.stack(mol_vecs, dim=0)  # (num_molecules, hidden_size)
             return mol_vecs  # num_molecules x hidden
+        
+        
+        '''
+            # create interaction map between solute and solvent atomic feature vectors
+            int_map = [torch.mm(sol[x],solv[x].t()) for x in range(num_pairs)]
+            int_map = [torch.tanh(int_map[x]) for x in range(num_pairs)]
+            
+            # create molecular context
+            sol_context = [torch.mm(int_map[x], solv[x]) for x in range(num_pairs)]
+            solv_context = [torch.mm(int_map[x].t(), sol[x]) for x in range(num_pairs)] # num_pairs x (num_atoms x hidden_size)
+            
+            # concatenate molecule + context
+            sol = [torch.cat((sol[x],sol_context[x])) for x in range(num_pairs)]
+            solv = [torch.cat((solv[x],solv_context[x])) for x in range(num_pairs)] # num_pairs x (2*num_atoms x hidden_size)
+'''
