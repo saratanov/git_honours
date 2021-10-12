@@ -1,0 +1,886 @@
+Solute SMILES,Solvent SMILES,Solute CAS,Solute IUPAC,pKa (avg),pKa (all),Source (all)
+[N+](=O)(O)[O-],C(CCl)Cl,7697-37-2,nitric acid,43.6,[43.6],['leito_acids']
+[N+](=O)(O)[O-],CC#N,7697-37-2,nitric acid,8.8,[8.8],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+[NH3+]N,C1CCOC1,18500-32-8,aminoazanium,13.5,[13.5],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+[NH3+]N,CC#N,18500-32-8,aminoazanium,16.61,[16.61],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+[NH3+]N,CS(=O)C,18500-32-8,aminoazanium,10.1,[10.1],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+[NH3+]N,O,18500-32-8,aminoazanium,7.96,[7.96],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+[NH4+],CC#N,14798-03-9,azanium,16.46,[16.46],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+[NH4+],CS(=O)C,14798-03-9,azanium,10.5,[10.5],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+[NH4+],O,14798-03-9,azanium,9.21,[9.21],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+[O-][N+](=O)C1=C(Cl)C=CC(=C1)[S](=O)(=O)N[S](=O)(=O)C2=C(F)C(=C(F)C(=C2F)F)F,CC#N,1171188-96-7,"N-((4-chloro-3-nitrophenyl)sulfonyl)-2,3,4,5,6-pentafluorobenzenesulfonamide",6.17,"[6.18, 6.16, 6.16, 6.18]","['DCE_2011_pKa_Table_MeCN.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+[O-][N+](=O)C1=C(Cl)C=CC(=C1)[S](=O)(=O)N[S](=O)(=O)C2=CC(=C(Cl)C=C2)[N+]([O-])=O,C(CCl)Cl,64646-01-1,4-chloro-N-((4-chloro-3-nitrophenyl)sulfonyl)-3-nitrobenzenesulfonamide,40.4,"[40.4, 40.4]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+[O-][N+](=O)C1=C(Cl)C=CC(=C1)[S](=O)(=O)N[S](=O)(=O)C2=CC(=C(Cl)C=C2)[N+]([O-])=O,CC#N,64646-01-1,4-chloro-N-((4-chloro-3-nitrophenyl)sulfonyl)-3-nitrobenzenesulfonamide,7.47,[7.47],['Ejoc202001649-sup-00001-misc_information.pdf']
+[O-][N+](=O)C1=C(Cl)C=CC(=C1)[S](=O)(=O)N[S](=O)(=O)C2=CC=C(Cl)C=C2,CC#N,1171188-83-2,-,8.775,"[8.75, 8.8]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+[O-][N+](=O)C1=CC(=CC=C1)[S](=O)(=O)C(C#N)C#N,CC#N,46764-49-2,-,6.19,"[6.16, 6.22]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+[O-][N+](=O)C1=CC(=CC=C1)[S](=O)(=O)N[S](=O)(=O)C2=C(F)C(=C(F)C(=C2F)F)F,CC#N,1171188-92-3,"2,3,4,5,6-pentafluoro-N-((3-nitrophenyl)sulfonyl)benzenesulfonamide",6.705,"[6.73, 6.68, 6.68, 6.73]","['DCE_2011_pKa_Table_MeCN.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+[O-][N+](=O)C1=CC(=CC=C1)[S](=O)(=O)N[S](=O)(=O)C2=CC(=C(Cl)C=C2)[N+]([O-])=O,CC#N,34350-21-5,-,7.86,"[7.84, 7.88]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+[O-][N+](=O)C1=CC=C(C=C1)[S](=O)(=O)C(C#N)C#N,C(CCl)Cl,1207878-53-2,2-((4-nitrophenyl)sulfonyl)malononitrile,39.9,"[39.9, 39.9]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+[O-][N+](=O)C1=CC=C(C=C1)[S](=O)(=O)C(C#N)C#N,CC#N,1207878-53-2,2-((4-nitrophenyl)sulfonyl)malononitrile,6.04,"[6.06, 6.06, 6.01, 6.01, 6.06]","['DCE_2011_pKa_Table_MeCN.pdf', 'a_unified_view_to_bronsted_acidity_scales.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+[O-][N+](=O)C1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=N[S](=O)(=O)C(F)(F)F)C2=CC=C(Cl)C=C2,C(CCl)Cl,174788-97-7,,35.9,[35.9],['leito_acids']
+[O-][N+](=O)C1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=N[S](=O)(=O)C(F)(F)F)C2=CC=C(Cl)C=C2,CC#N,174788-97-7,,3.33,[3.33],['leito_acids']
+[O-][N+](=O)C1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=O)C(F)(F)F,C(CCl)Cl,174788-91-1,4-nitro-N-(trifluoromethylsulfonyl)benzenesulfonamide,37.1,[37.1],['Ejoc202001649-sup-00001-misc_information.pdf']
+[O-][N+](=O)C1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=O)C(F)(F)F,CC#N,174788-91-1,4-nitro-N-(trifluoromethylsulfonyl)benzenesulfonamide,4.215,"[4.39, 4.04]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+[O-][N+](=O)C1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=O)C2=C(F)C(=C(F)C(=C2F)F)F,CC#N,1171188-93-4,"2,3,4,5,6-pentafluoro-N-((4-nitrophenyl)sulfonyl)benzenesulfonamide",6.6,"[6.6, 6.6, 6.6]","['DCE_2011_pKa_Table_MeCN.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'leito_acids']"
+[O-][N+](=O)C1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=O)C2=CC(=C(Cl)C=C2)[N+]([O-])=O,C(CCl)Cl,2226486-82-2,-,40.7,"[40.7, 40.7]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+[O-][N+](=O)C1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=O)C2=CC(=C(Cl)C=C2)[N+]([O-])=O,CC#N,2226486-82-2,-,7.83,"[7.82, 7.84]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+[O-][N+](=O)C1=CC=C(C=C1)C(=O)N[S](=O)(=O)C(F)(F)F,CC#N,39062-98-1,4-nitro-N-(trifluoromethylsulfonyl)benzamide,9.49,"[9.49, 9.49]","['DCE_2011_pKa_Table_MeCN.pdf', 'leito_acids']"
+[O-][N+](=O)C1=CC=C(C=C1)C(N[S](=O)(=O)C(F)(F)F)=N[S](=O)(=O)C(F)(F)F,CC#N,500721-97-1,"4-nitro-N,N'-bis(trifluoromethylsulfonyl)benzenecarboximidamide",4.88,"[5.13, 4.63]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+Br,C(CCl)Cl,10035-10-6,bromane,40.6,"[40.6, 40.6, 40.6]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+Br,CC#N,10035-10-6,bromane,5.471428571,"[5.5, 5.5, 5.5, 5.5, 5.4, 5.4, 5.5]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'DCE_2011_pKa_Table_MeCN.pdf', 'a_unified_view_to_bronsted_acidity_scales.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+Br,CS(=O)C,10035-10-6,bromane,-6.8,"[-6.8, -6.8]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+Br,O,10035-10-6,bromane,-8.8,"[-8.8, -8.8]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-],CC#N,517-25-9,trinitromethane,7.3,[7.3],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C(#N)C(=C(C#N)NC(=C(C#N)C#N)C#N)C#N,C(CCl)Cl,2284-24-4,"2-(1,2,2-tricyanoethenylamino)ethene-1,1,2-tricarbonitrile",33,[33.0],['leito_acids']
+C(#N)C(=C(C#N)O)C#N,C(CCl)Cl,27062-39-1,"2-hydroxyethene-1,1,2-tricarbonitrile",36.3,"[36.3, 36.3]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C(#N)C(=C(C#N)O)C#N,CC#N,27062-39-1,"2-hydroxyethene-1,1,2-tricarbonitrile",4.375,"[4.39, 4.36, 4.36, 4.39]","['DCE_2011_pKa_Table_MeCN.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C(#N)C(C#N)C(=C(C#N)C#N)Br,C(CCl)Cl,100125-09-5,"2-bromoprop-1-ene-1,1,3,3-tetracarbonitrile",33.2,[33.2],['leito_acids']
+C(#N)C(C#N)C(=C(C#N)C#N)C#N,C(CCl)Cl,45078-17-9,"prop-1-ene-1,1,2,3,3-pentacarbonitrile",29.7,[29.7],['leito_acids']
+C(#N)C(C#N)C(=C(C#N)C#N)Cl,C(CCl)Cl,1261286-80-9,"2-chloroprop-1-ene-1,1,3,3-tetracarbonitrile",32.9,[32.9],['leito_acids']
+C(#N)C(C#N)C(=C(C#N)C#N)N,C(CCl)Cl,98555-43-2,"2-aminoprop-1-ene-1,1,3,3-tetracarbonitrile",38.2,[38.2],['leito_acids']
+C(#N)C(C#N)C#N,C(CCl)Cl,454-50-2,methanetricarbonitrile,38.6,"[38.6, 38.6]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C(#N)C(C#N)C#N,CC#N,454-50-2,methanetricarbonitrile,5,"[5.0, 5.0]","['pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C(#N)C(C#N)C#N,O,454-50-2,methanetricarbonitrile,-5.1,[-5.1],['Ejoc202001649-sup-00001-misc_information.pdf']
+C(#N)C(C#N)C1=C(C(=C(C(=C1C(F)(F)F)C(F)(F)F)C(F)(F)F)C(F)(F)F)C(F)(F)F,C(CCl)Cl,1018330-44-3,"2-[2,3,4,5,6-pentakis(trifluoromethyl)phenyl]propanedinitrile",42.2,[42.2],['leito_acids']
+C(#N)C(C#N)C1=C(C(=C(C(=C1C(F)(F)F)C(F)(F)F)C(F)(F)F)C(F)(F)F)C(F)(F)F,CC#N,1018330-44-3,"2-[2,3,4,5,6-pentakis(trifluoromethyl)phenyl]propanedinitrile",8.86,"[8.86, 8.86, 8.86]","['DCE_2011_pKa_Table_MeCN.pdf', 'a_unified_view_to_bronsted_acidity_scales.pdf', 'leito_acids']"
+C(#N)C(C#N)C1=C(C(=C(C(=C1F)F)C(F)(F)F)F)F,C(CCl)Cl,55852-24-9,"2-[2,3,5,6-tetrafluoro-4-(trifluoromethyl)phenyl]propanedinitrile",44.2,"[44.2, 44.2]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C(#N)C(C#N)C1=C(C(=C(C(=C1F)F)C(F)(F)F)F)F,CC#N,55852-24-9,"2-[2,3,5,6-tetrafluoro-4-(trifluoromethyl)phenyl]propanedinitrile",10.19,"[10.19, 10.19, 10.19, 10.19, 10.19, 10.19]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'DCE_2011_pKa_Table_MeCN.pdf', 'a_unified_view_to_bronsted_acidity_scales.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C(#N)C(C#N)C1=C(C(=C(C(=C1F)F)C(F)(F)F)F)F,CS(=O)C,55852-24-9,"2-[2,3,5,6-tetrafluoro-4-(trifluoromethyl)phenyl]propanedinitrile",1.7,[1.7],['a_unified_view_to_bronsted_acidity_scales.pdf']
+C(#N)C(C#N)C1=C(C(=C(C(=C1F)F)F)F)F,CC#N,719-38-0,"2-(2,3,4,5,6-pentafluorophenyl)propanedinitrile",13.01,"[13.01, 13.01, 13.01, 13.01]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C(#N)C(C#N)C1=C(C2=C(C(=C1F)F)C(=C(C(=C2F)F)F)F)F,C(CCl)Cl,62325-35-3,"2-(1,3,4,5,6,7,8-heptafluoronaphthalen-2-yl)propanedinitrile",46.3,"[46.3, 46.3]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C(#N)C(C#N)C1=C(C2=C(C(=C1F)F)C(=C(C(=C2F)F)F)F)F,CC#N,62325-35-3,"2-(1,3,4,5,6,7,8-heptafluoronaphthalen-2-yl)propanedinitrile",12.23,"[12.23, 12.23, 12.23, 12.23]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'a_unified_view_to_bronsted_acidity_scales.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C(#N)C(C#N)S(=O)(=O)C(F)(F)F,C(CCl)Cl,278796-64-8,2-(trifluoromethylsulfonyl)propanedinitrile,33.5,[33.5],['leito_acids']
+C(#N)C(C1=C(C(=C(C(=C1F)F)C(F)(F)F)F)F)C2=C(C(=C(C(=C2F)F)C(F)(F)F)F)F,CC#N,58432-55-6,"2,2-bis[2,3,5,6-tetrafluoro-4-(trifluoromethyl)phenyl]acetonitrile",16.125,"[16.12, 16.13]","['pKa_values_of_acids_in_acetonitrile.pdf', 'leito_acids']"
+C(#N)C(C1=C(C(=C(C(=C1F)F)F)F)F)C2=C(C(=C(C(=C2Cl)F)Cl)F)Cl,CC#N,64934-69-6,"2-(2,3,4,5,6-pentafluorophenyl)-2-(2,4,6-trichloro-3,5-difluorophenyl)acetonitrile",20.13,[20.13],['pKa_values_of_acids_in_acetonitrile.pdf']
+C(#N)C(C1=C(C(=C(C(=C1F)F)F)F)F)C2=C(C(=C(C(=C2Cl)F)Cl)F)Cl,CC#N,64934-69-6,"2-(2,3,4,5,6-pentafluorophenyl)-2-(2,4,6-trichloro-3,5-difluorophenyl)acetonitrile",20.13,"[20.13, 20.13, 20.13]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C(#N)C(C1=C(C(=C(C(=C1F)F)F)F)F)C2=C(C(=C(C(=C2F)F)Cl)F)F,CC#N,42238-36-8,"2-(4-chloro-2,3,5,6-tetrafluorophenyl)-2-(2,3,4,5,6-pentafluorophenyl)acetonitrile",20.36,"[20.36, 20.36, 20.36]","['a_unified_view_to_bronsted_acidity_scales.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'leito_acids']"
+C(#N)C(C1=C(C(=C(C(=C1F)F)F)F)F)C2=C(C(=C(C(=C2F)F)Cl)F)F,CS(=O)C,42238-36-8,"2-(4-chloro-2,3,5,6-tetrafluorophenyl)-2-(2,3,4,5,6-pentafluorophenyl)acetonitrile",7.5,[7.5],['a_unified_view_to_bronsted_acidity_scales.pdf']
+C(#N)C(C1=C(C(=C(C(=C1F)F)F)F)F)C2=C(C(=NC(=C2F)F)F)F,C(CCl)Cl,62325-51-3,"2-(2,3,4,5,6-pentafluorophenyl)-2-(2,3,5,6-tetrafluoropyridin-4-yl)acetonitrile",50.5,[50.5],['leito_acids']
+C(#N)C(C1=C(C(=C(C(=C1F)F)F)F)F)C2=C(C(=NC(=C2F)F)F)F,CC#N,62325-51-3,"2-(2,3,4,5,6-pentafluorophenyl)-2-(2,3,5,6-tetrafluoropyridin-4-yl)acetonitrile",16.39666667,"[16.4, 16.39, 16.4]","['a_unified_view_to_bronsted_acidity_scales.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'leito_acids']"
+C(#N)C(C1=C(C(=C(C(=C1F)F)F)F)F)C2=C(C(=NC(=C2F)F)F)F,CS(=O)C,62325-51-3,"2-(2,3,4,5,6-pentafluorophenyl)-2-(2,3,5,6-tetrafluoropyridin-4-yl)acetonitrile",3.3,[3.3],['a_unified_view_to_bronsted_acidity_scales.pdf']
+C(#N)C(C1=C(C(=NC(=C1F)F)F)F)C2=C(C(=NC(=C2F)F)F)F,C(CCl)Cl,64934-72-1,"2,2-bis(2,3,5,6-tetrafluoropyridin-4-yl)acetonitrile",47.3,[47.3],['leito_acids']
+C(#N)C(C1=C(C(=NC(=C1F)F)F)F)C2=C(C(=NC(=C2F)F)F)F,CC#N,64934-72-1,"2,2-bis(2,3,5,6-tetrafluoropyridin-4-yl)acetonitrile",13.46666667,"[13.47, 13.47, 13.46]","['a_unified_view_to_bronsted_acidity_scales.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'leito_acids']"
+C(#N)C(C1=C(C(=NC(=C1F)F)F)F)C2=C(C(=NC(=C2F)F)F)F,CS(=O)C,64934-72-1,"2,2-bis(2,3,5,6-tetrafluoropyridin-4-yl)acetonitrile",2.4,[2.4],['a_unified_view_to_bronsted_acidity_scales.pdf']
+C(#N)C(C1=C(C2=C(C(=C1F)F)C(=C(C(=C2F)F)F)F)F)C3=C(C(=C(C(=C3F)F)F)F)F,C(CCl)Cl,64934-68-5,"2-(1,3,4,5,6,7,8-heptafluoronaphthalen-2-yl)-2-(2,3,4,5,6-pentafluorophenyl)acetonitrile",54.4,"[54.4, 54.4]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C(#N)C(C1=C(C2=C(C(=C1F)F)C(=C(C(=C2F)F)F)F)F)C3=C(C(=C(C(=C3F)F)F)F)F,CC#N,64934-68-5,"2-(1,3,4,5,6,7,8-heptafluoronaphthalen-2-yl)-2-(2,3,4,5,6-pentafluorophenyl)acetonitrile",20.076,"[20.08, 20.08, 20.07, 20.07, 20.08]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'a_unified_view_to_bronsted_acidity_scales.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C(#N)C(C1=C(C2=C(C(=C1F)F)C(=C(C(=C2F)F)F)F)F)C3=C(C(=NC(=C3F)F)F)F,CC#N,62325-37-5,"2-(1,3,4,5,6,7,8-heptafluoronaphthalen-2-yl)-2-(2,3,5,6-tetrafluoropyridin-4-yl)acetonitrile",16.015,"[16.01, 16.02]","['pKa_values_of_acids_in_acetonitrile.pdf', 'leito_acids']"
+C(#N)C(C1=C(C2=C(C(=C1F)F)C(=C(C(=C2F)F)F)F)F)C3=C(C4=C(C(=C3F)F)C(=C(C(=C4F)F)F)F)F,C(CCl)Cl,62325-38-6,"2,2-bis(1,3,4,5,6,7,8-heptafluoronaphthalen-2-yl)acetonitrile",53.26666667,"[53.0, 53.4, 53.4]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C(#N)C(C1=C(C2=C(C(=C1F)F)C(=C(C(=C2F)F)F)F)F)C3=C(C4=C(C(=C3F)F)C(=C(C(=C4F)F)F)F)F,CC#N,62325-38-6,"2,2-bis(1,3,4,5,6,7,8-heptafluoronaphthalen-2-yl)acetonitrile",19.32,"[19.32, 19.32, 19.32, 19.32, 19.32, 19.32]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'a_unified_view_to_bronsted_acidity_scales.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C(#N)C1=C(C(=C(C(=C1C#N)C#N)O)C#N)C#N,C(CCl)Cl,42448-55-5,"6-hydroxybenzene-1,2,3,4,5-pentacarbonitrile",37.5,[37.5],['leito_acids']
+C(#N)C1=C(C(=C(C(=C1F)F)N)F)F,CC#N,17823-38-0,"4-amino-2,3,5,6-tetrafluorobenzonitrile",28.78,"[28.78, 28.78]","['pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C(#N)C1=C(C(=C(C(=C1F)F)N)F)F,CS(=O)C,17823-38-0,"4-amino-2,3,5,6-tetrafluorobenzonitrile",17.2,[17.2],['Ejoc202001649-sup-00001-misc_information.pdf']
+C(=C(C#N)C#N)C(C#N)C#N,C(CCl)Cl,32019-26-4,"prop-1-ene-1,1,3,3-tetracarbonitrile",34.3,[34.3],['leito_acids']
+C(=C(C#N)C#N)C(C#N)C#N,CC#N,32019-26-4,"prop-1-ene-1,1,3,3-tetracarbonitrile",5.64,[5.64],['pKa_values_of_acids_in_acetonitrile.pdf']
+C(=CC(=O)O)C(=O)O,CC#N,26099-09-2,but-2-enedioic acid,19.2,[19.2],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C(=O)(C(=O)O)O,CC#N,144-62-7,oxalic acid,14.5,[14.5],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C(=O)(C(C(C(=O)O)(O)O)(O)O)O,CC#N,76-30-2,"2,2,3,3-tetrahydroxybutanedioic acid",13.7,[13.7],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C(=O)(C(Cl)(Cl)Cl)O,CC#N,76-03-9,"2,2,2-trichloroacetic acid",10.75,[10.75],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C(=O)(C(F)(F)F)O,CC#N,76-05-1,"2,2,2-trifluoroacetic acid",12.65,[12.65],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C(C(=O)O)(C(=O)O)O,CC#N,80-69-3,2-hydroxypropanedioic acid,13.8,[13.8],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C(C(=O)O)(Cl)Cl,CC#N,79-43-6,"2,2-dichloroacetic acid",13.2,[13.2],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C(C(=O)O)C(=O)O,CC#N,141-82-2,propanedioic acid,15.3,[15.3],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C(C(=O)O)Cl,CC#N,79-11-8,2-chloroacetic acid,18.8,[18.8],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C(C(=O)O)O,CC#N,79-14-1,2-hydroxyacetic acid,19.3,[19.3],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C(C(C(=O)O)Br)Br,CC#N,600-05-5,"2,3-dibromopropanoic acid",17.1,[17.1],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C(C(C(=O)O)O)(C(=O)O)O,CC#N,526-83-0,"2,3-dihydroxybutanedioic acid",15.1,[15.1],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C(C(C(F)(F)S(=O)(=O)NS(=O)(=O)C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(C(F)(F)F)(F)F,C(CCl)Cl,39847-39-7,"1,1,2,2,3,3,4,4,4-nonafluoro-N-(1,1,2,2,3,3,4,4,4-nonafluorobutylsulfonyl)butane-1-sulfonamide",32.6,[32.6],['leito_acids']
+C(C(F)(F)F)(C(F)(F)F)(C(F)(F)F)O,CC#N,1/2/78,"1,1,1,3,3,3-hexafluoro-2-(trifluoromethyl)propan-2-ol",20.525,"[20.55, 20.5, 20.5, 20.55]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C(C(F)(F)F)(C(F)(F)F)(C(F)(F)F)O,CS(=O)C,1/2/78,"1,1,1,3,3,3-hexafluoro-2-(trifluoromethyl)propan-2-ol",10.7,[10.7],['Ejoc202001649-sup-00001-misc_information.pdf']
+C(C(F)(F)F)(C(F)(F)F)(C(F)(F)F)O,O,1/2/78,"1,1,1,3,3,3-hexafluoro-2-(trifluoromethyl)propan-2-ol",5.33,[5.33],['Ejoc202001649-sup-00001-misc_information.pdf']
+C(C(F)(F)F)(C(F)(F)S(=O)(=O)NS(=O)(=O)C(C(C(F)(F)F)(F)F)(F)F)(F)F,C(CCl)Cl,152894-12-7,"1,1,2,2,3,3,3-heptafluoro-N-(1,1,2,2,3,3,3-heptafluoropropylsulfonyl)propane-1-sulfonamide",32.7,[32.7],['leito_acids']
+C(C(F)(F)P(=O)(C(C(F)(F)F)(F)F)NP(=O)(C(C(F)(F)F)(F)F)C(C(F)(F)F)(F)F)(F)(F)F,C(CCl)Cl,916079-45-3,"1-[[bis(1,1,2,2,2-pentafluoroethyl)phosphorylamino]-(1,1,2,2,2-pentafluoroethyl)phosphoryl]-1,1,2,2,2-pentafluoroethane",33.5,[33.5],['leito_acids']
+C(C(F)(F)S(=O)(=O)NS(=O)(=O)C(C(F)(F)F)(F)F)(F)(F)F,C(CCl)Cl,152894-10-5,"1,1,2,2,2-pentafluoro-N-(1,1,2,2,2-pentafluoroethylsulfonyl)ethanesulfonamide",32.6,[32.6],['leito_acids']
+C(C[NH3+])CN,C1CCOC1,-,3-aminopropylazanium,14.8,[14.8],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C(C[NH3+])CN,CC#N,-,3-aminopropylazanium,19.76,[19.76],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C(C[NH3+])CN,CS(=O)C,-,3-aminopropylazanium,12.3,[12.3],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C(C[NH3+])CN,O,-,3-aminopropylazanium,10.47,[10.47],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C(C#N)C(=C(C#N)C#N)C(C#N)C#N,C(CCl)Cl,2638-14-4,"2-(cyanomethyl)prop-1-ene-1,1,3,3-tetracarbonitrile",32.6,[32.6],['leito_acids']
+C(C#N)C(=O)O,CC#N,372-09-8,2-cyanoacetic acid,18,[18.0],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C(CC(=O)O)C(=O)O,CC#N,110-15-6,butanedioic acid,17.6,[17.6],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C(CC(=O)O)CC(=O)O,CC#N,110-94-1,pentanedioic acid,19.2,[19.2],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C(CC[NH3+])CCN,C1CCOC1,-,5-aminopentylazanium,14.2,[14.2],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C(CC[NH3+])CCN,CC#N,-,5-aminopentylazanium,19.14,[19.14],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C(CC[NH3+])CCN,CS(=O)C,-,5-aminopentylazanium,11.7,[11.7],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C(CC[NH3+])CCN,O,-,5-aminopentylazanium,10.85,[10.85],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C(CCC(=O)O)CC(=O)O,CC#N,124-04-9,hexanedioic acid,20.3,[20.3],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C(CCCC(=O)O)CCCC(=O)O,CC#N,123-99-9,nonanedioic acid,20.9,[20.9],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C(CCN)C[NH3+],C1CCOC1,-,4-aminobutylazanium,15.2,[15.2],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C(CCN)C[NH3+],CC#N,-,4-aminobutylazanium,20.12,[20.12],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C(CCN)C[NH3+],CS(=O)C,-,4-aminobutylazanium,12.6,[12.6],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C(CCN)C[NH3+],O,-,4-aminobutylazanium,10.65,[10.65],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C(CN)[NH3+],C1CCOC1,-,2-aminoethylazanium,13.6,[13.6],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C(CN)[NH3+],CC#N,-,2-aminoethylazanium,18.46,[18.46],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C(CN)[NH3+],CS(=O)C,-,2-aminoethylazanium,11.1,[11.1],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C(CN)[NH3+],O,-,2-aminoethylazanium,9.98,[9.98],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C(CO)C(=O)O,CC#N,503-66-2,3-hydroxypropanoic acid,21,[21.0],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C(F)(F)(F)S(=O)(=O)NS(=O)(=O)C(F)(F)F,C(CCl)Cl,82113-65-3,"1,1,1-trifluoro-N-(trifluoromethylsulfonyl)methanesulfonamide",33,[33.0],['leito_acids']
+C(F)(F)(F)S(=O)(=O)O,C(CCl)Cl,1493-13-6,trifluoromethanesulfonic acid,33.7,"[33.7, 33.7]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'leito_acids']"
+C(F)(F)(F)S(=O)(=O)O,C1CCOC1,1493-13-6,trifluoromethanesulfonic acid,7.83,[7.83],['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf']
+C(F)(F)(F)S(=O)(=O)O,CC#N,1493-13-6,trifluoromethanesulfonic acid,2.6,"[2.6, 2.6]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf']"
+C(F)(F)(F)S(=O)(=O)O,CS(=O)C,1493-13-6,trifluoromethanesulfonic acid,-14.3,[-14.3],['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf']
+C(F)(F)(F)S(=O)(=O)O,O,1493-13-6,trifluoromethanesulfonic acid,-14.7,[-14.7],['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf']
+C(S(=O)(=O)F)(S(=O)(=O)F)S(=O)(=O)F,C(CCl)Cl,75533-68-5,methanetrisulfonyl fluoride,31.4,[31.4],['leito_acids']
+C[NH+](C)C,C1CCOC1,,trimethylazanium,12.7,[12.7],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH+](C)C,CC#N,,trimethylazanium,17.61,[17.61],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH+](C)C,CS(=O)C,,trimethylazanium,8.4,[8.4],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH+](C)C,O,,trimethylazanium,9.76,[9.76],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH+](C)C(=N)N(C)C,C1CCOC1,-,"(N,N-dimethylcarbamimidoyl)-dimethylazanium",15.5,"[15.5, 15.5]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C[NH+](C)C(=N)N(C)C,CC#N,-,"(N,N-dimethylcarbamimidoyl)-dimethylazanium",23.325,"[23.3, 23.35]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C[NH+](C)C(=N)N(C)C,CS(=O)C,-,"(N,N-dimethylcarbamimidoyl)-dimethylazanium",13.2,"[13.2, 13.2]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C[NH+](C)C(=N)N(C)C,O,-,"(N,N-dimethylcarbamimidoyl)-dimethylazanium",13.3,"[13.6, 13.0]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C[NH+](C)C1=CC=CC=C1,C1CCOC1,-,dimethyl(phenyl)azanium,4.9,[4.9],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH+](C)C1=CC=CC=C1,CC#N,-,dimethyl(phenyl)azanium,11.45,"[11.43, 11.47]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C[NH+](C)C1=CC=CC=C1,CS(=O)C,-,dimethyl(phenyl)azanium,2.7,[2.7],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH+](C)C1=CC=CC=C1,O,-,dimethyl(phenyl)azanium,5.06,[5.06],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH+](C)C1=CC=CC2=C1C(=CC=C2)N(C)C,C1CCOC1,-,[8-(dimethylamino)naphthalen-1-yl]-dimethylazanium,11.1,[11.1],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH+](C)C1=CC=CC2=C1C(=CC=C2)N(C)C,CC#N,-,[8-(dimethylamino)naphthalen-1-yl]-dimethylazanium,18.63,[18.63],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH+](C)C1=CC=CC2=C1C(=CC=C2)N(C)C,CS(=O)C,-,[8-(dimethylamino)naphthalen-1-yl]-dimethylazanium,7.47,[7.47],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH+](C)C1=CC=CC2=C1C(=CC=C2)N(C)C,O,-,[8-(dimethylamino)naphthalen-1-yl]-dimethylazanium,12,[12.0],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH+](C)CCCCN(C)C,C1CCOC1,-,4-(dimethylamino)butyl-dimethylazanium,13.1,[13.1],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH+](C)CCCCN(C)C,CC#N,-,4-(dimethylamino)butyl-dimethylazanium,19.96,[19.96],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH+](C)CCCCN(C)C,CS(=O)C,-,4-(dimethylamino)butyl-dimethylazanium,10,[10.0],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH+](C)CCCCN(C)C,O,-,4-(dimethylamino)butyl-dimethylazanium,10.8,[10.8],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH+](C)CCCN(C)C,C1CCOC1,-,3-(dimethylamino)propyl-dimethylazanium,13,[13.0],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH+](C)CCCN(C)C,CC#N,-,3-(dimethylamino)propyl-dimethylazanium,19.28,[19.28],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH+](C)CCCN(C)C,CS(=O)C,-,3-(dimethylamino)propyl-dimethylazanium,9.4,[9.4],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH+](C)CCCN(C)C,O,-,3-(dimethylamino)propyl-dimethylazanium,10.6,[10.6],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH+](C)CCN(C)C,C1CCOC1,-,2-(dimethylamino)ethyl-dimethylazanium,12.8,[12.8],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH+](C)CCN(C)C,CC#N,-,2-(dimethylamino)ethyl-dimethylazanium,18.69,[18.69],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH+](C)CCN(C)C,CS(=O)C,-,2-(dimethylamino)ethyl-dimethylazanium,8.8,[8.8],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH+](C)CCN(C)C,O,-,2-(dimethylamino)ethyl-dimethylazanium,9.15,[9.15],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH+](C1=CC=CC=C1)C2=CC=CC=C2,CC#N,,methyl(diphenyl)azanium,6.52,[6.52],['pKa_values_of_nitrogen_heterocycles.pdf']
+C[NH+]1CCCCC1,C1CCOC1,-,1-methylpiperidin-1-ium,12.9,[12.9],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH+]1CCCCC1,CC#N,-,1-methylpiperidin-1-ium,18.24,[18.24],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH+]1CCCCC1,CS(=O)C,-,1-methylpiperidin-1-ium,8.4,[8.4],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH+]1CCCCC1,O,-,1-methylpiperidin-1-ium,10.08,[10.08],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH+]1CCN(CC1)C,C1CCOC1,-,"1,4-dimethylpiperazin-1-ium",12.4,[12.4],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH+]1CCN(CC1)C,CC#N,-,"1,4-dimethylpiperazin-1-ium",17.38,[17.38],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH+]1CCN(CC1)C,CS(=O)C,-,"1,4-dimethylpiperazin-1-ium",7.7,[7.7],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH+]1CCN(CC1)C,O,-,"1,4-dimethylpiperazin-1-ium",8.54,[8.54],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH2+]C,C1CCOC1,49784-85-2,dimethylazanium,13.3,[13.3],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH2+]C,CC#N,49784-85-2,dimethylazanium,19.03,[19.03],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH2+]C,CS(=O)C,49784-85-2,dimethylazanium,10.3,[10.3],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH2+]C,O,49784-85-2,dimethylazanium,10.64,[10.64],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH2+]C1=CC=CC=C1,C1CCOC1,-,methyl(phenyl)azanium,4.8,[4.8],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH2+]C1=CC=CC=C1,CC#N,-,methyl(phenyl)azanium,10.97,[10.97],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH2+]C1=CC=CC=C1,CS(=O)C,-,methyl(phenyl)azanium,2.94,[2.94],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH2+]C1=CC=CC=C1,O,-,methyl(phenyl)azanium,4.85,[4.85],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH3+],C1CCOC1,17000-00-9,methylazanium,13.5,[13.5],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH3+],CC#N,17000-00-9,methylazanium,18.37,[18.37],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH3+],CS(=O)C,17000-00-9,methylazanium,11,[11.0],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C[NH3+],O,17000-00-9,methylazanium,10.62,[10.62],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1(=C(C(=C(C(=C1Br)Br)Br)Br)Br)O,CC#N,608-71-9,"2,3,4,5,6-pentabromophenol",17.82,"[17.83, 17.81, 17.81, 17.83]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1(=C(C(=C(C(=C1Br)Br)Br)Br)Br)O,O,608-71-9,"2,3,4,5,6-pentabromophenol",4.82,[4.82],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1(=C(C(=C(C(=C1C(F)(F)F)C(F)(F)F)N)C(F)(F)F)C(F)(F)F)C(F)(F)F,CC#N,58956-76-6,"2,3,4,5,6-pentakis(trifluoromethyl)aniline",24.58,"[24.59, 24.57, 24.57, 24.59]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1(=C(C(=C(C(=C1C(F)(F)F)C(F)(F)F)N)C(F)(F)F)C(F)(F)F)C(F)(F)F,CS(=O)C,58956-76-6,"2,3,4,5,6-pentakis(trifluoromethyl)aniline",12.5,[12.5],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1(=C(C(=C(C(=C1C(F)(F)F)C(F)(F)F)O)C(F)(F)F)C(F)(F)F)C(F)(F)F,CC#N,723294-91-5,"2,3,4,5,6-pentakis(trifluoromethyl)phenol",10.46,"[10.46, 10.46, 10.46, 10.46, 10.46]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'DCE_2011_pKa_Table_MeCN.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1(=C(C(=C(C(=C1C(F)(F)F)C(F)(F)F)O)C(F)(F)F)C(F)(F)F)C(F)(F)F,CS(=O)C,723294-91-5,"2,3,4,5,6-pentakis(trifluoromethyl)phenol",3.1,[3.1],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1(=C(C(=C(C(=C1C(F)(F)F)C(F)(F)F)O)C(F)(F)F)C(F)(F)F)C(F)(F)F,O,723294-91-5,"2,3,4,5,6-pentakis(trifluoromethyl)phenol",1.32,[1.32],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1(=C(C(=C(C(=C1C(F)(F)F)C(F)(F)F)S)C(F)(F)F)C(F)(F)F)C(F)(F)F,CC#N,723294-91-5,"2,3,4,5,6-pentakis(trifluoromethyl)phenol",10.11,"[10.1, 10.12, 10.12, 10.1]","['DCE_2011_pKa_Table_MeCN.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1(=C(C(=C(C(=C1Cl)Cl)Cl)Cl)Cl)[NH3+],CC#N,,"(2,3,4,5,6-pentachlorophenyl)azanium",2.35,[2.35],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1(=C(C(=C(C(=C1Cl)Cl)Cl)Cl)Cl)O,CC#N,87-86-5,"2,3,4,5,6-pentachlorophenol",18.01,"[18.02, 18.0, 18.0, 18.02]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1(=C(C(=C(C(=C1Cl)Cl)Cl)Cl)Cl)O,CN(C)C=O,87-86-5,"2,3,4,5,6-pentachlorophenol",7.97,[7.97],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1(=C(C(=C(C(=C1Cl)Cl)Cl)Cl)Cl)O,CS(=O)C,87-86-5,"2,3,4,5,6-pentachlorophenol",7.18,[7.18],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1(=C(C(=C(C(=C1Cl)Cl)Cl)Cl)Cl)O,O,87-86-5,"2,3,4,5,6-pentachlorophenol",4.74,[4.74],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1(=C(C(=C(C(=C1F)F)F)F)F)C(C(F)(F)F)(C(F)(F)F)O,CC#N,13732-52-0,"1,1,1,3,3,3-hexafluoro-2-(2,3,4,5,6-pentafluorophenyl)propan-2-ol",22.15,[22.15],['leito_acids']
+C1(=C(C(=C(C(=C1F)F)F)F)F)C(S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F,C(CCl)Cl,405074-81-9,"1-[bis(trifluoromethylsulfonyl)methyl]-2,3,4,5,6-pentafluorobenzene",35.9,[35.9],['leito_acids']
+C1(=C(C(=C(C(=C1F)F)F)F)F)C2(C(C(C(C(C2(F)F)(F)F)(F)F)(F)F)(F)F)O,CC#N,217825-01-9,"2,2,3,3,4,4,5,5,6,6-decafluoro-1-(2,3,4,5,6-pentafluorophenyl)cyclohexan-1-ol",22,[22.0],['leito_acids']
+C1(=C(C(=C(C(=C1F)F)F)F)F)NC2=C(C(=C(C(=C2F)F)F)F)F,CC#N,1535-92-8,"2,3,4,5,6-pentafluoro-N-(2,3,4,5,6-pentafluorophenyl)aniline",23.98,[23.98],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1(=C(C(=C(C(=C1F)F)F)F)F)NC2=C(C(=C(C(=C2F)F)F)F)F,CS(=O)C,1535-92-8,"2,3,4,5,6-pentafluoro-N-(2,3,4,5,6-pentafluorophenyl)aniline",11.6,[11.6],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1(=C(C(=C(C(=C1F)F)F)F)F)O,CC#N,771-61-9,"2,3,4,5,6-pentafluorophenol",20.105,"[20.11, 20.1, 20.1, 20.11]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1(=C(C(=C(C(=C1F)F)F)F)F)O,CS(=O)C,771-61-9,"2,3,4,5,6-pentafluorophenol",8.9,[8.9],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1(=C(C(=C(C(=C1F)F)F)F)F)O,O,771-61-9,"2,3,4,5,6-pentafluorophenol",5.55,[5.55],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1(=C(C(=C(C(=C1F)F)O)F)F)C(F)(F)F,CC#N,2787-79-3,"2,3,5,6-tetrafluoro-4-(trifluoromethyl)phenol",16.61333333,"[16.62, 16.6, 16.62]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1(=C(C(=C(C(=C1F)F)O)F)F)C2=C(C(=C(C(=C2F)F)F)F)F,CC#N,2894-87-3,"2,3,5,6-tetrafluoro-4-(2,3,4,5,6-pentafluorophenyl)phenol",18.105,"[18.11, 18.1, 18.1, 18.11]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1(=C(C(=C(C(=C1F)F)S(=O)(=O)N)F)F)F,CC#N,778-36-9,"2,3,4,5,6-pentafluorobenzenesulfonamide",22.27,[22.27],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1(=C(C(=C(C(=C1F)F)S(=O)(=O)N)F)F)F,O,778-36-9,"2,3,4,5,6-pentafluorobenzenesulfonamide",8.3,[8.3],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1(=C(C(=C(C(=C1F)F)S(=O)(=O)NS(=O)(=O)C2=C(C(=C(C(=C2F)F)F)F)F)F)F)F,CC#N,1535-93-9,"2,3,4,5,6-pentafluoro-N-(2,3,4,5,6-pentafluorophenyl)sulfonylbenzenesulfonamide",5.11,"[5.11, 5.11]","['DCE_2011_pKa_Table_MeCN.pdf', 'leito_acids']"
+C1(=C(C(=C2C(=C1S2)[N+](=O)[O-])[N+](=O)[O-])O)[N+](=O)[O-],CC#N,-,"2,4,7-trinitro-6-thiabicyclo[3.1.1]hepta-1(7),2,4-trien-3-ol",11,[11.0],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1(=C(NC(=C(C1=O)F)F)F)F,CC#N,2693-66-5,"2,3,5,6-tetrafluoro-1H-pyridin-4-one",15.395,"[15.4, 15.39, 15.39, 15.4]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1(C(=O)NC(=O)NC1=O)[N+](=O)[O-],CC#N,480-68-2,"5-nitro-1,3-diazinane-2,4,6-trione",10.72,"[10.72, 10.72]","['pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C1(C(=O)NC(=O)NC1=O)[N+](=O)[O-],CS(=O)C,480-68-2,"5-nitro-1,3-diazinane-2,4,6-trione",0.8,[0.8],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1(C(S(=O)(=O)NS(=O)(=O)C1(F)F)(F)F)(F)F,C(CCl)Cl,84246-29-7,"4,4,5,5,6,6-hexafluoro-1,3,2-dithiazinane 1,1,3,3-tetraoxide",31.9,[31.9],['leito_acids']
+C1(C2=C(C3=C1C(=C(C(=C3F)F)F)F)C(=C(C(=C2F)F)F)F)C4=C(C(=C(C(=C4F)F)F)F)F,C(CCl)Cl,63264-80-2,"1,2,3,4,5,6,7,8-octafluoro-9-(2,3,4,5,6-pentafluorophenyl)-9H-fluorene",53.8,"[53.8, 53.8, 53.8]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1(C2=C(C3=C1C(=C(C(=C3F)F)F)F)C(=C(C(=C2F)F)F)F)C4=C(C(=C(C(=C4F)F)F)F)F,CC#N,63264-80-2,"1,2,3,4,5,6,7,8-octafluoro-9-(2,3,4,5,6-pentafluorophenyl)-9H-fluorene",18.876,"[18.88, 18.88, 18.87, 18.87, 18.88]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'a_unified_view_to_bronsted_acidity_scales.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=[NH+]NN=C1,C1CCOC1,-,2H-triazol-1-ium,2.5,[2.5],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=[NH+]NN=C1,CC#N,-,2H-triazol-1-ium,7.95,"[7.9, 8.0]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=[NH+]NN=C1,CS(=O)C,-,2H-triazol-1-ium,0,[0.0],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=[NH+]NN=C1,O,-,2H-triazol-1-ium,1.17,"[1.17, 1.17]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=C([NH2+]C=N1)[N+](=O)[O-],CC#N,,5-nitro-1H-imidazol-3-ium,6.34,[6.34],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=C([NH2+]C=N1)[N+](=O)[O-],O,,5-nitro-1H-imidazol-3-ium,-0.16,[-0.16],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=C(C(=C(C(=C1[N+](=O)[O-])O)[N+](=O)[O-])O)[N+](=O)[O-],C(CCl)Cl,82-71-3,"2,4,6-trinitrobenzene-1,3-diol",44.1,[44.1],['leito_acids']
+C1=C(C(=C(C(=C1F)F)C(C#N)C#N)F)F,C(CCl)Cl,55810-63-4,"2-(2,3,5,6-tetrafluorophenyl)propanedinitrile",0,[0.0],['leito_acids']
+C1=C(C(=C(C(=C1F)F)C(C#N)C#N)F)F,CC#N,55810-63-4,"2-(2,3,5,6-tetrafluorophenyl)propanedinitrile",12.98,"[12.98, 12.98, 12.98]","['a_unified_view_to_bronsted_acidity_scales.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'leito_acids']"
+C1=C(C(=C(C(=C1F)F)C(C#N)C2=C(C(=C(C(=C2F)F)F)F)F)F)F,C(CCl)Cl,42254-09-1,"2-(2,3,4,5,6-pentafluorophenyl)-2-(2,3,5,6-tetrafluorophenyl)acetonitrile",55.7,[55.7],['leito_acids']
+C1=C(C(=C(C(=C1F)F)C(C#N)C2=C(C(=C(C(=C2F)F)F)F)F)F)F,CC#N,42254-09-1,"2-(2,3,4,5,6-pentafluorophenyl)-2-(2,3,5,6-tetrafluorophenyl)acetonitrile",21.10666667,"[21.11, 21.1, 21.11]","['a_unified_view_to_bronsted_acidity_scales.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'leito_acids']"
+C1=C(C(=C(C(=C1F)F)O)F)F,CC#N,769-39-1,"2,3,5,6-tetrafluorophenol",20.11,"[20.12, 20.1, 20.1, 20.12]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=C(C(=C(C(=C1F)F)O)F)F,O,769-39-1,"2,3,5,6-tetrafluorophenol",5.67,[5.67],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=C(C(=C(C1C#N)C#N)C#N)C#N,C(CCl)Cl,77569-14-3,"cyclopenta-2,4-diene-1,2,3,4-tetracarbonitrile",29.9,[29.9],['leito_acids']
+C1=C(C=C(C(=C1[N+](=O)[O-])N)[N+](=O)[O-])[N+](=O)[O-],CC#N,489-98-5,"2,4,6-trinitroaniline",23.87,"[23.87, 23.87]","['pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C1=C(C=C(C(=C1[N+](=O)[O-])N)[N+](=O)[O-])[N+](=O)[O-],O,489-98-5,"2,4,6-trinitroaniline",12.2,[12.2],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=C(C=C(C(=C1[N+](=O)[O-])NC2=C(C=C(C=C2[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-],CC#N,131-73-7,"2,4,6-trinitro-N-(2,4,6-trinitrophenyl)aniline",10.54,[10.54],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=C(C=C(C(=C1[N+](=O)[O-])NC2=C(C=C(C=C2[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-],CN(C)C=O,131-73-7,"2,4,6-trinitro-N-(2,4,6-trinitrophenyl)aniline",1.28,[1.28],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=C(C=C(C(=C1[N+](=O)[O-])NC2=C(C=C(C=C2[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-],O,131-73-7,"2,4,6-trinitro-N-(2,4,6-trinitrophenyl)aniline",2.63,[2.63],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=C(C=C(C(=C1[N+](=O)[O-])O)[N+](=O)[O-])[N+](=O)[O-],C(CCl)Cl,88-89-1,"2,4,6-trinitrophenol",44.86666667,"[44.6, 45.0, 45.0]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=C(C=C(C(=C1[N+](=O)[O-])O)[N+](=O)[O-])[N+](=O)[O-],C1CCOC1,88-89-1,"2,4,6-trinitrophenol",11.84,[11.84],['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf']
+C1=C(C=C(C(=C1[N+](=O)[O-])O)[N+](=O)[O-])[N+](=O)[O-],CC#N,88-89-1,"2,4,6-trinitrophenol",11,"[11.0, 11.0, 11.0, 11.0, 11.0, 11.0, 11.0]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'DCE_2011_pKa_Table_MeCN.pdf', 'a_unified_view_to_bronsted_acidity_scales.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=C(C=C(C(=C1[N+](=O)[O-])O)[N+](=O)[O-])[N+](=O)[O-],CN(C)C=O,88-89-1,"2,4,6-trinitrophenol",1.1,[1.1],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=C(C=C(C(=C1[N+](=O)[O-])O)[N+](=O)[O-])[N+](=O)[O-],CS(=O)C,88-89-1,"2,4,6-trinitrophenol",-1.33,"[-1.0, -1.09, -1.9]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'a_unified_view_to_bronsted_acidity_scales.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C1=C(C=C(C(=C1[N+](=O)[O-])O)[N+](=O)[O-])[N+](=O)[O-],O,88-89-1,"2,4,6-trinitrophenol",0.35,"[0.3, 0.4]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C1=C(C=C(C(=C1[N+](=O)[O-])O)[N+](=O)[O-])Cl,CC#N,88-87-9,"4-chloro-2,6-dinitrophenol",15.3,[15.3],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=C(C=C(C(=C1[N+](=O)[O-])O)[N+](=O)[O-])F,CC#N,364-32-9,"4-fluoro-2,6-dinitrophenol",16.17,"[16.17, 16.17]","['pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C1=C(C=C(C(=C1[N+](=O)[O-])O)Cl)[N+](=O)[O-],CC#N,946-31-6,"2-chloro-4,6-dinitrophenol",14.23,"[14.23, 14.23]","['pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C1=C(C=C(C(=C1[N+](=O)[O-])O)Cl)[N+](=O)[O-],O,946-31-6,"2-chloro-4,6-dinitrophenol",2.01,[2.01],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=C(C=C(C(=C1[N+](=O)[O-])S(=O)(=O)O)[N+](=O)[O-])[N+](=O)[O-],C(CCl)Cl,2508-19-2,"2,4,6-trinitrobenzenesulfonic acid",33.6,[33.6],['leito_acids']
+C1=C(C=C(C(=C1Br)O)Br)Br,CC#N,118-79-6,"2,4,6-tribromophenol",20.345,"[20.35, 20.34, 20.34, 20.35]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=C(C=C(C(=C1Br)O)Br)Br,CS(=O)C,118-79-6,"2,4,6-tribromophenol",8.7,[8.7],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=C(C=C(C(=C1Br)O)Br)Br,O,118-79-6,"2,4,6-tribromophenol",6.1,[6.1],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=C(C=C(C(=C1Cl)Cl)Cl)O,CC#N,609-19-8,"3,4,5-trichlorophenol",22.5,[22.5],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=C(C=C(C(=C1Cl)O)Cl)Cl,CC#N,88-06-2,"2,4,6-trichlorophenol",22.5,[22.5],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=C(C=C(C(=C1S(=O)(=O)C(F)(F)F)O)S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F,C(CCl)Cl,71571-37-4,"2,4,6-tris(trifluoromethylsulfonyl)phenol",38.4,[38.4],['leito_acids']
+C1=C(C=C(C(=C1S(=O)(=O)C(F)(F)F)O)S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F,CC#N,71571-37-4,"2,4,6-tris(trifluoromethylsulfonyl)phenol",4.47,"[4.48, 4.48, 4.44, 4.48]","['DCE_2011_pKa_Table_MeCN.pdf', 'a_unified_view_to_bronsted_acidity_scales.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'leito_acids']"
+C1=C(C=C(C(=C1S(=O)(=O)F)O)S(=O)(=O)F)S(=O)(=O)F,C(CCl)Cl,882492-01-5,"2-hydroxybenzene-1,3,5-trisulfonyl fluoride",39,[39.0],['leito_acids']
+C1=C(C=C(C(=C1S(=O)(=O)F)O)S(=O)(=O)F)S(=O)(=O)F,CC#N,882492-01-5,"2-hydroxybenzene-1,3,5-trisulfonyl fluoride",5.2425,"[5.25, 5.25, 5.22, 5.25]","['DCE_2011_pKa_Table_MeCN.pdf', 'a_unified_view_to_bronsted_acidity_scales.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'leito_acids']"
+C1=C(C=C(C=C1[N+](=O)[O-])[N+](=O)[O-])C(=O)O,CC#N,99-34-3,"3,5-dinitrobenzoic acid",17,[17.0],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=C(C=C(C=C1[N+](=O)[O-])O)[N+](=O)[O-],CC#N,586-11-8,"3,5-dinitrophenol",20.5,[20.5],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=C(C=C(C=C1C(F)(F)F)C(F)(F)F)CS(=O)(=O)C(F)(F)F,CC#N,434957-15-0,"1,3-bis(trifluoromethyl)-5-(trifluoromethylsulfonylmethyl)benzene",22.84,[22.84],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=C(C=C(C=C1C(F)(F)F)O)C(F)(F)F,CC#N,349-58-6,"3,5-bis(trifluoromethyl)phenol",23.79,"[23.78, 23.8, 23.8, 23.78]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=C(C=C(C=C1C(F)(F)F)O)C(F)(F)F,CS(=O)C,349-58-6,"3,5-bis(trifluoromethyl)phenol",13.2,[13.2],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=C(C=C(C=C1C(F)(F)F)O)C(F)(F)F,O,349-58-6,"3,5-bis(trifluoromethyl)phenol",8.03,[8.03],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=C(C=C(C=C1Cl)Cl)C(=O)O,CC#N,51-36-5,"3,5-dichlorobenzoic acid",18.7,[18.7],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=C(C=C(C=C1Cl)Cl)O,CC#N,591-35-5,"3,5-dichlorophenol",23.3,[23.3],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=C(C=C2C(=C1[N+](=O)[O-])NC3=C(C=C(C=C3O2)[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-],CC#N,24050-28-0,"1,3,7,9-tetranitro-10H-phenoxazine",18.8,[18.8],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=C[NH+]=CN=C1,C1CCOC1,-,pyrimidin-1-ium,2.4,[2.4],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=C[NH+]=CN=C1,CC#N,-,pyrimidin-1-ium,8.72,"[8.72, 8.72]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=C[NH+]=CN=C1,CS(=O)C,-,pyrimidin-1-ium,0.55,[0.55],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=C[NH+]=CN=C1,O,-,pyrimidin-1-ium,1.3,"[1.3, 1.3]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=C[NH2+]C(=O)NC1=O,CC#N,,"1H-pyrimidin-1-ium-2,4-dione",3.38,[3.38],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=C[NH2+]C(=O)NC1=O,O,,"1H-pyrimidin-1-ium-2,4-dione",0.5,[0.5],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CC(=[NH+]C(=C1)N)N,CC#N,,"pyridin-1-ium-2,6-diamine",14.77,[14.77],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CC(=C([NH+]=C1)N)N,CC#N,,"pyridin-1-ium-2,3-diamine",15.24,[15.24],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CC(=C(C(=C1)[N+](=O)[O-])C(=O)O)[N+](=O)[O-],CC#N,603-12-3,"2,6-dinitrobenzoic acid",15.8,[15.8],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=C(C(=C1)[N+](=O)[O-])O)[N+](=O)[O-],CC#N,573-56-8,"2,6-dinitrophenol",16.74,"[16.74, 16.74]","['pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C1=CC(=C(C(=C1)[N+](=O)[O-])O)[N+](=O)[O-],CN(C)C=O,573-56-8,"2,6-dinitrophenol",6.18,[6.18],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=C(C(=C1)[N+](=O)[O-])O)[N+](=O)[O-],CS(=O)C,573-56-8,"2,6-dinitrophenol",4.9,[4.9],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=C(C(=C1)[N+](=O)[O-])O)[N+](=O)[O-],O,573-56-8,"2,6-dinitrophenol",3.7,[3.7],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=C(C(=C1)Cl)C(=O)O)Cl,CC#N,50-30-6,"2,6-dichlorobenzoic acid",17.6,[17.6],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=C(C(=C1)O)C(=O)O)O,CC#N,303-07-1,"2,6-dihydroxybenzoic acid",12.6,[12.6],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=C(C=C1[N+](=O)[O-])[N+](=O)[O-])C(=O)O,CC#N,610-30-0,"2,4-dinitrobenzoic acid",16.1,[16.1],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=C(C=C1[N+](=O)[O-])[N+](=O)[O-])O,C1CCOC1,51-28-5,"2,4-dinitrophenol",16.94,[16.94],['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf']
+C1=CC(=C(C=C1[N+](=O)[O-])[N+](=O)[O-])O,CC#N,51-28-5,"2,4-dinitrophenol",16.656,"[16.66, 16.66, 16.65, 16.65, 16.66]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=CC(=C(C=C1[N+](=O)[O-])[N+](=O)[O-])O,CN(C)C=O,51-28-5,"2,4-dinitrophenol",6.33,[6.33],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=C(C=C1[N+](=O)[O-])[N+](=O)[O-])O,CS(=O)C,51-28-5,"2,4-dinitrophenol",5.25,"[5.4, 5.1]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C1=CC(=C(C=C1[N+](=O)[O-])[N+](=O)[O-])O,O,51-28-5,"2,4-dinitrophenol",4.1,"[4.1, 4.1]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C1=CC(=C(C=C1[N+](=O)[O-])[N+](=O)[O-])S(=O)(=O)O,C(CCl)Cl,89-02-1,"2,4-dinitrobenzenesulfonic acid",36,"[36.0, 36.0]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=CC(=C(C=C1[N+](=O)[O-])[N+](=O)[O-])S(=O)(=O)O,CC#N,89-02-1,"2,4-dinitrobenzenesulfonic acid",3.98,"[3.99, 3.96, 3.99]","['DCE_2011_pKa_Table_MeCN.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=CC(=C(C=C1[N+](=O)[O-])Cl)[NH3+],CC#N,-,(2-chloro-4-nitrophenyl)azanium,3.66,[3.66],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CC(=C(C=C1[NH3+])[N+](=O)[O-])F,CC#N,,(4-fluoro-3-nitrophenyl)azanium,7.67,[7.67],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CC(=C(C=C1C(=O)O)[N+](=O)[O-])Cl,CC#N,96-99-1,4-chloro-3-nitrobenzoic acid,18.5,[18.5],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=C(C=C1C(=O)O)Cl)Cl,CC#N,51-44-5,"3,4-dichlorobenzoic acid",19,[19.0],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=C(C=C1Cl)[N+](=O)[O-])[NH3+],CC#N,,(4-chloro-2-nitrophenyl)azanium,3.8,[3.8],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CC(=C(C=C1Cl)[NH3+])Cl,CC#N,,"(2,5-dichlorophenyl)azanium",5.635,"[6.21, 5.06]","['pKa_values_of_nitrogen_heterocycles.pdf', 'pKa_values_of_nitrogen_heterocycles.pdf']"
+C1=CC(=C(C=C1Cl)Cl)C(=O)O,CC#N,50-84-0,"2,4-dichlorobenzoic acid",18.4,[18.4],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=C(C=C1Cl)S(=O)(=O)O)Cl,CC#N,88-42-6,"2,5-dichlorobenzenesulfonic acid",6.2,[6.2],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=C(C=C1F)F)[NH3+],CC#N,,"(2,4-difluorophenyl)azanium",8.39,[8.39],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CC(=C(C=C1O)[N+](=O)[O-])[N+](=O)[O-],CC#N,577-71-9,"3,4-dinitrophenol",17.9,[17.9],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=C(C=C1O)C(F)(F)F)[N+](=O)[O-],CC#N,88-30-2,4-nitro-3-(trifluoromethyl)phenol,19.3,[19.3],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=C(C=C1O)Cl)[N+](=O)[O-],CC#N,491-11-2,3-chloro-4-nitrophenol,19.9,[19.9],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=C(C=C1O)Cl)Cl,CC#N,95-77-2,"3,4-dichlorophenol",24,[24.0],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=C(C=C1S(=O)(=O)N)Cl)Cl,CC#N,23815-28-3,"3,4-dichlorobenzenesulfonamide",23.29,[23.29],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=C[NH+]=C1)Cl,CC#N,,3-chloropyridin-1-ium,9.55,[9.55],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CC(=C2C(=C1)OC3=CC(=CC(=C3N2)[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-],CC#N,24050-30-4,"1,3,9-trinitro-10H-phenoxazine",21.9,[21.9],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=CC(=C1)[N+](=O)[O-])C(=O)O,CC#N,121-92-6,3-nitrobenzoic acid,19.2,[19.2],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=CC(=C1)Br)C(=O)O,CC#N,585-76-2,3-bromobenzoic acid,19.5,[19.5],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=CC(=C1)C(=O)O)C(=O)O,CC#N,121-91-5,"benzene-1,3-dicarboxylic acid",19.3,[19.3],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=CC(=C1)C(F)(F)F)C(C#N)C#N,C(CCl)Cl,99726-60-0,2-[3-(trifluoromethyl)phenyl]propanedinitrile,49,"[49.0, 49.0]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=CC(=CC(=C1)C(F)(F)F)C(C#N)C#N,CC#N,99726-60-0,2-[3-(trifluoromethyl)phenyl]propanedinitrile,14.715,"[14.72, 14.72, 14.7, 14.72]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'a_unified_view_to_bronsted_acidity_scales.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=CC(=CC(=C1)Cl)O,CC#N,108-43-0,3-chlorophenol,25,[25.0],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=CC(=C1)Cl)S(=O)(=O)N,CC#N,17260-71-8,3-chlorobenzenesulfonamide,23.8,[23.8],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=CC(=C1)O)[N+](=O)[O-],CC#N,554-84-7,3-nitrophenol,23.8,[23.8],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=CC(=C1)O)C(F)(F)F,CC#N,98-17-9,3-(trifluoromethyl)phenol,26.18,"[24.9, 26.5, 26.5, 26.5, 26.5]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=CC(=CC(=C1)O)C(F)(F)F,CN(C)C=O,98-17-9,3-(trifluoromethyl)phenol,15.7,[15.7],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=CC(=C1)O)C(F)(F)F,CS(=O)C,98-17-9,3-(trifluoromethyl)phenol,15.1,[15.1],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=CC(=C1)O)C(F)(F)F,O,98-17-9,3-(trifluoromethyl)phenol,9.08,[9.08],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=CC(=C1)S(=O)(=O)N)[N+](=O)[O-],CC#N,121-52-8,3-nitrobenzenesulfonamide,23.79,"[22.95, 24.63]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C1=CC(=CC(=C1)S(=O)(=O)N)[N+](=O)[O-],CS(=O)C,121-52-8,3-nitrobenzenesulfonamide,14.9,[14.9],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=CC(=C1)S(=O)(=O)N)[N+](=O)[O-],O,121-52-8,3-nitrobenzenesulfonamide,9.34,[9.34],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=CC(=C1)S(=O)(=O)N)C(F)(F)F,CC#N,672-58-2,3-(trifluoromethyl)benzenesulfonamide,24.365,"[23.53, 25.2]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C1=CC(=CC(=C1)S(=O)(=O)N)C(F)(F)F,CN(C)C=O,672-58-2,3-(trifluoromethyl)benzenesulfonamide,16.01,[16.01],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=CC(=C1)S(=O)(=O)N)C(F)(F)F,CS(=O)C,672-58-2,3-(trifluoromethyl)benzenesulfonamide,15.2,[15.2],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=CC(=C1)S(=O)(=O)N)C(F)(F)F,O,672-58-2,3-(trifluoromethyl)benzenesulfonamide,9.69,[9.69],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=CC(=C1)S(=O)(=O)N)C#N,CC#N,3118-68-1,3-cyanobenzenesulfonamide,23.23,[23.23],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=CC(=C1)S(=O)(=O)NS(=O)(=O)C2=CC=C(C=C2)Cl)[N+](=O)[O-],C(CCl)Cl,95468-16-9,N-(4-chlorophenyl)sulfonyl-3-nitrobenzenesulfonamide,42.4,[42.4],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=CC(=C1)S(=O)(=O)NS(=O)(=O)C2=CC=C(C=C2)Cl)[N+](=O)[O-],CC#N,95468-16-9,N-(4-chlorophenyl)sulfonyl-3-nitrobenzenesulfonamide,9.17,"[9.17, 9.17]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C1=CC(=CC(=C1)S(=O)(=O)NS(=O)(=O)C2=CC=CC(=C2)[N+](=O)[O-])[N+](=O)[O-],CC#N,116082-80-5,3-nitro-N-(3-nitrophenyl)sulfonylbenzenesulfonamide,8.156666667,"[8.16, 8.16, 8.15]","['pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=CC(=CC(=C1)S(=O)(=O)O)[N+](=O)[O-],CC#N,98-47-5,3-nitrobenzenesulfonic acid,6.615,"[6.65, 6.71, 6.4, 6.7]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'DCE_2011_pKa_Table_MeCN.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=CC(=CC=C1[N+](=O)[O-])O,CC#N,100-02-7,4-nitrophenol,20.7,[20.7],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=CC=C1[N+](=O)[O-])S(=O)(=O)N,CC#N,6325-93-5,4-nitrobenzenesulfonamide,23.74,"[22.91, 24.57]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C1=CC(=CC=C1[N+](=O)[O-])S(=O)(=O)N,CN(C)C=O,6325-93-5,4-nitrobenzenesulfonamide,15.49,[15.49],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=CC=C1[N+](=O)[O-])S(=O)(=O)NS(=O)(=O)C(F)(F)F,C(CCl)Cl,174788-91-1,4-nitro-N-(trifluoromethylsulfonyl)benzenesulfonamide,37.1,[37.1],['leito_acids']
+C1=CC(=CC=C1[N+](=O)[O-])S(=O)(=O)NS(=O)(=O)C(F)(F)F,CC#N,174788-91-1,4-nitro-N-(trifluoromethylsulfonyl)benzenesulfonamide,4.07,"[4.08, 4.08, 4.04, 4.08]","['DCE_2011_pKa_Table_MeCN.pdf', 'a_unified_view_to_bronsted_acidity_scales.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'leito_acids']"
+C1=CC(=CC=C1[N+](=O)[O-])S(=O)(=O)NS(=O)(=O)C2=CC=C(C=C2)[N+](=O)[O-],C(CCl)Cl,7/6/09,4-nitro-N-(4-nitrophenyl)sulfonylbenzenesulfonamide,41.1,"[41.1, 41.1]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=CC(=CC=C1[N+](=O)[O-])S(=O)(=O)NS(=O)(=O)C2=CC=C(C=C2)[N+](=O)[O-],CC#N,7/6/09,4-nitro-N-(4-nitrophenyl)sulfonylbenzenesulfonamide,8.176666667,"[8.19, 8.19, 8.19, 8.15, 8.15, 8.19]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'DCE_2011_pKa_Table_MeCN.pdf', 'a_unified_view_to_bronsted_acidity_scales.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=CC(=CC=C1[N+](=O)[O-])S(=O)(=O)NS(=O)(=O)C2=CC=C(C=C2)Cl,C(CCl)Cl,95468-16-9,N-(4-chlorophenyl)sulfonyl-4-nitrobenzenesulfonamide,42.4,[42.4],['leito_acids']
+C1=CC(=CC=C1[N+](=O)[O-])S(=O)(=O)NS(=O)(=O)C2=CC=C(C=C2)Cl,CC#N,95468-16-9,N-(4-chlorophenyl)sulfonyl-4-nitrobenzenesulfonamide,9.17,"[9.17, 9.17, 9.17, 9.17]","['DCE_2011_pKa_Table_MeCN.pdf', 'a_unified_view_to_bronsted_acidity_scales.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'leito_acids']"
+C1=CC(=CC=C1[N+](=O)[O-])S(=O)(=O)O,CC#N,138-42-1,4-nitrobenzenesulfonic acid,6.4,"[6.6, 6.4, 6.3, 6.3, 6.4]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'DCE_2011_pKa_Table_MeCN.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=CC(=CC=C1[NH3+])[N+](=O)[O-],CC#N,,(4-nitrophenyl)azanium,6.22,[6.22],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CC(=CC=C1[NH3+])Br,CC#N,,(4-bromophenyl)azanium,9.43,[9.43],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CC(=CC=C1C(=NS(=O)(=O)C(F)(F)F)NS(=O)(=O)C(F)(F)F)[N+](=O)[O-],C(CCl)Cl,500721-97-1,"4-nitro-N,N'-bis(trifluoromethylsulfonyl)benzenecarboximidamide",31.7,[31.7],['leito_acids']
+C1=CC(=CC=C1C(=NS(=O)(=O)C(F)(F)F)NS(=O)(=O)C(F)(F)F)[N+](=O)[O-],CC#N,500721-97-1,"4-nitro-N,N'-bis(trifluoromethylsulfonyl)benzenecarboximidamide",4.656666667,"[4.67, 4.63, 4.67]","['DCE_2011_pKa_Table_MeCN.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'leito_acids']"
+C1=CC(=CC=C1C(=NS(=O)(=O)C(F)(F)F)NS(=O)(=O)C(F)(F)F)Cl,C(CCl)Cl,500721-95-9,"4-chloro-N,N'-bis(trifluoromethylsulfonyl)benzenecarboximidamide",32.7,[32.7],['leito_acids']
+C1=CC(=CC=C1C(=NS(=O)(=O)C(F)(F)F)NS(=O)(=O)C(F)(F)F)Cl,CC#N,500721-95-9,"4-chloro-N,N'-bis(trifluoromethylsulfonyl)benzenecarboximidamide",5.226666667,"[5.24, 5.2, 5.24]","['DCE_2011_pKa_Table_MeCN.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'leito_acids']"
+C1=CC(=CC=C1C(=O)NS(=O)(=O)C(F)(F)F)[N+](=O)[O-],CC#N,39062-98-1,4-nitro-N-(trifluoromethylsulfonyl)benzamide,9.49,"[9.49, 9.49]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C1=CC(=CC=C1C(=O)NS(=O)(=O)C(F)(F)F)Cl,CC#N,39062-99-2,4-chloro-N-(trifluoromethylsulfonyl)benzamide,10.36,[10.36],['leito_acids']
+C1=CC(=CC=C1C(=O)NS(=O)(=O)C(F)(F)F)F,CC#N,39063-00-8,4-fluoro-N-(trifluoromethylsulfonyl)benzamide,10.65,"[10.65, 10.65]","['DCE_2011_pKa_Table_MeCN.pdf', 'leito_acids']"
+C1=CC(=CC=C1C(=O)O)[N+](=O)[O-],CC#N,62-23-7,4-nitrobenzoic acid,18.7,[18.7],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=CC=C1C(=O)O)Br,CC#N,586-76-5,4-bromobenzoic acid,20.3,[20.3],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=CC=C1C(=O)O)C(=O)O,CC#N,100-21-0,terephthalic acid,19.7,[19.7],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=CC=C1C(=O)O)O,CC#N,99-96-7,4-hydroxybenzoic acid,20.8,[20.8],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=CC=C1C(C#N)C#N)[N+](=O)[O-],CC#N,7077-65-8,2-(4-nitrophenyl)propanedinitrile,11.61,"[11.61, 11.61, 11.61, 11.61]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=CC(=CC=C1C(C#N)C#N)[N+](=O)[O-],O,7077-65-8,2-(4-nitrophenyl)propanedinitrile,2.3,[2.3],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=CC=C1C(C#N)C2=CC=C(C=C2)[N+](=O)[O-])[N+](=O)[O-],CC#N,-,"2,2-bis(4-nitrophenyl)acetonitrile",19,[19.0],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=CC=C1C(F)(F)F)[NH3+],CC#N,,(4-(trifluoromethyl)phenyl)azanium,8.03,[8.03],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CC(=CC=C1C(F)(F)F)O,CC#N,402-45-9,4-(trifluoromethyl)phenol,25.52,"[25.54, 25.5, 25.5, 25.54]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=CC(=CC=C1C(F)(F)F)O,CS(=O)C,402-45-9,4-(trifluoromethyl)phenol,14.6,[14.6],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=CC=C1C(F)(F)F)O,O,402-45-9,4-(trifluoromethyl)phenol,8.68,[8.68],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=CC=C1C(F)(F)F)S(=O)(=O)N,CC#N,830-43-3,4-(trifluoromethyl)benzenesulfonamide,25.24,[25.24],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=CC=C1C(F)(F)F)S(=O)(=O)N,O,830-43-3,4-(trifluoromethyl)benzenesulfonamide,9.64,[9.64],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=CC=C1C[N+](=O)[O-])[N+](=O)[O-],CC#N,1610-26-0,1-nitro-4-(nitromethyl)benzene,20.7,[20.7],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=CC=C1C#N)O,CC#N,767-00-0,4-hydroxybenzonitrile,22.7,[22.7],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=CC=C1CC#N)[N+](=O)[O-],CC#N,555-21-5,2-(4-nitrophenyl)acetonitrile,25.4,[25.4],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=CC=C1CS(=O)(=O)C(F)(F)F)C(F)(F)F,CC#N,194222-97-4,1-(trifluoromethyl)-4-(trifluoromethylsulfonylmethyl)benzene,24.44,[24.44],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=CC=C1CS(=O)(=O)C(F)(F)F)C(F)(F)F,CS(=O)C,194222-97-4,1-(trifluoromethyl)-4-(trifluoromethylsulfonylmethyl)benzene,11.95,[11.95],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=CC=C1CS(=O)(=O)C(F)(F)F)F,CC#N,2408-04-0,1-fluoro-4-(trifluoromethylsulfonylmethyl)benzene,27,[27.0],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=CC=C1F)S(=O)(=O)N,CC#N,402-46-0,4-fluorobenzenesulfonamide,25.175,"[24.19, 26.16]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C1=CC(=CC=C1F)S(=O)(=O)N,CN(C)C=O,402-46-0,4-fluorobenzenesulfonamide,16.67,[16.67],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=CC=C1F)S(=O)(=O)N,CS(=O)C,402-46-0,4-fluorobenzenesulfonamide,15.9,[15.9],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=CC=C1F)S(=O)(=O)N,O,402-46-0,4-fluorobenzenesulfonamide,10.02,[10.02],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=CC=C1NC(=O)NC2=CC(=C(C=C2)Cl)Cl)Cl,CC#N,101-20-2,"1-(4-chlorophenyl)-3-(3,4-dichlorophenyl)urea",27.95,[27.95],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=CC=C1NC2=CC=C(C=C2)[N+](=O)[O-])[N+](=O)[O-],CC#N,1821-27-8,4-nitro-N-(4-nitrophenyl)aniline,26.18,[26.18],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=CC=C1O)Br,CC#N,106-41-2,4-bromophenol,25.53,[25.53],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=CC=C1O)Cl,CC#N,106-48-9,4-chlorophenol,25.44,[25.44],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=CC=C1S(=O)(=O)N)Br,CC#N,701-34-8,4-bromobenzenesulfonamide,24.04,[24.04],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC(=CC=C1S(=O)(=O)N)Cl,CC#N,98-64-6,4-chlorobenzenesulfonamide,25.85,[25.85],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=CC=C1S(=O)(=O)N)Cl,CN(C)C=O,98-64-6,4-chlorobenzenesulfonamide,16.58,[16.58],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=CC=C1S(=O)(=O)N)Cl,CS(=O)C,98-64-6,4-chlorobenzenesulfonamide,15.6,[15.6],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=CC=C1S(=O)(=O)N)Cl,O,98-64-6,4-chlorobenzenesulfonamide,9.79,[9.79],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=CC=C1S(=O)(=O)NS(=O)(=O)C(F)(F)F)Cl,CC#N,174788-89-7,4-chloro-N-(trifluoromethylsulfonyl)benzenesulfonamide,5.02,[5.02],['leito_acids']
+C1=CC(=CC=C1S(=O)(=O)NS(=O)(=O)C2=CC=C(C=C2)Cl)Cl,CC#N,2725-55-5,4-chloro-N-(4-chlorophenyl)sulfonylbenzenesulfonamide,10.2,"[10.2, 10.2, 10.2, 10.2, 10.2]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'DCE_2011_pKa_Table_MeCN.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=CC(=CC=C1S(=O)(=O)NS(=O)(=O)C2=CC=C(C=C2)Cl)Cl,CN(C)C=O,2725-55-5,4-chloro-N-(4-chlorophenyl)sulfonylbenzenesulfonamide,3.46,[3.46],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC(=CC=C1S(=O)(=O)O)Cl,CC#N,98-66-8,4-chlorobenzenesulfonic acid,7.1425,"[7.16, 7.21, 7.0, 7.2]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'DCE_2011_pKa_Table_MeCN.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=CC(=CC2=C1C=CN2)[N+](=O)[O-],CC#N,4769-96-4,6-nitro-1H-indole,27.79,"[27.79, 27.79]","['pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C1=CC(=CC2=C1C=CN2)[N+](=O)[O-],O,4769-96-4,6-nitro-1H-indole,14.4,[14.4],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC=[N+]C=C1,C1CCOC1,16969-45-2,pyridin-1-ium,5.5,[5.5],['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf']
+C1=CC=[N+]C=C1,CC#N,16969-45-2,pyridin-1-ium,12.53,[12.53],['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf']
+C1=CC=[N+]C=C1,CS(=O)C,16969-45-2,pyridin-1-ium,3.45,[3.45],['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf']
+C1=CC=[N+]C=C1,O,16969-45-2,pyridin-1-ium,5.25,[5.25],['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf']
+C1=CC=[NH+]C(=C1)C2=CC=CC=N2,CC#N,,2-pyridin-1-ium-2-ylpyridine,12.265,"[12.26, 12.27]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=CC=[NH+]C(=C1)C2=CC=CC=N2,O,,2-pyridin-1-ium-2-ylpyridine,4.385,"[4.54, 4.23]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=CC=[NH+]C(=C1)Cl,CC#N,,2-chloropyridin-1-ium,6.79,[6.79],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CC=[NH+]C=C1,C1CCOC1,16969-45-2,pyridin-1-ium,5.5,[5.5],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CC=[NH+]C=C1,CC#N,16969-45-2,pyridin-1-ium,12.53,"[12.53, 12.53]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=CC=[NH+]C=C1,CS(=O)C,16969-45-2,pyridin-1-ium,3.4,[3.4],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CC=[NH+]C=C1,O,16969-45-2,pyridin-1-ium,5.23,"[5.23, 5.23]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=CC=C(C(=C1)[N+](=O)[O-])O,CC#N,88-75-5,2-nitrophenol,22.85,"[22.85, 22.85, 22.85, 22.85]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=CC=C(C(=C1)[N+](=O)[O-])O,CN(C)C=O,88-75-5,2-nitrophenol,12.2,[12.2],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC=C(C(=C1)[N+](=O)[O-])O,CS(=O)C,88-75-5,2-nitrophenol,11,[11.0],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC=C(C(=C1)[N+](=O)[O-])O,O,88-75-5,2-nitrophenol,7.22,[7.22],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC=C(C(=C1)[NH3+])[N+](=O)[O-],CC#N,,(2-nitrophenyl)azanium,4.8,[4.8],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CC=C(C(=C1)[NH3+])Cl��,CC#N,,(2-chlorophenyl)azanium,7.86,[7.86],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CC=C(C(=C1)C(=O)O)[N+](=O)[O-],CC#N,552-16-9,2-nitrobenzoic acid,18.2,[18.2],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC=C(C(=C1)C(=O)O)C(=O)O,CC#N,88-99-3,phthalic acid,14.3,[14.3],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC=C(C(=C1)C(=O)O)Cl,CC#N,118-91-2,2-chlorobenzoic acid,19,[19.0],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC=C(C(=C1)C(=O)O)O,CC#N,69-72-7,2-hydroxybenzoic acid,16.7,[16.7],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC=C(C(=C1)C(F)(F)F)O,CC#N,444-30-4,2-(trifluoromethyl)phenol,24.89,"[24.88, 24.9, 24.9, 24.88]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=CC=C(C(=C1)C(F)(F)F)O,CS(=O)C,444-30-4,2-(trifluoromethyl)phenol,14.4,[14.4],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC=C(C(=C1)C(F)(F)F)O,O,444-30-4,2-(trifluoromethyl)phenol,8.42,[8.42],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC=C(C(=C1)C2=CC=CC=C2C(=O)O)C(=O)O,CC#N,482-05-3,2-(2-carboxyphenyl)benzoic acid,15.7,[15.7],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC=C(C(=C1)O)Br,CC#N,95-56-7,2-bromophenol,23.92,[23.92],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC=C(C(=C1)O)S,CC#N,1121-24-0,2-sulfanylphenol,19.34,[19.34],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC=C(C=C1)[NH+](C2=CC=CC=C2)C3=CC=CC=C3,CC#N,-,triphenylazanium,1.28,[1.28],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CC=C(C=C1)[NH+](C2=CC=CC=C2)C3=CC=CC=C3,O,-,triphenylazanium,-3.91,[-3.91],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CC=C(C=C1)[NH2+]C2=CC=CC=C2,C1CCOC1,61236-17-7,diphenylazanium,0.6,[0.6],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CC=C(C=C1)[NH2+]C2=CC=CC=C2,CC#N,61236-17-7,diphenylazanium,5.98,[5.98],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CC=C(C=C1)[NH2+]C2=CC=CC=C2,CS(=O)C,61236-17-7,diphenylazanium,-1.1,[-1.1],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CC=C(C=C1)[NH2+]C2=CC=CC=C2,O,61236-17-7,diphenylazanium,0.79,[0.79],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CC=C(C=C1)[NH3+],C1CCOC1,65756-50-5,phenylazanium,5.2,"[5.2, 5.2]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=CC=C(C=C1)[NH3+],CC#N,65756-50-5,phenylazanium,10.62666667,"[10.62, 10.62, 10.64]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=CC=C(C=C1)[NH3+],CS(=O)C,65756-50-5,phenylazanium,3.595,"[3.59, 3.6]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=CC=C(C=C1)[NH3+],O,65756-50-5,phenylazanium,4.61,"[4.6, 4.62]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=CC=C(C=C1)C(=C(C#N)C#N)C(C#N)C#N,C(CCl)Cl,96463-47-7,"2-phenylprop-1-ene-1,1,3,3-tetracarbonitrile",35.5,[35.5],['leito_acids']
+C1=CC=C(C=C1)C(=NS(=O)(=O)C(F)(F)F)NS(=O)(=O)C(F)(F)F,C(CCl)Cl,500721-91-5,"N,N'-bis(trifluoromethylsulfonyl)benzenecarboximidamide",33.3,[33.3],['leito_acids']
+C1=CC=C(C=C1)C(=NS(=O)(=O)C(F)(F)F)NS(=O)(=O)C(F)(F)F,CC#N,500721-91-5,"N,N'-bis(trifluoromethylsulfonyl)benzenecarboximidamide",5.7,"[5.71, 5.68, 5.71]","['DCE_2011_pKa_Table_MeCN.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'leito_acids']"
+C1=CC=C(C=C1)C(=O)NS(=O)(=O)C(F)(F)F,CC#N,39062-91-4,N-(trifluoromethylsulfonyl)benzamide,11.06,[11.06],['leito_acids']
+C1=CC=C(C=C1)C(=O)O,C1CCOC1,65-85-0,benzoic acid,25.11,[25.11],['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf']
+C1=CC=C(C=C1)C(=O)O,CC#N,65-85-0,benzoic acid,21.506,"[21.51, 21.51, 21.5, 21.5, 21.51]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=CC=C(C=C1)C(=O)O,CN(C)C=O,65-85-0,benzoic acid,12.3,[12.3],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC=C(C=C1)C(=O)O,CS(=O)C,65-85-0,benzoic acid,11.05,"[11.1, 11.0]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C1=CC=C(C=C1)C(=O)O,O,65-85-0,benzoic acid,4.225,"[4.25, 4.2]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C1=CC=C(C=C1)C(C#N)C2=C(C(=C(C(=C2F)F)F)F)F,CC#N,42238-33-5,"2-(2,3,4,5,6-pentafluorophenyl)-2-phenylacetonitrile",26.14,"[26.14, 26.14]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'leito_acids']"
+C1=CC=C(C=C1)C(C#N)C2=C(C(=C(C(=C2F)F)F)F)F,CS(=O)C,42238-33-5,"2-(2,3,4,5,6-pentafluorophenyl)-2-phenylacetonitrile",12.8,[12.8],['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf']
+C1=CC=C(C=C1)C(S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F,CC#N,40906-82-9,bis(trifluoromethylsulfonyl)methylbenzene,7.802,"[7.85, 7.85, 7.73, 7.73, 7.85]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'DCE_2011_pKa_Table_MeCN.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=CC=C(C=C1)C(S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F,CS(=O)C,40906-82-9,bis(trifluoromethylsulfonyl)methylbenzene,2,[2.0],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC=C(C=C1)C[NH+](CC2=CC=CC=C2)CC3=CC=CC=C3,C1CCOC1,-,tribenzylazanium,6.5,[6.5],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CC=C(C=C1)C[NH+](CC2=CC=CC=C2)CC3=CC=CC=C3,CC#N,-,tribenzylazanium,12.9,[12.9],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CC=C(C=C1)C[NH+](CC2=CC=CC=C2)CC3=CC=CC=C3,CS(=O)C,-,tribenzylazanium,4.1,[4.1],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CC=C(C=C1)C[NH+](CC2=CC=CC=C2)CC3=CC=CC=C3,O,-,tribenzylazanium,7.44,[7.44],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CC=C(C=C1)C[NH2+]CC2=CC=CC=C2,O,-,dibenzylazanium,8.52,[8.52],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CC=C(C=C1)C[NH3+],C1CCOC1,-,benzylazanium,12.1,[12.1],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CC=C(C=C1)C[NH3+],CC#N,-,benzylazanium,16.92,[16.92],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CC=C(C=C1)C[NH3+],CS(=O)C,-,benzylazanium,10.16,[10.16],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CC=C(C=C1)C[NH3+],O,-,benzylazanium,9.34,[9.34],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CC=C(C=C1)C2=CC3=CC=CC=C3C4=C2OP(=O)(OC5=C4C6=CC=CC=C6C=C5C7=CC=CC=C7)O,CC#N,695162-86-8,"13-hydroxy-10,16-diphenyl-12,14-dioxa-13λ5-phosphapentacyclo[13.8.0.02,11.03,8.018,23]tricosa-1(15),2(11),3,5,7,9,16,18,20,22-decaene 13-oxide",12.7,[12.7],['leito_acids']
+C1=CC=C(C=C1)CS(=O)(=O)C(F)(F)F,CC#N,-,trifluoromethylsulfonylmethylbenzene,27.19,"[27.19, 27.19]","['pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C1=CC=C(C=C1)CS(=O)(=O)C(F)(F)F,CS(=O)C,-,trifluoromethylsulfonylmethylbenzene,14.55,[14.55],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC=C(C=C1)NC(=[NH+]C2=CC=CC=C2)N,C1CCOC1,-,[amino(anilino)methylidene]-phenylazanium,13.9,[13.9],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CC=C(C=C1)NC(=[NH+]C2=CC=CC=C2)N,CC#N,-,[amino(anilino)methylidene]-phenylazanium,17.9,[17.9],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CC=C(C=C1)NC(=[NH+]C2=CC=CC=C2)N,CS(=O)C,-,[amino(anilino)methylidene]-phenylazanium,8.6,[8.6],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CC=C(C=C1)NC(=[NH+]C2=CC=CC=C2)N,O,-,[amino(anilino)methylidene]-phenylazanium,10.02,[10.02],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CC=C(C=C1)NC2=C(C(=NC(=C2F)F)F)F,CC#N,39077-43-5,"2,3,5,6-tetrafluoro-N-phenylpyridin-4-amine",24.8575,"[26.34, 20.39, 26.36, 26.34]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=CC=C(C=C1)NC2=C(C(=NC(=C2F)F)F)F,CS(=O)C,39077-43-5,"2,3,5,6-tetrafluoro-N-phenylpyridin-4-amine",8.3,[8.3],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC=C(C=C1)O,CC#N,108-95-2,phenol,29.17,"[29.14, 29.2, 29.2, 29.14]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=CC=C(C=C1)O,CN(C)C=O,108-95-2,phenol,18.4,[18.4],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC=C(C=C1)O,CS(=O)C,108-95-2,phenol,18,[18.0],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC=C(C=C1)O,O,108-95-2,phenol,9.99,[9.99],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC=C(C=C1)S(=NS(=O)(=O)C(F)(F)F)(=O)NS(=NS(=O)(=O)C(F)(F)F)(=O)C2=CC=CC=C2,C(CCl)Cl,771460-54-9,"1,1,1-trifluoro-N-[oxo-phenyl-[[S-phenyl-N-(trifluoromethylsulfonyl)sulfonimidoyl]amino]-λ6-sulfanylidene]methanesulfonamide",33.6,[33.6],['leito_acids']
+C1=CC=C(C=C1)S(=O)(=O)N,CC#N,98-10-2,benzenesulfonamide,25.62,"[24.61, 26.63]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C1=CC=C(C=C1)S(=O)(=O)N,CN(C)C=O,98-10-2,benzenesulfonamide,17.06,[17.06],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC=C(C=C1)S(=O)(=O)N,CS(=O)C,98-10-2,benzenesulfonamide,16.1,[16.1],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC=C(C=C1)S(=O)(=O)N,O,98-10-2,benzenesulfonamide,10.1,[10.1],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC=C(C=C1)S(=O)(=O)NS(=O)(=O)C(F)(F)F,CC#N,174788-87-5,N-(trifluoromethylsulfonyl)benzenesulfonamide,5.54,"[5.55, 5.52, 5.55]","['DCE_2011_pKa_Table_MeCN.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=CC=C(C=C1)S(=O)(=O)NS(=O)(=O)C2=CC=CC=C2,CC#N,2618-96-4,N-(benzenesulfonyl)benzenesulfonamide,11.34333333,"[11.34, 11.35, 11.34]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=CC=C(C=C1)S(=O)(=O)NS(=O)(=O)C2=CC=CC=C2,CN(C)C=O,2618-96-4,N-(benzenesulfonyl)benzenesulfonamide,3.66,[3.66],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC=C(C=C1)S(=O)(=O)O,CC#N,98-11-3,benzenesulfonic acid,8.2,"[8.2, 8.2]","['pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C1=CC=C2C(=C1)[NH+]=CC=N2��,CC#N,,quinoxalin-1-ium,7.4,[7.4],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CC=C2C(=C1)[NH+]=CC=N2��,O,,quinoxalin-1-ium,0.56,[0.56],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CC=C2C(=C1)C(=CN2)[N+](=O)[O-],CC#N,4770-03-0,3-nitro-1H-indole,22.77,"[22.77, 22.77]","['pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C1=CC=C2C(=C1)C(=CN2)[N+](=O)[O-],O,4770-03-0,3-nitro-1H-indole,10.12,[10.12],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC=C2C(=C1)C(=CN2)C#N,CC#N,5457-28-3,1H-indole-3-carbonitrile,26.01,"[26.01, 26.01]","['pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C1=CC=C2C(=C1)C(=O)C3=C(C2=O)C(=C(C=C3)O)O,CC#N,72-48-0,"1,2-dihydroxyanthracene-9,10-dione",21.23,"[21.23, 21.23]","['pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C1=CC=C2C(=C1)C(=O)NS2(=O)=O,CC#N,128-44-9,"1,1-dioxo-1,2-benzothiazol-3-one",14.57,"[14.57, 14.57, 14.57, 14.57, 14.57]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=CC=C2C(=C1)C(=O)NS2(=O)=O,CS(=O)C,128-44-9,"1,1-dioxo-1,2-benzothiazol-3-one",4,"[4.0, 4.0]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C1=CC=C2C(=C1)C(=O)NS2(=O)=O,O,128-44-9,"1,1-dioxo-1,2-benzothiazol-3-one",1.8,"[1.8, 1.8]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C1=CC=C2C(=C1)C(C3=CC=CC=C32)C#N,C(CCl)Cl,1529-40-4,9H-fluorene-9-carbonitrile,55.9,"[55.9, 55.9]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=CC=C2C(=C1)C(C3=CC=CC=C32)C#N,CC#N,1529-40-4,9H-fluorene-9-carbonitrile,21.26333333,"[21.36, 20.8, 21.36, 21.35, 21.35, 21.36]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'MeCN_Acids_COSMO-RS_2008_Table.pdf', 'a_unified_view_to_bronsted_acidity_scales.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=CC=C2C(=C1)C(C3=CC=CC=C32)C#N,CS(=O)C,1529-40-4,9H-fluorene-9-carbonitrile,8.3,"[8.3, 8.3]","['a_unified_view_to_bronsted_acidity_scales.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C1=CC=C2C(=C1)C(C3=CC=CC=C32)C#N,O,1529-40-4,9H-fluorene-9-carbonitrile,10.7,[10.7],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC=C2C(=C1)C(C3=CC=CC=C32)C4=C(C(=C(C(=C4F)F)F)F)F,CC#N,73482-93-6,"9-(2,3,4,5,6-pentafluorophenyl)-9H-fluorene",28.125,"[28.14, 28.11]","['pKa_values_of_acids_in_acetonitrile.pdf', 'leito_acids']"
+C1=CC=C2C(=C1)C=[NH+]C=N2,CC#N,,quinazolin-3-ium,9.19,[9.19],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CC=C2C(=C1)C=[NH+]C=N2,O,,quinazolin-3-ium,1.95,[1.95],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CC=C2C(=C1)C=[NH+]N2,CC#N,-,1H-indazol-2-ium,7.61,"[7.61, 7.61]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=CC=C2C(=C1)C=[NH+]N2,O,-,1H-indazol-2-ium,1.25,"[1.25, 1.25]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=CC=C2C(=C1)C=C(C3=C2C4=C(C(=CC5=CC=CC=C54)C6=CC(=CC(=C6)C(F)(F)F)C(F)(F)F)OS(=O)(=O)NS(=O)(=O)O3)C7=CC(=CC(=C7)C(F)(F)F)C(F)(F)F,CC#N,1486486-93-4,"10,18-bis[3,5-bis(trifluoromethyl)phenyl]-12,16-dioxa-13λ6,15λ6-dithia-14-azapentacyclo[15.8.0.02,11.03,8.020,25]pentacosa-1(17),2(11),3,5,7,9,18,20,22,24-decaene 13,13,15,15-tetraoxide",5.085,"[4.97, 5.2]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=CC=C2C(=C1)C=C(C3=CC=CC=C23)C4=CC5=CC=CC=C5C6=C4OP(=O)(OC7=C6C8=CC=CC=C8C=C7C9=CC1=CC=CC=C1C1=CC=CC=C19)O,CC#N,864943-22-6,"13-hydroxy-10,16-di(phenanthren-9-yl)-12,14-dioxa-13_5-phosphapentacyclo[13.8.0.02,11.03,8.018,23]tricosa-1(15),2(11),3,5,7,9,16,18,20,22-decaene 13-oxide",13.31,"[13.32, 13.3]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=CC=C2C(=C1)C=C(N2)[N+](=O)[O-],CC#N,60544-75-4,2-nitro-1H-indole,23.64,[23.64],['pKa_values_of_acids_in_acetonitrile.pdf']
+C1=CC=C2C(=C1)C=C[NH+]=N2,CC#N,,cinnolin-2-ium,10.5,[10.5],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CC=C2C(=C1)C=C[NH+]=N2,O,,cinnolin-2-ium,2.29,[2.29],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CC=C2C(=C1)C=C3C=CC=CC3=[NH+]2,CC#N,-,acridin-10-ium,12.665,"[12.67, 12.66]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=CC=C2C(=C1)C=C3C=CC=CC3=[NH+]2,O,-,acridin-10-ium,5.62,"[5.62, 5.62]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=CC=C2C(=C1)C=CC(=N2)C3=[NH+]C4=CC=CC=C4C=C3,CC#N,,,11.28,"[11.28, 11.28]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=CC=C2C(=C1)C=CC(=N2)C3=[NH+]C4=CC=CC=C4C=C3,O,,,3.66,"[3.66, 3.66]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=CC=C2C(=C1)C=CC=[NH+]2,CC#N,-,quinolin-1-ium,11.965,"[11.96, 11.97]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=CC=C2C(=C1)C=CC=[NH+]2,O,-,quinolin-1-ium,4.93,"[4.93, 4.93]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=CC=C2C(=C1)C=CC=C2[NH3+],CC#N,70450-98-5,naphthalen-1-ylazanium,9.77,[9.77],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CC=C2C(=C1)C=CC=C2S(=O)(=O)O,CC#N,85-47-2,naphthalene-1-sulfonic acid,7.894,"[7.89, 7.89, 7.9, 7.9, 7.89]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'DCE_2011_pKa_Table_MeCN.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=CC=C2C(=C1)C=CC3=C2[NH+]=CC=C3,CC#N,,benzo[h]quinolin-1-ium,10.84,[10.84],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CC=C2C(=C1)C=CC3=C2[NH+]=CC=C3,O,,benzo[h]quinolin-1-ium,4.25,[4.25],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CC=C2C(=C1)C=CC3=C2C=CC=[NH+]3��,CC#N,,benzo[f]quinolin-4-ium,11.96,[11.96],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CC=C2C(=C1)C=CC3=C2C=CC=[NH+]3��,O,,benzo[f]quinolin-4-ium,5.15,[5.15],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CC=C2C(=C1)C=CN2,CC#N,120-72-9,1H-indole,32.57,[32.57],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC=C2C(=C1)C=CN2,CN(C)C=O,120-72-9,1H-indole,21.65,[21.65],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC=C2C(=C1)C=CN2,CS(=O)C,120-72-9,1H-indole,20.95,[20.95],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC=C2C(=C1)C=CN2,O,120-72-9,1H-indole,16.97,[16.97],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC=C2C(=C1)N=C(S2)CC3=NC4=CC=CC=C4S3,CC#N,1945-78-4,"2-(1,3-benzothiazol-2-ylmethyl)-1,3-benzothiazole",26.16,[26.16],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC=C2C(=C1)NC(=[NH+]2)C3=CSC=N3,CC#N,,"4-(1H-benzimidazol-3-ium-2-yl)-1,3-thiazole",12.42,[12.42],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CC=C2C(=C1)NC(=[NH+]2)C3=CSC=N3,O,,"4-(1H-benzimidazol-3-ium-2-yl)-1,3-thiazole",4.64,[4.64],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CC=C2C(=C1)NC=[NH+]2,CC#N,-,1H-benzimidazol-3-ium,13.53,"[13.52, 13.54]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=CC=C2C(=C1)NC=[NH+]2,CS(=O)C,-,1H-benzimidazol-3-ium,4.36,[4.36],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CC=C2C(=C1)NC=[NH+]2,O,-,1H-benzimidazol-3-ium,5.56,"[5.56, 5.56]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=CC=C2C(=C1)NC3=C(C=C(C=C3O2)[N+](=O)[O-])[N+](=O)[O-],CC#N,26103-32-2,"1,3-dinitro-10H-phenoxazine",22.4,[22.4],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC=C2C(=C1)NC3=C(C=CC=C3O2)[N+](=O)[O-],CC#N,26103-27-5,1-nitro-10H-phenoxazine,28.4,[28.4],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC=C2C(=C1)NC3=C(O2)C=C(C=C3)[N+](=O)[O-],CC#N,-,3-nitro-10H-phenoxazine,25.7,[25.7],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC=C2C=[NH+]C=CC2=C1,CC#N,-,isoquinolin-2-ium,12.685,"[12.69, 12.68]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=CC=C2C=[NH+]C=CC2=C1,O,-,isoquinolin-2-ium,5.46,"[5.46, 5.46]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=CC=C2C=N[NH+]=CC2=C1,CC#N,,phthalazin-3-ium,11.55,[11.55],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CC=C2C=N[NH+]=CC2=C1,O,,phthalazin-3-ium,3.47,[3.47],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CC=C2C3=C4C(C2=C1)C5=CC=CC=C5C4=CC=C3,CC#N,205-94-7,fluoradene,23.91,"[23.9, 23.92, 23.92, 23.9]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1=CC=C2C3=C4C(C2=C1)C5=CC=CC=C5C4=CC=C3,CS(=O)C,205-94-7,fluoradene,10.5,[10.5],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC=N[NH+]=C1,C1CCOC1,-,pyridazin-1-ium,3.7,[3.7],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CC=N[NH+]=C1,CC#N,-,pyridazin-1-ium,10.065,"[10.07, 10.06]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=CC=N[NH+]=C1,CS(=O)C,-,pyridazin-1-ium,1.8,[1.8],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CC=N[NH+]=C1,O,-,pyridazin-1-ium,2.33,"[2.33, 2.33]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=CC2=[NH+]NN=C2C=C1,CC#N,-,2H-benzotriazol-1-ium,6.885,"[6.88, 6.89]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=CC2=[NH+]NN=C2C=C1,O,-,2H-benzotriazol-1-ium,0.42,"[0.42, 0.42]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=CC2=C(C(=C1)[N+](=O)[O-])NC=C2,CC#N,6960-42-5,7-nitro-1H-indole,29.99,"[29.99, 29.99]","['pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C1=CC2=C(C(=C1)[NH3+])C(=CC=C2)N,C1CCOC1,-,(8-aminonaphthalen-1-yl)azanium,5.4,[5.4],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CC2=C(C(=C1)[NH3+])C(=CC=C2)N,CC#N,-,(8-aminonaphthalen-1-yl)azanium,10.99,[10.99],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CC2=C(C(=C1)[NH3+])C(=CC=C2)N,O,-,(8-aminonaphthalen-1-yl)azanium,4.61,[4.61],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CC2=C(C(=C1)C(=O)O)C(=CC=C2)C(=O)O,CC#N,518-05-8,"naphthalene-1,8-dicarboxylic acid",21.8,[21.8],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC2=C(C=C1[N+](=O)[O-])OC3=C(N2)C=CC(=C3)[N+](=O)[O-],CC#N,-,"3,7-dinitro-10H-phenoxazine",22.8,[22.8],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC2=C(C=C1[N+](=O)[O-])OC3=CC(=CC(=C3N2)[N+](=O)[O-])[N+](=O)[O-],CC#N,-,"1,3,7-trinitro-10H-phenoxazine",20.3,[20.3],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+C1=CC2=C(C=CN2)C(=C1)[N+](=O)[O-],CC#N,4769-97-5,4-nitro-1H-indole,27.89,"[27.89, 27.89]","['pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C1=CC2=C(C=CN2)C=C1[N+](=O)[O-],CC#N,6146-52-7,5-nitro-1H-indole,28.18,"[28.18, 28.18]","['pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+C1=CC2=C(C=CN2)C=C1[N+](=O)[O-],CS(=O)C,6146-52-7,5-nitro-1H-indole,15,[15.0],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC2=C(C=CN2)C=C1[N+](=O)[O-],O,6146-52-7,5-nitro-1H-indole,14.75,[14.75],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1=CC2=C(C3=C(C=C2)C=CC4=C3[NH+]=CC=C4)N=C1,CC#N,,,19.61,[19.61],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CC2=C(C3=C(C=C2)C=CC4=C3[NH+]=CC=C4)N=C1,O,,,12,[12.0],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CC2=C(C3=C(C=CC=N3)C=C2)[NH+]=C1,CC#N,-,"1,10-phenanthrolin-10-ium",13.685,"[13.68, 13.69]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=CC2=C(C3=C(C=CC=N3)C=C2)[NH+]=C1,O,-,"1,10-phenanthrolin-10-ium",5.12,"[5.12, 5.12]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=CN[NH+]=C1,C1CCOC1,,1H-pyrazol-2-ium,3.6,[3.6],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CN[NH+]=C1,CC#N,,1H-pyrazol-2-ium,9.1,"[9.1, 9.1]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=CN[NH+]=C1,CS(=O)C,,1H-pyrazol-2-ium,1,[1.0],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CN[NH+]=C1,O,,1H-pyrazol-2-ium,2.48,"[2.48, 2.48]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=CN=C([NH2+]1)[N+](=O)[O-],CC#N,,2-nitro-1H-imidazol-1-ium,5.54,[5.54],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CN=C([NH2+]1)[N+](=O)[O-],O,,2-nitro-1H-imidazol-1-ium,-0.81,[-0.81],['pKa_values_of_nitrogen_heterocycles.pdf']
+C1=CN=C[NH2+]1,C1CCOC1,-,1H-imidazol-1-ium,9.4,[9.4],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CN=C[NH2+]1,CC#N,-,1H-imidazol-1-ium,15.06,"[15.05, 15.07]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=CN=C[NH2+]1,CS(=O)C,-,1H-imidazol-1-ium,6.26,[6.26],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CN=C[NH2+]1,O,-,1H-imidazol-1-ium,6.95,"[6.95, 6.95]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=CN=CC=[NH+]1,C1CCOC1,-,pyrazin-1-ium,1.4,[1.4],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CN=CC=[NH+]1,CC#N,-,pyrazin-1-ium,7.74,"[7.74, 7.74]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1=CN=CC=[NH+]1,CS(=O)C,-,pyrazin-1-ium,-0.2,[-0.2],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1=CN=CC=[NH+]1,O,-,pyrazin-1-ium,0.6,"[0.6, 0.6]","['pKa_values_of_nitrogen_heterocycles.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C12(C(C3(C(C(C1(F)F)(C(C(C2(F)F)(C3(F)F)F)(F)F)F)(F)F)F)(F)F)O,CC#N,160823-57-4,"2,2,3,4,4,5,6,6,7,8,8,9,9,10,10-pentadecafluoroadamantan-1-ol",18.25,[18.25],['leito_acids']
+C12=C(C(=C(C(=C1F)O)F)F)C(=C(C(=C2F)F)F)F,CC#N,727-49-1,"1,3,4,5,6,7,8-heptafluoronaphthalen-2-ol",18.5,"[18.5, 18.5, 18.5]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C12=C(C(=C(C(=C1F)O)F)F)C(=C(C(=C2F)F)F)F,CS(=O)C,727-49-1,"1,3,4,5,6,7,8-heptafluoronaphthalen-2-ol",7.9,[7.9],['Ejoc202001649-sup-00001-misc_information.pdf']
+C12=C(C(=C(C(=C1O)F)F)F)C(=C(C(=C2F)F)F)F,CC#N,5386-30-1,"2,3,4,5,6,7,8-heptafluoronaphthalen-1-ol",19.71333333,"[19.72, 19.7, 19.72]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C12=C(C(=C(C(=C1O)F)F)F)C(=C(C(=C2F)F)F)F,CS(=O)C,5386-30-1,"2,3,4,5,6,7,8-heptafluoronaphthalen-1-ol",8.9,[8.9],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1C[NH+]2CCC1CC2,C1CCOC1,-,1-azoniabicyclo[2.2.2]octane,13.1,[13.1],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1C[NH+]2CCC1CC2,CC#N,-,1-azoniabicyclo[2.2.2]octane,19.7,[19.7],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1C[NH+]2CCC1CC2,CS(=O)C,-,1-azoniabicyclo[2.2.2]octane,9.8,[9.8],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1C[NH+]2CCC1CC2,O,-,1-azoniabicyclo[2.2.2]octane,11,[11.0],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1C2=C(C3=C1C(=C(C(=C3F)F)F)F)C(=C(C(=C2F)F)F)F,CC#N,27053-34-5,"1,2,3,4,5,6,7,8-octafluoro-9H-fluorene",24.49,"[24.49, 24.49, 24.49, 24.49]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1C2=C(C3=C1C(=C(C(=C3F)F)F)F)C(=C(C(=C2F)F)F)F,CS(=O)C,27053-34-5,"1,2,3,4,5,6,7,8-octafluoro-9H-fluorene",10.8,[10.8],['Ejoc202001649-sup-00001-misc_information.pdf']
+C1C2CNCC1C[NH2+]C2,C1CCOC1,,,14.8,[14.8],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1C2CNCC1C[NH2+]C2,CC#N,,,21.56,[21.56],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1CC[NH2+]C1,C1CCOC1,84316-19-8,pyrrolidin-1-ium,13.5,[13.5],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1CC[NH2+]C1,CC#N,84316-19-8,pyrrolidin-1-ium,19.62,[19.62],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1CC[NH2+]C1,CS(=O)C,84316-19-8,pyrrolidin-1-ium,11.06,[11.06],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1CC[NH2+]C1,O,84316-19-8,pyrrolidin-1-ium,11.27,[11.27],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1CC[NH2+]CC1,C1CCOC1,17523-59-0,piperidin-1-ium,14.3,[14.3],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1CC[NH2+]CC1,CC#N,17523-59-0,piperidin-1-ium,19.35,[19.35],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1CC[NH2+]CC1,CS(=O)C,17523-59-0,piperidin-1-ium,10.85,[10.85],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1CC[NH2+]CC1,O,17523-59-0,piperidin-1-ium,11.22,[11.22],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1CC2=NCCC[NH+]2C1,C1CCOC1,-,"3,4,5,6,7,8-hexahydro-2H-pyrrolo[1,2-a]pyrimidin-5-ium",17.2,[17.2],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1CC2=NCCC[NH+]2C1,CC#N,-,"3,4,5,6,7,8-hexahydro-2H-pyrrolo[1,2-a]pyrimidin-5-ium",23.89,[23.89],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1CC2=NCCC[NH+]2C1,CS(=O)C,-,"3,4,5,6,7,8-hexahydro-2H-pyrrolo[1,2-a]pyrimidin-5-ium",13.4,[13.4],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1CC2=NCCC[NH+]2C1,O,-,"3,4,5,6,7,8-hexahydro-2H-pyrrolo[1,2-a]pyrimidin-5-ium",13.5,[13.5],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1CCC2=C3C4=C5CCCCC5=CC(=C4OP(=O)(OC3=C(C=C2C1)C6=CC7=CC=CC=C7C8=CC=CC=C86)O)C9=CC1=CC=CC=C1C1=CC=CC=C19,CC#N,934201-93-1,"13-hydroxy-10,16-di(phenanthren-9-yl)-12,14-dioxa-13_5-phosphapentacyclo[13.8.0.02,11.03,8.018,23]tricosa-1(23),2,8,10,15,17-hexaene 13-oxide",13.985,"[13.97, 14.0]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+C1CCC2=NCCC[NH+]2CC1,C1CCOC1,-,"3,4,5,6,7,8,9,10-octahydro-2H-pyrimido[1,2-a]azepin-5-ium",16.75,"[16.6, 16.9]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1CCC2=NCCC[NH+]2CC1,CC#N,-,"3,4,5,6,7,8,9,10-octahydro-2H-pyrimido[1,2-a]azepin-5-ium",24.325,"[24.34, 24.31]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1CCC2=NCCC[NH+]2CC1,CS(=O)C,-,"3,4,5,6,7,8,9,10-octahydro-2H-pyrimido[1,2-a]azepin-5-ium",13.9,"[13.9, 13.9]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1CCC2=NCCC[NH+]2CC1,O,-,"3,4,5,6,7,8,9,10-octahydro-2H-pyrimido[1,2-a]azepin-5-ium",13.5,[13.5],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1CN2CC[NH+]1CC2,C1CCOC1,49623-77-0,4-aza-1-azoniabicyclo[2.2.2]octane,11.7,[11.7],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1CN2CC[NH+]1CC2,CC#N,49623-77-0,4-aza-1-azoniabicyclo[2.2.2]octane,18.29,[18.29],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1CN2CC[NH+]1CC2,CS(=O)C,49623-77-0,4-aza-1-azoniabicyclo[2.2.2]octane,9.06,[9.06],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1CN2CC[NH+]1CC2,O,49623-77-0,4-aza-1-azoniabicyclo[2.2.2]octane,8.82,[8.82],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1CNC2=NCCC[NH+]2C1,C1CCOC1,-,"2,3,4,5,6,7,8,9-octahydropyrimido[1,2-a]pyrimidin-5-ium",20.2,"[19.4, 21.0]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1CNC2=NCCC[NH+]2C1,CC#N,-,"2,3,4,5,6,7,8,9-octahydropyrimido[1,2-a]pyrimidin-5-ium",26.025,"[26.03, 26.02]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+C1CNC2=NCCC[NH+]2C1,CS(=O)C,-,"2,3,4,5,6,7,8,9-octahydropyrimido[1,2-a]pyrimidin-5-ium",15.3,[15.3],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1CNC2=NCCC[NH+]2C1,O,-,"2,3,4,5,6,7,8,9-octahydropyrimido[1,2-a]pyrimidin-5-ium",15.2,[15.2],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1CNCC[NH2+]1,C1CCOC1,8057-14-5,piperazin-1-ium,14.2,[14.2],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1CNCC[NH2+]1,CC#N,8057-14-5,piperazin-1-ium,18.69,[18.69],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1CNCC[NH2+]1,CS(=O)C,8057-14-5,piperazin-1-ium,10.5,[10.5],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+C1CNCC[NH2+]1,O,8057-14-5,piperazin-1-ium,9.72,[9.72],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC(=C(C#N)C#N)C(C#N)C#N,C(CCl)Cl,24943-63-3,"2-methylprop-1-ene-1,1,3,3-tetracarbonitrile",36.4,[36.4],['leito_acids']
+CC(=C(C#N)C#N)C(C#N)C#N,CC#N,24943-63-3,"2-methylprop-1-ene-1,1,3,3-tetracarbonitrile",7.36,[7.36],['pKa_values_of_acids_in_acetonitrile.pdf']
+CC(=O)NC1=C(C(=C(C(=C1F)F)F)F)F,CC#N,653-22-5,"N-(2,3,4,5,6-pentafluorophenyl)acetamide",26.45,[26.45],['Ejoc202001649-sup-00001-misc_information.pdf']
+CC(=O)NC1=C(C(=C(C(=C1F)F)F)F)F,CS(=O)C,653-22-5,"N-(2,3,4,5,6-pentafluorophenyl)acetamide",14.3,[14.3],['Ejoc202001649-sup-00001-misc_information.pdf']
+CC(=O)O,C1CCOC1,64-19-7,acetic acid,22.48,[22.48],['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf']
+CC(=O)O,CC#N,64-19-7,acetic acid,23.506,"[23.51, 23.51, 23.5, 23.5, 23.51]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+CC(=O)O,CN(C)C=O,64-19-7,acetic acid,13.5,[13.5],['Ejoc202001649-sup-00001-misc_information.pdf']
+CC(=O)O,CS(=O)C,64-19-7,acetic acid,12.45,"[12.6, 12.3]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+CC(=O)O,O,64-19-7,acetic acid,4.755,"[4.75, 4.76]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+CC(=O)OC1=CNC2=CC=CC=C21,CC#N,608-08-2,1H-indol-3-yl acetate,29.97,"[29.97, 29.97]","['pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+CC(C)(C)C1=CC(=CC(=C1O)C(C)(C)C)[N+](=O)[O-],CC#N,728-40-5,"2,6-ditert-butyl-4-nitrophenol",19,[19.0],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+CC(C)(C)C1=CC=C(C=C1)O,CC#N,98-54-4,4-tert-butylphenol,27.48,[27.48],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+CC(C)(C)N[P+](N(C)C)(N(C)C)N(C)C,C1CCOC1,-,(tert-butylamino)-tris(dimethylamino)phosphanium,18.9,[18.9],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC(C)(C)N[P+](N(C)C)(N(C)C)N(C)C,CC#N,-,(tert-butylamino)-tris(dimethylamino)phosphanium,26.98,[26.98],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC(C)(C)N[P+](N(C)C)(N(C)C)N(C)C,CS(=O)C,-,(tert-butylamino)-tris(dimethylamino)phosphanium,15.7,[15.7],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC(C)(C)N[P+](N(C)C)(N(C)C)N(C)C,O,-,(tert-butylamino)-tris(dimethylamino)phosphanium,17,[17.0],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC(C)(C)N[P+](N=P(N(C)C)(N(C)C)N(C)C)(N=P(N(C)C)(N(C)C)N(C)C)N=P(N(C)C)(N(C)C)N(C)C,C1CCOC1,-,(tert-butylamino)-tris[[tris(dimethylamino)-_5-phosphanylidene]amino]phosphanium,33.9,[33.9],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC(C)(C)N[P+](N=P(N(C)C)(N(C)C)N(C)C)(N=P(N(C)C)(N(C)C)N(C)C)N=P(N(C)C)(N(C)C)N(C)C,CC#N,-,(tert-butylamino)-tris[[tris(dimethylamino)-_5-phosphanylidene]amino]phosphanium,42.7,[42.7],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC(C)(C)N[P+](N=P(N(C)C)(N(C)C)N(C)C)(N=P(N(C)C)(N(C)C)N(C)C)N=P(N(C)C)(N(C)C)N(C)C,CS(=O)C,-,(tert-butylamino)-tris[[tris(dimethylamino)-_5-phosphanylidene]amino]phosphanium,30.25,[30.25],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC(C)(C)N[P+](N=P(N(C)C)(N(C)C)N(C)C)(N=P(N(C)C)(N(C)C)N(C)C)N=P(N(C)C)(N(C)C)N(C)C,O,-,(tert-butylamino)-tris[[tris(dimethylamino)-_5-phosphanylidene]amino]phosphanium,30,[30.0],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC(C)(C)N[P+](N1CCCC1)(N2CCCC2)N3CCCC3,C1CCOC1,-,(tert-butylamino)-tripyrrolidin-1-ylphosphanium,20.2,"[20.2, 20.2]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+CC(C)(C)N[P+](N1CCCC1)(N2CCCC2)N3CCCC3,CC#N,-,(tert-butylamino)-tripyrrolidin-1-ylphosphanium,28.42,"[28.42, 28.42]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+CC(C)(C)N[P+](N1CCCC1)(N2CCCC2)N3CCCC3,CS(=O)C,-,(tert-butylamino)-tripyrrolidin-1-ylphosphanium,17.4,[17.4],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC(C)(C)N[P+](N1CCCC1)(N2CCCC2)N3CCCC3,O,-,(tert-butylamino)-tripyrrolidin-1-ylphosphanium,17.5,[17.5],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC(C)[NH3+],CC#N,,propan-2-ylazanium,18.3,[18.3],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC(C)[NH3+],CS(=O)C,,propan-2-ylazanium,10.9,[10.9],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC(C)[NH3+],O,,propan-2-ylazanium,10.65,[10.65],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC(C)C(C1=CC=C(C=C1)[N+]([O-])=O)[N+]([O-])=O,CC#N,126661-11-8,1-(2-methyl-1-nitropropyl)-4-nitrobenzene,25.9,[25.9],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+CC(C)C[NH3+],C1CCOC1,58471-06-0,2-methylpropylazanium,13,[13.0],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC(C)C[NH3+],CC#N,58471-06-0,2-methylpropylazanium,17.92,[17.92],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC(C)C[NH3+],CS(=O)C,58471-06-0,2-methylpropylazanium,10.9,[10.9],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC(C)C[NH3+],O,58471-06-0,2-methylpropylazanium,10.42,[10.42],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC(C)C1=CC(=C(C(=C1)C(C)C)C2=CC3=CC=CC=C3C4=C2OP(=O)(OC5=C4C6=CC=CC=C6C=C5C7=C(C=C(C=C7C(C)C)C(C)C)C(C)C)O)C(C)C,CC#N,791616-63-2,"13-hydroxy-10,16-bis[2,4,6-tri(propan-2-yl)phenyl]-12,14-dioxa-13λ5-phosphapentacyclo[13.8.0.02,11.03,8.018,23]tricosa-1(15),2(11),3,5,7,9,16,18,20,22-decaene 13-oxide",13.615,"[13.63, 13.6]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+CC(C)C1=CC(=C(C(=C1)C(C)C)C2=CC3=CC=CC=C3C4=C2OP(=O)(OC5=C4C6=CC=CC=C6C=C5C7=C(C=C(C=C7C(C)C)C(C)C)C(C)C)O)C(C)C,CS(=O)C,791616-63-2,"13-hydroxy-10,16-bis[2,4,6-tri(propan-2-yl)phenyl]-12,14-dioxa-13λ5-phosphapentacyclo[13.8.0.02,11.03,8.018,23]tricosa-1(15),2(11),3,5,7,9,16,18,20,22-decaene 13-oxide",4.22,[4.22],['Ejoc202001649-sup-00001-misc_information.pdf']
+CC(CC([N+](=O)[O-])[N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-],CC#N,-,"1,1,3,3-tetranitrobutane",8,[8.0],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+CC[NH+](C)C,C1CCOC1,-,ethyl(dimethyl)azanium,12.6,[12.6],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC[NH+](C)C,CC#N,-,ethyl(dimethyl)azanium,18.33,[18.33],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC[NH+](C)C,CS(=O)C,-,ethyl(dimethyl)azanium,8.5,[8.5],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC[NH+](C)C,O,-,ethyl(dimethyl)azanium,9.99,[9.99],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC[NH+](C)CC,C1CCOC1,-,diethyl(methyl)azanium,12.7,[12.7],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC[NH+](C)CC,CC#N,-,diethyl(methyl)azanium,18.2,[18.2],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC[NH+](C)CC,CS(=O)C,-,diethyl(methyl)azanium,9,[9.0],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC[NH+](C)CC,O,-,diethyl(methyl)azanium,10.29,[10.29],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC[NH+](CC)CC,C1CCOC1,17440-81-2,triethylazanium,12.5,"[12.5, 12.5]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+CC[NH+](CC)CC,CC#N,17440-81-2,triethylazanium,18.73,"[18.63, 18.83]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+CC[NH+](CC)CC,CS(=O)C,17440-81-2,triethylazanium,9,"[9.0, 9.0]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+CC[NH+](CC)CC,O,17440-81-2,triethylazanium,10.675,"[10.7, 10.65]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']"
+CC[NH2+]CC,C1CCOC1,-,diethylazanium,13,[13.0],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC[NH2+]CC,CC#N,-,diethylazanium,18.75,[18.75],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC[NH2+]CC,CS(=O)C,-,diethylazanium,10.5,[10.5],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC[NH2+]CC,O,-,diethylazanium,10.98,[10.98],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC[NH3+],C1CCOC1,16999-99-8,ethylazanium,13.5,[13.5],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC[NH3+],CC#N,16999-99-8,ethylazanium,18.4,[18.4],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC[NH3+],CS(=O)C,16999-99-8,ethylazanium,10.9,[10.9],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC[NH3+],O,16999-99-8,ethylazanium,10.63,[10.63],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CC=CC=CC(=O)O,CC#N,110-44-1,"hexa-2,4-dienoic acid",22.97,"[22.97, 22.97]","['pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+CC=CC=CC(=O)O,O,110-44-1,"hexa-2,4-dienoic acid",4.5,[4.5],['Ejoc202001649-sup-00001-misc_information.pdf']
+CC1=[NH+]C2=C(C=CC=C2N)C=C1,CC#N,,2-methylquinolin-1-ium-8-amine,11.54,[11.54],['pKa_values_of_nitrogen_heterocycles.pdf']
+CC1=C(C(=C(C(=C1C(F)(F)F)C(F)(F)F)C(F)(F)F)C(F)(F)F)C(F)(F)F,CC#N,-,"1-methyl-2,3,4,5,6-pentakis(trifluoromethyl)benzene",28.735,"[28.7, 28.77, 28.77, 28.7]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+CC1=C(C(=C(C(=C1C(F)(F)F)C(F)(F)F)C(F)(F)F)C(F)(F)F)C(F)(F)F,CS(=O)C,1018330-43-2,"1-methyl-2,3,4,5,6-pentakis(trifluoromethyl)benzene",13.9,[13.9],['Ejoc202001649-sup-00001-misc_information.pdf']
+CC1=C(C(=C(C(=C1C#N)C#N)C#N)C#N)C#N,CC#N,1213-77-0,"6-methylbenzene-1,2,3,4,5-pentacarbonitrile",20.14,"[20.14, 20.14, 20.14]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+CC1=C(C(=C(C(=C1C#N)C#N)C#N)C#N)C#N,CS(=O)C,1213-77-0,"6-methylbenzene-1,2,3,4,5-pentacarbonitrile",8.2,[8.2],['Ejoc202001649-sup-00001-misc_information.pdf']
+CC1=C(C(=C(C(=C1F)F)C(C#N)C#N)F)F,CC#N,64934-71-0,"2-(2,3,5,6-tetrafluoro-4-methylphenyl)propanedinitrile",15.10333333,"[17.57, 13.87, 13.87]","['pKa_values_of_acids_in_acetonitrile.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'leito_acids']"
+CC1=C(C(=C(C(=C1F)F)C(C#N)C2=C(C(=C(C(=C2F)F)F)F)F)F)F,C(CCl)Cl,52345-34-3,"2-(2,3,4,5,6-pentafluorophenyl)-2-(2,3,5,6-tetrafluoro-4-methylphenyl)acetonitrile",56.7,[56.7],['leito_acids']
+CC1=C(C(=C(C(=C1F)F)C(C#N)C2=C(C(=C(C(=C2F)F)F)F)F)F)F,CC#N,52345-34-3,"2-(2,3,4,5,6-pentafluorophenyl)-2-(2,3,5,6-tetrafluoro-4-methylphenyl)acetonitrile",21.94,"[21.94, 21.94, 21.94]","['a_unified_view_to_bronsted_acidity_scales.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'leito_acids']"
+CC1=C(C(=C(C(=C1F)F)C(C#N)C2=CC=CC=C2)F)F,CC#N,58432-62-5,"2-phenyl-2-(2,3,5,6-tetrafluoro-4-methylphenyl)acetonitrile",26.96,[26.96],['leito_acids']
+CC1=C(C(=C(C(=C1F)F)NC2=C(C(=C(C(=C2F)F)F)F)F)F)F,CC#N,80588-36-9,"2,3,5,6-tetrafluoro-4-methyl-N-(2,3,4,5,6-pentafluorophenyl)aniline",24.96,[24.96],['pKa_values_of_acids_in_acetonitrile.pdf']
+CC1=C(C(=C(C(=C1F)F)NC2=C(C(=C(C(=C2F)F)F)F)F)F)F,CC#N,80588-36-9,"2,3,5,6-tetrafluoro-4-methyl-N-(2,3,4,5,6-pentafluorophenyl)aniline",24.94,[24.94],['leito_acids']
+CC1=C(C(=C(C(=C1F)F)O)F)F,CC#N,1644-90-2,"2,3,5,6-tetrafluoro-4-methylphenol",20.3,[20.3],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+CC1=C(C(=C(C=C1C2(C3=CC=CC=C3S(=O)(=O)O2)C4=CC(=C(C(=C4C)Br)O)Br)Br)O)Br,C(CCl)Cl,76-60-8,"2,6-dibromo-4-[3-(3,5-dibromo-4-hydroxy-2-methylphenyl)-1,1-dioxo-2,1λ6-benzoxathiol-3-yl]-3-methylphenol",45.2,[45.2],['leito_acids']
+CC1=C(C(=C(C=C1C2(C3=CC=CC=C3S(=O)(=O)O2)C4=CC(=C(C(=C4C)Br)O)Br)Br)O)Br,CC#N,76-60-8,"2,6-dibromo-4-[3-(3,5-dibromo-4-hydroxy-2-methylphenyl)-1,1-dioxo-2,1Œª6-benzoxathiol-3-yl]-3-methylphenol",11,[11.0],['a_unified_view_to_bronsted_acidity_scales.pdf']
+CC1=C(C(=CC=C1)C(=O)O)C(=O)O,CC#N,37102-74-2,3-methylphthalic acid,17,[17.0],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC(=O)O)C)C,CC#N,302-79-4,"3,7-dimethyl-9-(2,6,6-trimethylcyclohexen-1-yl)nona-2,4,6,8-tetraenoic acid",22.77666667,"[22.78, 22.78, 22.77]","['pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+CC1=C(C=C(C(=C1Br)O)C(C)C)C2(C3=CC=CC=C3S(=O)(=O)O2)C4=C(C(=C(C(=C4)C(C)C)O)Br)C,C(CCl)Cl,76-59-5,"2-bromo-4-[3-(3-bromo-4-hydroxy-2-methyl-5-propan-2-ylphenyl)-1,1-dioxo-2,1λ6-benzoxathiol-3-yl]-3-methyl-6-propan-2-ylphenol",46.1,[46.1],['leito_acids']
+CC1=C(C=C(C(=C1Br)O)C(C)C)C2(C3=CC=CC=C3S(=O)(=O)O2)C4=C(C(=C(C(=C4)C(C)C)O)Br)C,CC#N,76-59-5,"2-bromo-4-[3-(3-bromo-4-hydroxy-2-methyl-5-propan-2-ylphenyl)-1,1-dioxo-2,1Œª6-benzoxathiol-3-yl]-3-methyl-6-propan-2-ylphenol",11.7,[11.7],['a_unified_view_to_bronsted_acidity_scales.pdf']
+CC1=C(C=C(C=C1)C(=O)O)C,CC#N,619-04-5,"3,4-dimethylbenzoic acid",19,[19.0],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+CC1=C(C=C(C=C1)S(=O)(=O)N)C,CC#N,6326-18-7,"3,4-dimethylbenzenesulfonamide",25.01,[25.01],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+CC1=C(C=C(C=C1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-],CC#N,118-96-7,"2-methyl-1,3,5-trinitrobenzene",23.2,[23.2],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+CC1=C(F)C(=C([C@@H](C#N)C2=C(F)C(=C(F)C(=C2F)F)F)C(=C1F)F)F,C(CCl)Cl,52345-34-3,"(R)-2-(perfluorophenyl)-2-(2,3,5,6-tetrafluoro-4-methylphenyl)acetonitrile",56.7,[56.7],['Ejoc202001649-sup-00001-misc_information.pdf']
+CC1=C(F)C(=C([C@@H](C#N)C2=C(F)C(=C(F)C(=C2F)F)F)C(=C1F)F)F,CC#N,52345-34-3,"(R)-2-(perfluorophenyl)-2-(2,3,5,6-tetrafluoro-4-methylphenyl)acetonitrile",21.94,"[21.94, 21.94]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+CC1=C(F)C(=C(C(C#N)C#N)C(=C1F)F)F,CC#N,64934-71-0,"2-(2,3,5,6-tetrafluoro-4-methylphenyl)propanedinitrile",13.87,"[13.87, 13.87]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+CC1=C(F)C(=C(C(C#N)C2=C(F)C(=C(C)C(=C2F)F)F)C(=C1F)F)F,C(CCl)Cl,58432-44-3,"2,2-bis(2,3,5,6-tetrafluoro-4-methylphenyl)acetonitrile",57.8,"[57.8, 57.8]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+CC1=C(F)C(=C(C(C#N)C2=C(F)C(=C(C)C(=C2F)F)F)C(=C1F)F)F,CC#N,58432-44-3,"2,2-bis(2,3,5,6-tetrafluoro-4-methylphenyl)acetonitrile",22.8,"[22.8, 22.8, 22.8, 22.8, 22.8]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'a_unified_view_to_bronsted_acidity_scales.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+CC1=C(F)C(=C(C(C#N)C2=CC=CC=C2)C(=C1F)F)F,CC#N,58432-62-5,"2-phenyl-2-(2,3,5,6-tetrafluoro-4-methylphenyl)acetonitrile",26.97,"[26.96, 26.98]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+CC1=C(F)C(=C(C(C#N)C2=CC=CC=C2)C(=C1F)F)F,CS(=O)C,58432-62-5,"2-phenyl-2-(2,3,5,6-tetrafluoro-4-methylphenyl)acetonitrile",13.2,[13.2],['Ejoc202001649-sup-00001-misc_information.pdf']
+CC1=C(F)C(=C(NC2=C(F)C(=C(F)C(=C2F)F)F)C(=C1F)F)F,CC#N,80588-36-9,"2,3,5,6-tetrafluoro-4-methyl-N-(2,3,4,5,6-pentafluorophenyl)aniline",24.95,"[24.94, 24.96]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+CC1=C(F)C(=C(NC2=C(F)C(=C(F)C(=C2F)F)F)C(=C1F)F)F,CS(=O)C,80588-36-9,"2,3,5,6-tetrafluoro-4-methyl-N-(2,3,4,5,6-pentafluorophenyl)aniline",12.3,[12.3],['Ejoc202001649-sup-00001-misc_information.pdf']
+CC1=CC(=C(C(=C1)C)C(=O)O)C,CC#N,480-63-7,"2,4,6-trimethylbenzoic acid",20.5,[20.5],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+CC1=CC(=CC(=C1O)[N+](=O)[O-])[N+](=O)[O-],CC#N,534-52-1,"2-methyl-4,6-dinitrophenol",16.97,[16.97],['Ejoc202001649-sup-00001-misc_information.pdf']
+CC1=CC(=CC(=C1O)[N+](=O)[O-])[N+](=O)[O-],CS(=O)C,534-52-1,"2-methyl-4,6-dinitrophenol",4.59,[4.59],['Ejoc202001649-sup-00001-misc_information.pdf']
+CC1=CC(=CC(=C1O)[N+](=O)[O-])[N+](=O)[O-],O,534-52-1,"2-methyl-4,6-dinitrophenol",4.35,[4.35],['Ejoc202001649-sup-00001-misc_information.pdf']
+CC1=CC(=CC=C1)S(=O)(=O)N,CC#N,1899-94-1,3-methylbenzenesulfonamide,24.67,[24.67],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+CC1=CC(=CC2=C1NC3=CC=CC=C3O2)[N+]([O-])=O,CC#N,-,-,25.8,[25.8],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+CC1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=N[S](=O)(=O)C(F)(F)F)C2=CC=C(Cl)C=C2,C(CCl)Cl,174788-93-3,N-(4-chloro-N-((trifluoromethyl)sulfonyl)phenylsulfonimidoyl)-4-methylbenzenesulfonamide,38,"[38.0, 38.0]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+CC1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=N[S](=O)(=O)C(F)(F)F)C2=CC=C(Cl)C=C2,CC#N,174788-93-3,N-(4-chloro-N-((trifluoromethyl)sulfonyl)phenylsulfonimidoyl)-4-methylbenzenesulfonamide,4.87,"[5.14, 4.81, 4.81, 4.78, 4.81]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'DCE_2011_pKa_Table_MeCN.pdf', 'a_unified_view_to_bronsted_acidity_scales.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+CC1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=O)C(F)(F)F,CC#N,215395-07-6,4-methyl-N-(trifluoromethylsulfonyl)benzenesulfonamide,5.95,"[6.17, 5.86, 5.82]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'DCE_2011_pKa_Table_MeCN.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+CC1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=O)C2=CC=C(C=C2)[N+]([O-])=O,C(CCl)Cl,100724-78-5,4-methyl-N-(4-nitrophenyl)sulfonylbenzenesulfonamide,43.3,[43.3],['Ejoc202001649-sup-00001-misc_information.pdf']
+CC1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=O)C2=CC=C(C=C2)[N+]([O-])=O,CC#N,100724-78-5,4-methyl-N-(4-nitrophenyl)sulfonylbenzenesulfonamide,10.04,"[10.04, 10.04]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+CC1=CC=C(C=C1)[S](=O)(=O)N[S](=O)(=O)C2=CC=C(Cl)C=C2,CC#N,69173-28-0,N-(4-chlorophenyl)sulfonyl-4-methylbenzenesulfonamide,11.1,"[11.1, 11.1]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+CC1=CC=C(C=C1)C(=O)NS(=O)(=O)C(F)(F)F,CC#N,343337-70-2,4-methyl-N-(trifluoromethylsulfonyl)benzamide,11.46,"[11.46, 11.46, 11.46]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+CC1=CC=C(C=C1)C(C#N)C#N,CC#N,33534-88-2,2-(4-methylphenyl)propanedinitrile,17.58333333,"[17.59, 17.57, 17.59]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+CC1=CC=C(C=C1)C(C#N)C#N,CS(=O)C,33534-88-2,2-(4-methylphenyl)propanedinitrile,4.85,[4.85],['Ejoc202001649-sup-00001-misc_information.pdf']
+CC1=CC=C(C=C1)C(N[S](=O)(=O)C(F)(F)F)=N[S](=O)(=O)C(F)(F)F,CC#N,500721-89-1,"4-methyl-N,N'-bis(trifluoromethylsulfonyl)benzenecarboximidamide",5.91,"[6.19, 5.86, 5.82, 5.82, 5.86]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'DCE_2011_pKa_Table_MeCN.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+CC1=CC=C(C=C1)O,CC#N,106-44-5,4-methylphenol,27.45,[27.45],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+CC1=CC=C(C=C1)S(=O)(=O)N,CC#N,70-55-3,4-methylbenzenesulfonamide,25.885,"[24.82, 26.95]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+CC1=CC=C(C=C1)S(=O)(=O)N,CS(=O)C,70-55-3,4-methylbenzenesulfonamide,16.3,[16.3],['Ejoc202001649-sup-00001-misc_information.pdf']
+CC1=CC=C(C=C1)S(=O)(=O)N,O,70-55-3,4-methylbenzenesulfonamide,10.21,[10.21],['Ejoc202001649-sup-00001-misc_information.pdf']
+CC1=CC=C(C=C1)S(=O)(=O)NS(=O)(=O)C(F)(F)F,CC#N,215395-07-6,4-methyl-N-(trifluoromethylsulfonyl)benzenesulfonamide,5.84,"[5.82, 5.86]","['pKa_values_of_acids_in_acetonitrile.pdf', 'leito_acids']"
+CC1=CC=C(C=C1)S(=O)(=O)NS(=O)(=O)C2=CC(=C(C=C2)Cl)[N+](=O)[O-],CC#N,215395-06-5,4-chloro-N-(4-methylphenyl)sulfonyl-3-nitrobenzenesulfonamide,9.71,[9.71],['leito_acids']
+CC1=CC=C(C=C1)S(=O)(=O)NS(=O)(=O)C2=CC=C(C=C2)[N+](=O)[O-],C(CCl)Cl,100724-78-5,4-methyl-N-(4-nitrophenyl)sulfonylbenzenesulfonamide,43.3,[43.3],['leito_acids']
+CC1=CC=C(C=C1)S(=O)(=O)NS(=O)(=O)C2=CC=C(C=C2)[N+](=O)[O-],CC#N,100724-78-5,4-methyl-N-(4-nitrophenyl)sulfonylbenzenesulfonamide,10.04,"[10.04, 10.04, 10.04, 10.04]","['DCE_2011_pKa_Table_MeCN.pdf', 'a_unified_view_to_bronsted_acidity_scales.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'leito_acids']"
+CC1=CC=C(C=C1)S(=O)(=O)NS(=O)(=O)C2=CC=C(C=C2)C,CC#N,3695-00-9,4-methyl-N-(4-methylphenyl)sulfonylbenzenesulfonamide,11.97,"[11.97, 11.97, 11.97, 11.97]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+CC1=CC=C(C=C1)S(=O)(=O)NS(=O)(=O)C2=CC=C(C=C2)C,CN(C)C=O,3695-00-9,4-methyl-N-(4-methylphenyl)sulfonylbenzenesulfonamide,3.87,[3.87],['Ejoc202001649-sup-00001-misc_information.pdf']
+CC1=CC=C(C=C1)S(=O)(=O)NS(=O)(=O)C2=CC=C(C=C2)Cl,CC#N,69173-28-0,N-(4-chlorophenyl)sulfonyl-4-methylbenzenesulfonamide,11.1,[11.1],['leito_acids']
+CC1=CC=C(C=C1)S(=O)(=O)O,CC#N,104-15-4,4-methylbenzenesulfonic acid,8.41,"[8.45, 8.01, 8.5, 8.5, 8.5, 8.5]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'MeCN_Acids_COSMO-RS_2008_Table.pdf', 'DCE_2011_pKa_Table_MeCN.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+CC1=CC=CC=[NH+]1,CC#N,,2-methylpyridin-1-ium,13.32,[13.32],['pKa_values_of_nitrogen_heterocycles.pdf']
+CC1=CC=CC=C1[NH3+],CC#N,,(2-methylphenyl)azanium,10.5,[10.5],['pKa_values_of_nitrogen_heterocycles.pdf']
+CC1=CC=CC=C1O,CC#N,95-48-7,2-methylphenol,27.5,[27.5],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+CC1=CNC(=O)[NH2+]C1=O,CC#N,,"5-methyl-1H-pyrimidin-3-ium-2,4-dione",2.7,[2.7],['pKa_values_of_nitrogen_heterocycles.pdf']
+CC1=CNC(=O)[NH2+]C1=O,O,,"5-methyl-1H-pyrimidin-3-ium-2,4-dione",0,[0.0],['pKa_values_of_nitrogen_heterocycles.pdf']
+CCC(C1=CC=C(C=C1)[N+]([O-])=O)[N+]([O-])=O,CC#N,126661-13-0,1-nitro-4-(1-nitropropyl)benzene,23.9,[23.9],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+CCC[NH+](CC)CC,C1CCOC1,-,diethyl(propyl)azanium,12.7,[12.7],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CCC[NH+](CC)CC,CC#N,-,diethyl(propyl)azanium,18.2,[18.2],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CCC[NH+](CC)CC,CS(=O)C,-,diethyl(propyl)azanium,9,[9.0],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CCC[NH+](CC)CC,O,-,diethyl(propyl)azanium,10.5,[10.5],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CCC[NH+](CCC)CCC,C1CCOC1,-,tripropylazanium,13,[13.0],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CCC[NH+](CCC)CCC,CC#N,-,tripropylazanium,18.26,[18.26],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CCC[NH+](CCC)CCC,CS(=O)C,-,tripropylazanium,10.7,[10.7],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CCC[NH+](CCC)CCC,O,-,tripropylazanium,10.65,[10.65],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CCC[NH2+]CCC,CC#N,-,dipropylazanium,18.8,[18.8],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CCC[NH2+]CCC,CS(=O)C,-,dipropylazanium,10.3,[10.3],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CCC[NH2+]CCC,O,-,dipropylazanium,11,[11.0],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CCC[NH3+],C1CCOC1,,propylazanium,13.8,[13.8],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CCC[NH3+],CC#N,,propylazanium,18.44,[18.44],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CCC[NH3+],CS(=O)C,,propylazanium,10.7,[10.7],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CCC[NH3+],O,,propylazanium,10.53,[10.53],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CCCC(=O)O,CC#N,107-92-6,butanoic acid,22.7,[22.7],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+CCCC[NH+](CCCC)CCCC,C1CCOC1,-,tributylazanium,12.7,[12.7],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CCCC[NH+](CCCC)CCCC,CC#N,-,tributylazanium,18.09,[18.09],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CCCC[NH+](CCCC)CCCC,CS(=O)C,-,tributylazanium,8.4,[8.4],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CCCC[NH+](CCCC)CCCC,O,-,tributylazanium,10.89,[10.89],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CCCC[NH2+]CCCC,C1CCOC1,-,dibutylazanium,12.6,[12.6],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CCCC[NH2+]CCCC,CC#N,-,dibutylazanium,18.31,[18.31],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CCCC[NH2+]CCCC,CS(=O)C,-,dibutylazanium,10,[10.0],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CCCC[NH2+]CCCC,O,-,dibutylazanium,11.25,[11.25],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CCCC[NH3+],C1CCOC1,-,butylazanium,13.4,[13.4],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CCCC[NH3+],CC#N,-,butylazanium,18.26,[18.26],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CCCC[NH3+],CS(=O)C,-,butylazanium,11.1,[11.1],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CCCC[NH3+],O,-,butylazanium,10.59,[10.59],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CCNP(=N[P+](N(C)C)(N(C)C)N(C)C)(N(C)C)N(C)C,C1CCOC1,-,[[bis(dimethylamino)-(ethylamino)-_5-phosphanylidene]amino]-tris(dimethylamino)phosphanium,25.3,[25.3],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CCNP(=N[P+](N(C)C)(N(C)C)N(C)C)(N(C)C)N(C)C,CC#N,-,[[bis(dimethylamino)-(ethylamino)-_5-phosphanylidene]amino]-tris(dimethylamino)phosphanium,32.94,[32.94],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CCNP(=N[P+](N(C)C)(N(C)C)N(C)C)(N(C)C)N(C)C,CS(=O)C,-,[[bis(dimethylamino)-(ethylamino)-_5-phosphanylidene]amino]-tris(dimethylamino)phosphanium,21.15,[21.15],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CCNP(=N[P+](N(C)C)(N(C)C)N(C)C)(N(C)C)N(C)C,O,-,[[bis(dimethylamino)-(ethylamino)-_5-phosphanylidene]amino]-tris(dimethylamino)phosphanium,20,[20.0],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CCOC(=O)C(C#N)C1=C(C(=C(C(=C1C(F)(F)F)C(F)(F)F)C(F)(F)F)C(F)(F)F)C(F)(F)F,C(CCl)Cl,2226486-80-0�,,47.8,[47.8],['leito_acids']
+CCOC(=O)C(C#N)C1=C(C(=C(C(=C1F)F)C(F)(F)F)F)F,C(CCl)Cl,32251-53-9,"ethyl 2-cyano-2-[2,3,5,6-tetrafluoro-4-(trifluoromethyl)phenyl]acetate",50.6,"[50.6, 50.6]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+CCOC(=O)C(C#N)C1=C(C(=C(C(=C1F)F)C(F)(F)F)F)F,CC#N,32251-53-9,"ethyl 2-cyano-2-[2,3,5,6-tetrafluoro-4-(trifluoromethyl)phenyl]acetate",16.0775,"[16.08, 16.08, 16.07, 16.08]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'a_unified_view_to_bronsted_acidity_scales.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+CCOC(=O)C(C#N)C1=C(C(=C(C(=C1F)F)C(F)(F)F)F)F,CS(=O)C,32251-53-9,"ethyl 2-cyano-2-[2,3,5,6-tetrafluoro-4-(trifluoromethyl)phenyl]acetate",3,"[3.0, 3.0]","['a_unified_view_to_bronsted_acidity_scales.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+CCOC(=O)C(C#N)C1=C(C(=C(C(=C1F)F)Cl)F)F,C(CCl)Cl,55810-56-5,"ethyl 2-(4-chloro-2,3,5,6-tetrafluorophenyl)-2-cyanoacetate",52.2,[52.2],['leito_acids']
+CCOC(=O)C(C#N)C1=C(C(=C(C(=C1F)F)Cl)F)F,CC#N,55810-56-5,"ethyl 2-(4-chloro-2,3,5,6-tetrafluorophenyl)-2-cyanoacetate",17.39,"[17.39, 17.39]","['a_unified_view_to_bronsted_acidity_scales.pdf', 'leito_acids']"
+CCOC(=O)C(C#N)C1=C(C(=C(C(=C1F)F)Cl)F)F,CS(=O)C,55810-56-5,"ethyl 2-(4-chloro-2,3,5,6-tetrafluorophenyl)-2-cyanoacetate",4.5,[4.5],['a_unified_view_to_bronsted_acidity_scales.pdf']
+CCOC(=O)C(C#N)C1=C(C(=C(C(=C1F)F)F)F)F,C(CCl)Cl,2340-87-6,"ethyl 2-cyano-2-(2,3,4,5,6-pentafluorophenyl)acetate",52.5,"[52.5, 52.5]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+CCOC(=O)C(C#N)C1=C(C(=C(C(=C1F)F)F)F)F,CC#N,2340-87-6,"ethyl 2-cyano-2-(2,3,4,5,6-pentafluorophenyl)acetate",17.745,"[17.75, 17.75, 17.73, 17.75]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'a_unified_view_to_bronsted_acidity_scales.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+CCOC(=O)C(C#N)C1=C(C(=C(C(=C1F)F)F)F)F,CS(=O)C,2340-87-6,"ethyl 2-cyano-2-(2,3,4,5,6-pentafluorophenyl)acetate",4.9,"[4.7, 5.1]","['a_unified_view_to_bronsted_acidity_scales.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+CCOC(=O)C(C#N)C1=C(C(=C(C(=C1F)F)F)F)F,O,2340-87-6,"ethyl 2-cyano-2-(2,3,4,5,6-pentafluorophenyl)acetate",5.89,[5.89],['Ejoc202001649-sup-00001-misc_information.pdf']
+CCOC(=O)C(C#N)C1=C(C(=CC(=C1F)F)F)F,CC#N,55852-22-7,"ethyl 2-cyano-2-(2,3,5,6-tetrafluorophenyl)acetate",18.08,[18.08],['leito_acids']
+CCOC(=O)C(C#N)C1=C(C(=NC(=C1F)F)F)F,C(CCl)Cl,55810-61-2,"ethyl 2-cyano-2-(2,3,5,6-tetrafluoropyridin-4-yl)acetate",49.4,[49.4],['leito_acids']
+CCOC(=O)C(C#N)C1=C(C(=NC(=C1F)F)F)F,CC#N,55810-61-2,"ethyl 2-cyano-2-(2,3,5,6-tetrafluoropyridin-4-yl)acetate",14.9,"[14.9, 14.9]","['a_unified_view_to_bronsted_acidity_scales.pdf', 'leito_acids']"
+CCOC(=O)C(C#N)C1=C(C(=NC(=C1F)F)F)F,CS(=O)C,55810-61-2,"ethyl 2-cyano-2-(2,3,5,6-tetrafluoropyridin-4-yl)acetate",3.2,[3.2],['a_unified_view_to_bronsted_acidity_scales.pdf']
+CCOC(=O)C(C#N)C1=C(C2=C(C(=C1F)F)C(=C(C(=C2F)F)F)F)F,C(CCl)Cl,62325-34-2,"ethyl 2-cyano-2-(1,3,4,5,6,7,8-heptafluoronaphthalen-2-yl)acetate",52,[52.0],['leito_acids']
+CCOC(=O)C(C#N)C1=C(C2=C(C(=C1F)F)C(=C(C(=C2F)F)F)F)F,CC#N,62325-34-2,"ethyl 2-cyano-2-(1,3,4,5,6,7,8-heptafluoronaphthalen-2-yl)acetate",17.5,"[17.5, 17.5]","['a_unified_view_to_bronsted_acidity_scales.pdf', 'leito_acids']"
+CCOC(=O)C(C#N)C1=C(F)C(=C(Cl)C(=C1F)F)F,CC#N,55810-56-5,"ethyl 2-(4-chloro-2,3,5,6-tetrafluorophenyl)-2-cyanoacetate",17.385,"[17.39, 17.38]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+CCOC(=O)C(C#N)C1=C(F)C(=CC(=C1F)F)F,CC#N,55852-22-7,"ethyl 2-cyano-2-(2,3,5,6-tetrafluorophenyl)acetate",18.075,"[18.08, 18.07]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+CCOC(=O)C(C#N)C1=C(F)C(=CC(=C1F)F)F,CS(=O)C,55852-22-7,"ethyl 2-cyano-2-(2,3,5,6-tetrafluorophenyl)acetate",4.9,[4.9],['Ejoc202001649-sup-00001-misc_information.pdf']
+CCOC(=O)C(C#N)C1=C(F)C(=NC(=C1F)F)F,C(CCl)Cl,55810-61-2,ethyl 2-cyano-2-(perfluoropyridin-4-yl)acetate,49.4,[49.4],['Ejoc202001649-sup-00001-misc_information.pdf']
+CCOC(=O)C(C#N)C1=C(F)C(=NC(=C1F)F)F,CC#N,55810-61-2,ethyl 2-cyano-2-(perfluoropyridin-4-yl)acetate,14.895,"[14.9, 14.89]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+CCOC(=O)C(C#N)C1=C(F)C(=NC(=C1F)F)F,CS(=O)C,55810-61-2,ethyl 2-cyano-2-(perfluoropyridin-4-yl)acetate,3.2,[3.2],['Ejoc202001649-sup-00001-misc_information.pdf']
+CCOC(=O)C(C#N)C1=C(F)C2=C(F)C(=C(F)C(=C2C(=C1F)F)F)F,C(CCl)Cl,62325-34-2,"ethyl 2-cyano-2-(1,3,4,5,6,7,8-heptafluoronaphthalen-2-yl)acetate",52,[52.0],['Ejoc202001649-sup-00001-misc_information.pdf']
+CCOC(=O)C(C#N)C1=C(F)C2=C(F)C(=C(F)C(=C2C(=C1F)F)F)F,CC#N,62325-34-2,"ethyl 2-cyano-2-(1,3,4,5,6,7,8-heptafluoronaphthalen-2-yl)acetate",17.49,"[17.5, 17.48]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+CCOC(=O)C(C1=C(C(=C(C(=C1F)F)F)F)F)C(=O)OCC,CC#N,1582-05-4,"diethyl 2-(2,3,4,5,6-pentafluorophenyl)propanedioate",22.86,"[22.85, 22.88, 22.85]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+Cl,C(CCl)Cl,7647-01-0,chlorane,45.2,"[45.2, 45.2, 45.2]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+Cl,CC#N,7647-01-0,chlorane,10.1,"[8.9, 10.3, 10.3, 10.3, 10.3, 10.3, 10.3]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'DCE_2011_pKa_Table_MeCN.pdf', 'a_unified_view_to_bronsted_acidity_scales.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+Cl,CN(C)C=O,7647-01-0,chlorane,2.36,[2.36],['Ejoc202001649-sup-00001-misc_information.pdf']
+Cl,CS(=O)C,7647-01-0,chlorane,-2,"[-2.0, -2.0]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+Cl,O,7647-01-0,chlorane,-5.9,"[-5.9, -5.9]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+CN(C)[P+](N)(N(C)C)N(C)C,C1CCOC1,-,amino-tris(dimethylamino)phosphanium,19.7,[19.7],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CN(C)[P+](N)(N(C)C)N(C)C,CC#N,-,amino-tris(dimethylamino)phosphanium,25.85,[25.85],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CN(C)[P+](N)(N(C)C)N(C)C,CS(=O)C,-,amino-tris(dimethylamino)phosphanium,16.4,[16.4],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CN(C)[P+](N)(N(C)C)N(C)C,O,-,amino-tris(dimethylamino)phosphanium,15.1,[15.1],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CN(C)[P+](NC1=CC=CC=C1)(N(C)C)N(C)C,C1CCOC1,-,anilino-tris(dimethylamino)phosphanium,15.3,[15.3],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CN(C)[P+](NC1=CC=CC=C1)(N(C)C)N(C)C,CC#N,-,anilino-tris(dimethylamino)phosphanium,21.26,[21.26],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CN(C)[P+](NC1=CC=CC=C1)(N(C)C)N(C)C,CS(=O)C,-,anilino-tris(dimethylamino)phosphanium,11.1,[11.1],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CN(C)[P+](NC1=CC=CC=C1)(N(C)C)N(C)C,O,-,anilino-tris(dimethylamino)phosphanium,10.64,[10.64],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CN(C)C1=C(F)C(=C(NC2=C(F)C(=C(F)C(=C2F)F)F)C(=C1F)F)F,CC#N,80588-34-7,"2,3,5,6-tetrafluoro-N1,N1-dimethyl-N4-(perfluorophenyl)benzene-1,4-diamine",25.125,"[25.12, 25.13, 25.13, 25.12]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+CN(C)C1=C(F)C(=C(NC2=C(F)C(=C(F)C(=C2F)F)F)C(=C1F)F)F,CS(=O)C,80588-34-7,"2,3,5,6-tetrafluoro-N1,N1-dimethyl-N4-(perfluorophenyl)benzene-1,4-diamine",12.7,[12.7],['Ejoc202001649-sup-00001-misc_information.pdf']
+CN(C)C1=CC=C(C=C1)C(=O)O,CC#N,619-84-1,4-(dimethylamino)benzoic acid,23,[23.0],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+CN1C=[NH+]C2=C1C(N(C)C(N2C)=O)=O,CC#N,,"1,3,7-trimethylpurin-7-ium-2,6-dione",7.51,[7.51],['pKa_values_of_nitrogen_heterocycles.pdf']
+CN1C=[NH+]C2=C1C(N(C)C(N2C)=O)=O,O,,"1,3,7-trimethylpurin-7-ium-2,6-dione",0.6,[0.6],['pKa_values_of_nitrogen_heterocycles.pdf']
+CN1CCC[NH+]2C1=NCCC2,C1CCOC1,-,"1-methyl-3,4,5,6,7,8-hexahydro-2H-pyrimido[1,2-a]pyrimidin-5-ium",18,[18.0],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CN1CCC[NH+]2C1=NCCC2,CC#N,-,"1-methyl-3,4,5,6,7,8-hexahydro-2H-pyrimido[1,2-a]pyrimidin-5-ium",25.47,[25.47],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CN1CCC[NH+]2C1=NCCC2,CS(=O)C,-,"1-methyl-3,4,5,6,7,8-hexahydro-2H-pyrimido[1,2-a]pyrimidin-5-ium",14.8,[14.8],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+CN1CCC[NH+]2C1=NCCC2,O,-,"1-methyl-3,4,5,6,7,8-hexahydro-2H-pyrimido[1,2-a]pyrimidin-5-ium",15,[15.0],['Bases_pKa_values_MeCN_DMSO_THF_Water.pdf']
+COC(=O)C1C2=CC=CC=C2C3=CC=CC=C13,C(CCl)Cl,3002-30-0,methyl 9H-fluorene-9-carboxylate,58.1,"[58.1, 58.1]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+COC(=O)C1C2=CC=CC=C2C3=CC=CC=C13,CC#N,3002-30-0,methyl 9H-fluorene-9-carboxylate,23.534,"[23.53, 23.53, 23.54, 23.54, 23.53]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'a_unified_view_to_bronsted_acidity_scales.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+COC(=O)C1C2=CC=CC=C2C3=CC=CC=C13,CS(=O)C,3002-30-0,methyl 9H-fluorene-9-carboxylate,10.35,"[10.35, 10.35]","['a_unified_view_to_bronsted_acidity_scales.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+COC(=O)C1C2=CC=CC=C2C3=CC=CC=C13,O,3002-30-0,methyl 9H-fluorene-9-carboxylate,11.5,[11.5],['Ejoc202001649-sup-00001-misc_information.pdf']
+COC1=[NH+]C(=CC=C1)OC,CC#N,,"2,6-dimethoxypyridin-1-ium",7.64,[7.64],['pKa_values_of_nitrogen_heterocycles.pdf']
+COC1=C(OC)C=C(C=C1)C(C(C#N)C#N)=C(C#N)C#N,C(CCl)Cl,1261286-75-2,,36.1,[36.1],['leito_acids']
+COC1=CC(=CC=C1)S(=O)(=O)N,CC#N,58734-57-9,3-methoxybenzenesulfonamide,24.48,[24.48],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+COC1=CC=C(C=C1)[NH3+],CC#N,,(4-methoxyphenyl)azanium,11.86,[11.86],['pKa_values_of_nitrogen_heterocycles.pdf']
+COC1=CC=C(C=C1)C(=O)N[S](=O)(=O)C(F)(F)F,CC#N,39063-05-3,4-methoxy-N-(trifluoromethylsulfonyl)benzamide,11.6,"[11.6, 11.6]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+COC1=CC=C(C=C1)C(=O)NS(=O)(=O)C(F)(F)F,CC#N,39063-05-3,4-methoxy-N-(trifluoromethylsulfonyl)benzamide,11.6,[11.6],['leito_acids']
+COC1=CC=C(C=C1)C(C(C#N)C#N)=C(C#N)C#N,C(CCl)Cl,1261286-76-3,,36.1,[36.1],['leito_acids']
+COC1=CC=C(C=C1)C(N[S](=O)(=O)C(F)(F)F)=N[S](=O)(=O)C(F)(F)F,CC#N,500721-87-9,"4-methoxy-N,N'-bis(trifluoromethylsulfonyl)benzenecarboximidamide",6.16,"[6.41, 6.09, 6.05, 6.09]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'DCE_2011_pKa_Table_MeCN.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+COC1=CC=C(C=C1)C2=CC3=C(C=CC=C3)C4=C2O[P](=O)(N[S](=O)(=O)C(F)(F)F)OC5=C4C6=CC=CC=C6C=C5C7=CC=C(OC)C=C7,CC#N,1486486-92-3,-,6.375,"[6.35, 6.4]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+COC1=CC=C(C=C1)C2=CC3CCCCC3C4=C2OP(=O)(OC5=C(C=C6CCCCC6=C45)C7=CC=C(C=C7)OC)NS(=O)(=O)C(F)(F)F,CC#N,1071853-99-0,"N-[10,16-bis(4-methoxyphenyl)-13-oxo-12,14-dioxa-13λ5-phosphapentacyclo[13.8.0.02,11.03,8.018,23]tricosa-1(15),2,8,10,16-pentaen-13-yl]-1,1,1-trifluoromethanesulfonamide",6.865,"[6.83, 6.9]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+COC1=CC=C(C=C1)S(=O)(=O)N,CC#N,1129-26-6,4-methoxybenzenesulfonamide,25.09,[25.09],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+COC1=CC=CC=[NH+]1,CC#N,,2-methoxypyridin-1-ium,9.93,[9.93],['pKa_values_of_nitrogen_heterocycles.pdf']
+COC1=CC=CC=C1N2CCN(CC2)CCCCNC(=O)C3=CC=C(C=C3)C4=CSC=N4,CC#N,1580000-17-4,"N-[4-[4-(2-methoxyphenyl)piperazin-1-yl]butyl]-4-(1,3-thiazol-4-yl)benzamide",24.03,[24.03],['Ejoc202001649-sup-00001-misc_information.pdf']
+CS(=O)(=O)O,CC#N,75-75-2,methanesulfonic acid,9.97,"[9.97, 9.97, 9.97]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+FC(F)(F)[S](=O)(=O)C(C#N)[S](=O)(=O)C(F)(F)F,C(CCl)Cl,174191-48-1,"2,2-bis((trifluoromethyl)sulfonyl)acetonitrile",30,[30.0],['leito_acids']
+FC(F)(F)[S](=O)(=O)N[P]1(=O)OC2=C(C=C3C=CC=CC3=C2C4=C(O1)C(=CC5=CC=CC=C45)C6=CC=CC=C6)C7CC=CC=C7,CC#N,1010799-98-0,,6.4,[6.4],['leito_acids']
+FC(F)(F)[S](=O)(=O)N[P]1(=O)OC2=C(C3=C(CCCC3)C=C2C4CC=CC=C4)C5=C(O1)C(=CC6=C5CCCC6)C7=CC=CC=C7,CC#N,1261302-62-8,,6.69,"[6.68, 6.7]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+FC(F)(F)[S](=O)(=O)N[P]1(=O)OC2=C3C=C(C=C2C4=CC(=CC(=C4)C5=CC=CC=C5)C6CC=CC=C6)C7=CC=CC8=C9C=CC=C(C%10=CC3=C(O1)C(=C%10)C%11=CC(=CC(=C%11)C%12=CC=CC=C%12)C%13=CC=CC=C%13)C9=C78,CC#N,1630950-49-0,,6.5,[6.5],['leito_acids']
+FC(F)(F)[S](=O)(=O)N[S](=O)(=O)C1=CC=C(Cl)C=C1,CC#N,174788-89-7,4-chloro-N-(trifluoromethylsulfonyl)benzenesulfonamide,5.18,"[5.34, 5.02]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'DCE_2011_pKa_Table_MeCN.pdf']"
+FC(F)(F)[S](=O)(=O)N[S](=O)(=O)C1=CC=CC=C1,CC#N,174788-87-5,N-(trifluoromethylsulfonyl)benzenesulfonamide,5.89,[5.89],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+FC(F)(F)[S](=O)(=O)N=[P]1(N[P]2(OC3=C(C4=CC=CC=C4C=C3C5=CC=CC=C5)C6=C7C=CC=CC7=CC(=C6O2)C8=CC=CC=C8)=N[S](=O)(=O)C(F)(F)F)OC9=C(CC%10C=CC=CC%10=C9C%11=C(O1)C(=CC%12=CC=CC=C%11%12)C%13=CC=CC=C%13)C%14=CC=CC=C%14,CC#N,2016814-95-0,,4.5,[4.5],['leito_acids']
+FC(F)(F)[S](=O)(=O)N=[S](=O)(N[S](=O)(=O)C1=CC=C(Cl)C=C1)C2=CC=C(Cl)C=C2,C(CCl)Cl,174788-95-5,-,37.1,"[37.1, 37.1]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+FC(F)(F)[S](=O)(=O)N=[S](=O)(N[S](=O)(=O)C1=CC=C(Cl)C=C1)C2=CC=C(Cl)C=C2,CC#N,174788-95-5,-,4.015,"[4.0, 4.03]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+FC(F)(F)[S](=O)(=O)NC(=N[S](=O)(=O)C(F)(F)F)C1=CC=C(Cl)C=C1,CC#N,500721-95-9,"4-chloro-N,N'-bis((trifluoromethyl)sulfonyl)benzimidamide",5.38,"[5.56, 5.2]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+FC(F)(F)[S](=O)(=O)NC(=N[S](=O)(=O)C(F)(F)F)C1=CC=CC=C1,CC#N,500721-91-5,"N,N'-bis((trifluoromethyl)sulfonyl)benzimidamide",5.86,"[6.04, 5.68]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+FC(F)(F)[S](=O)(=O)NC(=O)C1=CC=CC=C1,CC#N,39062-91-4,N-(trifluoromethylsulfonyl)benzamide,11.065,"[11.06, 11.07]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+FC(F)(F)C(C(C#N)C#N)=C(C#N)C#N,C(CCl)Cl,1261286-81-0,,32.2,[32.2],['leito_acids']
+FC(F)(F)C(F)(F)C(F)(F)C(F)(F)[S](=O)(=O)N[P]1(=O)OC2=C(C3=C(CCCC3)C=C2C4CC=CC=C4)C5=C(O1)C(=CC6=C5CCCC6)C7=CC=CC=C7,CC#N,1261302-67-3,,6.7,[6.7],['leito_acids']
+FC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)[S](=O)(=O)N[P]1(=O)OC2=C(C3=C(CCCC3)C=C2C4CC=CC=C4)C5=C(O1)C(=CC6=C5CCCC6)C7=CC=CC=C7,CC#N,1261302-68-4,-,6.745,"[6.69, 6.8]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+FC(F)(F)C1=C(C(C#N)C#N)C(=C(C(=C1)C(F)(F)F)C(F)(F)F)C(F)(F)F,C(CCl)Cl,1018330-49-8,"2-(2,3,4,6-tetrakis(trifluoromethyl)phenyl)malononitrile",44.2,"[44.2, 44.2]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+FC(F)(F)C1=C(C(C#N)C#N)C(=C(C(=C1)C(F)(F)F)C(F)(F)F)C(F)(F)F,CC#N,1018330-49-8,"2-(2,3,4,6-tetrakis(trifluoromethyl)phenyl)malononitrile",10.44,"[10.45, 10.45, 10.45, 10.42, 10.42, 10.45]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'DCE_2011_pKa_Table_MeCN.pdf', 'a_unified_view_to_bronsted_acidity_scales.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+FC(F)(F)C1=C(C(C#N)C#N)C(=C(C(=C1C(F)(F)F)C(F)(F)F)C(F)(F)F)C(F)(F)F,CC#N,-,"2-[2,3,4,5,6-pentakis(trifluoromethyl)phenyl]propanedinitrile",8.86,[8.86],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+FC(F)(F)C1=CC(=CC(=C1)C(C(C#N)C#N)=C(C#N)C#N)C(F)(F)F,C(CCl)Cl,1261286-79-6,,33,[33.0],['leito_acids']
+FC(F)(F)C1=CC(=CC(=C1)C2=C3C(=C4C=CC=CC4C2)C5=C6C=CC=CC6=CC(=C5[S](=O)(=O)N[S]3(=O)=O)C7=CC(=CC(=C7)C(F)(F)F)C(F)(F)F)C(F)(F)F,CC#N,1242421-77-7,,8.4,[8.4],['leito_acids']
+FC(F)(F)C1=CC(=CC=C1)C(C(C#N)C#N)=C(C#N)C#N,C(CCl)Cl,2226486-85-5�,,34.3,[34.3],['leito_acids']
+FC1=C(F)C(=C(C(=C1F)F)[S](=O)(=O)N[S](=O)(=O)C2=CC=C(Cl)C=C2)F,CC#N,1171188-85-4,"N-((4-chlorophenyl)sulfonyl)-2,3,4,5,6-pentafluorobenzenesulfonamide",7.56,"[7.57, 7.55, 7.55, 7.57]","['DCE_2011_pKa_Table_MeCN.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+FC1=C(F)C(=C(C(C#N)C2=C(F)C(=C(C(=C2F)F)C(F)(F)F)F)C(=C1F)F)F,C(CCl)Cl,42238-35-7,"2-(2,3,4,5,6-pentafluorophenyl)-2-[2,3,5,6-tetrafluoro-4-(trifluoromethyl)phenyl]acetonitrile",52.3,"[52.3, 52.3]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'leito_acids']"
+FC1=C(F)C(=C(C(C#N)C2=C(F)C(=C(C(=C2F)F)C(F)(F)F)F)C(=C1F)F)F,CC#N,42238-35-7,"2-(2,3,4,5,6-pentafluorophenyl)-2-[2,3,5,6-tetrafluoro-4-(trifluoromethyl)phenyl]acetonitrile",18.1375,"[18.14, 18.14, 18.13, 18.14]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'a_unified_view_to_bronsted_acidity_scales.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'leito_acids']"
+FC1=C(F)C(=C(C(C#N)C2=C(F)C(=C(C(=C2F)F)C(F)(F)F)F)C(=C1F)F)F,CS(=O)C,42238-35-7,"2-(2,3,4,5,6-pentafluorophenyl)-2-[2,3,5,6-tetrafluoro-4-(trifluoromethyl)phenyl]acetonitrile",4.9,"[4.9, 4.9]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'a_unified_view_to_bronsted_acidity_scales.pdf']"
+FC1=C(F)C(=C(C(C#N)C2=C(F)C(=C(Cl)C(=C2F)F)F)C(=C1F)F)F,C(CCl)Cl,42238-36-8,"2-(4-chloro-2,3,5,6-tetrafluorophenyl)-2-(2,3,4,5,6-pentafluorophenyl)acetonitrile",54.7,[54.7],['Ejoc202001649-sup-00001-misc_information.pdf']
+FC1=C(F)C(=C(C(C#N)C2=C(F)C(=C(Cl)C(=C2F)F)F)C(=C1F)F)F,CC#N,42238-36-8,"2-(4-chloro-2,3,5,6-tetrafluorophenyl)-2-(2,3,4,5,6-pentafluorophenyl)acetonitrile",20.36,"[20.36, 20.36]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+FC1=C(F)C(=C(C(C#N)C2=C(F)C(=C(Cl)C(=C2F)F)F)C(=C1F)F)F,CS(=O)C,42238-36-8,"2-(4-chloro-2,3,5,6-tetrafluorophenyl)-2-(2,3,4,5,6-pentafluorophenyl)acetonitrile",7.5,[7.5],['Ejoc202001649-sup-00001-misc_information.pdf']
+FC1=C(F)C(=C(C(C#N)C2=C(F)C(=C(F)C(=C2F)F)F)C(=C1F)F)F,C(CCl)Cl,42238-34-6,"2,2-bis(2,3,4,5,6-pentafluorophenyl)acetonitrile",55.7,[55.7],['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf']
+FC1=C(F)C(=C(C(C#N)C2=C(F)C(=C(F)C(=C2F)F)F)C(=C1F)F)F,CC#N,42238-34-6,"2,2-bis(2,3,4,5,6-pentafluorophenyl)acetonitrile",21.096,"[21.1, 21.1, 21.09, 21.09, 21.1]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+FC1=C(F)C(=C(C(C#N)C2=C(F)C(=C(F)C(=C2F)F)F)C(=C1F)F)F,CS(=O)C,42238-34-6,"2,2-bis(2,3,4,5,6-pentafluorophenyl)acetonitrile",7.975,"[8.0, 7.95]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+FC1=C(F)C(=C(C(C#N)C2=C(F)C(=C(F)C(=C2F)F)F)C(=C1F)F)F,O,42238-34-6,"2,2-bis(2,3,4,5,6-pentafluorophenyl)acetonitrile",9.5,[9.5],['Ejoc202001649-sup-00001-misc_information.pdf']
+FC1=C(F)C(=C(C(C#N)C2=CC=C(C=C2)C(F)(F)F)C(=C1F)F)F,C(CCl)Cl,42238-35-7,2-(perfluorophenyl)-2-(4-(trifluoromethyl)phenyl)acetonitrile,52.3,[52.3],['Ejoc202001649-sup-00001-misc_information.pdf']
+FC1=C(F)C(=C(C(C#N)C2=CC=C(C=C2)C(F)(F)F)C(=C1F)F)F,CC#N,42238-35-7,2-(perfluorophenyl)-2-(4-(trifluoromethyl)phenyl)acetonitrile,18.135,"[18.14, 18.13]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+FC1=C(F)C(=C(C(C#N)C2=CC=C(C=C2)C(F)(F)F)C(=C1F)F)F,CS(=O)C,42238-35-7,2-(perfluorophenyl)-2-(4-(trifluoromethyl)phenyl)acetonitrile,4.9,[4.9],['Ejoc202001649-sup-00001-misc_information.pdf']
+FC1=C(F)C(=C(C(C#N)C2=CC=CC=C2)C(=C1F)F)F,CC#N,42238-33-5,"2-(2,3,4,5,6-pentafluorophenyl)-2-phenylacetonitrile",26.15,"[26.14, 26.16]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+FC1=C(F)C(=C(C(C#N)C2=CC=CC=C2)C(=C1F)F)F,CS(=O)C,42238-33-5,"2-(2,3,4,5,6-pentafluorophenyl)-2-phenylacetonitrile",12.8,[12.8],['Ejoc202001649-sup-00001-misc_information.pdf']
+FC1=C(F)C(=C(C2C3=C(C(=C(F)C(=C3F)F)F)C4=C2C(=C(F)C(=C4F)F)F)C(=C1F)F)F,CC#N,63264-80-2,"1,2,3,4,5,6,7,8-octafluoro-9-(2,3,4,5,6-pentafluorophenyl)-9H-fluorene",18.88,[18.88],['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf']
+FC1=C(F)C(=C(C2C3=C(C=CC=C3)C4=C2C=CC=C4)C(=C1F)F)F,CC#N,73482-93-6,"9-(2,3,4,5,6-pentafluorophenyl)-9H-fluorene",28.125,"[28.11, 28.14]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+FC1=C(F)C(=C(C2C3=C(C=CC=C3)C4=C2C=CC=C4)C(=C1F)F)F,CS(=O)C,73482-93-6,"9-(2,3,4,5,6-pentafluorophenyl)-9H-fluorene",14.8,[14.8],['Ejoc202001649-sup-00001-misc_information.pdf']
+FC1=C(F)C(=C(F)C(=C1)F)C(C#N)C#N,C(CCl)Cl,55810-63-4,"2-(2,3,5,6-tetrafluorophenyl)propanedinitrile",47.5,[47.5],['Ejoc202001649-sup-00001-misc_information.pdf']
+FC1=C(F)C(=C(F)C(=C1)F)C(C#N)C#N,CC#N,55810-63-4,"2-(2,3,5,6-tetrafluorophenyl)propanedinitrile",12.98,"[12.98, 12.98]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+FC1=C(F)C(=C(F)C(=C1)F)C(C#N)C2=C(F)C(=C(F)C(=C2F)F)F,C(CCl)Cl,42254-09-1,"2-(2,3,4,5,6-pentafluorophenyl)-2-(2,3,5,6-tetrafluorophenyl)acetonitrile",55.7,[55.7],['Ejoc202001649-sup-00001-misc_information.pdf']
+FC1=C(F)C(=C(F)C(=C1)F)C(C#N)C2=C(F)C(=C(F)C(=C2F)F)F,CC#N,42254-09-1,"2-(2,3,4,5,6-pentafluorophenyl)-2-(2,3,5,6-tetrafluorophenyl)acetonitrile",21.105,"[21.11, 21.1]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+FC1=C(F)C(=C(F)C(=C1C(C#N)C2=C(F)C(=C(C(=C2F)F)C(F)(F)F)F)F)C(F)(F)F,CC#N,58432-55-6,"2,2-bis[2,3,5,6-tetrafluoro-4-(trifluoromethyl)phenyl]acetonitrile",16.125,"[16.13, 16.12]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+FC1=C(F)C(=C(F)C(=C1C(C#N)C2=C(F)C(=C(C(=C2F)F)C(F)(F)F)F)F)C(F)(F)F,CS(=O)C,58432-55-6,"2,2-bis[2,3,5,6-tetrafluoro-4-(trifluoromethyl)phenyl]acetonitrile",3.3,[3.3],['Ejoc202001649-sup-00001-misc_information.pdf']
+FC1=C(F)C(=C(F)C(=C1C(C#N)C2=C(F)C(=C(C(=C2F)F)C(F)(F)F)F)F)C(F)(F)F,O,58436-28-5,"2,2-bis[2,3,5,6-tetrafluoro-4-(trifluoromethyl)phenyl]acetonitrile",4.4,[4.4],['Ejoc202001649-sup-00001-misc_information.pdf']
+FC1=C(F)C(=C(F)C(=N1)F)C(C#N)C2=C(F)C3=C(F)C(=C(F)C(=C3C(=C2F)F)F)F,CC#N,62325-37-5,"2-(1,3,4,5,6,7,8-heptafluoronaphthalen-2-yl)-2-(2,3,5,6-tetrafluoropyridin-4-yl)acetonitrile",16.015,"[16.02, 16.01]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+FC1=CC=C(C=C1)C(=O)N[S](=O)(=O)C(F)(F)F,CC#N,39063-00-8,4-fluoro-N-(trifluoromethylsulfonyl)benzamide,10.65,"[10.65, 10.65]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+FC1=CC=C(C=C1)C(N[S](=O)(=O)C(F)(F)F)=N[S](=O)(=O)C(F)(F)F,CC#N,500721-93-7,"4-fluoro-N,N'-bis((trifluoromethyl)sulfonyl)benzimidamide",5.38,"[5.66, 5.33, 5.29, 5.29, 5.33]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'DCE_2011_pKa_Table_MeCN.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+FC1=CC=C(C=C1)C2=CC3CCCCC3C4=C2O[P](=O)(N[S](=O)(=O)C(F)(F)F)OC5=C(C=C6CCCCC6=C45)C7=CC=C(F)C=C7,CC#N,1431711-91-9,-,6.26,"[6.22, 6.3]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+FC1=NC(=C(F)C(=C1F)C(C#N)C2=C(F)C(=C(F)C(=C2F)F)F)F,C(CCl)Cl,62325-51-3,"2-(2,3,4,5,6-pentafluorophenyl)-2-(2,3,5,6-tetrafluoropyridin-4-yl)acetonitrile",50.5,[50.5],['Ejoc202001649-sup-00001-misc_information.pdf']
+FC1=NC(=C(F)C(=C1F)C(C#N)C2=C(F)C(=C(F)C(=C2F)F)F)F,CC#N,62325-51-3,"2-(2,3,4,5,6-pentafluorophenyl)-2-(2,3,5,6-tetrafluoropyridin-4-yl)acetonitrile",16.395,"[16.4, 16.39]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+I,C(CCl)Cl,10034-85-2,iodane,37.7,"[37.7, 37.7, 37.7]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+I,CC#N,10034-85-2,iodane,2.8,"[2.8, 2.8, 2.8, 2.8, 2.8, 2.8]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'DCE_2011_pKa_Table_MeCN.pdf', 'a_unified_view_to_bronsted_acidity_scales.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+I,CS(=O)C,10034-85-2,iodane,-10.9,"[-10.9, -10.9]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+I,O,10034-85-2,iodane,-9.5,"[-9.5, -9.5]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+N#CC(CC(C#N)=C(C#N)C#N)=C(C#N)C#N,C(CCl)Cl,1261286-78-5,,33.5,[33.5],['leito_acids']
+N#CC1=C(C#N)C(=CC1)C#N,CC#N,-,"cyclopenta-1,3-diene-1,2,3-tricarbonitrile",1.44,[1.44],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+N#CC1=C(C=CC1)C#N,CC#N,-,"cyclopenta-1,3-diene-1,2-dicarbonitrile",10.17,[10.17],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+N#CC1C=C(C#N)C(=C1)C#N,C(CCl)Cl,215395-09-8,"cyclopenta-2,5-diene-1,2,4-tricarbonitrile",38,"[38.0, 38.0]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+N#CC1C=C(C#N)C(=C1)C#N,CC#N,215395-09-8,"cyclopenta-2,5-diene-1,2,4-tricarbonitrile",3.75,"[4.16, 3.68, 3.68, 3.65, 3.65, 3.68]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'DCE_2011_pKa_Table_MeCN.pdf', 'a_unified_view_to_bronsted_acidity_scales.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+NC1=C(C=C(C=C1[S](F)(=O)=O)[S](F)(=O)=O)[S](F)(=O)=O,CC#N,133213-11-3,"2-aminobenzene-1,3,5-trisulfonyl fluoride",19.66,"[19.66, 19.66, 19.66]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+NC1=C(C=C(C=C1[S](F)(=O)=O)[S](F)(=O)=O)[S](F)(=O)=O,CS(=O)C,133213-11-3,"2-aminobenzene-1,3,5-trisulfonyl fluoride",7.8,[7.8],['Ejoc202001649-sup-00001-misc_information.pdf']
+O[P]1(=O)OC2=C(C=C3C=CC=CC3=C2C4=C(O1)C(=CC5=CC=CC=C45)C6=CC=C(F)C=C6)C7CC=C(F)C=C7,CC#N,915038-14-1,-,12.48,"[12.46, 12.5]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+OC(C#N)=C(C#N)C#N,C(CCl)Cl,27062-39-1,"2-hydroxyethene-1,1,2-tricarbonitrile",35.9,[35.9],['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf']
+OC(C#N)=C(C#N)C#N,CC#N,27062-39-1,"2-hydroxyethene-1,1,2-tricarbonitrile",4.54,"[4.69, 4.39]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'a_unified_view_to_bronsted_acidity_scales.pdf']"
+OC1=C(C=C(C=C1[S](=O)(=O)C(F)(F)F)[S](=O)(=O)C(F)(F)F)[S](=O)(=O)C(F)(F)F,C(CCl)Cl,71571-37-4,"2,4,6-tris((trifluoromethyl)sulfonyl)phenol",38.4,[38.4],['Ejoc202001649-sup-00001-misc_information.pdf']
+OC1=C(C=C(C=C1[S](=O)(=O)C(F)(F)F)[S](=O)(=O)C(F)(F)F)[S](=O)(=O)C(F)(F)F,CC#N,71571-37-4,"2,4,6-tris((trifluoromethyl)sulfonyl)phenol",4.62,"[4.8, 4.44]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+OC1=C(C=C(C=C1[S](=O)(=O)C(F)(F)F)[S](=O)(=O)C(F)(F)F)[S](=O)(=O)C(F)(F)F,O,71571-37-4,"2,4,6-tris((trifluoromethyl)sulfonyl)phenol",-2,[-2.0],['Ejoc202001649-sup-00001-misc_information.pdf']
+OC1=C(C=C(C=C1[S](=O)(=O)OCC(F)(F)CF)[S](=O)(=O)OCC(F)(F)CF)[S](=O)(=O)OCC(F)(F)CF,CC#N,1263293-54-4,,8.155,"[8.14, 8.17]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+OC1=C(C=C(C=C1[S](=O)(=O)OCC(F)(F)F)[S](=O)(=O)OCC(F)(F)F)[S](=O)(=O)OCC(F)(F)F,CC#N,1263293-53-3,-,7.955,"[7.94, 7.97]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+OC1=C(C=C(C=C1[S](F)(=O)=O)[S](F)(=O)=O)[S](F)(=O)=O,C(CCl)Cl,882492-01-5,"2-hydroxybenzene-1,3,5-trisulfonyl fluoride",39,[39.0],['Ejoc202001649-sup-00001-misc_information.pdf']
+OC1=C(C=C(C=C1[S](F)(=O)=O)[S](F)(=O)=O)[S](F)(=O)=O,CC#N,882492-01-5,"2-hydroxybenzene-1,3,5-trisulfonyl fluoride",5.375,"[5.53, 5.22]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
+OCl(=O)(=O)=O,C(CCl)Cl,7601-90-3,perchloric acid,32.2,"[32.2, 32.2]","['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf', 'leito_acids']"
+OCl(=O)(=O)=O,C1CCOC1,7601-90-3,perchloric acid,7.57,[7.57],['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf']
+OCl(=O)(=O)=O,CC#N,7601-90-3,perchloric acid,1.7,"[1.57, 1.83]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf']"
+OCl(=O)(=O)=O,CS(=O)C,7601-90-3,perchloric acid,-14.9,[-14.9],['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf']
+OCl(=O)(=O)=O,O,7601-90-3,perchloric acid,-15.2,[-15.2],['pKa_values_of_acids_and_bases_in_MeCN_DCE_DMSO_H2O_THF_C7_DME.pdf']
+OS(=O)(=O)F,C(CCl)Cl,7789-21-1,sulfurofluoridic acid,34.7,[34.7],['leito_acids']
+OS(=O)(=O)F,CC#N,7789-21-1,sulfurofluoridic acid,3.38,[3.38],['MeCN_Acids_COSMO-RS_2008_Table.pdf']
+OS(=O)(=O)O,C(CCl)Cl,7664-93-9,sulfuric acid,42.8,"[42.8, 42.8]","['Ejoc202001649-sup-00001-misc_information.pdf', 'leito_acids']"
+OS(=O)(=O)O,CC#N,7664-93-9,sulfuric acid,7.466666667,"[7.2, 7.6, 7.6]","['MeCN_Acids_COSMO-RS_2008_Table.pdf', 'pKa_values_of_acids_in_acetonitrile.pdf', 'Ejoc202001649-sup-00001-misc_information.pdf']"
