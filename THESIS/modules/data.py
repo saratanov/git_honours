@@ -228,6 +228,9 @@ def collate_double(batch):
     if type(batch[0][0][0]) == MolGraph:
         sol_batch = BatchMolGraph([t[0][0] for t in batch])
         solv_batch = BatchMolGraph([t[0][1] for t in batch])
+    if type(batch[0][0][0]) == str:
+        sol_batch = [t[0][0] for t in batch]
+        solv_batch = [t[0][1] for t in batch]
     else:
         sol_batch = [torch.Tensor(t[0][0]) for t in batch]
         sol_batch = nn.utils.rnn.pad_sequence(sol_batch)
