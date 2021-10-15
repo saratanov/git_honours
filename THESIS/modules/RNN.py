@@ -6,6 +6,8 @@ from .utils import *
 ### MODELS ###
 ##############
 
+device = torch.device("cuda:0" if torch.cuda.is_available() else "gpu")
+
 #delfos model
 class double_RNN(nn.Module):
     def __init__(self, features=300, RNN_hidden=256, NN_hidden=1024, NN_depth=1, interaction=None,
@@ -48,6 +50,7 @@ class double_RNN(nn.Module):
                 nn.Linear(self.NN_hidden, 1),
             ])
         self.ffn = nn.Sequential(*ffn)
+        self = self.to(device)
     
     def forward(self,Y,X):
         #max sequence lengths
