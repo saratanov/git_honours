@@ -9,6 +9,8 @@ from .data import *
 from collections import defaultdict as ddict
 import pickle
 
+device = torch.device("cuda:0" if torch.cuda.is_available() else "gpu")
+
 class Model:
     """
     Object containing a model and all its associated parameters.
@@ -78,22 +80,25 @@ def train(model, ids, data, scaler):
         name = model.name.replace(' ','_')
         early_stopping = EarlyStopping(name,regressor)
         
+        torch.save(regressor.state_dict(), 'checkpoints/'+name+'.pt')
         for epoch in range(model.num_epochs):
             #train
             for (sol,solv,targets) in train_loader:
                 targets = targets.view(-1,1)
                 targets = scaler.transform(targets)
                 optimiser.zero_grad()
-                outputs = regressor(sol,solv)
-                loss = loss_function(outputs, targets)
+                outputs = regressor(sol,solv).to(device)
+                cuda_targets = targets.to(device)
+                loss = loss_function(outputs, cuda_targets)
                 loss.backward()
                 optimiser.step()
             #evaluate
             for (sol,solv,targets) in val_loader:
                 targets = targets.view(-1,1)
                 targets = scaler.transform(targets)
-                outputs = regressor(sol,solv)
-                loss = loss_function(outputs, targets)
+                outputs = regressor(sol,solv).to(device)
+                cuda_targets = targets.to(device)
+                loss = loss_function(outputs, cuda_targets)
                 val_loss = loss.item()
             #early stopping
             early_stopping.store(val_loss, regressor)

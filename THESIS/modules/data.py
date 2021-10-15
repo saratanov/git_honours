@@ -165,7 +165,7 @@ class pka_scaler:
             transformed_targets = self.scaler.transform(targets)
             return transformed_targets.ravel()
         else:
-            targets = targets.detach().numpy()
+            targets = targets.cpu().detach().numpy()
             transformed_targets = self.scaler.transform(targets)
             return torch.Tensor(transformed_targets)
     
@@ -175,7 +175,7 @@ class pka_scaler:
             transformed_targets = self.scaler.inverse_transform(targets)
             return transformed_targets.ravel()
         else:
-            targets = targets.detach().numpy()
+            targets = targets.cpu().detach().numpy()
             transformed_targets = self.scaler.inverse_transform(targets)
             return torch.Tensor(transformed_targets)
 
