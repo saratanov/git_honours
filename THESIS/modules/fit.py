@@ -7,6 +7,7 @@ import torch
 import copy
 from .data import *
 from collections import defaultdict as ddict
+import pickle
 
 class Model:
     """
@@ -75,7 +76,7 @@ def train(model, ids, data, scaler):
         optimiser = model.optimiser(regressor.parameters(), lr=model.lr)
         loss_function = torch.nn.MSELoss()
         name = model.name.replace(' ','_')
-        early_stopping = EarlyStopping(name)
+        early_stopping = EarlyStopping(name,regressor)
         
         for epoch in range(model.num_epochs):
             #train
@@ -123,18 +124,19 @@ class EarlyStopping:
     net : torch model
         Trained model corresponding to loss.
     """
-    def __init__(self, name, patience=10):
+    def __init__(self, name, regressor, patience=10):
         self.patience = patience
         self.best_loss = 1e6
         self.steps = 0
         self.stop = False
-        self.chk_name = name
+        self.chk_name = 'checkpoints/'+name+'.pt'
+        torch.save(net.state_dict(), self.chk_name)
     
     def store(self, loss, net):
         if loss < self.best_loss:
             self.best_loss = loss
             self.steps = 0
-            torch.save(net.state_dict(), 'checkpoints/'+self.chk_name+'.pt')
+            torch.save(net.state_dict(), self.chk_name)
         else:
             self.steps += 1
             if self.steps > self.patience:
@@ -199,7 +201,7 @@ def predict(model, exp_name, data, ids=None):
     Results: list
         List of MAE, RMSE.
     """
-    experiment = model.experiments[exp_name]
+    experiment = model.experiments[exp_name] 
     if ids==None:
         ids = list(range(len(data[0])))
     if model.model_type == 'torch':
@@ -211,8 +213,12 @@ def predict(model, exp_name, data, ids=None):
             outputs = outputs.detach().numpy()
     else:
         if model.data_type == 'descriptors':
-            data[0][ids] = experiment['desc scaler'].transform(data[0][ids])
-        outputs = experiment['model'].predict(data[0][ids])
+            desc_scaler = StandardScaler()
+            desc_scaler.fit(experiment['desc scaling data'])
+            x_data = desc_scaler.transform(data[0][ids])
+        else:
+            x_data = data[0][ids]
+        outputs = experiment['model'].predict(x_data)
         outputs = experiment['scaler'].inverse_transform(outputs)
         targets = data[1][ids]
         
@@ -293,17 +299,45 @@ def fit(model, data, test_ids, exp_name, train_ids=None):
     
     if model.data_type == 'descriptors':
         desc_scaler = StandardScaler()
-        desc_scaler.fit(data[0][train_ids])
+        scaling_data = data[0][train_ids]
+        desc_scaler.fit(scaling_data)
         data[0] = desc_scaler.transform(data[0])
     else:
-        desc_scaler = None
+        scaling_data = None
         
     trained_model = train(model, train_ids, data, scaler)
     results = test(model, trained_model, test_ids, data, scaler)
-    model.experiments[exp_name] = {'model':trained_model, 'results':results, 'scaler':scaler, 'desc_scaler':desc_scaler}
+    model.experiments[exp_name] = {'model':trained_model, 'results':results, 'scaler':scaler, 'desc scaling data':scaling_data}
     return results
 
-
+def save_model(model, exp_name):
+    m = model.experiments[exp_name]['model']
+    filename = 'trained/'+model.name+'_'+exp_name
+    filename = filename.replace(' ','_')
+    if model.model_type == 'sklearn':
+        pickle.dump(m, open(filename+'.pkl', 'wb'))
+    else:
+        torch.save(m.state_dict(), filename+'.pt')
+        
+def load_model(model, exp_name):
+    filename = 'trained/'+model.name+'_'+exp_name
+    filename = filename.replace(' ','_')
+    if model.model_type == 'sklearn':
+        loaded_model = pickle.load(open(filename+'.pkl', 'rb'))
+    else:
+        loaded_model = copy.deepcopy(model.model) 
+        loaded_model.load_state_dict(torch.load(filename+'.pt'))
+    model.experiments[exp_name] = ddict()
+    model.experiments[exp_name]['model'] = loaded_model
+        
+def load_exp(model, exp_name, data, train_ids):
+    load_model(model, exp_name)
+    scaler = pka_scaler(data[1][train_ids])
+    model.experiments[exp_name]['scaler'] = scaler
+    if model.data_type == 'descriptors':
+        scaling_data = data[0][train_ids]
+        model.experiments[exp_name]['desc scaling data'] = scaling_data
+        
 #RESULTS HELPERS
 def rmse(y_true, y_pred):
     """Helper function"""

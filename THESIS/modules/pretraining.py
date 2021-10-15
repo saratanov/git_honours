@@ -47,8 +47,9 @@ class Model:
             
 def data_maker(solute, pka, solvent=None, ids=None):
     """
-    Generate a dictionary containing solute/solvent data encoded in two ways:
+    Generate a dictionary containing solute/solvent data encoded in three ways:
             SMILES = list of tuples containing (solute,solvent) smiles strings
+            graphs = list of tuples containing (solute,solvent) MolGraphs
             sentences = list of tuples conatining (solute,solvent) mol2vec embeddings
     
     Parameters
@@ -64,7 +65,7 @@ def data_maker(solute, pka, solvent=None, ids=None):
     Returns
     -------
     datasets : dict
-        Two keys: ECFP, descriptors, SMILES, sentences
+        Three keys: SMILES, graphs, sentences
         Values contain a list, where data[0] = encodings and data[1] = torch.Tensor of pkas
     """
     if ids == None:
@@ -76,14 +77,19 @@ def data_maker(solute, pka, solvent=None, ids=None):
     #SMILES
     if solvent == None:
         SMILES = solute
+        graphs = [MolGraph(solute[i]) for i in range(len(solute))]
     else:
         SMILES = [(solute[i],solvent[i]) for i in range(len(solute))]
+        graphs = [(MolGraph(solute[i]),MolGraph(solvent[i])) for i in range(len(solute))]
     SMILES_data = [SMILES, torch.Tensor(pka)]
+    #graphs
+    graph_data = [graphs, torch.Tensor(pka)]
     #sentences
     sentences = sentence_dataset(solute,solvent)
     sentence_data = [sentences, torch.Tensor(pka)]
     #collate data
     datasets = dict(SMILES=SMILES_data,
+                    graphs=graph_data,
                     sentences=sentence_data)
     return datasets    
 
@@ -104,6 +110,8 @@ def collate_single(batch):
     '''
     if type(batch[0][0]) == str:
         sol_batch = [t[0] for t in batch]
+    elif type(batch[0][0]) == MolGraph:
+        sol_batch = BatchMolGraph([t[0] for t in batch])
     else:
         sol_batch = [torch.Tensor(t[0]) for t in batch]
         sol_batch = torch.nn.utils.rnn.pad_sequence(sol_batch)
@@ -165,7 +173,7 @@ def train(model, ids, data, scaler):
     optimiser = model.optimiser(regressor.parameters(), lr=model.lr)
     loss_function = torch.nn.MSELoss()
     name = model.name.replace(' ','_')
-    early_stopping = EarlyStopping(name)
+    early_stopping = EarlyStopping(name, regressor)
     
     if model.inputs == 2:
         for epoch in range(model.num_epochs):
