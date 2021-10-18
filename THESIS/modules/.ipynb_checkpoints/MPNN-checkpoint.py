@@ -178,12 +178,9 @@ class double_MPNN(nn.Module):
             if self.readout == 'max':
                 sol = torch.stack([torch.max(mol, dim=0)[0] for mol in sol])
                 solv = torch.stack([torch.max(mol, dim=0)[0] for mol in solv])
-            if self.readout == 'mean':
-                sol = torch.stack([torch.mean(mol, dim=0) for mol in sol])
-                solv = torch.stack([torch.mean(mol, dim=0) for mol in solv])
-            elif self.readout == 'sum':
-                sol = torch.stack([torch.sum(mol, dim=0) for mol in sol])
-                solv = torch.stack([torch.sum(mol, dim=0) for mol in solv])  # num_pairs x hidden_size
+            else:
+                sol = torch.stack([getattr(torch, self.readout)(mol, dim=0) for mol in sol])
+                solv = torch.stack([getattr(torch, self.readout)(mol, dim=0) for mol in solv]) # num_pairs x hidden_size
         
         # concatenate solute / solvent feature vectors
         encodings = torch.cat([sol,solv], dim=1) # num_pairs x 2*hidden_size
@@ -191,6 +188,64 @@ class double_MPNN(nn.Module):
         # NN
         output = self.ffn(encodings)
         return output
+    
+    def maps(self,sol,solv):
+        """
+        Parameters
+        ----------
+        sol : str
+            SMILES string
+        solv : str
+            SMILES string
+        """
+        
+        # message passing (returns either a tensor of molecular or atomic feature vectors depending on interaction)
+        sol = self.encoder_sol([sol])
+        solv = self.encoder_solv([solv])
+        
+        num_pairs = 1
+        
+        # interaction step
+        if self.interaction in ['exp','tanh']:
+            maps = int_func_map(sol[0],solv[0],self.interaction)
+
+        return maps
+    
+    def features(self,sol,solv):
+        """
+        Parameters
+        ----------
+        sol : list or BatchMolGraph
+            List of solute SMILES strings or BatchMolGraph
+        solv : list 
+            List of solvent SMILES strings or BatchMolGraph
+        """
+        
+        # message passing (returns either a tensor of molecular or atomic feature vectors depending on interaction)
+        sol = self.encoder_sol(sol)
+        solv = self.encoder_solv(solv)
+        
+        num_pairs = len(sol)
+        
+        # interaction step
+        if self.interaction in ['exp','tanh']:
+            cats = [int_func(sol[x],solv[x],self.interaction) for x in range(num_pairs)]
+            sol = [cats[x][0] for x in range(num_pairs)]
+            solv = [cats[x][1] for x in range(num_pairs)] # num_pairs x (2*num_atoms x hidden_size)
+
+
+            # pooling along the atomic dimension -> molecular feature vector
+            if self.readout == 'max':
+                sol = torch.stack([torch.max(mol, dim=0)[0] for mol in sol])
+                solv = torch.stack([torch.max(mol, dim=0)[0] for mol in solv])
+            else:
+                sol = torch.stack([getattr(torch, self.readout)(mol, dim=0) for mol in sol])
+                solv = torch.stack([getattr(torch, self.readout)(mol, dim=0) for mol in solv]) # num_pairs x hidden_size
+        
+        # concatenate solute / solvent feature vectors
+        encodings = torch.cat([sol,solv], dim=1) # num_pairs x 2*hidden_size
+        
+        return encodings
     
 class MP(nn.Module):
     """
@@ -328,4 +383,69 @@ class MP(nn.Module):
                     mol_vecs.append(mol_vec)
             mol_vecs = torch.stack(mol_vecs, dim=0)  # (num_molecules, hidden_size)
             return mol_vecs  # num_molecules x hidden
+
+class double_MPNN_alpha(nn.Module):
+    """
+    Model wrapper for message passing with two input molecules. Contains message passing featuriser + NN layers.
+    
+    Parameters
+    ----------
+    atom_messages : Bool
+        True turns on message passing between atoms, False turns on message passing between bonds
+    MP_depth : int
+        Number of message passing steps
+    MP_hidden : int
+        Dimension of the MP hidden states
+    interaction : ['exp','tanh',None]
+        Type of interaction layer between solute and solvent hidden states
+    readout : ['max','mean','sum']
+        Readout function
+    dropout : float between [0,1]
+        Dropout probability
+    NN_depth : int
+        Number of NN layers
+    NN_hidden : int
+        Number of neurons per NN layer
+    activation : ['ReLU','LeakyReLU','PReLU','tanh','SELU','ELU']
+        Activation function for NN layers
+    """
+    def __init__(self, atom_messages=True, MP_hidden=128, MP_depth=3, readout='mean', dropout=0.2, interaction=None, NN_depth=1, activation='ReLU', NN_hidden=64):
+        super(double_MPNN, self).__init__()
+        self.atom_fdim = get_atom_fdim()
+        self.atom_messages = atom_messages
+        self.bond_fdim = get_bond_fdim(atom_messages=atom_messages)
+        self.MP_depth = MP_depth
+        self.MP_hidden = MP_hidden
+        self.interaction = interaction
+        self.readout = readout
+        self.dropout = dropout
+        self.NN_depth = NN_depth
+        self.NN_hidden = NN_hidden
+        self.activation = activation
+        self.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
         
+        # separate encoders for solute and solvent
+        self.encoder_sol = MP(self.atom_messages, self.MP_hidden, self.MP_depth, self.readout, self.dropout, self.interaction)
+        self.encoder_solv = MP(self.atom_messages, self.MP_hidden, self.MP_depth, self.readout, self.dropout, self.interaction)
+
+    def forward(self,sol,solv):
+        """
+        Parameters
+        ----------
+        sol : str
+            SMILES string
+        solv : str
+            SMILES string
+        """
+        
+        # message passing (returns either a tensor of molecular or atomic feature vectors depending on interaction)
+        sol = self.encoder_sol([sol])
+        solv = self.encoder_solv([solv])
+        
+        num_pairs = 1
+        
+        # interaction step
+        if self.interaction in ['exp','tanh']:
+            maps = int_func_map(sol[0],solv[0],self.interaction)
+
+        return maps

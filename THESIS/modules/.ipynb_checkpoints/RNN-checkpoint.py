@@ -91,6 +91,60 @@ class double_RNN(nn.Module):
         output = self.ffn(encodings) #Bx1
         return output
 
+    def maps(self,Y,X):
+        #max sequence lengths
+        N = X.shape[0] #solvent
+        M = Y.shape[0] #solute
+        #batch size
+        B = X.shape[1] 
+        
+        #biLSTM to get hidden states
+        H, hcX = self.biLSTM_X(X, None) #NxBx2D tensor - solvent hidden state
+        G, hcY = self.biLSTM_Y(Y, None) #MxBx2D tensor - solute hidden state
+        
+        if self.interaction in ['exp','tanh']:
+            #calculate attention, then concatenate with hidden states H and G
+            maps = int_func_map(H[:,0,:],G[:,0,:],self.interaction)
+        return maps
+    
+    def features(self,Y,X):
+        #max sequence lengths
+        N = X.shape[0] #solvent
+        M = Y.shape[0] #solute
+        #batch size
+        B = X.shape[1] 
+        
+        #biLSTM to get hidden states
+        H, hcX = self.biLSTM_X(X, None) #NxBx2D tensor - solvent hidden state
+        G, hcY = self.biLSTM_Y(Y, None) #MxBx2D tensor - solute hidden state
+        
+        if self.interaction in ['exp','tanh']:
+            #calculate attention, then concatenate with hidden states H and G
+            cats = [int_func(H[:,b,:],G[:,b,:],self.interaction) for b in range(B)]
+            inH = torch.stack([cats[b][0] for b in range(B)],0) #Bx2Nx2D
+            inG = torch.stack([cats[b][1] for b in range(B)],0) #Bx2Nx2D
+         #   inH = torch.stack([att(G[:,b,:],H[:,b,:]) for b in range(B)],0) #Bx2Nx2D
+         #   inG = torch.stack([att(H[:,b,:],G[:,b,:]) for b in range(B)],0) #Bx2Mx2D
+        
+        else:
+            inH = torch.transpose(H,0,1) #BxNx2D
+            inG = torch.transpose(G,0,1) #BxMx2D
+        
+        if self.readout == 'max':
+            #maxpool concatenated tensors
+            u = torch.max(inH,1)[0]
+            v = torch.max(inG,1)[0]
+        if self.readout == 'mean':
+            u = torch.mean(inH,1)
+            v = torch.mean(inG,1)
+        if self.readout == 'sum':
+            u = torch.sum(inH,1)
+            v = torch.sum(inG,1)
+        
+        #feed forward neural network
+        encodings = torch.cat((u,v),1) #Bx4D - concatenated solvent/solute vector
+        return encodings
+    
 #delfos with one input
 class RNN(nn.Module):
     def __init__(self, features=300, RNN_hidden=256, NN_hidden=1024, NN_depth=1, readout='max',

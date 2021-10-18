@@ -31,7 +31,9 @@ def transfer_weights(model, chk_name):
         model.model.load_state_dict(model_dict)
         #freeze solute encoder
         for name, param in model.model.named_parameters():
-            if 'encoder_sol' or 'biLSTM_X' in name:
+            if 'encoder_sol' in name:
+                param.requires_grad = False
+            if 'biLSTM_X' in name:
                 param.requires_grad = False
             else:
                 param.requires_grad = True
