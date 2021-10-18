@@ -9,7 +9,7 @@ from .data import *
 from collections import defaultdict as ddict
 import pickle
 
-device = torch.device("cuda:0" if torch.cuda.is_available() else "gpu")
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 class Model:
     """
@@ -131,7 +131,7 @@ class EarlyStopping:
     net : torch model
         Trained model corresponding to loss.
     """
-    def __init__(self, name, regressor, patience=10):
+    def __init__(self, name, net, patience=10):
         self.patience = patience
         self.best_loss = 1e6
         self.steps = 0
