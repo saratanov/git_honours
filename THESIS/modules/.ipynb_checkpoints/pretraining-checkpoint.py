@@ -11,6 +11,8 @@ import copy
 from .data import *
 from .fit import rmse, mae, EarlyStopping
         
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")    
+
 class Model:
     """
     Object containing a torch model and all its associated parameters.
@@ -44,6 +46,9 @@ class Model:
         self.optimiser = optimiser
         self.batch_size = batch_size
         self.num_epochs = num_epochs
+        
+        self.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+        self.model.to(self.device)
             
 def data_maker(solute, pka, solvent=None, ids=None):
     """
@@ -91,7 +96,50 @@ def data_maker(solute, pka, solvent=None, ids=None):
     datasets = dict(SMILES=SMILES_data,
                     graphs=graph_data,
                     sentences=sentence_data)
-    return datasets    
+    return datasets
+
+def data_maker_decon(solute, pka, data_type, solvent=None, ids=None):
+    """
+    Generate a dictionary containing solute/solvent data encoded in three ways:
+            SMILES = list of tuples containing (solute,solvent) smiles strings
+            graphs = list of tuples containing (solute,solvent) MolGraphs
+            sentences = list of tuples conatining (solute,solvent) mol2vec embeddings
+    
+    Parameters
+    ----------
+    sol_smiles : list
+        List of solute SMILES strings
+    solv_smiles : list or None
+        List of solvent SMILES strings
+    pka : list
+        List of pka values
+    ids : list
+        List of indices to be used to create the datasets
+    Returns
+    -------
+    datasets : dict
+        Three keys: SMILES, graphs, sentences
+        Values contain a list, where data[0] = encodings and data[1] = torch.Tensor of pkas
+    """
+    if ids == None:
+        pass
+    elif solvent == None:
+        [solute,pka] = [[lis[x] for x in ids] for lis in (solute, pka)]
+    else:
+        [solute,solvent,pka] = [[lis[x] for x in ids] for lis in (solute, solvent, pka)]
+
+    if data_type == 'graphs':
+        if solvent == None:
+            graphs = [MolGraph(solute[i]) for i in range(len(solute))]
+        else:
+            graphs = [(MolGraph(solute[i]),MolGraph(solvent[i])) for i in range(len(solute))]
+        data = [graphs, torch.Tensor(pka)]
+    
+    else:
+        sentences = sentence_dataset(solute,solvent)
+        data = [sentences, torch.Tensor(pka)]
+
+    return data
 
 def collate_single(batch):
     '''
@@ -167,7 +215,7 @@ def train(model, ids, data, scaler):
     #generate train set and val set (for early stopping)
     train_ids, val_ids, _, _ = train_test_split(ids, ids, test_size=0.1, random_state=1)
     train_loader = loader_func(data, train_ids, model.inputs, batch_size=model.batch_size)
-    val_loader = loader_func(data, val_ids, model.inputs, batch_size=len(val_ids))
+    val_loader = loader_func(data, val_ids, model.inputs, batch_size=model.batch_size)
 
     regressor = copy.deepcopy(model.model)      
     optimiser = model.optimiser(regressor.parameters(), lr=model.lr)
@@ -177,22 +225,24 @@ def train(model, ids, data, scaler):
     
     if model.inputs == 2:
         for epoch in range(model.num_epochs):
-            #train
             for (sol,solv,targets) in train_loader:
                 targets = targets.view(-1,1)
                 targets = scaler.transform(targets)
                 optimiser.zero_grad()
-                outputs = regressor(sol,solv)
-                loss = loss_function(outputs, targets)
+                outputs = regressor(sol,solv).to(device)
+                cuda_targets = targets.to(device)
+                loss = loss_function(outputs, cuda_targets)
                 loss.backward()
                 optimiser.step()
             #evaluate
+            val_loss = 0
             for (sol,solv,targets) in val_loader:
                 targets = targets.view(-1,1)
                 targets = scaler.transform(targets)
-                outputs = regressor(sol,solv)
-                loss = loss_function(outputs, targets)
-                val_loss = loss.item()
+                outputs = regressor(sol,solv).to(device)
+                cuda_targets = targets.to(device)
+                loss = loss_function(outputs, cuda_targets)
+                val_loss += loss.item()
             #early stopping
             early_stopping.store(val_loss, regressor)
             if early_stopping.stop:
@@ -207,15 +257,17 @@ def train(model, ids, data, scaler):
                 targets = scaler.transform(targets)
                 optimiser.zero_grad()
                 outputs = regressor(mol)
-                loss = loss_function(outputs, targets)
+                cuda_targets = targets.to(device)
+                loss = loss_function(outputs, cuda_targets)
                 loss.backward()
                 optimiser.step()
             #evaluate
             for (mol,targets) in val_loader:
                 targets = targets.view(-1,1)
                 targets = scaler.transform(targets)
-                outputs = regressor(mol)
-                loss = loss_function(outputs, targets)
+                outputs = regressor(mol).to(device)
+                cuda_targets = targets.to(device)
+                loss = loss_function(outputs, cuda_targets)
                 val_loss = loss.item()
             #early stopping
             early_stopping.store(val_loss, regressor)
@@ -295,7 +347,7 @@ def fit(model, data, test_ids, exp_name, datasets):
     model.experiments[name+' tuned'] = {'model':trained_model, 'scaler':scaler, 'results':results}
     return results
 
-def fit_no_test(model, exp_name, datasets):
+def fit_no_test(model, exp_name, data):
     """
     Fits a model to the whole dataset with no testing
 
@@ -309,10 +361,10 @@ def fit_no_test(model, exp_name, datasets):
         Dictionary of data for fitting.
 
     """
-    data = datasets[model.data_type]
     ids = list(range(len(data[0])))
     scaler = pka_scaler(data[1])
     trained_model = train(model, ids, data, scaler)
+    print("Made it to this point")
     model.experiments[exp_name] = {'model':trained_model, 'scaler':scaler}
     torch.save(trained_model.state_dict(), 'trained/'+model.name.replace(' ','_')+'_'+exp_name.replace(' ','_')+'.pt')
 

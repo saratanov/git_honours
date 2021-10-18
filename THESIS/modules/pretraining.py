@@ -215,7 +215,7 @@ def train(model, ids, data, scaler):
     #generate train set and val set (for early stopping)
     train_ids, val_ids, _, _ = train_test_split(ids, ids, test_size=0.1, random_state=1)
     train_loader = loader_func(data, train_ids, model.inputs, batch_size=model.batch_size)
-    val_loader = loader_func(data, val_ids, model.inputs, batch_size=len(val_ids))
+    val_loader = loader_func(data, val_ids, model.inputs, batch_size=model.batch_size)
 
     regressor = copy.deepcopy(model.model)      
     optimiser = model.optimiser(regressor.parameters(), lr=model.lr)
@@ -225,7 +225,6 @@ def train(model, ids, data, scaler):
     
     if model.inputs == 2:
         for epoch in range(model.num_epochs):
-            #train
             for (sol,solv,targets) in train_loader:
                 targets = targets.view(-1,1)
                 targets = scaler.transform(targets)
@@ -236,13 +235,14 @@ def train(model, ids, data, scaler):
                 loss.backward()
                 optimiser.step()
             #evaluate
+            val_loss = 0
             for (sol,solv,targets) in val_loader:
                 targets = targets.view(-1,1)
                 targets = scaler.transform(targets)
                 outputs = regressor(sol,solv).to(device)
                 cuda_targets = targets.to(device)
                 loss = loss_function(outputs, cuda_targets)
-                val_loss = loss.item()
+                val_loss += loss.item()
             #early stopping
             early_stopping.store(val_loss, regressor)
             if early_stopping.stop:
@@ -364,6 +364,7 @@ def fit_no_test(model, exp_name, data):
     ids = list(range(len(data[0])))
     scaler = pka_scaler(data[1])
     trained_model = train(model, ids, data, scaler)
+    print("Made it to this point")
     model.experiments[exp_name] = {'model':trained_model, 'scaler':scaler}
     torch.save(trained_model.state_dict(), 'trained/'+model.name.replace(' ','_')+'_'+exp_name.replace(' ','_')+'.pt')
 
