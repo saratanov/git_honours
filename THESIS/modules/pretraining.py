@@ -10,6 +10,7 @@ import deepchem as dc
 import copy
 from .data import *
 from .fit import rmse, mae, EarlyStopping
+import tqdm
         
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")    
 
@@ -225,7 +226,7 @@ def train(model, ids, data, scaler):
     
     if model.inputs == 2:
         for epoch in range(model.num_epochs):
-            for (sol,solv,targets) in train_loader:
+            for (sol,solv,targets) in tqdm.tqdm(train_loader):
                 sol, solv = sol.to(device), solv.to(device)
                 targets = targets.view(-1,1)
                 targets = scaler.transform(targets)
@@ -255,7 +256,7 @@ def train(model, ids, data, scaler):
     else:
         for epoch in range(model.num_epochs):
             #train
-            for (mol,targets) in train_loader:
+            for (mol,targets) in tqdm.tqdm(train_loader):
                 targets = targets.view(-1,1)
                 targets = scaler.transform(targets)
                 optimiser.zero_grad()
