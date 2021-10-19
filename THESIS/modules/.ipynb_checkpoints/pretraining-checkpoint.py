@@ -226,6 +226,7 @@ def train(model, ids, data, scaler):
     if model.inputs == 2:
         for epoch in range(model.num_epochs):
             for (sol,solv,targets) in train_loader:
+                sol, solv = sol.to(device), solv.to(device)
                 targets = targets.view(-1,1)
                 targets = scaler.transform(targets)
                 optimiser.zero_grad()
@@ -237,6 +238,7 @@ def train(model, ids, data, scaler):
             #evaluate
             val_loss = 0
             for (sol,solv,targets) in val_loader:
+                sol, solv = sol.to(device), solv.to(device)
                 targets = targets.view(-1,1)
                 targets = scaler.transform(targets)
                 outputs = regressor(sol,solv).to(device)
@@ -364,7 +366,6 @@ def fit_no_test(model, exp_name, data):
     ids = list(range(len(data[0])))
     scaler = pka_scaler(data[1])
     trained_model = train(model, ids, data, scaler)
-    print("Made it to this point")
     model.experiments[exp_name] = {'model':trained_model, 'scaler':scaler}
     torch.save(trained_model.state_dict(), 'trained/'+model.name.replace(' ','_')+'_'+exp_name.replace(' ','_')+'.pt')
 
