@@ -246,6 +246,7 @@ def train(model, ids, data, scaler):
                 loss = loss_function(outputs, cuda_targets)
                 val_loss += loss.item()
             #early stopping
+            print(val_loss)
             early_stopping.store(val_loss, regressor)
             if early_stopping.stop:
                 #print("Stopping at epoch "+str(epoch))
