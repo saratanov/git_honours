@@ -245,7 +245,7 @@ class double_MPNN(nn.Module):
         # concatenate solute / solvent feature vectors
         encodings = torch.cat([sol,solv], dim=1) # num_pairs x 2*hidden_size
         
-        return encodings
+        return sol, solv, encodings
     
 class MP(nn.Module):
     """
