@@ -49,10 +49,15 @@ class fitness:
         
         model = Model(**self.m)
         data = self.datasets[model.data_type]
-
-        start = timer()
-        res, full_res = CV_fit(model, data)
-        run_time = timer()-start
+        try:
+            start = timer()
+            res, full_res = CV_fit(model, data)
+            run_time = timer()-start
+        except:
+            print("error, restarting")
+            start = timer()
+            res, full_res = CV_fit(model, data)
+            run_time = timer()-start
 
         loss = res[0]
         self.m['model'] = copy

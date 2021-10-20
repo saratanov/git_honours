@@ -6,7 +6,7 @@ from .utils import *
 ### MODELS ###
 ##############
 
-device = torch.device("cuda:0" if torch.cuda.is_available() else "gpu")
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 #delfos model
 class double_RNN(nn.Module):
@@ -143,7 +143,7 @@ class double_RNN(nn.Module):
         
         #feed forward neural network
         encodings = torch.cat((u,v),1) #Bx4D - concatenated solvent/solute vector
-        return encodings
+        return u, v, encodings
     
 #delfos with one input
 class RNN(nn.Module):
@@ -185,6 +185,7 @@ class RNN(nn.Module):
                 nn.Linear(self.NN_hidden, 1),
             ])
         self.ffn = nn.Sequential(*ffn)
+        self = self.to(device)
     
     def forward(self,X):
         #max sequence length
