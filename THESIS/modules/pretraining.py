@@ -10,6 +10,7 @@ import deepchem as dc
 import copy
 from .data import *
 from .fit import rmse, mae, EarlyStopping
+import tqdm
         
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")    
 
@@ -215,7 +216,7 @@ def train(model, ids, data, scaler):
     #generate train set and val set (for early stopping)
     train_ids, val_ids, _, _ = train_test_split(ids, ids, test_size=0.1, random_state=1)
     train_loader = loader_func(data, train_ids, model.inputs, batch_size=model.batch_size)
-    val_loader = loader_func(data, val_ids, model.inputs, batch_size=len(val_ids))
+    val_loader = loader_func(data, val_ids, model.inputs, batch_size=model.batch_size)
 
     regressor = copy.deepcopy(model.model)      
     optimiser = model.optimiser(regressor.parameters(), lr=model.lr)
@@ -225,8 +226,8 @@ def train(model, ids, data, scaler):
     
     if model.inputs == 2:
         for epoch in range(model.num_epochs):
-            #train
-            for (sol,solv,targets) in train_loader:
+            for (sol,solv,targets) in tqdm.tqdm(train_loader):
+                sol, solv = sol.to(device), solv.to(device)
                 targets = targets.view(-1,1)
                 targets = scaler.transform(targets)
                 optimiser.zero_grad()
@@ -236,14 +237,17 @@ def train(model, ids, data, scaler):
                 loss.backward()
                 optimiser.step()
             #evaluate
+            val_loss = 0
             for (sol,solv,targets) in val_loader:
+                sol, solv = sol.to(device), solv.to(device)
                 targets = targets.view(-1,1)
                 targets = scaler.transform(targets)
                 outputs = regressor(sol,solv).to(device)
                 cuda_targets = targets.to(device)
                 loss = loss_function(outputs, cuda_targets)
-                val_loss = loss.item()
+                val_loss += loss.item()
             #early stopping
+            print(val_loss)
             early_stopping.store(val_loss, regressor)
             if early_stopping.stop:
                 #print("Stopping at epoch "+str(epoch))
@@ -252,7 +256,7 @@ def train(model, ids, data, scaler):
     else:
         for epoch in range(model.num_epochs):
             #train
-            for (mol,targets) in train_loader:
+            for (mol,targets) in tqdm.tqdm(train_loader):
                 targets = targets.view(-1,1)
                 targets = scaler.transform(targets)
                 optimiser.zero_grad()
