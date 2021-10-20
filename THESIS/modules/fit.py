@@ -84,7 +84,8 @@ def train(model, ids, data, scaler):
         for epoch in range(model.num_epochs):
             #train
             for (sol,solv,targets) in train_loader:
-                sol, solv = sol.to(device), solv.to(device)
+                if model.data_type == 'sentences':
+                    sol, solv = sol.to(device), solv.to(device)
                 targets = targets.view(-1,1)
                 targets = scaler.transform(targets)
                 optimiser.zero_grad()
@@ -95,7 +96,8 @@ def train(model, ids, data, scaler):
                 optimiser.step()
             #evaluate
             for (sol,solv,targets) in val_loader:
-                sol, solv = sol.to(device), solv.to(device)
+                if model.data_type == 'sentences':
+                    sol, solv = sol.to(device), solv.to(device)
                 targets = targets.view(-1,1)
                 targets = scaler.transform(targets)
                 outputs = regressor(sol,solv).to(device)
@@ -175,7 +177,8 @@ def test(model, regressor, ids, data, scaler):
     if model.model_type == 'torch':
         loader = double_loader(data, ids, batch_size=len(ids))
         for (sol,solv,targets) in loader:
-            sol, solv = sol.to(device), solv.to(device)
+            if model.data_type == 'sentences':
+                sol, solv = sol.to(device), solv.to(device)
             outputs = regressor(sol,solv)
             outputs = scaler.inverse_transform(outputs)
             targets= targets.detach().numpy()
