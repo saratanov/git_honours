@@ -257,6 +257,7 @@ def train(model, ids, data, scaler):
         for epoch in range(model.num_epochs):
             #train
             for (mol,targets) in tqdm.tqdm(train_loader):
+                print(mol)
                 targets = targets.view(-1,1)
                 targets = scaler.transform(targets)
                 optimiser.zero_grad()
