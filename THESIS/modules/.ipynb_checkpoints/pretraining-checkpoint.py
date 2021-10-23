@@ -160,6 +160,7 @@ def collate_single(batch):
     if type(batch[0][0]) == str:
         sol_batch = [t[0] for t in batch]
     elif type(batch[0][0]) == MolGraph:
+        print([t[0] for t in batch])
         sol_batch = BatchMolGraph([t[0] for t in batch])
     else:
         sol_batch = [torch.Tensor(t[0]) for t in batch]

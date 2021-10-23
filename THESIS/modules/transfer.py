@@ -1,11 +1,12 @@
 from collections import defaultdict as ddict, OrderedDict as odict
 import torch
+from .fit import fit
 
 def transfer_weights(model, chk_name):
     #double input
     if 'Gsolv' in chk_name:
         #load state
-        model.model.load_state_dict(torch.load('trained/'+chk_name))
+        model.model.load_state_dict(torch.load('trained/'+chk_name,map_location=torch.device('cpu')))
         #freeze all parameters except NN
         for name, param in model.model.named_parameters():
             if 'ffn' not in name:
@@ -16,7 +17,7 @@ def transfer_weights(model, chk_name):
     #single input
     else:
         #load state
-        pre_dict = torch.load('trained/'+chk_name)
+        pre_dict = torch.load('trained/'+chk_name,map_location=torch.device('cpu'))
         new_dict = odict()
         #load parameters
         for name in pre_dict.keys():
@@ -37,3 +38,19 @@ def transfer_weights(model, chk_name):
                 param.requires_grad = False
             else:
                 param.requires_grad = True
+                
+def finetune(model, data, test_ids, exp_name, new_lr):
+    #unfreeze all weights
+    model.model = model.experiments[exp_name]['model']
+    for param in model.model.parameters():
+        param.requires_grad = True
+        
+    #adjust learning rate
+    old_lr = model.lr
+    model.lr = new_lr
+    
+    #retrain
+    exp_name = exp_name+' finetuned'
+    results = fit(model, data, test_ids, exp_name)
+    model.lr = old_lr
+    return results

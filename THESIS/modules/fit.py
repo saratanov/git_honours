@@ -80,7 +80,6 @@ def train(model, ids, data, scaler):
         name = model.name.replace(' ','_')
         early_stopping = EarlyStopping(name,regressor)
         
-        torch.save(regressor.state_dict(), 'checkpoints/'+name+'.pt')
         for epoch in range(model.num_epochs):
             #train
             for (sol,solv,targets) in train_loader:
