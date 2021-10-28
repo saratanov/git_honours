@@ -160,7 +160,6 @@ def collate_single(batch):
     if type(batch[0][0]) == str:
         sol_batch = [t[0] for t in batch]
     elif type(batch[0][0]) == MolGraph:
-        print([t[0] for t in batch])
         sol_batch = BatchMolGraph([t[0] for t in batch])
     else:
         sol_batch = [torch.Tensor(t[0]) for t in batch]
@@ -350,7 +349,7 @@ def fit(model, data, test_ids, exp_name, datasets):
     
     trained_model = train(model, train_ids, data, scaler)
     results = test(model, trained_model, test_ids, data, scaler)
-    model.experiments[name+' tuned'] = {'model':trained_model, 'scaler':scaler, 'results':results}
+    model.experiments[exp_name] = {'model':trained_model, 'scaler':scaler, 'results':results}
     return results
 
 def fit_no_test(model, exp_name, data):

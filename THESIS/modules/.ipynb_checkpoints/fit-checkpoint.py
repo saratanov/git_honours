@@ -80,7 +80,6 @@ def train(model, ids, data, scaler):
         name = model.name.replace(' ','_')
         early_stopping = EarlyStopping(name,regressor)
         
-        torch.save(regressor.state_dict(), 'checkpoints/'+name+'.pt')
         for epoch in range(model.num_epochs):
             #train
             for (sol,solv,targets) in train_loader:
@@ -216,12 +215,18 @@ def predict(model, exp_name, data, ids=None):
     if ids==None:
         ids = list(range(len(data[0])))
     if model.model_type == 'torch':
-        loader = double_loader(data, ids, batch_size=len(ids))
+        loader = double_loader(data, ids, batch_size=32)
+        target_list = []
+        output_list = []
         for (sol,solv,targets) in loader:
             outputs = experiment['model'](sol,solv)
             outputs = experiment['scaler'].inverse_transform(outputs)
-            targets= targets.detach().numpy()
+            targets = targets.detach().numpy()
             outputs = outputs.detach().numpy()
+            target_list.append(targets)
+            output_list.append(outputs)
+        targets = np.concatenate(target_list)
+        outputs = np.concatenate(output_list)
     else:
         if model.data_type == 'descriptors':
             desc_scaler = StandardScaler()

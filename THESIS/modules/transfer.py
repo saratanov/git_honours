@@ -1,6 +1,7 @@
 from collections import defaultdict as ddict, OrderedDict as odict
 import torch
-from .fit import fit
+from .fit import fit, train, test
+from .data import pka_scaler
 
 def transfer_weights(model, chk_name):
     #double input
@@ -52,5 +53,24 @@ def finetune(model, data, test_ids, exp_name, new_lr):
     #retrain
     exp_name = exp_name+' finetuned'
     results = fit(model, data, test_ids, exp_name)
+    model.lr = old_lr
+    return results
+
+def transfer_finetune(model, file, data, test_ids, exp_name, new_lr, train_ids=None):
+    #initialise
+    old_lr = model.lr
+    if train_ids == None:
+        train_ids = [i for i in range(len(data[0])) if i not in test_ids]
+    scaler = pka_scaler(data[1][train_ids])
+    #transfer weights
+    transfer_weights(model, file)
+    #retrain random layers
+    model.model = train(model, train_ids, data, scaler)
+    #unfreeze weights and finetune with new learning rate
+    for param in model.model.parameters():
+        param.requires_grad = True
+    model.lr = new_lr
+    results = fit(model, data, test_ids, exp_name, train_ids)
+    #restore old learning rate
     model.lr = old_lr
     return results

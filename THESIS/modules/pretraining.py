@@ -349,7 +349,7 @@ def fit(model, data, test_ids, exp_name, datasets):
     
     trained_model = train(model, train_ids, data, scaler)
     results = test(model, trained_model, test_ids, data, scaler)
-    model.experiments[name+' tuned'] = {'model':trained_model, 'scaler':scaler, 'results':results}
+    model.experiments[exp_name] = {'model':trained_model, 'scaler':scaler, 'results':results}
     return results
 
 def fit_no_test(model, exp_name, data):
