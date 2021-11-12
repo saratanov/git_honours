@@ -1,169 +1,133 @@
 ,Model,LOFO group,Test size,MAE,RMSE
-0,Random forest with descriptors,proton donor,2250,4.021510029,5.267129777
-1,Random forest with ECFP,proton donor,2250,3.816110537,4.961980872
-2,MLP with descriptors,proton donor,2250,5.206554079,6.635845336
-3,MLP with ECFP,proton donor,2250,3.82722796,4.999810754
-4,RGBoost with descriptors,proton donor,2250,4.449033528,5.553157851
-5,RGBoost with ECFP,proton donor,2250,4.288670781,5.387852201
-6,Random forest with descriptors,H-bond donor,3024,3.220600464,4.548912286
-7,Random forest with ECFP,H-bond donor,3024,4.278306818,5.64752722
-8,MLP with descriptors,H-bond donor,3024,9.180078677,10.18073781
-9,MLP with ECFP,H-bond donor,3024,4.694473404,5.883810006
-10,RGBoost with descriptors,H-bond donor,3024,3.468498994,4.75144552
-11,RGBoost with ECFP,H-bond donor,3024,4.539407479,5.919287025
-12,Random forest with descriptors,protonated amine,1734,3.702081349,5.005402699
-13,Random forest with ECFP,protonated amine,1734,3.59871112,4.788026186
-14,MLP with descriptors,protonated amine,1734,4.105290363,5.616618364
-15,MLP with ECFP,protonated amine,1734,3.441497344,4.579764664
-16,RGBoost with descriptors,protonated amine,1734,3.721057674,5.099876008
-17,RGBoost with ECFP,protonated amine,1734,3.751325068,4.911300749
-18,Random forest with descriptors,carboxylic acid,500,3.668439944,4.047963634
-19,Random forest with ECFP,carboxylic acid,500,3.97622937,4.377884093
-20,MLP with descriptors,carboxylic acid,500,4.276228411,4.778693799
-21,MLP with ECFP,carboxylic acid,500,3.521605769,4.001119584
-22,RGBoost with descriptors,carboxylic acid,500,3.723844943,4.142257374
-23,RGBoost with ECFP,carboxylic acid,500,3.757565709,4.196233054
-24,Random forest with descriptors,amide,189,1.853447043,2.354998279
-25,Random forest with ECFP,amide,189,1.980209889,2.622274163
-26,MLP with descriptors,amide,189,1.65715319,2.347197536
-27,MLP with ECFP,amide,189,2.080143053,2.831515802
-28,RGBoost with descriptors,amide,189,1.765539584,2.230746343
-29,RGBoost with ECFP,amide,189,2.141564307,2.795988655
-30,Random forest with descriptors,ketone,80,1.085420026,1.488346433
-31,Random forest with ECFP,ketone,80,1.380263096,1.922267357
-32,MLP with descriptors,ketone,80,1.211415179,1.61200383
-33,MLP with ECFP,ketone,80,1.057483134,1.47795939
-34,RGBoost with descriptors,ketone,80,1.110734521,1.612062422
-35,RGBoost with ECFP,ketone,80,1.541401767,2.031886199
-36,Random forest with descriptors,ether,539,1.649733729,2.241599223
-37,Random forest with ECFP,ether,539,1.38907855,2.268930069
-38,MLP with descriptors,ether,539,1.678065251,2.401861963
-39,MLP with ECFP,ether,539,1.785863904,2.914351688
-40,RGBoost with descriptors,ether,539,1.493024396,2.048487682
-41,RGBoost with ECFP,ether,539,1.724419698,2.470350044
-42,Random forest with descriptors,amine,427,4.111936983,6.029965765
-43,Random forest with ECFP,amine,427,3.76956419,5.627425465
-44,MLP with descriptors,amine,427,3.611773808,5.977701145
-45,MLP with ECFP,amine,427,3.776935461,5.500474721
-46,RGBoost with descriptors,amine,427,4.112225929,5.935374265
-47,RGBoost with ECFP,amine,427,3.845142659,5.648535289
-48,Random forest with descriptors,nitrile,190,4.429019521,6.017159658
-49,Random forest with ECFP,nitrile,190,5.337182231,7.538749462
-50,MLP with descriptors,nitrile,190,4.632015804,6.228499602
-51,MLP with ECFP,nitrile,190,4.451284976,6.052296679
-52,RGBoost with descriptors,nitrile,190,4.579263423,6.125649303
-53,RGBoost with ECFP,nitrile,190,4.686877481,6.733826472
-54,Random forest with descriptors,nitro,312,3.414192937,4.367940474
-55,Random forest with ECFP,nitro,312,3.073550891,4.446440685
-56,MLP with descriptors,nitro,312,3.785089373,4.935984418
-57,MLP with ECFP,nitro,312,2.538356438,3.851210923
-58,RGBoost with descriptors,nitro,312,3.076056676,4.044477098
-59,RGBoost with ECFP,nitro,312,2.768918933,4.304630054
-60,Random forest with descriptors,hydroxyl alcohol,1192,2.71422417,3.526117238
-61,Random forest with ECFP,hydroxyl alcohol,1192,3.140924406,4.035736708
-62,MLP with descriptors,hydroxyl alcohol,1192,4.184887993,5.212836034
-63,MLP with ECFP,hydroxyl alcohol,1192,3.24066336,4.298583096
-64,RGBoost with descriptors,hydroxyl alcohol,1192,2.504049811,3.442321173
-65,RGBoost with ECFP,hydroxyl alcohol,1192,3.102473061,3.995323291
-66,Random forest with descriptors,phenol,484,2.116080031,3.064326661
-67,Random forest with ECFP,phenol,484,2.339936915,3.191848344
-68,MLP with descriptors,phenol,484,2.985992002,3.628887904
-69,MLP with ECFP,phenol,484,2.886183191,3.874856942
-70,RGBoost with descriptors,phenol,484,2.077310489,3.203988754
-71,RGBoost with ECFP,phenol,484,2.038847228,2.996313491
-72,Random forest with descriptors,thiol,72,3.208688404,4.130305214
-73,Random forest with ECFP,thiol,72,2.018818819,2.772342719
-74,MLP with descriptors,thiol,72,3.064575607,4.010504334
-75,MLP with ECFP,thiol,72,2.585998075,3.436120167
-76,RGBoost with descriptors,thiol,72,3.301031633,4.362869428
-77,RGBoost with ECFP,thiol,72,2.167244301,2.949341925
-78,Random forest with descriptors,phosphoric acid,13,2.118233994,2.356663599
-79,Random forest with ECFP,phosphoric acid,13,3.379103499,4.057963467
-80,MLP with descriptors,phosphoric acid,13,2.231838899,2.43203109
-81,MLP with ECFP,phosphoric acid,13,3.007399232,3.78883167
-82,RGBoost with descriptors,phosphoric acid,13,2.412902659,2.866333542
-83,RGBoost with ECFP,phosphoric acid,13,2.673943886,3.623532108
-84,D-MPNN,proton donor,2250,4.567800522,5.873915195
-85,D-MPNN with attention,proton donor,2250,3.99415493,5.300057411
-86,MPNN,proton donor,2250,4.397959232,5.668140888
-87,MPNN with attention,proton donor,2250,5.804234505,7.10112381
-88,RNN,proton donor,2250,3.951361895,5.110561371
-89,RNN with attention,proton donor,2250,4.240273476,5.3043046
-90,D-MPNN,H-bond donor,3024,4.549260139,5.686291695
-91,D-MPNN with attention,H-bond donor,3024,5.373732567,7.060067177
-92,MPNN,H-bond donor,3024,4.470404625,5.67445612
-93,MPNN with attention,H-bond donor,3024,4.692406178,6.103727341
-94,RNN,H-bond donor,3024,3.374598026,4.419193745
-95,RNN with attention,H-bond donor,3024,3.351473331,4.393233776
-96,D-MPNN,protonated amine,1734,3.979267836,5.682304382
-97,D-MPNN with attention,protonated amine,1734,4.006921768,5.884010792
-98,MPNN,protonated amine,1734,4.013833523,5.781165123
-99,MPNN with attention,protonated amine,1734,4.882424355,6.556451797
-100,RNN,protonated amine,1734,3.014758348,4.122906208
-101,RNN with attention,protonated amine,1734,3.450757265,4.775385857
-102,D-MPNN,carboxylic acid,500,3.025296211,3.427924156
-103,D-MPNN with attention,carboxylic acid,500,3.409770012,3.814962864
-104,MPNN,carboxylic acid,500,3.849246264,4.17753458
-105,MPNN with attention,carboxylic acid,500,2.507874727,3.053504944
-106,RNN,carboxylic acid,500,4.056758404,4.461593151
-107,RNN with attention,carboxylic acid,500,4.773927212,5.181792259
-108,D-MPNN,amide,189,1.109865189,1.445590138
-109,D-MPNN with attention,amide,189,1.225019932,1.556241155
-110,MPNN,amide,189,1.316183805,1.610243082
-111,MPNN with attention,amide,189,1.433556557,1.803786755
-112,RNN,amide,189,1.764501214,2.369581461
-113,RNN with attention,amide,189,1.414718747,1.935076714
-114,D-MPNN,ketone,80,1.027348518,1.347836375
-115,D-MPNN with attention,ketone,80,1.122336149,1.410412431
-116,MPNN,ketone,80,1.216540456,1.61367178
-117,MPNN with attention,ketone,80,0.928016663,1.249153137
-118,RNN,ketone,80,1.338819981,1.775097609
-119,RNN with attention,ketone,80,1.125489593,1.643272519
-120,D-MPNN,ether,539,1.070927739,1.502642512
-121,D-MPNN with attention,ether,539,1.135221601,1.603060007
-122,MPNN,ether,539,1.130619049,1.650316834
-123,MPNN with attention,ether,539,1.37171042,1.940035462
-124,RNN,ether,539,1.326317072,1.98972261
-125,RNN with attention,ether,539,1.203711748,1.783530354
-126,D-MPNN,amine,427,2.604034424,3.774959326
-127,D-MPNN with attention,amine,427,2.81981802,4.129724503
-128,MPNN,amine,427,2.469329834,3.714557648
-129,MPNN with attention,amine,427,3.358123779,5.092136383
-130,RNN,amine,427,4.353610992,6.410345078
-131,RNN with attention,amine,427,4.185834885,6.157588482
-132,D-MPNN,nitrile,190,4.209299088,6.301394939
-133,D-MPNN with attention,nitrile,190,5.046300411,7.31374836
-134,MPNN,nitrile,190,3.217580795,4.596823215
-135,MPNN with attention,nitrile,190,6.452920914,9.38531971
-136,RNN,nitrile,190,5.055018902,7.492691994
-137,RNN with attention,nitrile,190,4.467536926,6.791801929
-138,D-MPNN,nitro,312,3.217634916,4.882584095
-139,D-MPNN with attention,nitro,312,3.286748171,4.878259659
-140,MPNN,nitro,312,3.224734545,4.824547291
-141,MPNN with attention,nitro,312,2.969860315,4.276451588
-142,RNN,nitro,312,2.286422253,3.202726364
-143,RNN with attention,nitro,312,2.386731148,3.251791716
-144,D-MPNN,hydroxyl alcohol,1192,2.683203697,3.348695755
-145,D-MPNN with attention,hydroxyl alcohol,1192,2.786212921,3.493332863
-146,MPNN,hydroxyl alcohol,1192,2.931845427,3.710578203
-147,MPNN with attention,hydroxyl alcohol,1192,2.229107141,2.890349388
-148,RNN,hydroxyl alcohol,1192,2.813378334,3.635009289
-149,RNN with attention,hydroxyl alcohol,1192,2.714351892,3.486825466
-150,D-MPNN,phenol,484,1.792402267,2.324590921
-151,D-MPNN with attention,phenol,484,2.013250828,2.412218094
-152,MPNN,phenol,484,1.206206322,1.845976233
-153,MPNN with attention,phenol,484,1.776623487,2.460710287
-154,RNN,phenol,484,1.484050035,2.148510933
-155,RNN with attention,phenol,484,1.563500524,2.233691692
-156,D-MPNN,thiol,72,3.038809538,3.778547525
-157,D-MPNN with attention,thiol,72,2.949038267,3.781056643
-158,MPNN,thiol,72,2.424317598,2.92707324
-159,MPNN with attention,thiol,72,4.108444214,4.646115303
-160,RNN,thiol,72,1.966832519,2.543558836
-161,RNN with attention,thiol,72,2.041831732,2.855047226
-162,D-MPNN,phosphoric acid,13,2.027955294,2.641908169
-163,D-MPNN with attention,phosphoric acid,13,2.738335133,3.051862478
-164,MPNN,phosphoric acid,13,1.657570481,2.387980461
-165,MPNN with attention,phosphoric acid,13,2.707514763,3.144752979
-166,RNN,phosphoric acid,13,2.542771339,3.403437138
-167,RNN with attention,phosphoric acid,13,2.67213726,3.466492414
+0,D-MPNN,phenol,396,1.676966548,2.111036777
+1,D-MPNN with attention,phenol,396,1.585663795,2.110643148
+2,MPNN,phenol,396,1.442462683,1.952913284
+3,MPNN with attention,phenol,396,1.858087063,2.417649508
+4,RNN,phenol,396,1.942453742,2.664176464
+5,RNN with attention,phenol,396,1.635652781,2.301045179
+6,Random forest with descriptors,phenol,396,2.328378555,3.186559681
+7,Random forest with ECFP,phenol,396,2.601834005,3.566411993
+8,MLP with descriptors,phenol,396,2.048650741,2.712340597
+9,MLP with ECFP,phenol,396,3.588240142,4.374109018
+10,XGBoost with descriptors,phenol,396,1.929150078,2.630277582
+11,XGBoost with ECFP,phenol,396,2.72215517,3.683023327
+12,D-MPNN,inorganic,31,9.370774269,11.94117546
+13,D-MPNN with attention,inorganic,31,12.40120602,15.3856039
+14,MPNN,inorganic,31,11.7809267,14.32107353
+15,MPNN with attention,inorganic,31,9.165213585,12.12107563
+16,RNN,inorganic,31,10.27605915,13.00130081
+17,RNN with attention,inorganic,31,8.580726624,11.27266216
+18,Random forest with descriptors,inorganic,31,8.484001175,11.25679944
+19,Random forest with ECFP,inorganic,31,9.118086092,11.87221437
+20,MLP with descriptors,inorganic,31,7.680220208,9.975913434
+21,MLP with ECFP,inorganic,31,8.841467382,11.40884054
+22,XGBoost with descriptors,inorganic,31,7.754003255,10.33288883
+23,XGBoost with ECFP,inorganic,31,8.932165788,11.78235966
+24,D-MPNN,thiol,46,4.195892811,4.483660221
+25,D-MPNN with attention,thiol,46,4.917648792,5.372004509
+26,MPNN,thiol,46,4.560584545,5.085870266
+27,MPNN with attention,thiol,46,3.328822374,3.51598382
+28,RNN,thiol,46,1.985739112,2.362726927
+29,RNN with attention,thiol,46,1.988217711,2.340240717
+30,Random forest with descriptors,thiol,46,3.046702577,4.14300849
+31,Random forest with ECFP,thiol,46,1.477701525,2.041932898
+32,MLP with descriptors,thiol,46,3.493424747,4.060542687
+33,MLP with ECFP,thiol,46,1.490375659,1.907314648
+34,XGBoost with descriptors,thiol,46,3.554738594,4.649862192
+35,XGBoost with ECFP,thiol,46,1.341411171,1.980097898
+36,D-MPNN,phosphoric acid,10,3.858624697,4.682874203
+37,D-MPNN with attention,phosphoric acid,10,2.432486534,2.873840094
+38,MPNN,phosphoric acid,10,2.855724812,3.262169361
+39,MPNN with attention,phosphoric acid,10,2.534553528,3.218548059
+40,RNN,phosphoric acid,10,4.689596653,4.963453293
+41,RNN with attention,phosphoric acid,10,2.556681871,3.771468401
+42,Random forest with descriptors,phosphoric acid,10,2.548210976,2.736649337
+43,Random forest with ECFP,phosphoric acid,10,4.538822923,4.809025333
+44,MLP with descriptors,phosphoric acid,10,3.608842855,3.825731499
+45,MLP with ECFP,phosphoric acid,10,4.252523765,4.581273209
+46,XGBoost with descriptors,phosphoric acid,10,2.204299217,2.540732509
+47,XGBoost with ECFP,phosphoric acid,10,3.584054228,4.416211619
+48,D-MPNN,amine,294,3.389950275,4.637895584
+49,D-MPNN with attention,amine,294,3.227954149,4.664774418
+50,MPNN,amine,294,3.665137768,5.388503075
+51,MPNN with attention,amine,294,4.066790581,5.978966236
+52,RNN,amine,294,4.30381155,6.281949997
+53,RNN with attention,amine,294,4.920947075,6.932174683
+54,Random forest with descriptors,amine,294,5.78896674,7.839653079
+55,Random forest with ECFP,amine,294,5.497070036,7.233551829
+56,MLP with descriptors,amine,294,5.527328593,7.308828294
+57,MLP with ECFP,amine,294,5.574653129,7.317097679
+58,XGBoost with descriptors,amine,294,5.461692791,7.566099897
+59,XGBoost with ECFP,amine,294,5.755742732,7.545762053
+60,D-MPNN,sulfonic acid,21,3.718638897,4.387752533
+61,D-MPNN with attention,sulfonic acid,21,7.225569248,8.267214775
+62,MPNN,sulfonic acid,21,5.174173355,5.842507839
+63,MPNN with attention,sulfonic acid,21,3.765460014,4.352003574
+64,Random forest with descriptors,sulfonic acid,21,7.896224494,9.529737124
+65,Random forest with ECFP,sulfonic acid,21,8.059318418,9.667776603
+66,MLP with descriptors,sulfonic acid,21,8.621488124,9.963185398
+67,MLP with ECFP,sulfonic acid,21,7.316013753,8.28100671
+68,XGBoost with descriptors,sulfonic acid,21,7.276207431,8.945593171
+69,XGBoost with ECFP,sulfonic acid,21,6.071472372,7.651118431
+70,D-MPNN,carboxylic acid,458,3.570835352,3.885010481
+71,D-MPNN with attention,carboxylic acid,458,3.31096077,3.797239542
+72,MPNN,carboxylic acid,458,3.717746019,4.29079628
+73,MPNN with attention,carboxylic acid,458,3.209818602,3.522932291
+74,Random forest with descriptors,carboxylic acid,458,3.266439725,3.566759332
+75,Random forest with ECFP,carboxylic acid,458,3.683784459,4.019128011
+76,MLP with descriptors,carboxylic acid,458,4.705906202,5.120697832
+77,MLP with ECFP,carboxylic acid,458,3.430910785,3.870430239
+78,XGBoost with descriptors,carboxylic acid,458,3.239930386,3.540426484
+79,XGBoost with ECFP,carboxylic acid,458,3.266144904,3.671504444
+80,D-MPNN,acidic hydroxyl,21,1.489297032,1.923220754
+81,D-MPNN with attention,acidic hydroxyl,21,2.472272635,3.049594879
+82,MPNN,acidic hydroxyl,21,1.713133812,1.869646192
+83,MPNN with attention,acidic hydroxyl,21,2.089660645,2.479030609
+84,Random forest with descriptors,acidic hydroxyl,21,3.938186839,4.135881474
+85,Random forest with ECFP,acidic hydroxyl,21,3.336196104,3.800237911
+86,MLP with descriptors,acidic hydroxyl,21,2.94017225,3.715494253
+87,MLP with ECFP,acidic hydroxyl,21,2.826187957,3.20071919
+88,XGBoost with descriptors,acidic hydroxyl,21,3.597764746,3.871208626
+89,XGBoost with ECFP,acidic hydroxyl,21,3.420624306,3.747832562
+90,D-MPNN,hydroxyl alcohol,66,3.683351278,4.608052254
+91,D-MPNN with attention,hydroxyl alcohol,66,3.619435549,4.594342232
+92,MPNN,hydroxyl alcohol,66,4.043606758,4.969927788
+93,MPNN with attention,hydroxyl alcohol,66,4.479486942,5.480928421
+94,Random forest with descriptors,hydroxyl alcohol,66,4.017301482,4.695279197
+95,Random forest with ECFP,hydroxyl alcohol,66,3.634743287,4.385473281
+96,MLP with descriptors,hydroxyl alcohol,66,4.637868334,5.554395011
+97,MLP with ECFP,hydroxyl alcohol,66,5.634781992,6.944398129
+98,XGBoost with descriptors,hydroxyl alcohol,66,4.205935957,5.385310635
+99,XGBoost with ECFP,hydroxyl alcohol,66,4.10585236,4.972937958
+100,D-MPNN,C-H acid,149,3.488499165,4.558457375
+101,D-MPNN with attention,C-H acid,149,4.463625908,5.592113495
+102,MPNN,C-H acid,149,4.498816013,5.770160198
+103,MPNN with attention,C-H acid,149,6.575613022,8.5532341
+104,Random forest with descriptors,C-H acid,149,6.283745621,8.048069053
+105,Random forest with ECFP,C-H acid,149,7.017293811,9.291838335
+106,MLP with descriptors,C-H acid,149,6.267124258,8.515405116
+107,MLP with ECFP,C-H acid,149,6.903368995,8.981633709
+108,XGBoost with descriptors,C-H acid,149,6.302221688,7.916248235
+109,XGBoost with ECFP,C-H acid,149,6.750675662,8.49120925
+110,D-MPNN,protonated amine,1730,4.527033329,5.950570107
+111,D-MPNN with attention,protonated amine,1730,4.239937782,5.896903992
+112,MPNN,protonated amine,1730,3.893744946,5.40530777
+113,MPNN with attention,protonated amine,1730,4.057704449,5.394181252
+114,Random forest with descriptors,protonated amine,1730,3.659941293,4.985479117
+115,Random forest with ECFP,protonated amine,1730,3.59389219,4.764234681
+116,MLP with descriptors,protonated amine,1730,3.788580359,5.274652375
+117,MLP with ECFP,protonated amine,1730,3.185402129,4.213071409
+118,XGBoost with descriptors,protonated amine,1730,3.508557434,4.800373086
+119,XGBoost with ECFP,protonated amine,1730,3.429001335,4.612452379
+120,RNN,sulfonic acid,21,7.1115942,8.373282433
+121,RNN with attention,sulfonic acid,21,4.87833643,5.685843945
+122,RNN,carboxylic acid,458,4.062482357,4.355946541
+123,RNN with attention,carboxylic acid,458,3.482610464,3.792756319
+124,RNN,acidic hydroxyl,21,2.547461748,2.907191515
+125,RNN with attention,acidic hydroxyl,21,2.328477859,2.556870222
+126,RNN,hydroxyl alcohol,66,4.588370323,5.545236111
+127,RNN with attention,hydroxyl alcohol,66,4.530574322,5.704911709
+128,RNN,C-H acid,149,5.426608086,7.396717072
+129,RNN with attention,C-H acid,149,5.616994858,6.724502087
+130,RNN,protonated amine,1730,3.150762558,4.23151207
+131,RNN with attention,protonated amine,1730,3.488536596,4.725293636

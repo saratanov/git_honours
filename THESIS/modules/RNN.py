@@ -107,7 +107,7 @@ class double_RNN(nn.Module):
             maps = int_func_map(H[:,0,:],G[:,0,:],self.interaction)
         return maps
     
-    def features(self,Y,X):
+    def feature_vecs(self,Y,X):
         #max sequence lengths
         N = X.shape[0] #solvent
         M = Y.shape[0] #solute
@@ -118,13 +118,12 @@ class double_RNN(nn.Module):
         H, hcX = self.biLSTM_X(X, None) #NxBx2D tensor - solvent hidden state
         G, hcY = self.biLSTM_Y(Y, None) #MxBx2D tensor - solute hidden state
         
+
         if self.interaction in ['exp','tanh']:
             #calculate attention, then concatenate with hidden states H and G
             cats = [int_func(H[:,b,:],G[:,b,:],self.interaction) for b in range(B)]
             inH = torch.stack([cats[b][0] for b in range(B)],0) #Bx2Nx2D
             inG = torch.stack([cats[b][1] for b in range(B)],0) #Bx2Nx2D
-         #   inH = torch.stack([att(G[:,b,:],H[:,b,:]) for b in range(B)],0) #Bx2Nx2D
-         #   inG = torch.stack([att(H[:,b,:],G[:,b,:]) for b in range(B)],0) #Bx2Mx2D
         
         else:
             inH = torch.transpose(H,0,1) #BxNx2D
@@ -143,7 +142,7 @@ class double_RNN(nn.Module):
         
         #feed forward neural network
         encodings = torch.cat((u,v),1) #Bx4D - concatenated solvent/solute vector
-        return u, v, encodings
+        return v, u, encodings
     
 #delfos with one input
 class RNN(nn.Module):

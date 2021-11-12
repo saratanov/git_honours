@@ -211,7 +211,7 @@ class double_MPNN(nn.Module):
 
         return maps
     
-    def features(self,sol,solv):
+    def feature_vecs(self,sol,solv):
         """
         Parameters
         ----------
@@ -383,69 +383,3 @@ class MP(nn.Module):
                     mol_vecs.append(mol_vec)
             mol_vecs = torch.stack(mol_vecs, dim=0)  # (num_molecules, hidden_size)
             return mol_vecs  # num_molecules x hidden
-
-class double_MPNN_alpha(nn.Module):
-    """
-    Model wrapper for message passing with two input molecules. Contains message passing featuriser + NN layers.
-    
-    Parameters
-    ----------
-    atom_messages : Bool
-        True turns on message passing between atoms, False turns on message passing between bonds
-    MP_depth : int
-        Number of message passing steps
-    MP_hidden : int
-        Dimension of the MP hidden states
-    interaction : ['exp','tanh',None]
-        Type of interaction layer between solute and solvent hidden states
-    readout : ['max','mean','sum']
-        Readout function
-    dropout : float between [0,1]
-        Dropout probability
-    NN_depth : int
-        Number of NN layers
-    NN_hidden : int
-        Number of neurons per NN layer
-    activation : ['ReLU','LeakyReLU','PReLU','tanh','SELU','ELU']
-        Activation function for NN layers
-    """
-    def __init__(self, atom_messages=True, MP_hidden=128, MP_depth=3, readout='mean', dropout=0.2, interaction=None, NN_depth=1, activation='ReLU', NN_hidden=64):
-        super(double_MPNN, self).__init__()
-        self.atom_fdim = get_atom_fdim()
-        self.atom_messages = atom_messages
-        self.bond_fdim = get_bond_fdim(atom_messages=atom_messages)
-        self.MP_depth = MP_depth
-        self.MP_hidden = MP_hidden
-        self.interaction = interaction
-        self.readout = readout
-        self.dropout = dropout
-        self.NN_depth = NN_depth
-        self.NN_hidden = NN_hidden
-        self.activation = activation
-        self.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-        
-        # separate encoders for solute and solvent
-        self.encoder_sol = MP(self.atom_messages, self.MP_hidden, self.MP_depth, self.readout, self.dropout, self.interaction)
-        self.encoder_solv = MP(self.atom_messages, self.MP_hidden, self.MP_depth, self.readout, self.dropout, self.interaction)
-
-    def forward(self,sol,solv):
-        """
-        Parameters
-        ----------
-        sol : str
-            SMILES string
-        solv : str
-            SMILES string
-        """
-        
-        # message passing (returns either a tensor of molecular or atomic feature vectors depending on interaction)
-        sol = self.encoder_sol([sol])
-        solv = self.encoder_solv([solv])
-        
-        num_pairs = 1
-        
-        # interaction step
-        if self.interaction in ['exp','tanh']:
-            maps = int_func_map(sol[0],solv[0],self.interaction)
-
-        return maps

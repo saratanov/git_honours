@@ -1,0 +1,201 @@
+,name,category,
+0,Max E state index,topological,electrotopological-state index 
+1,Min E state index,topological,
+2,Max absolute E state index,topological,
+3,Min absolute E state index,topological,
+4,QED,physicochemical,quantitative estimation of drug-likeness
+5,Molecular mass,constitutional,
+6,Heavy atom molecular mass,constitutional,
+7,Exact molecular mass,constitutional,
+8,# Valence electrons,constitutional,
+9,# Radical electrons,constitutional,
+10,Max partial charge,electronic,
+11,Min partial charge,electronic,
+12,Max absolute partial charge,electronic,
+13,Min absolute partial charge,electronic,
+14,Morgan fingerprint density 1,constitutional,
+15,Morgan fingerprint density 2,constitutional,
+16,Morgan fingerprint density 3,constitutional,
+17,Balaban J,topological,distance-connectivity index
+18,Bertz CT,topological,molecular complexity index
+19,Chi0,topological,connectivity indices
+20,Chi0n,topological,connectivity indices
+21,Chi0v,topological,connectivity indices
+22,Chi1,topological,connectivity indices
+23,Chi1n,topological,connectivity indices
+24,Chi1v,topological,connectivity indices
+25,Chi2n,topological,connectivity indices
+26,Chi2v,topological,connectivity indices
+27,Chi3n,topological,connectivity indices
+28,Chi3v,topological,connectivity indices
+29,Chi4n,topological,connectivity indices
+30,Chi4v,topological,connectivity indices
+31,Hall Kier alpha,topological,molecular shape index
+32,Ipc,topological,related to adjaceny matrix
+33,Kappa 1,topological,molecular shape index
+34,Kappa 2,topological,molecular shape index
+35,Kappa 3,topological,molecular shape index
+36,Labute ASA,topological,approximate surface area
+37,PEOE_VSA1,topological,van der waals surface area + partial charge
+38,PEOE_VSA10,topological,van der waals surface area + partial charge
+39,PEOE_VSA11,topological,van der waals surface area + partial charge
+40,PEOE_VSA12,topological,van der waals surface area + partial charge
+41,PEOE_VSA13,topological,van der waals surface area + partial charge
+42,PEOE_VSA14,topological,van der waals surface area + partial charge
+43,PEOE_VSA2,topological,van der waals surface area + partial charge
+44,PEOE_VSA3,topological,van der waals surface area + partial charge
+45,PEOE_VSA4,topological,van der waals surface area + partial charge
+46,PEOE_VSA5,topological,van der waals surface area + partial charge
+47,PEOE_VSA6,topological,van der waals surface area + partial charge
+48,PEOE_VSA7,topological,van der waals surface area + partial charge
+49,PEOE_VSA8,topological,van der waals surface area + partial charge
+50,PEOE_VSA9,topological,van der waals surface area + partial charge
+51,SMR_VSA1,topological,van der waals surface area + MolMR
+52,SMR_VSA10,topological,van der waals surface area + MolMR
+53,SMR_VSA2,topological,van der waals surface area + MolMR
+54,SMR_VSA3,topological,van der waals surface area + MolMR
+55,SMR_VSA4,topological,van der waals surface area + MolMR
+56,SMR_VSA5,topological,van der waals surface area + MolMR
+57,SMR_VSA6,topological,van der waals surface area + MolMR
+58,SMR_VSA7,topological,van der waals surface area + MolMR
+59,SMR_VSA8,topological,van der waals surface area + MolMR
+60,SMR_VSA9,topological,van der waals surface area + MolMR
+61,SlogP_VSA1,topological,van der waals surface area + MolLogP
+62,SlogP_VSA10,topological,van der waals surface area + MolLogP
+63,SlogP_VSA11,topological,van der waals surface area + MolLogP
+64,SlogP_VSA12,topological,van der waals surface area + MolLogP
+65,SlogP_VSA2,topological,van der waals surface area + MolLogP
+66,SlogP_VSA3,topological,van der waals surface area + MolLogP
+67,SlogP_VSA4,topological,van der waals surface area + MolLogP
+68,SlogP_VSA5,topological,van der waals surface area + MolLogP
+69,SlogP_VSA6,topological,van der waals surface area + MolLogP
+70,SlogP_VSA7,topological,van der waals surface area + MolLogP
+71,SlogP_VSA8,topological,van der waals surface area + MolLogP
+72,SlogP_VSA9,topological,van der waals surface area + MolLogP
+73,TPSA,topological,topological surface area
+74,EState_VSA1,topological,van der waals surface area + E state
+75,EState_VSA10,topological,van der waals surface area + E state
+76,EState_VSA11,topological,van der waals surface area + E state
+77,EState_VSA2,topological,van der waals surface area + E state
+78,EState_VSA3,topological,van der waals surface area + E state
+79,EState_VSA4,topological,van der waals surface area + E state
+80,EState_VSA5,topological,van der waals surface area + E state
+81,EState_VSA6,topological,van der waals surface area + E state
+82,EState_VSA7,topological,van der waals surface area + E state
+83,EState_VSA8,topological,van der waals surface area + E state
+84,EState_VSA9,topological,van der waals surface area + E state
+85,VSA_EState1,topological,van der waals surface area + E state
+86,VSA_EState10,topological,van der waals surface area + E state
+87,VSA_EState2,topological,van der waals surface area + E state
+88,VSA_EState3,topological,van der waals surface area + E state
+89,VSA_EState4,topological,van der waals surface area + E state
+90,VSA_EState5,topological,van der waals surface area + E state
+91,VSA_EState6,topological,van der waals surface area + E state
+92,VSA_EState7,topological,van der waals surface area + E state
+93,VSA_EState8,topological,van der waals surface area + E state
+94,VSA_EState9,topological,van der waals surface area + E state
+95,Fraction Csp3,constitutional,ratio of sp3 carbons to total carbons
+96,Heavy atom count,constitutional,
+97,NH/OH count,constitutional,
+98,N/O count,constitutional,
+99,# aliphatic carbocycles,constitutional,# aliphatic carbocycles
+100,# aliphatic heterocycles,constitutional,# aliphatic heterocycles
+101,# aliphatic rings,constitutional,# aliphatic rings
+102,# aromatic carbocycles,constitutional,# aromatic carbocycles
+103,# aromatic heterocycles,constitutional,# aromatic heterocycles
+104,# aromatic rings,constitutional,# aromatic rings
+105,# H acceptors,constitutional,# H acceptors
+106,# H donors,constitutional,# H donors
+107,# heteroatoms,constitutional,# heteroatoms
+108,# rotatable bonds,constitutional,# rotatable bonds
+109,# saturated carbocycles,constitutional,# saturated carbocycles
+110,# saturated heterocycles,constitutional,# saturated heterocycles
+111,# saturated rings,constitutional,# saturated rings
+112,# rings,constitutional,# rings
+113,Partition coefficient,physicochemical,water-octanol partition coefficient
+114,Molar refractivity,physicochemical,molar refractivity
+115,# aliphatic carboxylic acids,fragment counts,# aliphatic carboxylic acids
+116,# aliphatic hydroxyl groups,fragment counts,# aliphatic hydroxyl groups
+117,# aliphatic hydroxyl groups (not tert-OH),fragment counts,# aliphatic hydroxyl groups (not tert-OH)
+118,# N groups attached to aromatics,fragment counts,# N groups attached to aromatics
+119,# aromatic carboxylic acids,fragment counts,# aromatic carboxylic acids
+120,# aromatic nitrogens,fragment counts,# aromatic nitrogens
+121,# aromatic amines,fragment counts,# aromatic amines
+122,# aromatic hydroxyls,fragment counts,# aromatic hydroxyls
+123,# carboxylic acids,fragment counts,# carboxylic acids
+124,# carboxylic acids,fragment counts,# carboxylic acids
+125,# carbonyls,fragment counts,# carbonyls
+126,# carbonyls (not carboxylic),fragment counts,# carbonyls (not carboxylic)
+127,# thiocarbonyls,fragment counts,# thiocarbonyls
+128,# C(OH)CN,fragment counts,# C(OH)CN
+129,# imines,fragment counts,# imines
+130,# tertiary amines,fragment counts,# tertiary amines
+131,# secondary amines,fragment counts,# secondary amines
+132,# primary amines,fragment counts,# primary amines
+133,# hydroxylamine groups,fragment counts,# hydroxylamine groups
+134,# XCCNR,fragment counts,# XCCNR
+135,# tert-alicyclic amines,fragment counts,# tert-alicyclic amines
+136,# H-pyrrole nitrogens,fragment counts,# H-pyrrole nitrogens
+137,# thiols,fragment counts,# thiols
+138,# aldehydes,fragment counts,# aldehydes
+139,# alkyl carbamates,fragment counts,# alkyl carbamates
+140,# alkyl halides,fragment counts,# alkyl halides
+141,# allylic oxidation sites,fragment counts,# allylic oxidation sites
+142,# amides,fragment counts,# amides
+143,# amidines,fragment counts,# amidines
+144,# anilines,fragment counts,# anilines
+145,# aryl methyl sites,fragment counts,# aryl methyl sites
+146,# azides,fragment counts,# azides
+147,# azo groups,fragment counts,# azo groups
+148,# barbiturate groups,fragment counts,# barbiturate groups
+149,# benzene rings,fragment counts,# benzene rings
+150,# benzodiazepines,fragment counts,# benzodiazepines
+151,# bicyclic rings,fragment counts,# bicyclic rings
+152,# diazo groups,fragment counts,# diazo groups
+153,# dihydropyridines,fragment counts,# dihydropyridines
+154,# epoxide rings,fragment counts,# epoxide rings
+155,# esters,fragment counts,# esters
+156,# ether oxygens,fragment counts,# ether oxygens
+157,# furan rings,fragment counts,# furan rings
+158,# guanidine groups,fragment counts,# guanidine groups
+159,# halogens,fragment counts,# halogens
+160,# hydrazine groups,fragment counts,# hydrazine groups
+161,# hydrazone groups,fragment counts,# hydrazone groups
+162,# imidazole rings,fragment counts,# imidazole rings
+163,# imides,fragment counts,# imides
+164,# isocyanates,fragment counts,# isocyanates
+165,# isothiocyanates,fragment counts,# isothiocyanates
+166,# ketones,fragment counts,# ketones
+167,# ketones except diaryl,fragment counts,# ketones except diaryl
+168,# beta lactams,fragment counts,# beta lactams
+169,# cyclic esters,fragment counts,# cyclic esters
+170,# methoxy groups,fragment counts,# methoxy groups
+171,# morpholine rings,fragment counts,# morpholine rings
+172,# nitriles,fragment counts,# nitriles
+173,# nitro groups,fragment counts,# nitro groups
+174,# benzene ring substitutents ,fragment counts,# benzene ring substitutents 
+175,# non-ortho nitro benzene ring substituents,fragment counts,# non-ortho nitro benzene ring substituents
+176,# nitroso groups (not NO2),fragment counts,# nitroso groups (not NO2)
+177,# oxazole rings,fragment counts,# oxazole rings
+178,# oxime groups,fragment counts,# oxime groups
+179,# para-hydroxylation site,fragment counts,# para-hydroxylation site
+180,# phenols,fragment counts,# phenols
+181,# phenolic OH,fragment counts,# phenolic OH
+182,# phosphoric acid groups,fragment counts,# phosphoric acid groups
+183,# phosphoric ester groups,fragment counts,# phosphoric ester groups
+184,# piperdine rings,fragment counts,# piperdine rings
+185,# piperzine rings,fragment counts,# piperzine rings
+186,# primary amides,fragment counts,# primary amides
+187,# primary sulfonamides,fragment counts,# primary sulfonamides
+188,# pyridine rings,fragment counts,# pyridine rings
+189,# quaternary nitrogens,fragment counts,# quaternary nitrogens
+190,# thioether,fragment counts,# thioether
+191,# sulfonamides,fragment counts,# sulfonamides
+192,# sulfone groups,fragment counts,# sulfone groups
+193,# terminal acetylenes,fragment counts,# terminal acetylenes
+194,# tetrazole rings,fragment counts,# tetrazole rings
+195,# thiazole rings,fragment counts,# thiazole rings
+196,# thiocyanates,fragment counts,# thiocyanates
+197,# thiophene rings,fragment counts,# thiophene rings
+198,# unbranches alkanes,fragment counts,# unbranches alkanes
+199,# urea groups,fragment counts,# urea groups

@@ -125,7 +125,9 @@ def data_maker(solute, solvent, pka, ids=None):
     #descriptors
     featurizer = dc.feat.RDKitDescriptors()
     sol = featurizer.featurize(solute)
+    sol = np.delete(sol, (17,18,19,20,21,22,23,24), axis=1)
     solv = featurizer.featurize(solvent)
+    solv = np.delete(solv, (17,18,19,20,21,22,23,24), axis=1)
     desc_data = [np.concatenate((sol,solv),axis=1),np.array(pka)]
     #SMILES
     SMILES_pairs = [(solute[i],solvent[i]) for i in range(len(solute))]
